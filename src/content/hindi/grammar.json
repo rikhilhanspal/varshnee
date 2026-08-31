@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hi-gr-aap-vs-tum",
+    "title": "Formal vs Informal 'You'",
+    "body": "Hindi has three levels of 'you': 'aap' is the most formal and respectful, used with elders, strangers, and in professional settings. 'tum' is informal, used with friends and people your age. 'tu' is the most intimate, used with very close friends, children, or in prayer. When in doubt, always use 'aap' to show respect."
+  },
+  {
+    "id": "hi-gr-gender-basics",
+    "title": "Grammatical Gender",
+    "body": "Hindi nouns are either masculine or feminine. This affects adjectives and verb endings. For example, 'bada' (big, masculine) becomes 'badi' (big, feminine). Most nouns ending in 'a' are masculine (ladka = boy), and most ending in 'i' are feminine (ladki = girl). However, there are many exceptions, so it is best to learn each noun's gender alongside the word."
+  },
+  {
+    "id": "hi-gr-word-order",
+    "title": "Basic Word Order (SOV)",
+    "body": "Hindi follows Subject-Object-Verb (SOV) word order, unlike English (SVO). For example, 'I food eat' (main khaana khaata hoon) instead of 'I eat food'. The verb always comes at the end of the sentence. Question words like 'kya' (what) or 'kahaan' (where) usually go before the verb."
+  },
+  {
+    "id": "hi-gr-hona-verb",
+    "title": "The Verb 'hona' (to be)",
+    "body": "The verb 'hona' (to be) is essential in Hindi. Its present tense forms are: 'main hoon' (I am), 'tum ho' (you are, informal), 'aap hain' (you are, formal), 'yeh/voh hai' (he/she/it is), 'hum hain' (we are), 've hain' (they are). 'Hai' is the most common form you will hear."
+  },
+  {
+    "id": "hi-gr-mera-tera",
+    "title": "Possessive Pronouns",
+    "body": "Possessive pronouns in Hindi change based on the gender and number of the thing being possessed. 'Mera' (my, masculine singular) becomes 'meri' (my, feminine singular) and 'mere' (my, plural). Similarly: 'tera/teri/tere' (your, informal), 'aapka/aapki/aapke' (your, formal), 'uska/uski/uske' (his/her)."
+  },
+  {
+    "id": "hi-gr-postpositions",
+    "title": "Postpositions (not Prepositions)",
+    "body": "Unlike English, which uses prepositions ('in the house'), Hindi uses postpositions that come after the noun: 'ghar mein' (house in). Common postpositions: 'mein' (in), 'par' (on), 'se' (from), 'ko' (to), 'ke liye' (for), 'ke saath' (with). The noun before a postposition often takes an oblique form."
+  },
+  {
+    "id": "hi-gr-numbers-system",
+    "title": "The Hindi Number System",
+    "body": "Hindi numbers from 1-100 each have unique names; they do not follow a simple pattern like English. For example, 11 is 'gyaarah' (not 'das-ek'), 19 is 'unniis' (not 'das-nau'). The numbers must be memorized individually. However, after 20, patterns begin to emerge with decade words like 'tiis' (30), 'chaaliis' (40), 'pachaas' (50)."
+  },
+  {
+    "id": "hi-gr-family-respect",
+    "title": "Family Terms and Respect",
+    "body": "Hindi has very specific words for family relationships. Unlike English 'uncle' and 'aunt', Hindi distinguishes between paternal and maternal sides: 'chacha' (father's brother), 'mama' (mother's brother), 'chachi' (father's brother's wife), 'mami' (mother's brother's wife). Adding 'ji' to a name or title (e.g., 'pitaji') shows respect."
+  },
+  {
+    "id": "hi-gr-adjective-agreement",
+    "title": "Adjective Agreement",
+    "body": "In Hindi, adjectives that end in 'a' change to agree with the noun in gender and number. Masculine singular: 'bada ghar' (big house). Feminine singular: 'badi roti' (big flatbread). Masculine plural: 'bade ghar' (big houses). Adjectives that do not end in 'a' (like 'laal' = red) stay the same regardless of gender or number."
+  },
+  {
+    "id": "hi-gr-verb-infinitives",
+    "title": "Verb Infinitives",
+    "body": "Hindi verb infinitives end in '-na': 'khaana' (to eat), 'piina' (to drink), 'jaana' (to go), 'aana' (to come). The root of the verb is found by removing '-na': 'khaa-' (eat), 'pii-' (drink), 'jaa-' (go), 'aa-' (come). Verb conjugations are built on these roots by adding endings for tense, gender, and number."
+  },
+  {
+    "id": "hi-gr-chahiye",
+    "title": "Expressing 'Want' and 'Need'",
+    "body": "To say 'I want', use 'main chahta hoon' (male speaker) or 'main chahti hoon' (female speaker). To say 'I need' or 'I should', use 'mujhe chahiye': 'mujhe paani chahiye' (I need water). 'Chahiye' does not change with gender. For 'I like', say 'mujhe pasand hai': 'mujhe chai pasand hai' (I like tea)."
+  },
+  {
+    "id": "hi-gr-directions",
+    "title": "Asking for Directions",
+    "body": "To ask 'Where is ___?', say '___ kahaan hai?'. For example: 'bazaar kahaan hai?' (Where is the market?). Common direction words: 'seedha' (straight), 'baayein' (left), 'daayein' (right), 'paas' (near), 'duur' (far). To give directions, use 'seedha jaaiye' (go straight), 'baayein muriye' (turn left), 'daayein muriye' (turn right)."
+  }
+]

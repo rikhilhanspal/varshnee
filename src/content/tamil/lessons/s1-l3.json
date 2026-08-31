@@ -1,0 +1,271 @@
+{
+  "id": "s1-l3",
+  "sectionId": "s1",
+  "title": "Basic Phrases",
+  "description": "Learn polite expressions like please, sorry, yes, no, and how to say you don't understand.",
+  "vocabularyIds": [
+    "ta-thayavu-seidhu",
+    "ta-nandri",
+    "ta-mannikkavum",
+    "ta-aamaa",
+    "ta-illai",
+    "ta-enakku-puriyala"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-formal",
+    "ta-gr-question-words"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s1-l3-ex01",
+      "type": "multiple_choice",
+      "question": "How do you say 'please' in Tamil?",
+      "options": [
+        "nandri",
+        "mannikkavum",
+        "thayavu seidhu",
+        "aamaa"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Thayavu seidhu' means 'please' and is used to make polite requests."
+    },
+    {
+      "id": "ta-s1-l3-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "aamaa",
+          "right": "yes"
+        },
+        {
+          "left": "illai",
+          "right": "no"
+        },
+        {
+          "left": "mannikkavum",
+          "right": "sorry / excuse me"
+        },
+        {
+          "left": "thayavu seidhu",
+          "right": "please"
+        }
+      ],
+      "explanation": "These basic polite expressions are used constantly in Tamil conversation."
+    },
+    {
+      "id": "ta-s1-l3-ex03",
+      "type": "translation",
+      "prompt": "I don't understand",
+      "direction": "from_english",
+      "correct": "enakku puriyala",
+      "acceptedVariants": [
+        "enaku puriyala",
+        "enakku puriyalai"
+      ],
+      "explanation": "'Enakku puriyala' literally means 'to-me it-is-not-clear'. Use this when you need someone to repeat or explain.",
+      "hint": "sounds like: enakku puriyala"
+    },
+    {
+      "id": "ta-s1-l3-ex04",
+      "type": "listening",
+      "audio": "tamil/mannikkavum.mp3",
+      "mode": "select",
+      "options": [
+        "nandri",
+        "mannikkavum",
+        "thayavu seidhu",
+        "illai"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Mannikkavum' is pronounced 'mun-nik-kah-vum' and means 'sorry' or 'excuse me'."
+    },
+    {
+      "id": "ta-s1-l3-ex05",
+      "type": "fill_in_blank",
+      "sentence": "___ puriyala.",
+      "correct": "enakku",
+      "acceptedVariants": [
+        "enakku",
+        "enaku"
+      ],
+      "explanation": "'Enakku puriyala' means 'I don't understand'. 'Enakku' means 'to me'."
+    },
+    {
+      "id": "ta-s1-l3-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange the words to say 'Please, thank you' in Tamil:",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "nandri"
+        },
+        {
+          "id": "t2",
+          "text": "thayavu"
+        },
+        {
+          "id": "t3",
+          "text": "seidhu"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Thayavu seidhu' (please) followed by 'nandri' (thank you)."
+    },
+    {
+      "id": "ta-s1-l3-ex07",
+      "type": "translation",
+      "prompt": "illai",
+      "direction": "to_english",
+      "correct": "no",
+      "acceptedVariants": [
+        "no"
+      ],
+      "explanation": "'Illai' is the Tamil word for 'no'. It is also used as a general negator in sentences."
+    },
+    {
+      "id": "ta-s1-l3-ex08",
+      "type": "multiple_choice",
+      "question": "What does 'aamaa' mean?",
+      "options": [
+        "no",
+        "sorry",
+        "please",
+        "yes"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Aamaa' means 'yes' in Tamil. It is used in both formal and informal speech."
+    },
+    {
+      "id": "ta-s1-l3-g04",
+      "type": "multiple_choice",
+      "question": "What does 'nandri' mean?",
+      "options": [
+        "how are you (formal)",
+        "thank you",
+        "I don't understand",
+        "two (2)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'nandri' means 'thank you' in Tamil."
+    },
+    {
+      "id": "ta-s1-l3-g06",
+      "type": "translation",
+      "prompt": "Translate 'nandri' to English.",
+      "direction": "to_english",
+      "correct": "thank you",
+      "acceptedVariants": [],
+      "explanation": "'nandri' means 'thank you'."
+    },
+    {
+      "id": "ta-s1-l3-g03",
+      "type": "translation",
+      "prompt": "Translate 'thayavu seidhu' to English.",
+      "direction": "to_english",
+      "correct": "please",
+      "acceptedVariants": [],
+      "explanation": "'thayavu seidhu' means 'please'."
+    },
+    {
+      "id": "ta-s1-l3-g05",
+      "type": "translation",
+      "prompt": "How do you say 'thank you' in Tamil?",
+      "direction": "from_english",
+      "correct": "nandri",
+      "acceptedVariants": [],
+      "hint": "sounds like: nandri",
+      "explanation": "'thank you' in Tamil is 'nandri'."
+    },
+    {
+      "id": "ta-s1-l3-g14",
+      "type": "translation",
+      "prompt": "How do you say 'no' in Tamil?",
+      "direction": "from_english",
+      "correct": "illai",
+      "acceptedVariants": [],
+      "hint": "sounds like: illai",
+      "explanation": "'no' in Tamil is 'illai'."
+    },
+    {
+      "id": "ta-s1-l3-g10",
+      "type": "multiple_choice",
+      "question": "What does 'aamaa' mean?",
+      "options": [
+        "younger sister",
+        "nineteen (19)",
+        "yes",
+        "milk"
+      ],
+      "correctIndex": 2,
+      "explanation": "'aamaa' means 'yes' in Tamil."
+    },
+    {
+      "id": "ta-s1-l3-g09",
+      "type": "translation",
+      "prompt": "Translate 'mannikkavum' to English.",
+      "direction": "to_english",
+      "correct": "sorry / excuse me",
+      "acceptedVariants": [],
+      "explanation": "'mannikkavum' means 'sorry / excuse me'."
+    },
+    {
+      "id": "ta-s1-l3-g13",
+      "type": "multiple_choice",
+      "question": "What does 'illai' mean?",
+      "options": [
+        "no",
+        "to go",
+        "small / little",
+        "to come"
+      ],
+      "correctIndex": 0,
+      "explanation": "'illai' means 'no' in Tamil."
+    },
+    {
+      "id": "ta-s1-l3-g08",
+      "type": "translation",
+      "prompt": "How do you say 'sorry / excuse me' in Tamil?",
+      "direction": "from_english",
+      "correct": "mannikkavum",
+      "acceptedVariants": [],
+      "hint": "sounds like: mannikkavum",
+      "explanation": "'sorry / excuse me' in Tamil is 'mannikkavum'."
+    },
+    {
+      "id": "ta-s1-l3-g15",
+      "type": "translation",
+      "prompt": "Translate 'illai' to English.",
+      "direction": "to_english",
+      "correct": "no",
+      "acceptedVariants": [],
+      "explanation": "'illai' means 'no'."
+    },
+    {
+      "id": "ta-s1-l3-g02",
+      "type": "translation",
+      "prompt": "How do you say 'please' in Tamil?",
+      "direction": "from_english",
+      "correct": "thayavu seidhu",
+      "acceptedVariants": [],
+      "hint": "sounds like: thayavu seidhu",
+      "explanation": "'please' in Tamil is 'thayavu seidhu'."
+    },
+    {
+      "id": "ta-s1-l3-g07",
+      "type": "multiple_choice",
+      "question": "What does 'mannikkavum' mean?",
+      "options": [
+        "sorry / excuse me",
+        "six (6)",
+        "hello / greetings",
+        "two (2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'mannikkavum' means 'sorry / excuse me' in Tamil."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": "s4-l10",
+  "sectionId": "s4",
+  "title": "Conversations & Review",
+  "description": "Put everything together with full conversational dialogues and a comprehensive review of all lessons.",
+  "vocabularyIds": [
+    "ta-vanakkam",
+    "ta-en-peyar",
+    "ta-eppadi-irukkeenga",
+    "ta-naan-nallaa-irukkein",
+    "ta-nandri",
+    "ta-poitu-varein",
+    "ta-aamaa",
+    "ta-illai",
+    "ta-thayavu-seidhu",
+    "ta-venum",
+    "ta-pidikkum",
+    "ta-enga"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-formal",
+    "ta-gr-word-order",
+    "ta-gr-venum",
+    "ta-gr-pidikkum"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s4-l10-ex01",
+      "type": "word_ordering",
+      "prompt": "Arrange a greeting conversation: 'Hello, how are you? I am fine, thank you.'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "nandri"
+        },
+        {
+          "id": "t2",
+          "text": "vanakkam"
+        },
+        {
+          "id": "t3",
+          "text": "naan nallaa irukkein"
+        },
+        {
+          "id": "t4",
+          "text": "eppadi irukkeenga"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t4",
+        "t3",
+        "t1"
+      ],
+      "explanation": "A typical Tamil greeting exchange: vanakkam (hello), eppadi irukkeenga (how are you), naan nallaa irukkein (I am fine), nandri (thank you)."
+    },
+    {
+      "id": "ta-s4-l10-ex02",
+      "type": "translation",
+      "prompt": "Hello, my name is Anitha. I want coffee please.",
+      "direction": "from_english",
+      "correct": "vanakkam, en peyar Anitha. enakku kaapi venum thayavu seidhu.",
+      "acceptedVariants": [
+        "vanakkam en peyar Anitha enakku kaapi venum thayavu seidhu",
+        "vanakkam, en peyar anitha. enakku kaapi venum thayavu seidhu."
+      ],
+      "explanation": "This combines greetings, introductions, and making a request with 'venum' and 'thayavu seidhu'.",
+      "hint": "sounds like: vanakkam, en peyar Anitha. enakku kaapi venum thayavu seidhu."
+    },
+    {
+      "id": "ta-s4-l10-ex03",
+      "type": "fill_in_blank",
+      "sentence": "Vanakkam! En peyar Ravi. ___ irukkeenga?",
+      "correct": "eppadi",
+      "acceptedVariants": [
+        "eppadi"
+      ],
+      "explanation": "'Eppadi irukkeenga?' means 'How are you?'. This is a natural follow-up after introducing yourself."
+    },
+    {
+      "id": "ta-s4-l10-ex04",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "enakku thanni venum",
+          "right": "I want water"
+        },
+        {
+          "left": "enakku dosai pidikkum",
+          "right": "I like dosa"
+        },
+        {
+          "left": "palli enga irukku",
+          "right": "where is the school"
+        },
+        {
+          "left": "en amma peyar Priya",
+          "right": "my mother's name is Priya"
+        }
+      ],
+      "explanation": "These sentences combine vocabulary and grammar from multiple lessons into practical phrases."
+    },
+    {
+      "id": "ta-s4-l10-ex05",
+      "type": "multiple_choice",
+      "question": "You are at a restaurant. How do you say 'I want food, please'?",
+      "options": [
+        "enakku saappaadu venum thayavu seidhu",
+        "naan saappaadu poga venum",
+        "enakku saappaadu pidikkum",
+        "saappaadu enga irukku"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Enakku saappaadu venum thayavu seidhu' politely says 'I want food, please' using the dative + venum pattern."
+    },
+    {
+      "id": "ta-s4-l10-ex06",
+      "type": "listening",
+      "audio": "tamil/poitu-varein.mp3",
+      "mode": "type",
+      "correct": "poitu varein",
+      "acceptedVariants": [
+        "poitu varein",
+        "poittu varein",
+        "poitu varain"
+      ],
+      "explanation": "'Poitu varein' means goodbye (literally 'I will go and come back') and is pronounced 'poy-tu vuh-rain'."
+    },
+    {
+      "id": "ta-s4-l10-ex07",
+      "type": "translation",
+      "prompt": "kadai enga irukku",
+      "direction": "to_english",
+      "correct": "where is the shop",
+      "acceptedVariants": [
+        "where is the store",
+        "where is the shop?",
+        "where is the store?"
+      ],
+      "explanation": "'Kadai enga irukku?' combines the place word 'kadai' (shop) with the question pattern 'enga irukku' (where is it)."
+    },
+    {
+      "id": "ta-s4-l10-ex08",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I like fruits, I don't want coffee':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "enakku"
+        },
+        {
+          "id": "t2",
+          "text": "pazhangal"
+        },
+        {
+          "id": "t3",
+          "text": "pidikkum"
+        },
+        {
+          "id": "t4",
+          "text": "enakku"
+        },
+        {
+          "id": "t5",
+          "text": "kaapi"
+        },
+        {
+          "id": "t6",
+          "text": "venaam"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "explanation": "'Enakku pazhangal pidikkum, enakku kaapi venaam' = I like fruits, I don't want coffee. 'Venaam' is the negative of 'venum'."
+    },
+    {
+      "id": "ta-s4-l10-g35",
+      "type": "translation",
+      "prompt": "How do you say 'where' in Tamil?",
+      "direction": "from_english",
+      "correct": "enga",
+      "acceptedVariants": [],
+      "hint": "sounds like: enga",
+      "explanation": "'where' in Tamil is 'enga'."
+    },
+    {
+      "id": "ta-s4-l10-g07",
+      "type": "multiple_choice",
+      "question": "What does 'eppadi irukkeenga' mean?",
+      "options": [
+        "how are you (formal)",
+        "food / meal",
+        "nine (9)",
+        "grandmother"
+      ],
+      "correctIndex": 0,
+      "explanation": "'eppadi irukkeenga' means 'how are you (formal)' in Tamil."
+    },
+    {
+      "id": "ta-s4-l10-g15",
+      "type": "translation",
+      "prompt": "Translate 'nandri' to English.",
+      "direction": "to_english",
+      "correct": "thank you",
+      "acceptedVariants": [],
+      "explanation": "'nandri' means 'thank you'."
+    },
+    {
+      "id": "ta-s4-l10-g25",
+      "type": "multiple_choice",
+      "question": "What does 'thayavu seidhu' mean?",
+      "options": [
+        "to go",
+        "eleven (11)",
+        "sixteen (16)",
+        "please"
+      ],
+      "correctIndex": 3,
+      "explanation": "'thayavu seidhu' means 'please' in Tamil."
+    },
+    {
+      "id": "ta-s4-l10-g08",
+      "type": "translation",
+      "prompt": "How do you say 'how are you (formal)' in Tamil?",
+      "direction": "from_english",
+      "correct": "eppadi irukkeenga",
+      "acceptedVariants": [],
+      "hint": "sounds like: eppadi irukkeenga",
+      "explanation": "'how are you (formal)' in Tamil is 'eppadi irukkeenga'."
+    },
+    {
+      "id": "ta-s4-l10-g05",
+      "type": "translation",
+      "prompt": "How do you say 'my name' in Tamil?",
+      "direction": "from_english",
+      "correct": "en peyar",
+      "acceptedVariants": [],
+      "hint": "sounds like: en peyar",
+      "explanation": "'my name' in Tamil is 'en peyar'."
+    },
+    {
+      "id": "ta-s4-l10-g34",
+      "type": "multiple_choice",
+      "question": "What does 'enga' mean?",
+      "options": [
+        "two (2)",
+        "where",
+        "elder sister",
+        "eight (8)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'enga' means 'where' in Tamil."
+    },
+    {
+      "id": "ta-s4-l10-g17",
+      "type": "translation",
+      "prompt": "How do you say 'goodbye (I will go and come back)' in Tamil?",
+      "direction": "from_english",
+      "correct": "poitu varein",
+      "acceptedVariants": [],
+      "hint": "sounds like: poitu varein",
+      "explanation": "'goodbye (I will go and come back)' in Tamil is 'poitu varein'."
+    },
+    {
+      "id": "ta-s4-l10-g28",
+      "type": "multiple_choice",
+      "question": "What does 'venum' mean?",
+      "options": [
+        "seventeen (17)",
+        "to come",
+        "want / need",
+        "straight"
+      ],
+      "correctIndex": 2,
+      "explanation": "'venum' means 'want / need' in Tamil."
+    },
+    {
+      "id": "ta-s4-l10-g27",
+      "type": "translation",
+      "prompt": "Translate 'thayavu seidhu' to English.",
+      "direction": "to_english",
+      "correct": "please",
+      "acceptedVariants": [],
+      "explanation": "'thayavu seidhu' means 'please'."
+    },
+    {
+      "id": "ta-s4-l10-g22",
+      "type": "multiple_choice",
+      "question": "What does 'illai' mean?",
+      "options": [
+        "green",
+        "twenty (20)",
+        "goodbye (I will go and come back)",
+        "no"
+      ],
+      "correctIndex": 3,
+      "explanation": "'illai' means 'no' in Tamil."
+    },
+    {
+      "id": "ta-s4-l10-g18",
+      "type": "translation",
+      "prompt": "Translate 'poitu varein' to English.",
+      "direction": "to_english",
+      "correct": "goodbye (I will go and come back)",
+      "acceptedVariants": [],
+      "explanation": "'poitu varein' means 'goodbye (I will go and come back)'."
+    }
+  ]
+}

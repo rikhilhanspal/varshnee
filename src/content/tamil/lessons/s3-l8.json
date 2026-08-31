@@ -1,0 +1,276 @@
+{
+  "id": "s3-l8",
+  "sectionId": "s3",
+  "title": "Common Verbs",
+  "description": "Learn essential Tamil verbs for everyday actions like going, coming, eating, drinking, and speaking.",
+  "vocabularyIds": [
+    "ta-poga",
+    "ta-vara",
+    "ta-saapida",
+    "ta-kudikka",
+    "ta-pesa",
+    "ta-venum",
+    "ta-pidikkum"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-verb-basics",
+    "ta-gr-pidikkum"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s3-l8-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "poga",
+          "right": "to go"
+        },
+        {
+          "left": "vara",
+          "right": "to come"
+        },
+        {
+          "left": "saapida",
+          "right": "to eat"
+        },
+        {
+          "left": "kudikka",
+          "right": "to drink"
+        },
+        {
+          "left": "pesa",
+          "right": "to speak"
+        }
+      ],
+      "explanation": "These are the most common Tamil verbs in their infinitive form (ending in '-a')."
+    },
+    {
+      "id": "ta-s3-l8-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'pidikkum' mean?",
+      "options": [
+        "to want",
+        "to go",
+        "to like",
+        "to speak"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Pidikkum' means 'to like'. It uses a dative construction: 'enakku dosai pidikkum' (I like dosa)."
+    },
+    {
+      "id": "ta-s3-l8-ex03",
+      "type": "translation",
+      "prompt": "I like coffee",
+      "direction": "from_english",
+      "correct": "enakku kaapi pidikkum",
+      "acceptedVariants": [
+        "enaku kaapi pidikkum",
+        "enakku kaappi pidikkum"
+      ],
+      "explanation": "'Enakku kaapi pidikkum' literally means 'to-me coffee is-liked'. Tamil uses a dative subject for 'like'.",
+      "hint": "sounds like: enakku kaapi pidikkum"
+    },
+    {
+      "id": "ta-s3-l8-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Naan veedu ___ pogein.",
+      "correct": "kku",
+      "acceptedVariants": [
+        "kku",
+        "ku"
+      ],
+      "explanation": "'Naan veedu kku pogein' means 'I am going home'. The suffix '-kku' indicates direction (to)."
+    },
+    {
+      "id": "ta-s3-l8-ex05",
+      "type": "listening",
+      "audio": "tamil/saapida.mp3",
+      "mode": "type",
+      "correct": "saapida",
+      "acceptedVariants": [
+        "saapida",
+        "sapida",
+        "saappida"
+      ],
+      "explanation": "'Saapida' means 'to eat' and is pronounced 'saa-pi-dah'."
+    },
+    {
+      "id": "ta-s3-l8-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I want to go':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "venum"
+        },
+        {
+          "id": "t2",
+          "text": "enakku"
+        },
+        {
+          "id": "t3",
+          "text": "poga"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Enakku poga venum' = I want to go (literally: to-me to-go is-needed)."
+    },
+    {
+      "id": "ta-s3-l8-ex07",
+      "type": "translation",
+      "prompt": "kudikka",
+      "direction": "to_english",
+      "correct": "to drink",
+      "acceptedVariants": [
+        "drink",
+        "to drink"
+      ],
+      "explanation": "'Kudikka' is the infinitive form meaning 'to drink'."
+    },
+    {
+      "id": "ta-s3-l8-ex08",
+      "type": "multiple_choice",
+      "question": "Which verb means 'to speak'?",
+      "options": [
+        "poga",
+        "vara",
+        "pesa",
+        "saapida"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Pesa' means 'to speak' or 'to talk'. 'Tamil pesa theriyuma?' means 'Do you know how to speak Tamil?'"
+    },
+    {
+      "id": "ta-s3-l8-g09",
+      "type": "translation",
+      "prompt": "Translate 'saapida' to English.",
+      "direction": "to_english",
+      "correct": "to eat",
+      "acceptedVariants": [],
+      "explanation": "'saapida' means 'to eat'."
+    },
+    {
+      "id": "ta-s3-l8-g07",
+      "type": "multiple_choice",
+      "question": "What does 'saapida' mean?",
+      "options": [
+        "to eat",
+        "grandfather",
+        "elder brother",
+        "nine (9)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'saapida' means 'to eat' in Tamil."
+    },
+    {
+      "id": "ta-s3-l8-g17",
+      "type": "translation",
+      "prompt": "How do you say 'want / need' in Tamil?",
+      "direction": "from_english",
+      "correct": "venum",
+      "acceptedVariants": [],
+      "hint": "sounds like: venum",
+      "explanation": "'want / need' in Tamil is 'venum'."
+    },
+    {
+      "id": "ta-s3-l8-g16",
+      "type": "multiple_choice",
+      "question": "What does 'venum' mean?",
+      "options": [
+        "eleven (11)",
+        "elder sister",
+        "small / little",
+        "want / need"
+      ],
+      "correctIndex": 3,
+      "explanation": "'venum' means 'want / need' in Tamil."
+    },
+    {
+      "id": "ta-s3-l8-g06",
+      "type": "translation",
+      "prompt": "Translate 'vara' to English.",
+      "direction": "to_english",
+      "correct": "to come",
+      "acceptedVariants": [],
+      "explanation": "'vara' means 'to come'."
+    },
+    {
+      "id": "ta-s3-l8-g05",
+      "type": "translation",
+      "prompt": "How do you say 'to come' in Tamil?",
+      "direction": "from_english",
+      "correct": "vara",
+      "acceptedVariants": [],
+      "hint": "sounds like: vara",
+      "explanation": "'to come' in Tamil is 'vara'."
+    },
+    {
+      "id": "ta-s3-l8-g15",
+      "type": "translation",
+      "prompt": "Translate 'pesa' to English.",
+      "direction": "to_english",
+      "correct": "to speak / to talk",
+      "acceptedVariants": [],
+      "explanation": "'pesa' means 'to speak / to talk'."
+    },
+    {
+      "id": "ta-s3-l8-g11",
+      "type": "translation",
+      "prompt": "How do you say 'to drink' in Tamil?",
+      "direction": "from_english",
+      "correct": "kudikka",
+      "acceptedVariants": [],
+      "hint": "sounds like: kudikka",
+      "explanation": "'to drink' in Tamil is 'kudikka'."
+    },
+    {
+      "id": "ta-s3-l8-g18",
+      "type": "translation",
+      "prompt": "Translate 'venum' to English.",
+      "direction": "to_english",
+      "correct": "want / need",
+      "acceptedVariants": [],
+      "explanation": "'venum' means 'want / need'."
+    },
+    {
+      "id": "ta-s3-l8-g04",
+      "type": "multiple_choice",
+      "question": "What does 'vara' mean?",
+      "options": [
+        "seventeen (17)",
+        "to come",
+        "where are you from (formal)",
+        "one (1)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'vara' means 'to come' in Tamil."
+    },
+    {
+      "id": "ta-s3-l8-g14",
+      "type": "translation",
+      "prompt": "How do you say 'to speak / to talk' in Tamil?",
+      "direction": "from_english",
+      "correct": "pesa",
+      "acceptedVariants": [],
+      "hint": "sounds like: pesa",
+      "explanation": "'to speak / to talk' in Tamil is 'pesa'."
+    },
+    {
+      "id": "ta-s3-l8-g13",
+      "type": "multiple_choice",
+      "question": "What does 'pesa' mean?",
+      "options": [
+        "dosa (thin crispy crepe)",
+        "to speak / to talk",
+        "to like",
+        "black"
+      ],
+      "correctIndex": 1,
+      "explanation": "'pesa' means 'to speak / to talk' in Tamil."
+    }
+  ]
+}

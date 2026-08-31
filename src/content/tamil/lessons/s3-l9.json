@@ -1,0 +1,268 @@
+{
+  "id": "s3-l9",
+  "sectionId": "s3",
+  "title": "Places & Directions",
+  "description": "Learn how to ask for and give directions, and the Tamil words for common places.",
+  "vocabularyIds": [
+    "ta-enga",
+    "ta-idadhu",
+    "ta-valadhu",
+    "ta-neraaga",
+    "ta-veedu",
+    "ta-kadai",
+    "ta-palli"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-directions"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s3-l9-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "idadhu",
+          "right": "left"
+        },
+        {
+          "left": "valadhu",
+          "right": "right"
+        },
+        {
+          "left": "neraaga",
+          "right": "straight"
+        },
+        {
+          "left": "enga",
+          "right": "where"
+        }
+      ],
+      "explanation": "These direction words are essential for navigating in Tamil-speaking areas."
+    },
+    {
+      "id": "ta-s3-l9-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'kadai' mean?",
+      "options": [
+        "school",
+        "house",
+        "shop / store",
+        "left"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Kadai' means shop or store. 'Kadai enga irukku?' means 'Where is the shop?'"
+    },
+    {
+      "id": "ta-s3-l9-ex03",
+      "type": "translation",
+      "prompt": "Where is the school?",
+      "direction": "from_english",
+      "correct": "palli enga irukku",
+      "acceptedVariants": [
+        "palli enga iruku",
+        "palli enga irrukku"
+      ],
+      "explanation": "'Palli enga irukku?' uses the pattern: place + where + is-it. 'Irukku' means 'is (located)'.",
+      "hint": "sounds like: palli enga irukku"
+    },
+    {
+      "id": "ta-s3-l9-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ pakka thirumbuga.",
+      "correct": "idadhu",
+      "acceptedVariants": [
+        "idadhu",
+        "idathu"
+      ],
+      "explanation": "'Idadhu pakka thirumbuga' means 'Turn to the left'. 'Pakka' means 'side' and 'thirumbuga' means 'turn'."
+    },
+    {
+      "id": "ta-s3-l9-ex05",
+      "type": "listening",
+      "audio": "tamil/veedu.mp3",
+      "mode": "select",
+      "options": [
+        "kadai",
+        "palli",
+        "veedu",
+        "enga"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Veedu' means house or home and is pronounced 'vee-du'."
+    },
+    {
+      "id": "ta-s3-l9-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to ask 'Where is the house?':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "irukku"
+        },
+        {
+          "id": "t2",
+          "text": "veedu"
+        },
+        {
+          "id": "t3",
+          "text": "enga"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Veedu enga irukku?' = Where is the house? Pattern: place + where + is."
+    },
+    {
+      "id": "ta-s3-l9-ex07",
+      "type": "translation",
+      "prompt": "neraaga",
+      "direction": "to_english",
+      "correct": "straight",
+      "acceptedVariants": [
+        "straight",
+        "straight ahead"
+      ],
+      "explanation": "'Neraaga' means straight or straight ahead, used when giving directions."
+    },
+    {
+      "id": "ta-s3-l9-ex08",
+      "type": "multiple_choice",
+      "question": "Which word means 'right' (direction)?",
+      "options": [
+        "idadhu",
+        "neraaga",
+        "valadhu",
+        "enga"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Valadhu' means right (direction). 'Valadhu pakka thirumbuga' = turn to the right."
+    },
+    {
+      "id": "ta-s3-l9-g04",
+      "type": "multiple_choice",
+      "question": "What does 'idadhu' mean?",
+      "options": [
+        "seventeen (17)",
+        "big / large",
+        "left",
+        "happy / pleased (to meet you)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'idadhu' means 'left' in Tamil."
+    },
+    {
+      "id": "ta-s3-l9-g14",
+      "type": "translation",
+      "prompt": "How do you say 'house / home' in Tamil?",
+      "direction": "from_english",
+      "correct": "veedu",
+      "acceptedVariants": [],
+      "hint": "sounds like: veedu",
+      "explanation": "'house / home' in Tamil is 'veedu'."
+    },
+    {
+      "id": "ta-s3-l9-g17",
+      "type": "translation",
+      "prompt": "How do you say 'shop / store' in Tamil?",
+      "direction": "from_english",
+      "correct": "kadai",
+      "acceptedVariants": [],
+      "hint": "sounds like: kadai",
+      "explanation": "'shop / store' in Tamil is 'kadai'."
+    },
+    {
+      "id": "ta-s3-l9-g03",
+      "type": "translation",
+      "prompt": "Translate 'enga' to English.",
+      "direction": "to_english",
+      "correct": "where",
+      "acceptedVariants": [],
+      "explanation": "'enga' means 'where'."
+    },
+    {
+      "id": "ta-s3-l9-g08",
+      "type": "translation",
+      "prompt": "How do you say 'right' in Tamil?",
+      "direction": "from_english",
+      "correct": "valadhu",
+      "acceptedVariants": [],
+      "hint": "sounds like: valadhu",
+      "explanation": "'right' in Tamil is 'valadhu'."
+    },
+    {
+      "id": "ta-s3-l9-g06",
+      "type": "translation",
+      "prompt": "Translate 'idadhu' to English.",
+      "direction": "to_english",
+      "correct": "left",
+      "acceptedVariants": [],
+      "explanation": "'idadhu' means 'left'."
+    },
+    {
+      "id": "ta-s3-l9-g12",
+      "type": "translation",
+      "prompt": "Translate 'neraaga' to English.",
+      "direction": "to_english",
+      "correct": "straight",
+      "acceptedVariants": [],
+      "explanation": "'neraaga' means 'straight'."
+    },
+    {
+      "id": "ta-s3-l9-g21",
+      "type": "translation",
+      "prompt": "Translate 'palli' to English.",
+      "direction": "to_english",
+      "correct": "school",
+      "acceptedVariants": [],
+      "explanation": "'palli' means 'school'."
+    },
+    {
+      "id": "ta-s3-l9-g09",
+      "type": "translation",
+      "prompt": "Translate 'valadhu' to English.",
+      "direction": "to_english",
+      "correct": "right",
+      "acceptedVariants": [],
+      "explanation": "'valadhu' means 'right'."
+    },
+    {
+      "id": "ta-s3-l9-g02",
+      "type": "translation",
+      "prompt": "How do you say 'where' in Tamil?",
+      "direction": "from_english",
+      "correct": "enga",
+      "acceptedVariants": [],
+      "hint": "sounds like: enga",
+      "explanation": "'where' in Tamil is 'enga'."
+    },
+    {
+      "id": "ta-s3-l9-g10",
+      "type": "multiple_choice",
+      "question": "What does 'neraaga' mean?",
+      "options": [
+        "straight",
+        "food / meal",
+        "fourteen (14)",
+        "I don't understand"
+      ],
+      "correctIndex": 0,
+      "explanation": "'neraaga' means 'straight' in Tamil."
+    },
+    {
+      "id": "ta-s3-l9-g01",
+      "type": "multiple_choice",
+      "question": "What does 'enga' mean?",
+      "options": [
+        "where",
+        "thank you",
+        "school",
+        "please"
+      ],
+      "correctIndex": 0,
+      "explanation": "'enga' means 'where' in Tamil."
+    }
+  ]
+}

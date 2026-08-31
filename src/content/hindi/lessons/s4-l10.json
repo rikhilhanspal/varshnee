@@ -1,0 +1,318 @@
+{
+  "id": "s4-l10",
+  "sectionId": "s4",
+  "title": "Conversations & Review",
+  "description": "Put everything together with practice dialogues that combine greetings, introductions, numbers, family, food, and directions.",
+  "vocabularyIds": [
+    "hi-namaste",
+    "hi-aap-kaise-hain",
+    "hi-main-theek-hoon",
+    "hi-mera-naam-hai",
+    "hi-shukriya",
+    "hi-kripaya",
+    "hi-haan",
+    "hi-nahin",
+    "hi-chai",
+    "hi-paani",
+    "hi-khaana",
+    "hi-ghar",
+    "hi-bazaar",
+    "hi-achha",
+    "hi-bada",
+    "hi-jaana",
+    "hi-kahaan",
+    "hi-milkar-khushi-hui"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-aap-vs-tum",
+    "hi-gr-word-order",
+    "hi-gr-hona-verb",
+    "hi-gr-chahiye"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s4-l10-ex01",
+      "type": "word_ordering",
+      "prompt": "Complete this greeting exchange: Hello, how are you? (formal)",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "hain"
+        },
+        {
+          "id": "t2",
+          "text": "namaste,"
+        },
+        {
+          "id": "t3",
+          "text": "kaise"
+        },
+        {
+          "id": "t4",
+          "text": "aap"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t4",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Namaste, aap kaise hain' combines the greeting 'namaste' with the formal question 'aap kaise hain' (how are you). This is the standard way to greet someone politely."
+    },
+    {
+      "id": "hi-s4-l10-ex02",
+      "type": "fill_in_blank",
+      "sentence": "Namaste, mera naam Anita hai. Aap ___ se hain?",
+      "correct": "kahaan",
+      "acceptedVariants": [],
+      "explanation": "In this conversation, after introducing yourself ('mera naam Anita hai'), you ask 'Aap kahaan se hain?' (Where are you from?). 'Kahaan' means 'where'."
+    },
+    {
+      "id": "hi-s4-l10-ex03",
+      "type": "multiple_choice",
+      "question": "Someone says: 'Kya aapko chai chahiye?' What are they asking?",
+      "options": [
+        "Do you need tea?",
+        "Where is the tea?",
+        "Is the tea good?",
+        "How much tea do you want?"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Kya aapko chai chahiye?' — 'kya' (question marker), 'aapko' (to you), 'chai' (tea), 'chahiye' (is needed). This is a polite offer: 'Do you need tea?' or 'Would you like tea?'"
+    },
+    {
+      "id": "hi-s4-l10-ex04",
+      "type": "translation",
+      "prompt": "How do you say 'Yes please, I need water' in Hindi?",
+      "direction": "from_english",
+      "correct": "haan kripaya, mujhe paani chahiye",
+      "acceptedVariants": [
+        "haan ji, mujhe paani chahiye",
+        "ji haan, mujhe paani chahiye"
+      ],
+      "explanation": "'Haan kripaya, mujhe paani chahiye' combines 'haan' (yes), 'kripaya' (please), and 'mujhe paani chahiye' (I need water) — using phrases from multiple earlier lessons.",
+      "hint": "sounds like: haan kripaya, mujhe paani chahiye"
+    },
+    {
+      "id": "hi-s4-l10-ex05",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "namaste, aap kaise hain?",
+          "right": "Hello, how are you?"
+        },
+        {
+          "left": "main theek hoon, shukriya",
+          "right": "I am fine, thank you"
+        },
+        {
+          "left": "mujhe khaana chahiye",
+          "right": "I need food"
+        },
+        {
+          "left": "bazaar kahaan hai?",
+          "right": "Where is the market?"
+        }
+      ],
+      "explanation": "These phrases combine vocabulary from greetings, polite expressions, food, and directions — all essential for basic conversations in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-ex06",
+      "type": "listening",
+      "audio": "hindi/aap-kaise-hain.mp3",
+      "mode": "select",
+      "options": [
+        "aap kaise hain (how are you, formal)",
+        "aap kahaan se hain (where are you from)",
+        "aap kya chahte hain (what do you want)",
+        "aap ka naam kya hai (what is your name)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Aap kaise hain' (aahp kay-say hain) is the formal way to ask 'How are you?' It is one of the first phrases you should master for Hindi conversations."
+    },
+    {
+      "id": "hi-s4-l10-ex07",
+      "type": "word_ordering",
+      "prompt": "Say: I want to go to the market",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "hoon"
+        },
+        {
+          "id": "t2",
+          "text": "jaana"
+        },
+        {
+          "id": "t3",
+          "text": "main"
+        },
+        {
+          "id": "t4",
+          "text": "chahta"
+        },
+        {
+          "id": "t5",
+          "text": "bazaar"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t5",
+        "t2",
+        "t4",
+        "t1"
+      ],
+      "explanation": "'Main bazaar jaana chahta hoon' — subject ('main'), destination ('bazaar'), infinitive verb ('jaana'), want ('chahta'), am ('hoon'). This combines verbs, places, and sentence structure."
+    },
+    {
+      "id": "hi-s4-l10-ex08",
+      "type": "translation",
+      "prompt": "How do you say 'Nice to meet you, goodbye' in Hindi?",
+      "direction": "from_english",
+      "correct": "aap se milkar khushi hui, alvida",
+      "acceptedVariants": [
+        "milkar khushi hui, alvida",
+        "aap se milkar achha laga, alvida"
+      ],
+      "explanation": "'Aap se milkar khushi hui, alvida' is a polite farewell combining 'nice to meet you' with 'goodbye'. This is a natural way to end a first conversation in Hindi.",
+      "hint": "sounds like: aap se milkar khushi hui, alvida"
+    },
+    {
+      "id": "hi-s4-l10-g13",
+      "type": "multiple_choice",
+      "question": "What does 'shukriya' mean?",
+      "options": [
+        "sixteen (16)",
+        "thank you",
+        "fourteen (14)",
+        "eleven (11)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'shukriya' means 'thank you' in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-g11",
+      "type": "translation",
+      "prompt": "How do you say 'my name is ___' in Hindi?",
+      "direction": "from_english",
+      "correct": "mera naam ___ hai",
+      "acceptedVariants": [],
+      "hint": "sounds like: mera naam ___ hai",
+      "explanation": "'my name is ___' in Hindi is 'mera naam ___ hai'."
+    },
+    {
+      "id": "hi-s4-l10-g43",
+      "type": "multiple_choice",
+      "question": "What does 'bada' mean?",
+      "options": [
+        "big",
+        "blue",
+        "mother",
+        "twenty (20)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'bada' means 'big' in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-g24",
+      "type": "translation",
+      "prompt": "Translate 'nahin' to English.",
+      "direction": "to_english",
+      "correct": "no",
+      "acceptedVariants": [],
+      "explanation": "'nahin' means 'no'."
+    },
+    {
+      "id": "hi-s4-l10-g04",
+      "type": "multiple_choice",
+      "question": "What does 'aap kaise hain' mean?",
+      "options": [
+        "how are you (formal)",
+        "brother",
+        "to come",
+        "white"
+      ],
+      "correctIndex": 0,
+      "explanation": "'aap kaise hain' means 'how are you (formal)' in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-g17",
+      "type": "translation",
+      "prompt": "How do you say 'please' in Hindi?",
+      "direction": "from_english",
+      "correct": "kripaya",
+      "acceptedVariants": [],
+      "hint": "sounds like: kripaya",
+      "explanation": "'please' in Hindi is 'kripaya'."
+    },
+    {
+      "id": "hi-s4-l10-g01",
+      "type": "multiple_choice",
+      "question": "What does 'namaste' mean?",
+      "options": [
+        "thirteen (13)",
+        "where",
+        "fourteen (14)",
+        "hello / greetings"
+      ],
+      "correctIndex": 3,
+      "explanation": "'namaste' means 'hello / greetings' in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-g33",
+      "type": "translation",
+      "prompt": "Translate 'khaana' to English.",
+      "direction": "to_english",
+      "correct": "food / to eat",
+      "acceptedVariants": [],
+      "explanation": "'khaana' means 'food / to eat'."
+    },
+    {
+      "id": "hi-s4-l10-g03",
+      "type": "translation",
+      "prompt": "Translate 'namaste' to English.",
+      "direction": "to_english",
+      "correct": "hello / greetings",
+      "acceptedVariants": [],
+      "explanation": "'namaste' means 'hello / greetings'."
+    },
+    {
+      "id": "hi-s4-l10-g40",
+      "type": "multiple_choice",
+      "question": "What does 'achha' mean?",
+      "options": [
+        "sister",
+        "hello / greetings",
+        "goodbye",
+        "good"
+      ],
+      "correctIndex": 3,
+      "explanation": "'achha' means 'good' in Hindi."
+    },
+    {
+      "id": "hi-s4-l10-g02",
+      "type": "translation",
+      "prompt": "How do you say 'hello / greetings' in Hindi?",
+      "direction": "from_english",
+      "correct": "namaste",
+      "acceptedVariants": [],
+      "hint": "sounds like: namaste",
+      "explanation": "'hello / greetings' in Hindi is 'namaste'."
+    },
+    {
+      "id": "hi-s4-l10-g25",
+      "type": "multiple_choice",
+      "question": "What does 'chai' mean?",
+      "options": [
+        "hello / greetings",
+        "tea",
+        "thirteen (13)",
+        "six (6)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'chai' means 'tea' in Hindi."
+    }
+  ]
+}

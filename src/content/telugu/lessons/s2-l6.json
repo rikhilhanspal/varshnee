@@ -1,0 +1,261 @@
+{
+  "id": "s2-l6",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn colors and basic descriptive adjectives in Telugu.",
+  "vocabularyIds": [
+    "te-erruppu",
+    "te-neelam",
+    "te-aakulapaccha",
+    "te-pasupu",
+    "te-tella",
+    "te-nalla",
+    "te-pedda",
+    "te-chinna",
+    "te-manchidi",
+    "te-chedda"
+  ],
+  "grammarNoteIds": [
+    "te-gr-adjectives"
+  ],
+  "exercises": [
+    {
+      "id": "te-s2-l6-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "erruppu",
+          "right": "red"
+        },
+        {
+          "left": "neelam",
+          "right": "blue"
+        },
+        {
+          "left": "aakulapaccha",
+          "right": "green"
+        },
+        {
+          "left": "pasupu",
+          "right": "yellow"
+        }
+      ],
+      "explanation": "These are the four primary colors in Telugu."
+    },
+    {
+      "id": "te-s2-l6-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'tella' mean?",
+      "options": [
+        "black",
+        "white",
+        "red",
+        "blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Tella' means 'white' in Telugu. 'Nalla' means 'black'."
+    },
+    {
+      "id": "te-s2-l6-ex03",
+      "type": "translation",
+      "prompt": "big",
+      "direction": "from_english",
+      "correct": "pedda",
+      "acceptedVariants": [
+        "pedda"
+      ],
+      "explanation": "'Pedda' means 'big' in Telugu. Its opposite is 'chinna' (small).",
+      "hint": "sounds like: pedda"
+    },
+    {
+      "id": "te-s2-l6-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Idi ___ illu.",
+      "correct": "pedda",
+      "acceptedVariants": [
+        "pedda"
+      ],
+      "explanation": "'Idi pedda illu' means 'This is a big house'. Adjectives come before the noun in Telugu."
+    },
+    {
+      "id": "te-s2-l6-ex05",
+      "type": "listening",
+      "audio": "telugu/manchidi.mp3",
+      "mode": "type",
+      "correct": "manchidi",
+      "acceptedVariants": [
+        "manchidi"
+      ],
+      "explanation": "'Manchidi' means 'good' in Telugu."
+    },
+    {
+      "id": "te-s2-l6-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'This is good'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "idi"
+        },
+        {
+          "id": "t2",
+          "text": "manchidi"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2"
+      ],
+      "explanation": "'Idi manchidi' means 'This is good'. 'Idi' means 'this'."
+    },
+    {
+      "id": "te-s2-l6-ex07",
+      "type": "translation",
+      "prompt": "chinna",
+      "direction": "to_english",
+      "correct": "small",
+      "acceptedVariants": [
+        "little",
+        "tiny"
+      ],
+      "explanation": "'Chinna' means 'small' or 'little' in Telugu."
+    },
+    {
+      "id": "te-s2-l6-ex08",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'manchidi' (good)?",
+      "options": [
+        "pedda",
+        "chinna",
+        "chedda",
+        "tella"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Chedda' means 'bad', which is the opposite of 'manchidi' (good)."
+    },
+    {
+      "id": "te-s2-l6-g24",
+      "type": "translation",
+      "prompt": "Translate 'chinna' to English.",
+      "direction": "to_english",
+      "correct": "small",
+      "acceptedVariants": [],
+      "explanation": "'chinna' means 'small'."
+    },
+    {
+      "id": "te-s2-l6-g15",
+      "type": "translation",
+      "prompt": "Translate 'tella' to English.",
+      "direction": "to_english",
+      "correct": "white",
+      "acceptedVariants": [],
+      "explanation": "'tella' means 'white'."
+    },
+    {
+      "id": "te-s2-l6-g01",
+      "type": "multiple_choice",
+      "question": "What does 'erruppu' mean?",
+      "options": [
+        "to drink / drinking",
+        "fifteen (15)",
+        "red",
+        "where are you from"
+      ],
+      "correctIndex": 2,
+      "explanation": "'erruppu' means 'red' in Telugu."
+    },
+    {
+      "id": "te-s2-l6-g21",
+      "type": "translation",
+      "prompt": "Translate 'pedda' to English.",
+      "direction": "to_english",
+      "correct": "big",
+      "acceptedVariants": [],
+      "explanation": "'pedda' means 'big'."
+    },
+    {
+      "id": "te-s2-l6-g08",
+      "type": "translation",
+      "prompt": "How do you say 'green' in Telugu?",
+      "direction": "from_english",
+      "correct": "aakulapaccha",
+      "acceptedVariants": [],
+      "hint": "sounds like: aakulapaccha",
+      "explanation": "'green' in Telugu is 'aakulapaccha'."
+    },
+    {
+      "id": "te-s2-l6-g12",
+      "type": "translation",
+      "prompt": "Translate 'pasupu' to English.",
+      "direction": "to_english",
+      "correct": "yellow",
+      "acceptedVariants": [],
+      "explanation": "'pasupu' means 'yellow'."
+    },
+    {
+      "id": "te-s2-l6-g14",
+      "type": "translation",
+      "prompt": "How do you say 'white' in Telugu?",
+      "direction": "from_english",
+      "correct": "tella",
+      "acceptedVariants": [],
+      "hint": "sounds like: tella",
+      "explanation": "'white' in Telugu is 'tella'."
+    },
+    {
+      "id": "te-s2-l6-g25",
+      "type": "multiple_choice",
+      "question": "What does 'manchidi' mean?",
+      "options": [
+        "good",
+        "younger brother",
+        "hello / greetings",
+        "goodbye"
+      ],
+      "correctIndex": 0,
+      "explanation": "'manchidi' means 'good' in Telugu."
+    },
+    {
+      "id": "te-s2-l6-g23",
+      "type": "translation",
+      "prompt": "How do you say 'small' in Telugu?",
+      "direction": "from_english",
+      "correct": "chinna",
+      "acceptedVariants": [],
+      "hint": "sounds like: chinna",
+      "explanation": "'small' in Telugu is 'chinna'."
+    },
+    {
+      "id": "te-s2-l6-g02",
+      "type": "translation",
+      "prompt": "How do you say 'red' in Telugu?",
+      "direction": "from_english",
+      "correct": "erruppu",
+      "acceptedVariants": [],
+      "hint": "sounds like: erruppu",
+      "explanation": "'red' in Telugu is 'erruppu'."
+    },
+    {
+      "id": "te-s2-l6-g10",
+      "type": "multiple_choice",
+      "question": "What does 'pasupu' mean?",
+      "options": [
+        "younger sister",
+        "yellow",
+        "three (3)",
+        "grandmother"
+      ],
+      "correctIndex": 1,
+      "explanation": "'pasupu' means 'yellow' in Telugu."
+    },
+    {
+      "id": "te-s2-l6-g18",
+      "type": "translation",
+      "prompt": "Translate 'nalla' to English.",
+      "direction": "to_english",
+      "correct": "black",
+      "acceptedVariants": [],
+      "explanation": "'nalla' means 'black'."
+    }
+  ]
+}

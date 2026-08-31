@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ta-gr-formal",
+    "title": "Formal vs Informal",
+    "body": "Tamil uses different verb endings and pronouns for formal and informal speech. Use 'neenga' (you-formal) with elders or strangers, and 'nee' (you-informal) with close friends, younger people, or children. Formal verb endings typically end in '-nga' (e.g., 'vaanga' = please come, formal), while informal forms are shorter (e.g., 'vaa' = come, informal)."
+  },
+  {
+    "id": "ta-gr-word-order",
+    "title": "Basic Word Order (SOV)",
+    "body": "Tamil follows Subject-Object-Verb (SOV) word order. The verb always comes at the end of the sentence. For example: 'naan saappaadu saapidein' = 'I food eat' (I eat food). This is different from English, which uses Subject-Verb-Object (SVO) order."
+  },
+  {
+    "id": "ta-gr-vanakkam",
+    "title": "Greetings in Tamil",
+    "body": "'Vanakkam' is the universal Tamil greeting used for hello, good morning, good afternoon, and good evening. It works in both formal and informal contexts. To say goodbye, 'poitu varein' (I will go and come back) is commonly used, reflecting the Tamil cultural expectation of return."
+  },
+  {
+    "id": "ta-gr-peyar",
+    "title": "Introducing Yourself",
+    "body": "To say your name, use the pattern 'en peyar ___' (my name is ___). To ask someone's name formally: 'unga peyar enna?' (what is your name?). Informally: 'un peyar enna?'. The word 'peyar' means 'name'."
+  },
+  {
+    "id": "ta-gr-question-words",
+    "title": "Question Words",
+    "body": "Common Tamil question words: 'enna' (what), 'enga' (where), 'eppadi' (how), 'yaar' (who), 'eppozhu' (when), 'yen' (why). Questions in Tamil are formed by adding question words to the sentence, usually keeping the same word order."
+  },
+  {
+    "id": "ta-gr-numbers",
+    "title": "Tamil Number System",
+    "body": "Tamil numbers 1-10 have unique names: ondru, irandu, moondru, naangu, ainthu, aaru, eezhu, ettu, onpadhu, patthu. Numbers 11-19 are formed by combining 'pathi-' (ten-) with the unit: pathinondru (11), pannirandu (12), etc. Twenty is 'irupadhu' (two-tens)."
+  },
+  {
+    "id": "ta-gr-family",
+    "title": "Family Terms and Respect",
+    "body": "Tamil distinguishes between elder and younger siblings: 'anna' (elder brother), 'thambi' (younger brother), 'akka' (elder sister), 'thangai' (younger sister). These terms are also used respectfully with non-family members. Calling a stranger 'anna' or 'akka' is polite."
+  },
+  {
+    "id": "ta-gr-adjectives",
+    "title": "Adjectives in Tamil",
+    "body": "In Tamil, adjectives come before the noun they describe, similar to English. Colors and descriptive words function as adjectives: 'sivappu poo' (red flower), 'periya veedu' (big house). Some adjectives like 'nalla' (good) and 'periya' (big) are used very frequently in everyday speech."
+  },
+  {
+    "id": "ta-gr-venum",
+    "title": "Expressing Wants with 'venum'",
+    "body": "'Venum' means 'want' or 'need' and is used with a dative subject: 'enakku thanni venum' = 'I want water' (literally: 'to-me water is-needed'). The negative form is 'venda' or 'venaam': 'enakku kaapi venaam' = 'I don't want coffee'."
+  },
+  {
+    "id": "ta-gr-pidikkum",
+    "title": "Expressing Likes with 'pidikkum'",
+    "body": "'Pidikkum' means 'to like' and uses a dative construction: 'enakku dosai pidikkum' = 'I like dosa' (literally: 'to-me dosa is-liked'). The negative is 'pidikkaadhu': 'enakku karuppu pidikkaadhu' = 'I don't like black'."
+  },
+  {
+    "id": "ta-gr-directions",
+    "title": "Giving Directions",
+    "body": "Basic direction words: 'idadhu' (left), 'valadhu' (right), 'neraaga' (straight). To give directions: 'idadhu pakka thirumbuga' (turn to the left), 'neraaga ponga' (go straight). 'Enga' means 'where' and is used to ask for locations: 'kadai enga irukku?' (where is the shop?)."
+  },
+  {
+    "id": "ta-gr-verb-basics",
+    "title": "Verb Infinitives and Conjugation Basics",
+    "body": "Tamil verb infinitives often end in '-a': poga (to go), vara (to come), saapida (to eat). To conjugate for 'I' in present tense, change the ending: 'naan pogein' (I go), 'naan varein' (I come). For formal 'you': 'neenga pogeenga' (you go), 'neenga vareenga' (you come)."
+  }
+]

@@ -1,0 +1,281 @@
+{
+  "id": "s3-l7",
+  "sectionId": "s3",
+  "title": "Food & Drink",
+  "description": "Learn everyday food items and beverages, and how to talk about eating and drinking.",
+  "vocabularyIds": [
+    "hi-khaana",
+    "hi-paani",
+    "hi-chai",
+    "hi-roti",
+    "hi-chaval",
+    "hi-daal",
+    "hi-dudh",
+    "hi-phal"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-chahiye",
+    "hi-gr-postpositions"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s3-l7-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "khaana",
+          "right": "food"
+        },
+        {
+          "left": "paani",
+          "right": "water"
+        },
+        {
+          "left": "chai",
+          "right": "tea"
+        },
+        {
+          "left": "roti",
+          "right": "flatbread"
+        },
+        {
+          "left": "daal",
+          "right": "lentils"
+        }
+      ],
+      "explanation": "These are staple foods and drinks in India. 'Roti' and 'daal' together ('daal-roti') is a common expression meaning a basic meal."
+    },
+    {
+      "id": "hi-s3-l7-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'dudh' mean?",
+      "options": [
+        "Milk",
+        "Water",
+        "Tea",
+        "Juice"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Dudh' means milk. Milk is widely consumed in India — 'dudh ki chai' (milk tea) is the standard way chai is prepared."
+    },
+    {
+      "id": "hi-s3-l7-ex03",
+      "type": "translation",
+      "prompt": "How do you say 'I need water' in Hindi?",
+      "direction": "from_english",
+      "correct": "mujhe paani chahiye",
+      "acceptedVariants": [
+        "mujhe paani chaahiye"
+      ],
+      "explanation": "'Mujhe paani chahiye' — 'mujhe' (to me / I need), 'paani' (water), 'chahiye' (is needed). This is the standard way to express needing something.",
+      "hint": "sounds like: mujhe paani chahiye"
+    },
+    {
+      "id": "hi-s3-l7-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Mujhe ___ chahiye.",
+      "correct": "chai",
+      "acceptedVariants": [
+        "paani",
+        "khaana",
+        "roti",
+        "dudh"
+      ],
+      "explanation": "The pattern 'mujhe ___ chahiye' means 'I need ___'. You can fill in any noun: chai (tea), paani (water), khaana (food), etc."
+    },
+    {
+      "id": "hi-s3-l7-ex05",
+      "type": "word_ordering",
+      "prompt": "Say: I need food",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "chahiye"
+        },
+        {
+          "id": "t2",
+          "text": "khaana"
+        },
+        {
+          "id": "t3",
+          "text": "mujhe"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t2",
+        "t1"
+      ],
+      "explanation": "'Mujhe khaana chahiye' — subject ('mujhe' = to me), object ('khaana' = food), verb ('chahiye' = is needed). The verb comes last in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-ex06",
+      "type": "listening",
+      "audio": "hindi/chai.mp3",
+      "mode": "select",
+      "options": [
+        "chai (tea)",
+        "paani (water)",
+        "dudh (milk)",
+        "daal (lentils)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Chai' (ch-eye) means tea. Indian chai is typically made with milk, sugar, and spices like cardamom and ginger."
+    },
+    {
+      "id": "hi-s3-l7-ex07",
+      "type": "multiple_choice",
+      "question": "What is 'chaval'?",
+      "options": [
+        "Rice",
+        "Bread",
+        "Fruit",
+        "Lentils"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Chaval' means rice. Rice is a staple food in much of India, especially in the south and east. 'Daal chaval' (lentils and rice) is one of the most common meals."
+    },
+    {
+      "id": "hi-s3-l7-ex08",
+      "type": "translation",
+      "prompt": "How do you say 'fruit' in Hindi?",
+      "direction": "from_english",
+      "correct": "phal",
+      "acceptedVariants": [],
+      "explanation": "'Phal' means fruit. Common fruits in India include 'aam' (mango), 'kela' (banana), and 'seb' (apple).",
+      "hint": "sounds like: phal"
+    },
+    {
+      "id": "hi-s3-l7-g14",
+      "type": "translation",
+      "prompt": "How do you say 'rice' in Hindi?",
+      "direction": "from_english",
+      "correct": "chaval",
+      "acceptedVariants": [],
+      "hint": "sounds like: chaval",
+      "explanation": "'rice' in Hindi is 'chaval'."
+    },
+    {
+      "id": "hi-s3-l7-g17",
+      "type": "translation",
+      "prompt": "How do you say 'lentils' in Hindi?",
+      "direction": "from_english",
+      "correct": "daal",
+      "acceptedVariants": [],
+      "hint": "sounds like: daal",
+      "explanation": "'lentils' in Hindi is 'daal'."
+    },
+    {
+      "id": "hi-s3-l7-g22",
+      "type": "multiple_choice",
+      "question": "What does 'phal' mean?",
+      "options": [
+        "how are you (informal, to male)",
+        "yes",
+        "how are you (informal, to female)",
+        "fruit"
+      ],
+      "correctIndex": 3,
+      "explanation": "'phal' means 'fruit' in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-g16",
+      "type": "multiple_choice",
+      "question": "What does 'daal' mean?",
+      "options": [
+        "dad",
+        "lentils",
+        "to want",
+        "sister"
+      ],
+      "correctIndex": 1,
+      "explanation": "'daal' means 'lentils' in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-g11",
+      "type": "translation",
+      "prompt": "How do you say 'flatbread' in Hindi?",
+      "direction": "from_english",
+      "correct": "roti",
+      "acceptedVariants": [],
+      "hint": "sounds like: roti",
+      "explanation": "'flatbread' in Hindi is 'roti'."
+    },
+    {
+      "id": "hi-s3-l7-g15",
+      "type": "translation",
+      "prompt": "Translate 'chaval' to English.",
+      "direction": "to_english",
+      "correct": "rice",
+      "acceptedVariants": [],
+      "explanation": "'chaval' means 'rice'."
+    },
+    {
+      "id": "hi-s3-l7-g10",
+      "type": "multiple_choice",
+      "question": "What does 'roti' mean?",
+      "options": [
+        "big",
+        "thank you (formal)",
+        "eight (8)",
+        "flatbread"
+      ],
+      "correctIndex": 3,
+      "explanation": "'roti' means 'flatbread' in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-g01",
+      "type": "multiple_choice",
+      "question": "What does 'khaana' mean?",
+      "options": [
+        "please",
+        "yes",
+        "where",
+        "food / to eat"
+      ],
+      "correctIndex": 3,
+      "explanation": "'khaana' means 'food / to eat' in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-g24",
+      "type": "translation",
+      "prompt": "Translate 'phal' to English.",
+      "direction": "to_english",
+      "correct": "fruit",
+      "acceptedVariants": [],
+      "explanation": "'phal' means 'fruit'."
+    },
+    {
+      "id": "hi-s3-l7-g02",
+      "type": "translation",
+      "prompt": "How do you say 'food / to eat' in Hindi?",
+      "direction": "from_english",
+      "correct": "khaana",
+      "acceptedVariants": [],
+      "hint": "sounds like: khaana",
+      "explanation": "'food / to eat' in Hindi is 'khaana'."
+    },
+    {
+      "id": "hi-s3-l7-g04",
+      "type": "multiple_choice",
+      "question": "What does 'paani' mean?",
+      "options": [
+        "water",
+        "good",
+        "eight (8)",
+        "white"
+      ],
+      "correctIndex": 0,
+      "explanation": "'paani' means 'water' in Hindi."
+    },
+    {
+      "id": "hi-s3-l7-g18",
+      "type": "translation",
+      "prompt": "Translate 'daal' to English.",
+      "direction": "to_english",
+      "correct": "lentils",
+      "acceptedVariants": [],
+      "explanation": "'daal' means 'lentils'."
+    }
+  ]
+}

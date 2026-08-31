@@ -1,0 +1,304 @@
+{
+  "id": "s4-l10",
+  "sectionId": "s4",
+  "title": "Conversations & Review",
+  "description": "Put everything together with full conversations and a comprehensive review of all lessons.",
+  "vocabularyIds": [
+    "te-namaskaaramu",
+    "te-naa-peru",
+    "te-ela-unnaru",
+    "te-nenu-baagunnanu",
+    "te-dhanyavaadaalu",
+    "te-selavu",
+    "te-kaavali",
+    "te-avunu",
+    "te-dayachesi",
+    "te-ekkada"
+  ],
+  "grammarNoteIds": [
+    "te-gr-formal",
+    "te-gr-word-order",
+    "te-gr-questions",
+    "te-gr-kaavali"
+  ],
+  "exercises": [
+    {
+      "id": "te-s4-l10-ex01",
+      "type": "word_ordering",
+      "prompt": "Arrange a greeting conversation: 'Hello, how are you?'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "namaskaaramu"
+        },
+        {
+          "id": "t2",
+          "text": "ela"
+        },
+        {
+          "id": "t3",
+          "text": "unnaru"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Namaskaaramu, ela unnaru' - Hello, how are you? A standard Telugu greeting sequence."
+    },
+    {
+      "id": "te-s4-l10-ex02",
+      "type": "translation",
+      "prompt": "Hello, my name is Ravi. Nice to meet you.",
+      "direction": "from_english",
+      "correct": "namaskaaramu, naa peru Ravi. naaku kalusukoni aanandam.",
+      "acceptedVariants": [
+        "namaskaaramu naa peru Ravi naaku kalusukoni aanandam",
+        "namaskaaramu, naa peru Ravi. kalusukoni aanandam."
+      ],
+      "explanation": "A full introduction combines 'namaskaaramu' (hello), 'naa peru' (my name), and 'naaku kalusukoni aanandam' (nice to meet you).",
+      "hint": "sounds like: namaskaaramu, naa peru Ravi. naaku kalusukoni aanandam."
+    },
+    {
+      "id": "te-s4-l10-ex03",
+      "type": "fill_in_blank",
+      "sentence": "Namaskaaramu, ___ unnaru?",
+      "correct": "ela",
+      "acceptedVariants": [
+        "ela"
+      ],
+      "explanation": "'Ela unnaru' means 'how are you'. 'Ela' is the question word meaning 'how'."
+    },
+    {
+      "id": "te-s4-l10-ex04",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "naaku neellu kaavali",
+          "right": "I want water"
+        },
+        {
+          "left": "angadi ekkada undi",
+          "right": "where is the shop"
+        },
+        {
+          "left": "naa amma peru Sita",
+          "right": "my mother's name is Sita"
+        },
+        {
+          "left": "idi manchidi",
+          "right": "this is good"
+        }
+      ],
+      "explanation": "These sentences combine vocabulary from multiple lessons into practical phrases."
+    },
+    {
+      "id": "te-s4-l10-ex05",
+      "type": "multiple_choice",
+      "question": "You are at a restaurant. How do you politely ask for coffee?",
+      "options": [
+        "kaafii kaadu",
+        "dayachesi kaafii kaavali",
+        "nenu kaafii",
+        "kaafii ekkada"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Dayachesi kaafii kaavali' combines 'dayachesi' (please) with 'kaafii kaavali' (need coffee) for a polite request."
+    },
+    {
+      "id": "te-s4-l10-ex06",
+      "type": "listening",
+      "audio": "telugu/selavu.mp3",
+      "mode": "select",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Selavu' means 'goodbye' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-ex07",
+      "type": "translation",
+      "prompt": "nenu baagunnanu, dhanyavaadaalu",
+      "direction": "to_english",
+      "correct": "I am fine, thank you",
+      "acceptedVariants": [
+        "I'm fine, thank you",
+        "I am good, thank you",
+        "I'm good, thanks"
+      ],
+      "explanation": "A natural response to 'ela unnaru': 'nenu baagunnanu' (I am fine) followed by 'dhanyavaadaalu' (thank you)."
+    },
+    {
+      "id": "te-s4-l10-ex08",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'Please, I want rice and dal'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "dayachesi"
+        },
+        {
+          "id": "t2",
+          "text": "naaku"
+        },
+        {
+          "id": "t3",
+          "text": "annam"
+        },
+        {
+          "id": "t4",
+          "text": "pappu"
+        },
+        {
+          "id": "t5",
+          "text": "kaavali"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "explanation": "'Dayachesi naaku annam pappu kaavali' - Please + to me + rice + dal + is needed."
+    },
+    {
+      "id": "te-s4-l10-g01",
+      "type": "multiple_choice",
+      "question": "What does 'namaskaaramu' mean?",
+      "options": [
+        "you (formal)",
+        "hello / greetings",
+        "elder brother",
+        "yes"
+      ],
+      "correctIndex": 1,
+      "explanation": "'namaskaaramu' means 'hello / greetings' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-g30",
+      "type": "translation",
+      "prompt": "Translate 'ekkada' to English.",
+      "direction": "to_english",
+      "correct": "where",
+      "acceptedVariants": [],
+      "explanation": "'ekkada' means 'where'."
+    },
+    {
+      "id": "te-s4-l10-g02",
+      "type": "translation",
+      "prompt": "How do you say 'hello / greetings' in Telugu?",
+      "direction": "from_english",
+      "correct": "namaskaaramu",
+      "acceptedVariants": [],
+      "hint": "sounds like: namaskaaramu",
+      "explanation": "'hello / greetings' in Telugu is 'namaskaaramu'."
+    },
+    {
+      "id": "te-s4-l10-g25",
+      "type": "multiple_choice",
+      "question": "What does 'dayachesi' mean?",
+      "options": [
+        "please",
+        "nice to meet you",
+        "nine (9)",
+        "yellow"
+      ],
+      "correctIndex": 0,
+      "explanation": "'dayachesi' means 'please' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-g17",
+      "type": "translation",
+      "prompt": "How do you say 'goodbye' in Telugu?",
+      "direction": "from_english",
+      "correct": "selavu",
+      "acceptedVariants": [],
+      "hint": "sounds like: selavu",
+      "explanation": "'goodbye' in Telugu is 'selavu'."
+    },
+    {
+      "id": "te-s4-l10-g19",
+      "type": "multiple_choice",
+      "question": "What does 'kaavali' mean?",
+      "options": [
+        "to speak / speaking",
+        "where",
+        "thank you",
+        "want / need"
+      ],
+      "correctIndex": 3,
+      "explanation": "'kaavali' means 'want / need' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-g28",
+      "type": "multiple_choice",
+      "question": "What does 'ekkada' mean?",
+      "options": [
+        "water",
+        "to eat / eating",
+        "father",
+        "where"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ekkada' means 'where' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-g10",
+      "type": "multiple_choice",
+      "question": "What does 'nenu baagunnanu' mean?",
+      "options": [
+        "hello / greetings",
+        "bad",
+        "I am fine",
+        "fourteen (14)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'nenu baagunnanu' means 'I am fine' in Telugu."
+    },
+    {
+      "id": "te-s4-l10-g14",
+      "type": "translation",
+      "prompt": "How do you say 'thank you' in Telugu?",
+      "direction": "from_english",
+      "correct": "dhanyavaadaalu",
+      "acceptedVariants": [],
+      "hint": "sounds like: dhanyavaadaalu",
+      "explanation": "'thank you' in Telugu is 'dhanyavaadaalu'."
+    },
+    {
+      "id": "te-s4-l10-g29",
+      "type": "translation",
+      "prompt": "How do you say 'where' in Telugu?",
+      "direction": "from_english",
+      "correct": "ekkada",
+      "acceptedVariants": [],
+      "hint": "sounds like: ekkada",
+      "explanation": "'where' in Telugu is 'ekkada'."
+    },
+    {
+      "id": "te-s4-l10-g15",
+      "type": "translation",
+      "prompt": "Translate 'dhanyavaadaalu' to English.",
+      "direction": "to_english",
+      "correct": "thank you",
+      "acceptedVariants": [],
+      "explanation": "'dhanyavaadaalu' means 'thank you'."
+    },
+    {
+      "id": "te-s4-l10-g18",
+      "type": "translation",
+      "prompt": "Translate 'selavu' to English.",
+      "direction": "to_english",
+      "correct": "goodbye",
+      "acceptedVariants": [],
+      "explanation": "'selavu' means 'goodbye'."
+    }
+  ]
+}

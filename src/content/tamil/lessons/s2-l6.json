@@ -1,0 +1,269 @@
+{
+  "id": "s2-l6",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn the names of colors and basic descriptive adjectives in Tamil.",
+  "vocabularyIds": [
+    "ta-sivappu",
+    "ta-neelam",
+    "ta-pachchai",
+    "ta-manjal",
+    "ta-vellai",
+    "ta-karuppu",
+    "ta-periya",
+    "ta-siriya",
+    "ta-nalla",
+    "ta-kettadhu"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-adjectives"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s2-l6-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "sivappu",
+          "right": "red"
+        },
+        {
+          "left": "neelam",
+          "right": "blue"
+        },
+        {
+          "left": "pachchai",
+          "right": "green"
+        },
+        {
+          "left": "manjal",
+          "right": "yellow"
+        }
+      ],
+      "explanation": "These four colors are among the most commonly used in Tamil."
+    },
+    {
+      "id": "ta-s2-l6-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'karuppu' mean?",
+      "options": [
+        "white",
+        "red",
+        "green",
+        "black"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Karuppu' means black. Its opposite is 'vellai' (white)."
+    },
+    {
+      "id": "ta-s2-l6-ex03",
+      "type": "translation",
+      "prompt": "big house",
+      "direction": "from_english",
+      "correct": "periya veedu",
+      "acceptedVariants": [
+        "periya veedu"
+      ],
+      "explanation": "'Periya veedu' = big house. In Tamil, the adjective 'periya' comes before the noun 'veedu'.",
+      "hint": "sounds like: periya veedu"
+    },
+    {
+      "id": "ta-s2-l6-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Idhu ___ poo.",
+      "correct": "sivappu",
+      "acceptedVariants": [
+        "sivappu"
+      ],
+      "explanation": "'Idhu sivappu poo' means 'This is a red flower'. 'Sivappu' (red) comes before 'poo' (flower)."
+    },
+    {
+      "id": "ta-s2-l6-ex05",
+      "type": "listening",
+      "audio": "tamil/pachchai.mp3",
+      "mode": "type",
+      "correct": "pachchai",
+      "acceptedVariants": [
+        "pachai",
+        "pachchai"
+      ],
+      "explanation": "'Pachchai' means green and is pronounced 'puch-chai'."
+    },
+    {
+      "id": "ta-s2-l6-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange the words to say 'good small house':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "veedu"
+        },
+        {
+          "id": "t2",
+          "text": "nalla"
+        },
+        {
+          "id": "t3",
+          "text": "siriya"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Nalla siriya veedu' = good small house. Multiple adjectives stack before the noun."
+    },
+    {
+      "id": "ta-s2-l6-ex07",
+      "type": "translation",
+      "prompt": "kettadhu",
+      "direction": "to_english",
+      "correct": "bad",
+      "acceptedVariants": [
+        "bad",
+        "bad thing"
+      ],
+      "explanation": "'Kettadhu' means bad. Its opposite is 'nalla' (good)."
+    },
+    {
+      "id": "ta-s2-l6-ex08",
+      "type": "multiple_choice",
+      "question": "Which word means 'small'?",
+      "options": [
+        "periya",
+        "nalla",
+        "siriya",
+        "kettadhu"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Siriya' means small or little. Its opposite is 'periya' (big)."
+    },
+    {
+      "id": "ta-s2-l6-g07",
+      "type": "multiple_choice",
+      "question": "What does 'pachchai' mean?",
+      "options": [
+        "I am fine / I am well",
+        "six (6)",
+        "food / meal",
+        "green"
+      ],
+      "correctIndex": 3,
+      "explanation": "'pachchai' means 'green' in Tamil."
+    },
+    {
+      "id": "ta-s2-l6-g08",
+      "type": "translation",
+      "prompt": "How do you say 'green' in Tamil?",
+      "direction": "from_english",
+      "correct": "pachchai",
+      "acceptedVariants": [],
+      "hint": "sounds like: pachchai",
+      "explanation": "'green' in Tamil is 'pachchai'."
+    },
+    {
+      "id": "ta-s2-l6-g29",
+      "type": "translation",
+      "prompt": "How do you say 'bad' in Tamil?",
+      "direction": "from_english",
+      "correct": "kettadhu",
+      "acceptedVariants": [],
+      "hint": "sounds like: kettadhu",
+      "explanation": "'bad' in Tamil is 'kettadhu'."
+    },
+    {
+      "id": "ta-s2-l6-g23",
+      "type": "translation",
+      "prompt": "How do you say 'small / little' in Tamil?",
+      "direction": "from_english",
+      "correct": "siriya",
+      "acceptedVariants": [],
+      "hint": "sounds like: siriya",
+      "explanation": "'small / little' in Tamil is 'siriya'."
+    },
+    {
+      "id": "ta-s2-l6-g19",
+      "type": "multiple_choice",
+      "question": "What does 'periya' mean?",
+      "options": [
+        "I don't understand",
+        "younger sister",
+        "big / large",
+        "sixteen (16)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'periya' means 'big / large' in Tamil."
+    },
+    {
+      "id": "ta-s2-l6-g11",
+      "type": "translation",
+      "prompt": "How do you say 'yellow' in Tamil?",
+      "direction": "from_english",
+      "correct": "manjal",
+      "acceptedVariants": [],
+      "hint": "sounds like: manjal",
+      "explanation": "'yellow' in Tamil is 'manjal'."
+    },
+    {
+      "id": "ta-s2-l6-g17",
+      "type": "translation",
+      "prompt": "How do you say 'black' in Tamil?",
+      "direction": "from_english",
+      "correct": "karuppu",
+      "acceptedVariants": [],
+      "hint": "sounds like: karuppu",
+      "explanation": "'black' in Tamil is 'karuppu'."
+    },
+    {
+      "id": "ta-s2-l6-g12",
+      "type": "translation",
+      "prompt": "Translate 'manjal' to English.",
+      "direction": "to_english",
+      "correct": "yellow",
+      "acceptedVariants": [],
+      "explanation": "'manjal' means 'yellow'."
+    },
+    {
+      "id": "ta-s2-l6-g20",
+      "type": "translation",
+      "prompt": "How do you say 'big / large' in Tamil?",
+      "direction": "from_english",
+      "correct": "periya",
+      "acceptedVariants": [],
+      "hint": "sounds like: periya",
+      "explanation": "'big / large' in Tamil is 'periya'."
+    },
+    {
+      "id": "ta-s2-l6-g04",
+      "type": "multiple_choice",
+      "question": "What does 'neelam' mean?",
+      "options": [
+        "to come",
+        "where are you from (formal)",
+        "blue",
+        "twelve (12)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'neelam' means 'blue' in Tamil."
+    },
+    {
+      "id": "ta-s2-l6-g03",
+      "type": "translation",
+      "prompt": "Translate 'sivappu' to English.",
+      "direction": "to_english",
+      "correct": "red",
+      "acceptedVariants": [],
+      "explanation": "'sivappu' means 'red'."
+    },
+    {
+      "id": "ta-s2-l6-g27",
+      "type": "translation",
+      "prompt": "Translate 'nalla' to English.",
+      "direction": "to_english",
+      "correct": "good",
+      "acceptedVariants": [],
+      "explanation": "'nalla' means 'good'."
+    }
+  ]
+}

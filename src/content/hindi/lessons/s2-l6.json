@@ -1,0 +1,277 @@
+{
+  "id": "s2-l6",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn common colors and basic adjectives to describe people and things in Hindi.",
+  "vocabularyIds": [
+    "hi-laal",
+    "hi-neela",
+    "hi-hara",
+    "hi-peela",
+    "hi-safed",
+    "hi-kaala",
+    "hi-bada",
+    "hi-chhota",
+    "hi-achha",
+    "hi-bura"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-adjective-agreement",
+    "hi-gr-gender-basics"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s2-l6-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "laal",
+          "right": "red"
+        },
+        {
+          "left": "neela",
+          "right": "blue"
+        },
+        {
+          "left": "hara",
+          "right": "green"
+        },
+        {
+          "left": "peela",
+          "right": "yellow"
+        },
+        {
+          "left": "safed",
+          "right": "white"
+        }
+      ],
+      "explanation": "These are the most common Hindi colors. Notice that 'neela', 'hara', and 'peela' end in 'a' — they will change to 'i' when describing feminine nouns."
+    },
+    {
+      "id": "hi-s2-l6-ex02",
+      "type": "multiple_choice",
+      "question": "What color is 'kaala'?",
+      "options": [
+        "Black",
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Kaala' means black. Its opposite is 'safed' (white). Note that 'kaala' changes to 'kaali' for feminine nouns: 'kaali raat' (dark night)."
+    },
+    {
+      "id": "hi-s2-l6-ex03",
+      "type": "fill_in_blank",
+      "sentence": "Yeh ghar bahut ___ hai.",
+      "correct": "bada",
+      "acceptedVariants": [
+        "badi"
+      ],
+      "explanation": "'Yeh ghar bahut bada hai' means 'This house is very big'. Since 'ghar' (house) is masculine, we use 'bada'. For a feminine noun, it would be 'badi'."
+    },
+    {
+      "id": "hi-s2-l6-ex04",
+      "type": "translation",
+      "prompt": "How do you say 'small' in Hindi?",
+      "direction": "from_english",
+      "correct": "chhota",
+      "acceptedVariants": [
+        "chhoti"
+      ],
+      "explanation": "'Chhota' means small (masculine). It becomes 'chhoti' for feminine nouns. For example: 'chhota bachha' (small child, boy) vs 'chhoti bachhi' (small child, girl).",
+      "hint": "sounds like: chhota"
+    },
+    {
+      "id": "hi-s2-l6-ex05",
+      "type": "listening",
+      "audio": "hindi/hara.mp3",
+      "mode": "select",
+      "options": [
+        "hara (green)",
+        "laal (red)",
+        "peela (yellow)",
+        "neela (blue)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Hara' (huh-rah) means green. It is used to describe nature: 'hara ped' (green tree), 'hari ghaas' (green grass — feminine form 'hari')."
+    },
+    {
+      "id": "hi-s2-l6-ex06",
+      "type": "multiple_choice",
+      "question": "How does the adjective 'bada' (big) change for a feminine noun?",
+      "options": [
+        "badi",
+        "bade",
+        "bado",
+        "It does not change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adjectives ending in 'a' change to 'i' for feminine singular nouns: 'bada ghar' (big house, masc.) becomes 'badi kitaab' (big book, fem.). They change to 'e' for masculine plural: 'bade ghar' (big houses)."
+    },
+    {
+      "id": "hi-s2-l6-ex07",
+      "type": "word_ordering",
+      "prompt": "Say: The red flower is good",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "phool"
+        },
+        {
+          "id": "t2",
+          "text": "hai"
+        },
+        {
+          "id": "t3",
+          "text": "laal"
+        },
+        {
+          "id": "t4",
+          "text": "achha"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "explanation": "'Laal phool achha hai' — in Hindi, the adjective comes before the noun it describes: 'laal phool' (red flower). The verb 'hai' goes at the end."
+    },
+    {
+      "id": "hi-s2-l6-ex08",
+      "type": "translation",
+      "prompt": "How do you say 'good' in Hindi?",
+      "direction": "from_english",
+      "correct": "achha",
+      "acceptedVariants": [
+        "accha",
+        "acha"
+      ],
+      "explanation": "'Achha' means good. It is one of the most versatile Hindi words — used as 'good', 'okay', 'I see', and 'well then' depending on context and tone.",
+      "hint": "sounds like: achha"
+    },
+    {
+      "id": "hi-s2-l6-g24",
+      "type": "translation",
+      "prompt": "Translate 'chhota' to English.",
+      "direction": "to_english",
+      "correct": "small",
+      "acceptedVariants": [],
+      "explanation": "'chhota' means 'small'."
+    },
+    {
+      "id": "hi-s2-l6-g03",
+      "type": "translation",
+      "prompt": "Translate 'laal' to English.",
+      "direction": "to_english",
+      "correct": "red",
+      "acceptedVariants": [],
+      "explanation": "'laal' means 'red'."
+    },
+    {
+      "id": "hi-s2-l6-g06",
+      "type": "translation",
+      "prompt": "Translate 'neela' to English.",
+      "direction": "to_english",
+      "correct": "blue",
+      "acceptedVariants": [],
+      "explanation": "'neela' means 'blue'."
+    },
+    {
+      "id": "hi-s2-l6-g23",
+      "type": "translation",
+      "prompt": "How do you say 'small' in Hindi?",
+      "direction": "from_english",
+      "correct": "chhota",
+      "acceptedVariants": [],
+      "hint": "sounds like: chhota",
+      "explanation": "'small' in Hindi is 'chhota'."
+    },
+    {
+      "id": "hi-s2-l6-g13",
+      "type": "multiple_choice",
+      "question": "What does 'safed' mean?",
+      "options": [
+        "red",
+        "white",
+        "thank you",
+        "flatbread"
+      ],
+      "correctIndex": 1,
+      "explanation": "'safed' means 'white' in Hindi."
+    },
+    {
+      "id": "hi-s2-l6-g26",
+      "type": "translation",
+      "prompt": "How do you say 'good' in Hindi?",
+      "direction": "from_english",
+      "correct": "achha",
+      "acceptedVariants": [],
+      "hint": "sounds like: achha",
+      "explanation": "'good' in Hindi is 'achha'."
+    },
+    {
+      "id": "hi-s2-l6-g27",
+      "type": "translation",
+      "prompt": "Translate 'achha' to English.",
+      "direction": "to_english",
+      "correct": "good",
+      "acceptedVariants": [],
+      "explanation": "'achha' means 'good'."
+    },
+    {
+      "id": "hi-s2-l6-g02",
+      "type": "translation",
+      "prompt": "How do you say 'red' in Hindi?",
+      "direction": "from_english",
+      "correct": "laal",
+      "acceptedVariants": [],
+      "hint": "sounds like: laal",
+      "explanation": "'red' in Hindi is 'laal'."
+    },
+    {
+      "id": "hi-s2-l6-g04",
+      "type": "multiple_choice",
+      "question": "What does 'neela' mean?",
+      "options": [
+        "paternal uncle",
+        "ten (10)",
+        "I am from ___",
+        "blue"
+      ],
+      "correctIndex": 3,
+      "explanation": "'neela' means 'blue' in Hindi."
+    },
+    {
+      "id": "hi-s2-l6-g21",
+      "type": "translation",
+      "prompt": "Translate 'bada' to English.",
+      "direction": "to_english",
+      "correct": "big",
+      "acceptedVariants": [],
+      "explanation": "'bada' means 'big'."
+    },
+    {
+      "id": "hi-s2-l6-g11",
+      "type": "translation",
+      "prompt": "How do you say 'yellow' in Hindi?",
+      "direction": "from_english",
+      "correct": "peela",
+      "acceptedVariants": [],
+      "hint": "sounds like: peela",
+      "explanation": "'yellow' in Hindi is 'peela'."
+    },
+    {
+      "id": "hi-s2-l6-g29",
+      "type": "translation",
+      "prompt": "How do you say 'bad' in Hindi?",
+      "direction": "from_english",
+      "correct": "bura",
+      "acceptedVariants": [],
+      "hint": "sounds like: bura",
+      "explanation": "'bad' in Hindi is 'bura'."
+    }
+  ]
+}

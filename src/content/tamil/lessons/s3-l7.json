@@ -1,0 +1,274 @@
+{
+  "id": "s3-l7",
+  "sectionId": "s3",
+  "title": "Food & Drink",
+  "description": "Learn the Tamil words for common foods, drinks, and how to talk about meals.",
+  "vocabularyIds": [
+    "ta-saappaadu",
+    "ta-thanni",
+    "ta-kaapi",
+    "ta-dosai",
+    "ta-idli",
+    "ta-sambaar",
+    "ta-paal",
+    "ta-pazhangal"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-venum"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s3-l7-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "saappaadu",
+          "right": "food / meal"
+        },
+        {
+          "left": "thanni",
+          "right": "water"
+        },
+        {
+          "left": "kaapi",
+          "right": "coffee"
+        },
+        {
+          "left": "paal",
+          "right": "milk"
+        }
+      ],
+      "explanation": "These are essential food and drink words you will need in any Tamil-speaking area."
+    },
+    {
+      "id": "ta-s3-l7-ex02",
+      "type": "multiple_choice",
+      "question": "What is 'dosai'?",
+      "options": [
+        "steamed rice cake",
+        "lentil stew",
+        "thin crispy crepe",
+        "milk"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Dosai' is a thin crispy crepe made from fermented rice and lentil batter, a staple of South Indian cuisine."
+    },
+    {
+      "id": "ta-s3-l7-ex03",
+      "type": "translation",
+      "prompt": "I want water",
+      "direction": "from_english",
+      "correct": "enakku thanni venum",
+      "acceptedVariants": [
+        "enaku thanni venum",
+        "enakku thanni vaenum"
+      ],
+      "explanation": "'Enakku thanni venum' uses the dative pattern: to-me + water + is-needed.",
+      "hint": "sounds like: enakku thanni venum"
+    },
+    {
+      "id": "ta-s3-l7-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Enakku ___ venum.",
+      "correct": "kaapi",
+      "acceptedVariants": [
+        "kaapi",
+        "kaappi"
+      ],
+      "explanation": "'Enakku kaapi venum' means 'I want coffee'. Insert the desired item between 'enakku' and 'venum'."
+    },
+    {
+      "id": "ta-s3-l7-ex05",
+      "type": "listening",
+      "audio": "tamil/idli.mp3",
+      "mode": "select",
+      "options": [
+        "dosai",
+        "idli",
+        "sambaar",
+        "pazhangal"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Idli' is a steamed rice cake, pronounced 'id-lee'. It is commonly served with sambaar and chutney."
+    },
+    {
+      "id": "ta-s3-l7-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I want food':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "venum"
+        },
+        {
+          "id": "t2",
+          "text": "enakku"
+        },
+        {
+          "id": "t3",
+          "text": "saappaadu"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'Enakku saappaadu venum' = I want food. Pattern: to-me + item + is-needed."
+    },
+    {
+      "id": "ta-s3-l7-ex07",
+      "type": "translation",
+      "prompt": "pazhangal",
+      "direction": "to_english",
+      "correct": "fruits",
+      "acceptedVariants": [
+        "fruit",
+        "fruits"
+      ],
+      "explanation": "'Pazhangal' means fruits. The singular form is 'pazham' (fruit)."
+    },
+    {
+      "id": "ta-s3-l7-ex08",
+      "type": "multiple_choice",
+      "question": "What does 'sambaar' refer to?",
+      "options": [
+        "coffee",
+        "fruits",
+        "lentil stew",
+        "milk"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Sambaar' is a flavorful lentil stew with vegetables, a staple side dish in Tamil cuisine."
+    },
+    {
+      "id": "ta-s3-l7-g13",
+      "type": "multiple_choice",
+      "question": "What does 'idli' mean?",
+      "options": [
+        "idli (steamed rice cake)",
+        "straight",
+        "I am fine / I am well",
+        "father"
+      ],
+      "correctIndex": 0,
+      "explanation": "'idli' means 'idli (steamed rice cake)' in Tamil."
+    },
+    {
+      "id": "ta-s3-l7-g03",
+      "type": "translation",
+      "prompt": "Translate 'saappaadu' to English.",
+      "direction": "to_english",
+      "correct": "food / meal",
+      "acceptedVariants": [],
+      "explanation": "'saappaadu' means 'food / meal'."
+    },
+    {
+      "id": "ta-s3-l7-g11",
+      "type": "translation",
+      "prompt": "How do you say 'dosa (thin crispy crepe)' in Tamil?",
+      "direction": "from_english",
+      "correct": "dosai",
+      "acceptedVariants": [],
+      "hint": "sounds like: dosai",
+      "explanation": "'dosa (thin crispy crepe)' in Tamil is 'dosai'."
+    },
+    {
+      "id": "ta-s3-l7-g05",
+      "type": "translation",
+      "prompt": "How do you say 'water' in Tamil?",
+      "direction": "from_english",
+      "correct": "thanni",
+      "acceptedVariants": [],
+      "hint": "sounds like: thanni",
+      "explanation": "'water' in Tamil is 'thanni'."
+    },
+    {
+      "id": "ta-s3-l7-g08",
+      "type": "translation",
+      "prompt": "How do you say 'coffee' in Tamil?",
+      "direction": "from_english",
+      "correct": "kaapi",
+      "acceptedVariants": [],
+      "hint": "sounds like: kaapi",
+      "explanation": "'coffee' in Tamil is 'kaapi'."
+    },
+    {
+      "id": "ta-s3-l7-g10",
+      "type": "multiple_choice",
+      "question": "What does 'dosai' mean?",
+      "options": [
+        "one (1)",
+        "sixteen (16)",
+        "two (2)",
+        "dosa (thin crispy crepe)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'dosai' means 'dosa (thin crispy crepe)' in Tamil."
+    },
+    {
+      "id": "ta-s3-l7-g22",
+      "type": "multiple_choice",
+      "question": "What does 'pazhangal' mean?",
+      "options": [
+        "yellow",
+        "fruits",
+        "water",
+        "I / me"
+      ],
+      "correctIndex": 1,
+      "explanation": "'pazhangal' means 'fruits' in Tamil."
+    },
+    {
+      "id": "ta-s3-l7-g12",
+      "type": "translation",
+      "prompt": "Translate 'dosai' to English.",
+      "direction": "to_english",
+      "correct": "dosa (thin crispy crepe)",
+      "acceptedVariants": [],
+      "explanation": "'dosai' means 'dosa (thin crispy crepe)'."
+    },
+    {
+      "id": "ta-s3-l7-g06",
+      "type": "translation",
+      "prompt": "Translate 'thanni' to English.",
+      "direction": "to_english",
+      "correct": "water",
+      "acceptedVariants": [],
+      "explanation": "'thanni' means 'water'."
+    },
+    {
+      "id": "ta-s3-l7-g23",
+      "type": "translation",
+      "prompt": "How do you say 'fruits' in Tamil?",
+      "direction": "from_english",
+      "correct": "pazhangal",
+      "acceptedVariants": [],
+      "hint": "sounds like: pazhangal",
+      "explanation": "'fruits' in Tamil is 'pazhangal'."
+    },
+    {
+      "id": "ta-s3-l7-g19",
+      "type": "multiple_choice",
+      "question": "What does 'paal' mean?",
+      "options": [
+        "black",
+        "hello / greetings",
+        "two (2)",
+        "milk"
+      ],
+      "correctIndex": 3,
+      "explanation": "'paal' means 'milk' in Tamil."
+    },
+    {
+      "id": "ta-s3-l7-g02",
+      "type": "translation",
+      "prompt": "How do you say 'food / meal' in Tamil?",
+      "direction": "from_english",
+      "correct": "saappaadu",
+      "acceptedVariants": [],
+      "hint": "sounds like: saappaadu",
+      "explanation": "'food / meal' in Tamil is 'saappaadu'."
+    }
+  ]
+}

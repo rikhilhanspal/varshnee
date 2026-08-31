@@ -1,0 +1,294 @@
+{
+  "id": "s2-l4",
+  "sectionId": "s2",
+  "title": "Numbers 1-20",
+  "description": "Learn to count from one to twenty in Hindi. Hindi numbers are unique and must be memorized individually.",
+  "vocabularyIds": [
+    "hi-ek",
+    "hi-do",
+    "hi-teen",
+    "hi-chaar",
+    "hi-paanch",
+    "hi-chhe",
+    "hi-saat",
+    "hi-aath",
+    "hi-nau",
+    "hi-das",
+    "hi-gyaarah",
+    "hi-baarah",
+    "hi-terah",
+    "hi-chaudah",
+    "hi-pandrah",
+    "hi-solah",
+    "hi-satrah",
+    "hi-atharah",
+    "hi-unniis",
+    "hi-biis"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-numbers-system"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s2-l4-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "ek",
+          "right": "1"
+        },
+        {
+          "left": "do",
+          "right": "2"
+        },
+        {
+          "left": "teen",
+          "right": "3"
+        },
+        {
+          "left": "chaar",
+          "right": "4"
+        },
+        {
+          "left": "paanch",
+          "right": "5"
+        }
+      ],
+      "explanation": "The first five Hindi numbers: ek (1), do (2), teen (3), chaar (4), paanch (5). Notice 'teen' sounds like the English word but means 3, not 13."
+    },
+    {
+      "id": "hi-s2-l4-ex02",
+      "type": "multiple_choice",
+      "question": "What number is 'saat'?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Saat' means seven (7). Remember the sequence: chhe (6), saat (7), aath (8), nau (9), das (10)."
+    },
+    {
+      "id": "hi-s2-l4-ex03",
+      "type": "translation",
+      "prompt": "How do you say 'ten' in Hindi?",
+      "direction": "from_english",
+      "correct": "das",
+      "acceptedVariants": [],
+      "explanation": "'Das' means ten (10). It is one of the most important numbers to know, as it forms the base for the teens.",
+      "hint": "sounds like: das"
+    },
+    {
+      "id": "hi-s2-l4-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Chaar, paanch, ___, saat",
+      "correct": "chhe",
+      "acceptedVariants": [],
+      "explanation": "The sequence is: chaar (4), paanch (5), chhe (6), saat (7). 'Chhe' means six."
+    },
+    {
+      "id": "hi-s2-l4-ex05",
+      "type": "listening",
+      "audio": "hindi/pandrah.mp3",
+      "mode": "select",
+      "options": [
+        "pandrah (15)",
+        "chaudah (14)",
+        "solah (16)",
+        "das (10)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Pandrah' means fifteen (15). Hindi teen numbers do not follow the same pattern as English — each must be memorized."
+    },
+    {
+      "id": "hi-s2-l4-ex06",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "gyaarah",
+          "right": "11"
+        },
+        {
+          "left": "pandrah",
+          "right": "15"
+        },
+        {
+          "left": "atharah",
+          "right": "18"
+        },
+        {
+          "left": "biis",
+          "right": "20"
+        }
+      ],
+      "explanation": "Hindi numbers from 11-20 are unique words. Unlike English where you can hear 'teen' in thirteen/fourteen, Hindi numbers must each be learned individually."
+    },
+    {
+      "id": "hi-s2-l4-ex07",
+      "type": "word_ordering",
+      "prompt": "Count: 1, 2, 3, 4, 5",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "teen"
+        },
+        {
+          "id": "t2",
+          "text": "ek"
+        },
+        {
+          "id": "t3",
+          "text": "paanch"
+        },
+        {
+          "id": "t4",
+          "text": "do"
+        },
+        {
+          "id": "t5",
+          "text": "chaar"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t4",
+        "t1",
+        "t5",
+        "t3"
+      ],
+      "explanation": "The correct counting order: ek (1), do (2), teen (3), chaar (4), paanch (5)."
+    },
+    {
+      "id": "hi-s2-l4-ex08",
+      "type": "multiple_choice",
+      "question": "Which number is 'unniis'?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "17"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Unniis' means nineteen (19). It comes just before 'biis' (20). The name hints at 'one less than twenty' — 'un' (one less) + 'biis' (twenty)."
+    },
+    {
+      "id": "hi-s2-l4-g53",
+      "type": "translation",
+      "prompt": "How do you say 'eighteen (18)' in Hindi?",
+      "direction": "from_english",
+      "correct": "atharah",
+      "acceptedVariants": [],
+      "hint": "sounds like: atharah",
+      "explanation": "'eighteen (18)' in Hindi is 'atharah'."
+    },
+    {
+      "id": "hi-s2-l4-g35",
+      "type": "translation",
+      "prompt": "How do you say 'twelve (12)' in Hindi?",
+      "direction": "from_english",
+      "correct": "baarah",
+      "acceptedVariants": [],
+      "hint": "sounds like: baarah",
+      "explanation": "'twelve (12)' in Hindi is 'baarah'."
+    },
+    {
+      "id": "hi-s2-l4-g51",
+      "type": "translation",
+      "prompt": "Translate 'satrah' to English.",
+      "direction": "to_english",
+      "correct": "seventeen (17)",
+      "acceptedVariants": [],
+      "explanation": "'satrah' means 'seventeen (17)'."
+    },
+    {
+      "id": "hi-s2-l4-g56",
+      "type": "translation",
+      "prompt": "How do you say 'nineteen (19)' in Hindi?",
+      "direction": "from_english",
+      "correct": "unniis",
+      "acceptedVariants": [],
+      "hint": "sounds like: unniis",
+      "explanation": "'nineteen (19)' in Hindi is 'unniis'."
+    },
+    {
+      "id": "hi-s2-l4-g38",
+      "type": "translation",
+      "prompt": "How do you say 'thirteen (13)' in Hindi?",
+      "direction": "from_english",
+      "correct": "terah",
+      "acceptedVariants": [],
+      "hint": "sounds like: terah",
+      "explanation": "'thirteen (13)' in Hindi is 'terah'."
+    },
+    {
+      "id": "hi-s2-l4-g06",
+      "type": "translation",
+      "prompt": "Translate 'do' to English.",
+      "direction": "to_english",
+      "correct": "two (2)",
+      "acceptedVariants": [],
+      "explanation": "'do' means 'two (2)'."
+    },
+    {
+      "id": "hi-s2-l4-g05",
+      "type": "translation",
+      "prompt": "How do you say 'two (2)' in Hindi?",
+      "direction": "from_english",
+      "correct": "do",
+      "acceptedVariants": [],
+      "hint": "sounds like: do",
+      "explanation": "'two (2)' in Hindi is 'do'."
+    },
+    {
+      "id": "hi-s2-l4-g57",
+      "type": "translation",
+      "prompt": "Translate 'unniis' to English.",
+      "direction": "to_english",
+      "correct": "nineteen (19)",
+      "acceptedVariants": [],
+      "explanation": "'unniis' means 'nineteen (19)'."
+    },
+    {
+      "id": "hi-s2-l4-g21",
+      "type": "translation",
+      "prompt": "Translate 'saat' to English.",
+      "direction": "to_english",
+      "correct": "seven (7)",
+      "acceptedVariants": [],
+      "explanation": "'saat' means 'seven (7)'."
+    },
+    {
+      "id": "hi-s2-l4-g24",
+      "type": "translation",
+      "prompt": "Translate 'aath' to English.",
+      "direction": "to_english",
+      "correct": "eight (8)",
+      "acceptedVariants": [],
+      "explanation": "'aath' means 'eight (8)'."
+    },
+    {
+      "id": "hi-s2-l4-g04",
+      "type": "multiple_choice",
+      "question": "What does 'do' mean?",
+      "options": [
+        "seventeen (17)",
+        "good",
+        "paternal grandfather",
+        "two (2)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'do' means 'two (2)' in Hindi."
+    },
+    {
+      "id": "hi-s2-l4-g02",
+      "type": "translation",
+      "prompt": "How do you say 'one (1)' in Hindi?",
+      "direction": "from_english",
+      "correct": "ek",
+      "acceptedVariants": [],
+      "hint": "sounds like: ek",
+      "explanation": "'one (1)' in Hindi is 'ek'."
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "s1-l3",
+  "sectionId": "s1",
+  "title": "Basic Phrases",
+  "description": "Learn essential everyday phrases: please, thank you, sorry, yes, no, and how to say you don't understand.",
+  "vocabularyIds": [
+    "hi-kripaya",
+    "hi-shukriya",
+    "hi-dhanyavaad",
+    "hi-maaf-kijiye",
+    "hi-haan",
+    "hi-nahin",
+    "hi-samajh-nahin-aaya"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-aap-vs-tum",
+    "hi-gr-postpositions"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s1-l3-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "kripaya",
+          "right": "please"
+        },
+        {
+          "left": "shukriya",
+          "right": "thank you"
+        },
+        {
+          "left": "maaf kijiye",
+          "right": "excuse me / sorry"
+        },
+        {
+          "left": "haan",
+          "right": "yes"
+        },
+        {
+          "left": "nahin",
+          "right": "no"
+        }
+      ],
+      "explanation": "These five words are the building blocks of polite conversation in Hindi. Using 'kripaya' and 'shukriya' frequently will make a great impression."
+    },
+    {
+      "id": "hi-s1-l3-ex02",
+      "type": "multiple_choice",
+      "question": "How do you say 'please' in Hindi?",
+      "options": [
+        "kripaya",
+        "shukriya",
+        "maaf kijiye",
+        "dhanyavaad"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Kripaya' means 'please'. It is used to make requests polite, just like in English. For example: 'kripaya baithiye' (please sit down)."
+    },
+    {
+      "id": "hi-s1-l3-ex03",
+      "type": "translation",
+      "prompt": "How do you say 'excuse me' or 'sorry' formally in Hindi?",
+      "direction": "from_english",
+      "correct": "maaf kijiye",
+      "acceptedVariants": [
+        "maaf kiijiye"
+      ],
+      "explanation": "'Maaf kijiye' is the formal way to say sorry or excuse me. 'Maaf' means forgiveness and 'kijiye' is a polite request form.",
+      "hint": "sounds like: maaf kijiye"
+    },
+    {
+      "id": "hi-s1-l3-ex04",
+      "type": "listening",
+      "audio": "hindi/samajh-nahin-aaya.mp3",
+      "mode": "select",
+      "options": [
+        "mujhe samajh nahin aaya",
+        "maaf kijiye",
+        "kripaya",
+        "shukriya"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Mujhe samajh nahin aaya' means 'I did not understand'. This is one of the most useful phrases when learning Hindi!"
+    },
+    {
+      "id": "hi-s1-l3-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Mujhe samajh ___ aaya.",
+      "correct": "nahin",
+      "acceptedVariants": [
+        "nahi"
+      ],
+      "explanation": "'Nahin' (no/not) is placed before the verb to negate a sentence. 'Mujhe samajh nahin aaya' = 'I did not understand'."
+    },
+    {
+      "id": "hi-s1-l3-ex06",
+      "type": "word_ordering",
+      "prompt": "Say: I did not understand",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "samajh"
+        },
+        {
+          "id": "t2",
+          "text": "aaya"
+        },
+        {
+          "id": "t3",
+          "text": "mujhe"
+        },
+        {
+          "id": "t4",
+          "text": "nahin"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "explanation": "'Mujhe samajh nahin aaya' — 'mujhe' (to me), 'samajh' (understanding), 'nahin' (not), 'aaya' (came). Literally: 'To me understanding did not come'."
+    },
+    {
+      "id": "hi-s1-l3-ex07",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'shukriya' and 'dhanyavaad'?",
+      "options": [
+        "'Dhanyavaad' is more formal than 'shukriya'",
+        "'Shukriya' is more formal than 'dhanyavaad'",
+        "They mean completely different things",
+        "'Dhanyavaad' means sorry"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both mean 'thank you', but 'dhanyavaad' is more formal and comes from Sanskrit, while 'shukriya' comes from Urdu and is used in everyday conversation."
+    },
+    {
+      "id": "hi-s1-l3-ex08",
+      "type": "translation",
+      "prompt": "How do you say 'yes' in Hindi?",
+      "direction": "from_english",
+      "correct": "haan",
+      "acceptedVariants": [
+        "ji haan",
+        "haanji"
+      ],
+      "explanation": "'Haan' means 'yes'. Adding 'ji' ('ji haan' or 'haanji') makes it more respectful. You will hear 'haanji' very frequently in polite Hindi.",
+      "hint": "sounds like: haan"
+    },
+    {
+      "id": "hi-s1-l3-g14",
+      "type": "translation",
+      "prompt": "How do you say 'yes' in Hindi?",
+      "direction": "from_english",
+      "correct": "haan",
+      "acceptedVariants": [],
+      "hint": "sounds like: haan",
+      "explanation": "'yes' in Hindi is 'haan'."
+    },
+    {
+      "id": "hi-s1-l3-g03",
+      "type": "translation",
+      "prompt": "Translate 'kripaya' to English.",
+      "direction": "to_english",
+      "correct": "please",
+      "acceptedVariants": [],
+      "explanation": "'kripaya' means 'please'."
+    },
+    {
+      "id": "hi-s1-l3-g20",
+      "type": "translation",
+      "prompt": "How do you say 'I did not understand' in Hindi?",
+      "direction": "from_english",
+      "correct": "mujhe samajh nahin aaya",
+      "acceptedVariants": [],
+      "hint": "sounds like: mujhe samajh nahin aaya",
+      "explanation": "'I did not understand' in Hindi is 'mujhe samajh nahin aaya'."
+    },
+    {
+      "id": "hi-s1-l3-g02",
+      "type": "translation",
+      "prompt": "How do you say 'please' in Hindi?",
+      "direction": "from_english",
+      "correct": "kripaya",
+      "acceptedVariants": [],
+      "hint": "sounds like: kripaya",
+      "explanation": "'please' in Hindi is 'kripaya'."
+    },
+    {
+      "id": "hi-s1-l3-g09",
+      "type": "translation",
+      "prompt": "Translate 'dhanyavaad' to English.",
+      "direction": "to_english",
+      "correct": "thank you (formal)",
+      "acceptedVariants": [],
+      "explanation": "'dhanyavaad' means 'thank you (formal)'."
+    },
+    {
+      "id": "hi-s1-l3-g16",
+      "type": "multiple_choice",
+      "question": "What does 'nahin' mean?",
+      "options": [
+        "five (5)",
+        "nine (9)",
+        "eleven (11)",
+        "no"
+      ],
+      "correctIndex": 3,
+      "explanation": "'nahin' means 'no' in Hindi."
+    },
+    {
+      "id": "hi-s1-l3-g01",
+      "type": "multiple_choice",
+      "question": "What does 'kripaya' mean?",
+      "options": [
+        "paternal grandmother",
+        "thank you",
+        "twenty (20)",
+        "please"
+      ],
+      "correctIndex": 3,
+      "explanation": "'kripaya' means 'please' in Hindi."
+    },
+    {
+      "id": "hi-s1-l3-g13",
+      "type": "multiple_choice",
+      "question": "What does 'haan' mean?",
+      "options": [
+        "dad",
+        "yes",
+        "one (1)",
+        "bad"
+      ],
+      "correctIndex": 1,
+      "explanation": "'haan' means 'yes' in Hindi."
+    },
+    {
+      "id": "hi-s1-l3-g17",
+      "type": "translation",
+      "prompt": "How do you say 'no' in Hindi?",
+      "direction": "from_english",
+      "correct": "nahin",
+      "acceptedVariants": [],
+      "hint": "sounds like: nahin",
+      "explanation": "'no' in Hindi is 'nahin'."
+    },
+    {
+      "id": "hi-s1-l3-g18",
+      "type": "translation",
+      "prompt": "Translate 'nahin' to English.",
+      "direction": "to_english",
+      "correct": "no",
+      "acceptedVariants": [],
+      "explanation": "'nahin' means 'no'."
+    },
+    {
+      "id": "hi-s1-l3-g08",
+      "type": "translation",
+      "prompt": "How do you say 'thank you (formal)' in Hindi?",
+      "direction": "from_english",
+      "correct": "dhanyavaad",
+      "acceptedVariants": [],
+      "hint": "sounds like: dhanyavaad",
+      "explanation": "'thank you (formal)' in Hindi is 'dhanyavaad'."
+    },
+    {
+      "id": "hi-s1-l3-g05",
+      "type": "translation",
+      "prompt": "How do you say 'thank you' in Hindi?",
+      "direction": "from_english",
+      "correct": "shukriya",
+      "acceptedVariants": [],
+      "hint": "sounds like: shukriya",
+      "explanation": "'thank you' in Hindi is 'shukriya'."
+    }
+  ]
+}

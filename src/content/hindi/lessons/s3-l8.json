@@ -1,0 +1,282 @@
+{
+  "id": "s3-l8",
+  "sectionId": "s3",
+  "title": "Common Verbs",
+  "description": "Learn essential Hindi verbs for everyday actions: go, come, eat, drink, speak, want, and like.",
+  "vocabularyIds": [
+    "hi-jaana",
+    "hi-aana",
+    "hi-khaana-v",
+    "hi-piina",
+    "hi-bolna",
+    "hi-chahna",
+    "hi-pasand-karna"
+  ],
+  "grammarNoteIds": [
+    "hi-gr-verb-infinitives",
+    "hi-gr-chahiye",
+    "hi-gr-word-order"
+  ],
+  "exercises": [
+    {
+      "id": "hi-s3-l8-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "jaana",
+          "right": "to go"
+        },
+        {
+          "left": "aana",
+          "right": "to come"
+        },
+        {
+          "left": "khaana",
+          "right": "to eat"
+        },
+        {
+          "left": "piina",
+          "right": "to drink"
+        },
+        {
+          "left": "bolna",
+          "right": "to speak"
+        }
+      ],
+      "explanation": "Hindi verb infinitives always end in '-na'. The root is found by removing '-na': jaa- (go), aa- (come), khaa- (eat), pii- (drink), bol- (speak)."
+    },
+    {
+      "id": "hi-s3-l8-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'bolna' mean?",
+      "options": [
+        "To speak",
+        "To walk",
+        "To eat",
+        "To sleep"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Bolna' means 'to speak' or 'to say'. For example: 'Hindi bolna' means 'to speak Hindi'. 'Main Hindi bol sakta hoon' means 'I can speak Hindi'."
+    },
+    {
+      "id": "hi-s3-l8-ex03",
+      "type": "translation",
+      "prompt": "How do you say 'I want to go' in Hindi?",
+      "direction": "from_english",
+      "correct": "main jaana chahta hoon",
+      "acceptedVariants": [
+        "main jaana chahti hoon",
+        "mujhe jaana hai"
+      ],
+      "explanation": "'Main jaana chahta hoon' (male speaker) or 'main jaana chahti hoon' (female speaker). The pattern is: subject + infinitive + chahta/chahti + hoon.",
+      "hint": "sounds like: main jaana chahta hoon"
+    },
+    {
+      "id": "hi-s3-l8-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Main chai ___ chahta hoon.",
+      "correct": "piina",
+      "acceptedVariants": [],
+      "explanation": "'Main chai piina chahta hoon' means 'I want to drink tea'. The infinitive verb 'piina' (to drink) comes before 'chahta' (want)."
+    },
+    {
+      "id": "hi-s3-l8-ex05",
+      "type": "word_ordering",
+      "prompt": "Say: I like to eat food",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "khaana"
+        },
+        {
+          "id": "t2",
+          "text": "hai"
+        },
+        {
+          "id": "t3",
+          "text": "mujhe"
+        },
+        {
+          "id": "t4",
+          "text": "pasand"
+        },
+        {
+          "id": "t5",
+          "text": "khaana"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t1",
+        "t5",
+        "t4",
+        "t2"
+      ],
+      "explanation": "'Mujhe khaana khaana pasand hai' — literally 'To me food eating liked is'. The first 'khaana' is the noun (food), the second is the verb (to eat)."
+    },
+    {
+      "id": "hi-s3-l8-ex06",
+      "type": "listening",
+      "audio": "hindi/jaana.mp3",
+      "mode": "select",
+      "options": [
+        "jaana (to go)",
+        "aana (to come)",
+        "khaana (to eat)",
+        "bolna (to speak)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Jaana' (jah-nah) means 'to go'. It is one of the most frequently used verbs in Hindi. 'Ghar jaana' means 'to go home'."
+    },
+    {
+      "id": "hi-s3-l8-ex07",
+      "type": "multiple_choice",
+      "question": "What suffix do all Hindi verb infinitives share?",
+      "options": [
+        "-na",
+        "-ta",
+        "-ka",
+        "-la"
+      ],
+      "correctIndex": 0,
+      "explanation": "All Hindi verb infinitives end in '-na': jaana (to go), aana (to come), khaana (to eat), piina (to drink), bolna (to speak), chahna (to want)."
+    },
+    {
+      "id": "hi-s3-l8-ex08",
+      "type": "translation",
+      "prompt": "How do you say 'to come' in Hindi?",
+      "direction": "from_english",
+      "correct": "aana",
+      "acceptedVariants": [],
+      "explanation": "'Aana' means 'to come'. For example: 'ghar aana' (to come home), 'yahaan aao' (come here, informal), 'yahaan aaiye' (come here, formal).",
+      "hint": "sounds like: aana"
+    },
+    {
+      "id": "hi-s3-l8-g07",
+      "type": "multiple_choice",
+      "question": "What does 'khaana' mean?",
+      "options": [
+        "small",
+        "to eat",
+        "hello / greetings",
+        "where are you from (formal)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'khaana' means 'to eat' in Hindi."
+    },
+    {
+      "id": "hi-s3-l8-g01",
+      "type": "multiple_choice",
+      "question": "What does 'jaana' mean?",
+      "options": [
+        "water",
+        "to go",
+        "fruit",
+        "five (5)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'jaana' means 'to go' in Hindi."
+    },
+    {
+      "id": "hi-s3-l8-g02",
+      "type": "translation",
+      "prompt": "How do you say 'to go' in Hindi?",
+      "direction": "from_english",
+      "correct": "jaana",
+      "acceptedVariants": [],
+      "hint": "sounds like: jaana",
+      "explanation": "'to go' in Hindi is 'jaana'."
+    },
+    {
+      "id": "hi-s3-l8-g03",
+      "type": "translation",
+      "prompt": "Translate 'jaana' to English.",
+      "direction": "to_english",
+      "correct": "to go",
+      "acceptedVariants": [],
+      "explanation": "'jaana' means 'to go'."
+    },
+    {
+      "id": "hi-s3-l8-g18",
+      "type": "translation",
+      "prompt": "Translate 'chahna' to English.",
+      "direction": "to_english",
+      "correct": "to want",
+      "acceptedVariants": [],
+      "explanation": "'chahna' means 'to want'."
+    },
+    {
+      "id": "hi-s3-l8-g09",
+      "type": "translation",
+      "prompt": "Translate 'khaana' to English.",
+      "direction": "to_english",
+      "correct": "to eat",
+      "acceptedVariants": [],
+      "explanation": "'khaana' means 'to eat'."
+    },
+    {
+      "id": "hi-s3-l8-g12",
+      "type": "translation",
+      "prompt": "Translate 'piina' to English.",
+      "direction": "to_english",
+      "correct": "to drink",
+      "acceptedVariants": [],
+      "explanation": "'piina' means 'to drink'."
+    },
+    {
+      "id": "hi-s3-l8-g14",
+      "type": "translation",
+      "prompt": "How do you say 'to speak' in Hindi?",
+      "direction": "from_english",
+      "correct": "bolna",
+      "acceptedVariants": [],
+      "hint": "sounds like: bolna",
+      "explanation": "'to speak' in Hindi is 'bolna'."
+    },
+    {
+      "id": "hi-s3-l8-g21",
+      "type": "translation",
+      "prompt": "Translate 'pasand karna' to English.",
+      "direction": "to_english",
+      "correct": "to like",
+      "acceptedVariants": [],
+      "explanation": "'pasand karna' means 'to like'."
+    },
+    {
+      "id": "hi-s3-l8-g08",
+      "type": "translation",
+      "prompt": "How do you say 'to eat' in Hindi?",
+      "direction": "from_english",
+      "correct": "khaana",
+      "acceptedVariants": [],
+      "hint": "sounds like: khaana",
+      "explanation": "'to eat' in Hindi is 'khaana'."
+    },
+    {
+      "id": "hi-s3-l8-g04",
+      "type": "multiple_choice",
+      "question": "What does 'aana' mean?",
+      "options": [
+        "to come",
+        "dad",
+        "how are you (formal)",
+        "two (2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'aana' means 'to come' in Hindi."
+    },
+    {
+      "id": "hi-s3-l8-g10",
+      "type": "multiple_choice",
+      "question": "What does 'piina' mean?",
+      "options": [
+        "red",
+        "goodbye",
+        "I am fine",
+        "to drink"
+      ],
+      "correctIndex": 3,
+      "explanation": "'piina' means 'to drink' in Hindi."
+    }
+  ]
+}

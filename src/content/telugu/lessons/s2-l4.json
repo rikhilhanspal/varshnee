@@ -1,0 +1,290 @@
+{
+  "id": "s2-l4",
+  "sectionId": "s2",
+  "title": "Numbers 1-20",
+  "description": "Learn to count from one to twenty in Telugu and understand the number system.",
+  "vocabularyIds": [
+    "te-okati",
+    "te-rendu",
+    "te-muudu",
+    "te-naalugu",
+    "te-aidu",
+    "te-aaru",
+    "te-eedu",
+    "te-enimidi",
+    "te-tommidi",
+    "te-padi",
+    "te-padakondu",
+    "te-pannendu",
+    "te-padammuudu",
+    "te-padanaalugu",
+    "te-padihenu",
+    "te-padahaaru",
+    "te-padiheedu",
+    "te-paddenimidi",
+    "te-pandommidi",
+    "te-iravai"
+  ],
+  "grammarNoteIds": [
+    "te-gr-numbers"
+  ],
+  "exercises": [
+    {
+      "id": "te-s2-l4-ex01",
+      "type": "multiple_choice",
+      "question": "What is 'aidu' in English?",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Aidu' means 'five' (5) in Telugu."
+    },
+    {
+      "id": "te-s2-l4-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "okati",
+          "right": "one"
+        },
+        {
+          "left": "rendu",
+          "right": "two"
+        },
+        {
+          "left": "muudu",
+          "right": "three"
+        },
+        {
+          "left": "naalugu",
+          "right": "four"
+        },
+        {
+          "left": "aidu",
+          "right": "five"
+        }
+      ],
+      "explanation": "These are the first five Telugu numbers: okati (1), rendu (2), muudu (3), naalugu (4), aidu (5)."
+    },
+    {
+      "id": "te-s2-l4-ex03",
+      "type": "translation",
+      "prompt": "ten",
+      "direction": "from_english",
+      "correct": "padi",
+      "acceptedVariants": [
+        "padi"
+      ],
+      "explanation": "'Padi' means 'ten' (10) in Telugu.",
+      "hint": "sounds like: padi"
+    },
+    {
+      "id": "te-s2-l4-ex04",
+      "type": "listening",
+      "audio": "telugu/enimidi.mp3",
+      "mode": "select",
+      "options": [
+        "six",
+        "seven",
+        "eight",
+        "nine"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Enimidi' means 'eight' (8) in Telugu."
+    },
+    {
+      "id": "te-s2-l4-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Aaru, eedu, ___ , tommidi, padi.",
+      "correct": "enimidi",
+      "acceptedVariants": [
+        "enimidi"
+      ],
+      "explanation": "The sequence is: aaru (6), eedu (7), enimidi (8), tommidi (9), padi (10)."
+    },
+    {
+      "id": "te-s2-l4-ex06",
+      "type": "word_ordering",
+      "prompt": "Put these numbers in order from 1 to 5",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "muudu"
+        },
+        {
+          "id": "t2",
+          "text": "okati"
+        },
+        {
+          "id": "t3",
+          "text": "aidu"
+        },
+        {
+          "id": "t4",
+          "text": "rendu"
+        },
+        {
+          "id": "t5",
+          "text": "naalugu"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t4",
+        "t1",
+        "t5",
+        "t3"
+      ],
+      "explanation": "The correct order is: okati (1), rendu (2), muudu (3), naalugu (4), aidu (5)."
+    },
+    {
+      "id": "te-s2-l4-ex07",
+      "type": "translation",
+      "prompt": "iravai",
+      "direction": "to_english",
+      "correct": "twenty",
+      "acceptedVariants": [
+        "20"
+      ],
+      "explanation": "'Iravai' means 'twenty' (20) in Telugu."
+    },
+    {
+      "id": "te-s2-l4-ex08",
+      "type": "multiple_choice",
+      "question": "Which number is 'pannendu'?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Pannendu' means 'twelve' (12) in Telugu."
+    },
+    {
+      "id": "te-s2-l4-g06",
+      "type": "translation",
+      "prompt": "Translate 'rendu' to English.",
+      "direction": "to_english",
+      "correct": "two (2)",
+      "acceptedVariants": [],
+      "explanation": "'rendu' means 'two (2)'."
+    },
+    {
+      "id": "te-s2-l4-g54",
+      "type": "translation",
+      "prompt": "Translate 'paddenimidi' to English.",
+      "direction": "to_english",
+      "correct": "eighteen (18)",
+      "acceptedVariants": [],
+      "explanation": "'paddenimidi' means 'eighteen (18)'."
+    },
+    {
+      "id": "te-s2-l4-g57",
+      "type": "translation",
+      "prompt": "Translate 'pandommidi' to English.",
+      "direction": "to_english",
+      "correct": "nineteen (19)",
+      "acceptedVariants": [],
+      "explanation": "'pandommidi' means 'nineteen (19)'."
+    },
+    {
+      "id": "te-s2-l4-g01",
+      "type": "multiple_choice",
+      "question": "What does 'okati' mean?",
+      "options": [
+        "four (4)",
+        "twenty (20)",
+        "one (1)",
+        "want / need"
+      ],
+      "correctIndex": 2,
+      "explanation": "'okati' means 'one (1)' in Telugu."
+    },
+    {
+      "id": "te-s2-l4-g18",
+      "type": "translation",
+      "prompt": "Translate 'aaru' to English.",
+      "direction": "to_english",
+      "correct": "six (6)",
+      "acceptedVariants": [],
+      "explanation": "'aaru' means 'six (6)'."
+    },
+    {
+      "id": "te-s2-l4-g24",
+      "type": "translation",
+      "prompt": "Translate 'enimidi' to English.",
+      "direction": "to_english",
+      "correct": "eight (8)",
+      "acceptedVariants": [],
+      "explanation": "'enimidi' means 'eight (8)'."
+    },
+    {
+      "id": "te-s2-l4-g58",
+      "type": "multiple_choice",
+      "question": "What does 'iravai' mean?",
+      "options": [
+        "twenty (20)",
+        "fifteen (15)",
+        "nine (9)",
+        "twelve (12)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'iravai' means 'twenty (20)' in Telugu."
+    },
+    {
+      "id": "te-s2-l4-g47",
+      "type": "translation",
+      "prompt": "How do you say 'sixteen (16)' in Telugu?",
+      "direction": "from_english",
+      "correct": "padahaaru",
+      "acceptedVariants": [],
+      "hint": "sounds like: padahaaru",
+      "explanation": "'sixteen (16)' in Telugu is 'padahaaru'."
+    },
+    {
+      "id": "te-s2-l4-g11",
+      "type": "translation",
+      "prompt": "How do you say 'four (4)' in Telugu?",
+      "direction": "from_english",
+      "correct": "naalugu",
+      "acceptedVariants": [],
+      "hint": "sounds like: naalugu",
+      "explanation": "'four (4)' in Telugu is 'naalugu'."
+    },
+    {
+      "id": "te-s2-l4-g10",
+      "type": "multiple_choice",
+      "question": "What does 'naalugu' mean?",
+      "options": [
+        "four (4)",
+        "you (informal)",
+        "green",
+        "black"
+      ],
+      "correctIndex": 0,
+      "explanation": "'naalugu' means 'four (4)' in Telugu."
+    },
+    {
+      "id": "te-s2-l4-g09",
+      "type": "translation",
+      "prompt": "Translate 'muudu' to English.",
+      "direction": "to_english",
+      "correct": "three (3)",
+      "acceptedVariants": [],
+      "explanation": "'muudu' means 'three (3)'."
+    },
+    {
+      "id": "te-s2-l4-g36",
+      "type": "translation",
+      "prompt": "Translate 'pannendu' to English.",
+      "direction": "to_english",
+      "correct": "twelve (12)",
+      "acceptedVariants": [],
+      "explanation": "'pannendu' means 'twelve (12)'."
+    }
+  ]
+}

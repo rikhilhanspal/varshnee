@@ -1,0 +1,62 @@
+[
+  {
+    "id": "te-gr-formal",
+    "title": "Formal vs Informal",
+    "body": "Telugu uses 'meeru' (formal/respectful) and 'nuvvu' (informal/familiar) for 'you'. Use 'meeru' with elders, strangers, and in professional settings. Use 'nuvvu' with close friends, younger people, and children. Verb endings also change: formal verbs often end in '-andi' or '-aru', while informal ones end in '-av' or '-avu'."
+  },
+  {
+    "id": "te-gr-word-order",
+    "title": "Basic Word Order (SOV)",
+    "body": "Telugu follows Subject-Object-Verb (SOV) word order. For example, 'Nenu annam tintanu' means 'I rice eat' (I eat rice). The verb always comes at the end of the sentence. This is different from English (SVO) but consistent across most Telugu sentences."
+  },
+  {
+    "id": "te-gr-naa-peru",
+    "title": "Saying Your Name",
+    "body": "To introduce yourself, say 'Naa peru ___' (My name is ___). 'Naa' means 'my' and 'peru' means 'name'. To ask someone's name formally, say 'Mee peru emiti?' (What is your name?). Informally, say 'Nee peru emiti?'."
+  },
+  {
+    "id": "te-gr-questions",
+    "title": "Forming Questions",
+    "body": "Telugu questions often use question words like 'emiti' (what), 'ekkada' (where), 'eppudu' (when), 'ela' (how), and 'enduku' (why). Yes/no questions can be formed by adding '-aa' to the end of a verb. For example, 'Vastunnaru' (You are coming) becomes 'Vastunnaraa?' (Are you coming?)."
+  },
+  {
+    "id": "te-gr-yes-no",
+    "title": "Yes and No",
+    "body": "Telugu has two words for 'no': 'kaadu' is used to negate identity (It is not X), while 'ledu' is used to negate existence or state (There is not / I don't have). 'Avunu' means 'yes'. Example: 'Idi pustakamaa?' 'Kaadu' (Is this a book? No, it isn't). 'Neellu unnaayaa?' 'Ledu' (Is there water? No, there isn't)."
+  },
+  {
+    "id": "te-gr-numbers",
+    "title": "Telugu Number System",
+    "body": "Telugu numbers 1-10 are unique words: okati, rendu, muudu, naalugu, aidu, aaru, eedu, enimidi, tommidi, padi. Numbers 11-19 are formed as compounds with 'pada-' (ten) prefix variations. Twenty is 'iravai'. Numbers are placed before the noun they modify: 'rendu pustakalu' (two books)."
+  },
+  {
+    "id": "te-gr-family",
+    "title": "Family Terms and Respect",
+    "body": "Telugu distinguishes between elder and younger siblings: 'anna' (elder brother), 'tammudu' (younger brother), 'akka' (elder sister), 'chelli' (younger sister). These terms are also used respectfully with non-relatives. Calling someone 'anna' or 'akka' shows respect to someone slightly older than you."
+  },
+  {
+    "id": "te-gr-adjectives",
+    "title": "Adjectives in Telugu",
+    "body": "Adjectives in Telugu usually come before the noun they modify, similar to English. For example, 'pedda illu' (big house), 'erruppu pusthakam' (red book). Some adjectives like 'manchidi' (good) and 'chedda' (bad) can also stand alone as predicates: 'Idi manchidi' (This is good)."
+  },
+  {
+    "id": "te-gr-postpositions",
+    "title": "Postpositions Instead of Prepositions",
+    "body": "Telugu uses postpositions (words that come after the noun) instead of prepositions. For example, 'illu lo' means 'in the house' (house + in), 'angadi ki' means 'to the shop' (shop + to), 'badi nundi' means 'from school' (school + from). Common postpositions: 'lo' (in), 'ki' (to), 'nundi' (from), 'meeda' (on)."
+  },
+  {
+    "id": "te-gr-verb-basics",
+    "title": "Basic Verb Conjugation",
+    "body": "Telugu verbs change based on the subject. The verb root gets different endings: '-tanu' (I do), '-taavu' (you do, informal), '-taaru' (you do, formal / they do), '-tundi' (he/she/it does). For example: 'nenu veltanu' (I go), 'nuvvu veltaavu' (you go), 'meeru veltaaru' (you go, formal)."
+  },
+  {
+    "id": "te-gr-kaavali",
+    "title": "Expressing Wants and Needs",
+    "body": "To express wanting something, use 'kaavali' after the object with the dative case marker 'ki' or 'ku'. For example: 'Naaku neellu kaavali' (I want water, literally 'To-me water is-needed'). 'Naaku' means 'to me'. For likes, use 'ishtam': 'Naaku kaafii ishtam' (I like coffee)."
+  },
+  {
+    "id": "te-gr-directions",
+    "title": "Giving and Understanding Directions",
+    "body": "Key direction words: 'edama' (left), 'kudivaipu' (right), 'neediga' (straight). Use 'vellandi' (please go, formal) with directions: 'Neediga vellandi' (Go straight). 'Ekkada' means 'where' and is used to ask for locations: '___ ekkada undi?' (Where is ___?)."
+  }
+]

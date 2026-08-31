@@ -1,0 +1,79 @@
+{
+  "language": "hindi",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Foundations",
+      "lessons": [
+        {
+          "id": "s1-l1",
+          "title": "Greetings",
+          "description": "Hello, goodbye, how are you"
+        },
+        {
+          "id": "s1-l2",
+          "title": "Introductions",
+          "description": "Introduce yourself, ask where someone is from"
+        },
+        {
+          "id": "s1-l3",
+          "title": "Basic Phrases",
+          "description": "Please, thank you, sorry, yes, no, and asking for help"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "People & Everyday",
+      "lessons": [
+        {
+          "id": "s2-l4",
+          "title": "Numbers 1-20",
+          "description": "Count from one to twenty in Hindi"
+        },
+        {
+          "id": "s2-l5",
+          "title": "Family Members",
+          "description": "Words for parents, siblings, and grandparents"
+        },
+        {
+          "id": "s2-l6",
+          "title": "Colors & Descriptions",
+          "description": "Common colors and basic adjectives"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Daily Life",
+      "lessons": [
+        {
+          "id": "s3-l7",
+          "title": "Food & Drink",
+          "description": "Everyday food items and beverages"
+        },
+        {
+          "id": "s3-l8",
+          "title": "Common Verbs",
+          "description": "Essential action words for daily life"
+        },
+        {
+          "id": "s3-l9",
+          "title": "Places & Directions",
+          "description": "Ask for and give directions, common locations"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Putting It Together",
+      "lessons": [
+        {
+          "id": "s4-l10",
+          "title": "Conversations & Review",
+          "description": "Practice dialogues combining all previous vocabulary and grammar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "s3-l7",
+  "sectionId": "s3",
+  "title": "Food & Drink",
+  "description": "Learn essential food and drink vocabulary to navigate meals and restaurants in Telugu.",
+  "vocabularyIds": [
+    "te-bhojanam",
+    "te-neellu",
+    "te-kaafii",
+    "te-annam",
+    "te-pappu",
+    "te-koora",
+    "te-paalu",
+    "te-pandlu"
+  ],
+  "grammarNoteIds": [
+    "te-gr-kaavali"
+  ],
+  "exercises": [
+    {
+      "id": "te-s3-l7-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "annam",
+          "right": "rice"
+        },
+        {
+          "left": "pappu",
+          "right": "lentils / dal"
+        },
+        {
+          "left": "koora",
+          "right": "curry"
+        },
+        {
+          "left": "neellu",
+          "right": "water"
+        }
+      ],
+      "explanation": "These are staple food items in Telugu cuisine. Rice (annam) and dal (pappu) form the base of most Telugu meals."
+    },
+    {
+      "id": "te-s3-l7-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'paalu' mean?",
+      "options": [
+        "fruits",
+        "water",
+        "milk",
+        "rice"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Paalu' means 'milk' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-ex03",
+      "type": "translation",
+      "prompt": "I want water",
+      "direction": "from_english",
+      "correct": "naaku neellu kaavali",
+      "acceptedVariants": [
+        "neellu kaavali"
+      ],
+      "explanation": "'Naaku neellu kaavali' means 'I want water' - literally 'to me water is needed'.",
+      "hint": "sounds like: naaku neellu kaavali"
+    },
+    {
+      "id": "te-s3-l7-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Naaku ___ kaavali.",
+      "correct": "kaafii",
+      "acceptedVariants": [
+        "kaafii"
+      ],
+      "explanation": "'Naaku kaafii kaavali' means 'I want coffee'. Use 'kaavali' to express wants."
+    },
+    {
+      "id": "te-s3-l7-ex05",
+      "type": "listening",
+      "audio": "telugu/bhojanam.mp3",
+      "mode": "select",
+      "options": [
+        "coffee",
+        "food / meal",
+        "water",
+        "fruits"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Bhojanam' means 'food' or 'meal' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I want rice'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "naaku"
+        },
+        {
+          "id": "t2",
+          "text": "annam"
+        },
+        {
+          "id": "t3",
+          "text": "kaavali"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Naaku annam kaavali' - to me + rice + is needed. Telugu uses SOV order."
+    },
+    {
+      "id": "te-s3-l7-ex07",
+      "type": "translation",
+      "prompt": "pandlu",
+      "direction": "to_english",
+      "correct": "fruits",
+      "acceptedVariants": [
+        "fruit"
+      ],
+      "explanation": "'Pandlu' means 'fruits' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-ex08",
+      "type": "multiple_choice",
+      "question": "How would you say 'I want milk' in Telugu?",
+      "options": [
+        "naaku paalu kaavali",
+        "nenu paalu",
+        "paalu manchidi",
+        "paalu naaku"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Naaku paalu kaavali' - use 'naaku' (to me) + object + 'kaavali' (is needed) to express wants."
+    },
+    {
+      "id": "te-s3-l7-g14",
+      "type": "translation",
+      "prompt": "How do you say 'lentils / dal' in Telugu?",
+      "direction": "from_english",
+      "correct": "pappu",
+      "acceptedVariants": [],
+      "hint": "sounds like: pappu",
+      "explanation": "'lentils / dal' in Telugu is 'pappu'."
+    },
+    {
+      "id": "te-s3-l7-g05",
+      "type": "translation",
+      "prompt": "How do you say 'water' in Telugu?",
+      "direction": "from_english",
+      "correct": "neellu",
+      "acceptedVariants": [],
+      "hint": "sounds like: neellu",
+      "explanation": "'water' in Telugu is 'neellu'."
+    },
+    {
+      "id": "te-s3-l7-g04",
+      "type": "multiple_choice",
+      "question": "What does 'neellu' mean?",
+      "options": [
+        "no (it is not)",
+        "where are you from",
+        "elder sister",
+        "water"
+      ],
+      "correctIndex": 3,
+      "explanation": "'neellu' means 'water' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-g19",
+      "type": "multiple_choice",
+      "question": "What does 'paalu' mean?",
+      "options": [
+        "milk",
+        "elder brother",
+        "white",
+        "lentils / dal"
+      ],
+      "correctIndex": 0,
+      "explanation": "'paalu' means 'milk' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-g24",
+      "type": "translation",
+      "prompt": "Translate 'pandlu' to English.",
+      "direction": "to_english",
+      "correct": "fruits",
+      "acceptedVariants": [],
+      "explanation": "'pandlu' means 'fruits'."
+    },
+    {
+      "id": "te-s3-l7-g16",
+      "type": "multiple_choice",
+      "question": "What does 'koora' mean?",
+      "options": [
+        "good",
+        "right",
+        "curry / vegetable dish",
+        "to eat / eating"
+      ],
+      "correctIndex": 2,
+      "explanation": "'koora' means 'curry / vegetable dish' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-g21",
+      "type": "translation",
+      "prompt": "Translate 'paalu' to English.",
+      "direction": "to_english",
+      "correct": "milk",
+      "acceptedVariants": [],
+      "explanation": "'paalu' means 'milk'."
+    },
+    {
+      "id": "te-s3-l7-g03",
+      "type": "translation",
+      "prompt": "Translate 'bhojanam' to English.",
+      "direction": "to_english",
+      "correct": "food / meal",
+      "acceptedVariants": [],
+      "explanation": "'bhojanam' means 'food / meal'."
+    },
+    {
+      "id": "te-s3-l7-g10",
+      "type": "multiple_choice",
+      "question": "What does 'annam' mean?",
+      "options": [
+        "father",
+        "big",
+        "no (it is not)",
+        "rice"
+      ],
+      "correctIndex": 3,
+      "explanation": "'annam' means 'rice' in Telugu."
+    },
+    {
+      "id": "te-s3-l7-g02",
+      "type": "translation",
+      "prompt": "How do you say 'food / meal' in Telugu?",
+      "direction": "from_english",
+      "correct": "bhojanam",
+      "acceptedVariants": [],
+      "hint": "sounds like: bhojanam",
+      "explanation": "'food / meal' in Telugu is 'bhojanam'."
+    },
+    {
+      "id": "te-s3-l7-g20",
+      "type": "translation",
+      "prompt": "How do you say 'milk' in Telugu?",
+      "direction": "from_english",
+      "correct": "paalu",
+      "acceptedVariants": [],
+      "hint": "sounds like: paalu",
+      "explanation": "'milk' in Telugu is 'paalu'."
+    },
+    {
+      "id": "te-s3-l7-g11",
+      "type": "translation",
+      "prompt": "How do you say 'rice' in Telugu?",
+      "direction": "from_english",
+      "correct": "annam",
+      "acceptedVariants": [],
+      "hint": "sounds like: annam",
+      "explanation": "'rice' in Telugu is 'annam'."
+    }
+  ]
+}

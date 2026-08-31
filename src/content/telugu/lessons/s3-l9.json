@@ -1,0 +1,269 @@
+{
+  "id": "s3-l9",
+  "sectionId": "s3",
+  "title": "Places & Directions",
+  "description": "Learn how to ask for directions, name common places, and navigate in Telugu.",
+  "vocabularyIds": [
+    "te-ekkada",
+    "te-edama",
+    "te-kudivaipu",
+    "te-neediga",
+    "te-illu",
+    "te-angadi",
+    "te-badilooki"
+  ],
+  "grammarNoteIds": [
+    "te-gr-directions",
+    "te-gr-postpositions"
+  ],
+  "exercises": [
+    {
+      "id": "te-s3-l9-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'ekkada' mean?",
+      "options": [
+        "when",
+        "why",
+        "where",
+        "how"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Ekkada' means 'where' in Telugu. It is used to ask about locations."
+    },
+    {
+      "id": "te-s3-l9-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "edama",
+          "right": "left"
+        },
+        {
+          "left": "kudivaipu",
+          "right": "right"
+        },
+        {
+          "left": "neediga",
+          "right": "straight"
+        },
+        {
+          "left": "ekkada",
+          "right": "where"
+        }
+      ],
+      "explanation": "These are the essential direction words in Telugu."
+    },
+    {
+      "id": "te-s3-l9-ex03",
+      "type": "translation",
+      "prompt": "Where is the shop?",
+      "direction": "from_english",
+      "correct": "angadi ekkada undi",
+      "acceptedVariants": [
+        "angadi ekkada"
+      ],
+      "explanation": "'Angadi ekkada undi' means 'Where is the shop?' - angadi (shop) + ekkada (where) + undi (is).",
+      "hint": "sounds like: angadi ekkada undi"
+    },
+    {
+      "id": "te-s3-l9-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ vellandi.",
+      "correct": "neediga",
+      "acceptedVariants": [
+        "neediga"
+      ],
+      "explanation": "'Neediga vellandi' means 'Go straight'. 'Vellandi' is the polite form of 'go'."
+    },
+    {
+      "id": "te-s3-l9-ex05",
+      "type": "listening",
+      "audio": "telugu/angadi.mp3",
+      "mode": "type",
+      "correct": "angadi",
+      "acceptedVariants": [
+        "angadi"
+      ],
+      "explanation": "'Angadi' means 'shop' or 'store' in Telugu."
+    },
+    {
+      "id": "te-s3-l9-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to ask 'Where is the house?'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "illu"
+        },
+        {
+          "id": "t2",
+          "text": "ekkada"
+        },
+        {
+          "id": "t3",
+          "text": "undi"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Illu ekkada undi' - house + where + is. The question word comes after the subject in Telugu."
+    },
+    {
+      "id": "te-s3-l9-ex07",
+      "type": "translation",
+      "prompt": "edama",
+      "direction": "to_english",
+      "correct": "left",
+      "acceptedVariants": [
+        "left side",
+        "to the left"
+      ],
+      "explanation": "'Edama' means 'left' as a direction in Telugu."
+    },
+    {
+      "id": "te-s3-l9-ex08",
+      "type": "multiple_choice",
+      "question": "How would you say 'to school' in Telugu?",
+      "options": [
+        "angadi",
+        "illu",
+        "badilooki",
+        "ekkada"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Badilooki' means 'to school'. 'Badi' is school and 'looki' indicates direction toward."
+    },
+    {
+      "id": "te-s3-l9-g08",
+      "type": "translation",
+      "prompt": "How do you say 'right' in Telugu?",
+      "direction": "from_english",
+      "correct": "kudivaipu",
+      "acceptedVariants": [],
+      "hint": "sounds like: kudivaipu",
+      "explanation": "'right' in Telugu is 'kudivaipu'."
+    },
+    {
+      "id": "te-s3-l9-g04",
+      "type": "multiple_choice",
+      "question": "What does 'edama' mean?",
+      "options": [
+        "I / me",
+        "good",
+        "thank you",
+        "left"
+      ],
+      "correctIndex": 3,
+      "explanation": "'edama' means 'left' in Telugu."
+    },
+    {
+      "id": "te-s3-l9-g17",
+      "type": "translation",
+      "prompt": "How do you say 'shop / store' in Telugu?",
+      "direction": "from_english",
+      "correct": "angadi",
+      "acceptedVariants": [],
+      "hint": "sounds like: angadi",
+      "explanation": "'shop / store' in Telugu is 'angadi'."
+    },
+    {
+      "id": "te-s3-l9-g02",
+      "type": "translation",
+      "prompt": "How do you say 'where' in Telugu?",
+      "direction": "from_english",
+      "correct": "ekkada",
+      "acceptedVariants": [],
+      "hint": "sounds like: ekkada",
+      "explanation": "'where' in Telugu is 'ekkada'."
+    },
+    {
+      "id": "te-s3-l9-g14",
+      "type": "translation",
+      "prompt": "How do you say 'house / home' in Telugu?",
+      "direction": "from_english",
+      "correct": "illu",
+      "acceptedVariants": [],
+      "hint": "sounds like: illu",
+      "explanation": "'house / home' in Telugu is 'illu'."
+    },
+    {
+      "id": "te-s3-l9-g01",
+      "type": "multiple_choice",
+      "question": "What does 'ekkada' mean?",
+      "options": [
+        "where",
+        "no (it is not)",
+        "want / need",
+        "where are you from"
+      ],
+      "correctIndex": 0,
+      "explanation": "'ekkada' means 'where' in Telugu."
+    },
+    {
+      "id": "te-s3-l9-g18",
+      "type": "translation",
+      "prompt": "Translate 'angadi' to English.",
+      "direction": "to_english",
+      "correct": "shop / store",
+      "acceptedVariants": [],
+      "explanation": "'angadi' means 'shop / store'."
+    },
+    {
+      "id": "te-s3-l9-g05",
+      "type": "translation",
+      "prompt": "How do you say 'left' in Telugu?",
+      "direction": "from_english",
+      "correct": "edama",
+      "acceptedVariants": [],
+      "hint": "sounds like: edama",
+      "explanation": "'left' in Telugu is 'edama'."
+    },
+    {
+      "id": "te-s3-l9-g03",
+      "type": "translation",
+      "prompt": "Translate 'ekkada' to English.",
+      "direction": "to_english",
+      "correct": "where",
+      "acceptedVariants": [],
+      "explanation": "'ekkada' means 'where'."
+    },
+    {
+      "id": "te-s3-l9-g13",
+      "type": "multiple_choice",
+      "question": "What does 'illu' mean?",
+      "options": [
+        "black",
+        "younger sister",
+        "seventeen (17)",
+        "house / home"
+      ],
+      "correctIndex": 3,
+      "explanation": "'illu' means 'house / home' in Telugu."
+    },
+    {
+      "id": "te-s3-l9-g16",
+      "type": "multiple_choice",
+      "question": "What does 'angadi' mean?",
+      "options": [
+        "nine (9)",
+        "house / home",
+        "shop / store",
+        "no (there is not)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'angadi' means 'shop / store' in Telugu."
+    },
+    {
+      "id": "te-s3-l9-g09",
+      "type": "translation",
+      "prompt": "Translate 'kudivaipu' to English.",
+      "direction": "to_english",
+      "correct": "right",
+      "acceptedVariants": [],
+      "explanation": "'kudivaipu' means 'right'."
+    }
+  ]
+}

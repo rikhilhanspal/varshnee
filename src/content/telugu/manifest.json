@@ -1,0 +1,42 @@
+{
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Foundations",
+      "description": "Learn essential greetings, introductions, and basic phrases to start communicating in Telugu.",
+      "lessons": [
+        { "id": "s1-l1", "title": "Greetings", "file": "lessons/s1-l1.json" },
+        { "id": "s1-l2", "title": "Introductions", "file": "lessons/s1-l2.json" },
+        { "id": "s1-l3", "title": "Basic Phrases", "file": "lessons/s1-l3.json" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "People & Everyday",
+      "description": "Learn numbers, family terms, colors, and descriptions used in daily Telugu conversation.",
+      "lessons": [
+        { "id": "s2-l4", "title": "Numbers 1-20", "file": "lessons/s2-l4.json" },
+        { "id": "s2-l5", "title": "Family Members", "file": "lessons/s2-l5.json" },
+        { "id": "s2-l6", "title": "Colors & Descriptions", "file": "lessons/s2-l6.json" }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Daily Life",
+      "description": "Expand your Telugu with food, common verbs, places, and directions.",
+      "lessons": [
+        { "id": "s3-l7", "title": "Food & Drink", "file": "lessons/s3-l7.json" },
+        { "id": "s3-l8", "title": "Common Verbs", "file": "lessons/s3-l8.json" },
+        { "id": "s3-l9", "title": "Places & Directions", "file": "lessons/s3-l9.json" }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Putting It Together",
+      "description": "Combine everything you have learned into real Telugu conversations.",
+      "lessons": [
+        { "id": "s4-l10", "title": "Conversations & Review", "file": "lessons/s4-l10.json" }
+      ]
+    }
+  ]
+}

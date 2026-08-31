@@ -1,0 +1,295 @@
+{
+  "id": "s2-l4",
+  "sectionId": "s2",
+  "title": "Numbers 1-20",
+  "description": "Learn to count from one to twenty in Tamil and understand the number system.",
+  "vocabularyIds": [
+    "ta-ondru",
+    "ta-irandu",
+    "ta-moondru",
+    "ta-naangu",
+    "ta-ainthu",
+    "ta-aaru",
+    "ta-eezhu",
+    "ta-ettu",
+    "ta-onpadhu",
+    "ta-patthu",
+    "ta-pathinondru",
+    "ta-pannirandu",
+    "ta-pathimoondru",
+    "ta-pathinaangu",
+    "ta-pathinainthu",
+    "ta-pathinaaru",
+    "ta-pathineezhu",
+    "ta-pathinettu",
+    "ta-paththonpadhu",
+    "ta-irupadhu"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-numbers"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s2-l4-ex01",
+      "type": "multiple_choice",
+      "question": "What is the Tamil word for 'five'?",
+      "options": [
+        "naangu",
+        "ainthu",
+        "aaru",
+        "moondru"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Ainthu' means five (5) in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "ondru",
+          "right": "one"
+        },
+        {
+          "left": "irandu",
+          "right": "two"
+        },
+        {
+          "left": "moondru",
+          "right": "three"
+        },
+        {
+          "left": "naangu",
+          "right": "four"
+        },
+        {
+          "left": "ainthu",
+          "right": "five"
+        }
+      ],
+      "explanation": "These are the first five Tamil numbers. Notice they each have unique forms."
+    },
+    {
+      "id": "ta-s2-l4-ex03",
+      "type": "translation",
+      "prompt": "ten",
+      "direction": "from_english",
+      "correct": "patthu",
+      "acceptedVariants": [
+        "pathu"
+      ],
+      "explanation": "'Patthu' means ten and is the base for numbers 11-19.",
+      "hint": "sounds like: patthu"
+    },
+    {
+      "id": "ta-s2-l4-ex04",
+      "type": "listening",
+      "audio": "tamil/eezhu.mp3",
+      "mode": "select",
+      "options": [
+        "aaru",
+        "eezhu",
+        "ettu",
+        "onpadhu"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Eezhu' means seven (7) and is pronounced 'ee-zhu'."
+    },
+    {
+      "id": "ta-s2-l4-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Aaru, ___, ettu",
+      "correct": "eezhu",
+      "acceptedVariants": [
+        "eezhu"
+      ],
+      "explanation": "The sequence is aaru (6), eezhu (7), ettu (8)."
+    },
+    {
+      "id": "ta-s2-l4-ex06",
+      "type": "word_ordering",
+      "prompt": "Put these numbers in order from 1 to 4:",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "naangu"
+        },
+        {
+          "id": "t2",
+          "text": "irandu"
+        },
+        {
+          "id": "t3",
+          "text": "ondru"
+        },
+        {
+          "id": "t4",
+          "text": "moondru"
+        }
+      ],
+      "correctOrder": [
+        "t3",
+        "t2",
+        "t4",
+        "t1"
+      ],
+      "explanation": "ondru (1), irandu (2), moondru (3), naangu (4)."
+    },
+    {
+      "id": "ta-s2-l4-ex07",
+      "type": "translation",
+      "prompt": "irupadhu",
+      "direction": "to_english",
+      "correct": "twenty",
+      "acceptedVariants": [
+        "20"
+      ],
+      "explanation": "'Irupadhu' means twenty. It comes from 'irandu' (two) + 'padhu' (tens) = two tens."
+    },
+    {
+      "id": "ta-s2-l4-ex08",
+      "type": "multiple_choice",
+      "question": "What is 'pathinainthu' in English?",
+      "options": [
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Pathinainthu' means fifteen (15). It combines 'pathi-' (ten-) with 'ainthu' (five)."
+    },
+    {
+      "id": "ta-s2-l4-g20",
+      "type": "translation",
+      "prompt": "How do you say 'seven (7)' in Tamil?",
+      "direction": "from_english",
+      "correct": "eezhu",
+      "acceptedVariants": [],
+      "hint": "sounds like: eezhu",
+      "explanation": "'seven (7)' in Tamil is 'eezhu'."
+    },
+    {
+      "id": "ta-s2-l4-g16",
+      "type": "multiple_choice",
+      "question": "What does 'aaru' mean?",
+      "options": [
+        "to come",
+        "six (6)",
+        "twenty (20)",
+        "seventeen (17)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'aaru' means 'six (6)' in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-g29",
+      "type": "translation",
+      "prompt": "How do you say 'ten (10)' in Tamil?",
+      "direction": "from_english",
+      "correct": "patthu",
+      "acceptedVariants": [],
+      "hint": "sounds like: patthu",
+      "explanation": "'ten (10)' in Tamil is 'patthu'."
+    },
+    {
+      "id": "ta-s2-l4-g22",
+      "type": "multiple_choice",
+      "question": "What does 'ettu' mean?",
+      "options": [
+        "green",
+        "twelve (12)",
+        "thirteen (13)",
+        "eight (8)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ettu' means 'eight (8)' in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-g40",
+      "type": "multiple_choice",
+      "question": "What does 'pathinaangu' mean?",
+      "options": [
+        "idli (steamed rice cake)",
+        "no",
+        "nineteen (19)",
+        "fourteen (14)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'pathinaangu' means 'fourteen (14)' in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-g35",
+      "type": "translation",
+      "prompt": "How do you say 'twelve (12)' in Tamil?",
+      "direction": "from_english",
+      "correct": "pannirandu",
+      "acceptedVariants": [],
+      "hint": "sounds like: pannirandu",
+      "explanation": "'twelve (12)' in Tamil is 'pannirandu'."
+    },
+    {
+      "id": "ta-s2-l4-g05",
+      "type": "translation",
+      "prompt": "How do you say 'two (2)' in Tamil?",
+      "direction": "from_english",
+      "correct": "irandu",
+      "acceptedVariants": [],
+      "hint": "sounds like: irandu",
+      "explanation": "'two (2)' in Tamil is 'irandu'."
+    },
+    {
+      "id": "ta-s2-l4-g04",
+      "type": "multiple_choice",
+      "question": "What does 'irandu' mean?",
+      "options": [
+        "elder sister",
+        "two (2)",
+        "food / meal",
+        "sixteen (16)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'irandu' means 'two (2)' in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-g42",
+      "type": "translation",
+      "prompt": "Translate 'pathinaangu' to English.",
+      "direction": "to_english",
+      "correct": "fourteen (14)",
+      "acceptedVariants": [],
+      "explanation": "'pathinaangu' means 'fourteen (14)'."
+    },
+    {
+      "id": "ta-s2-l4-g58",
+      "type": "multiple_choice",
+      "question": "What does 'irupadhu' mean?",
+      "options": [
+        "twenty (20)",
+        "to go",
+        "I am fine / I am well",
+        "my name"
+      ],
+      "correctIndex": 0,
+      "explanation": "'irupadhu' means 'twenty (20)' in Tamil."
+    },
+    {
+      "id": "ta-s2-l4-g30",
+      "type": "translation",
+      "prompt": "Translate 'patthu' to English.",
+      "direction": "to_english",
+      "correct": "ten (10)",
+      "acceptedVariants": [],
+      "explanation": "'patthu' means 'ten (10)'."
+    },
+    {
+      "id": "ta-s2-l4-g24",
+      "type": "translation",
+      "prompt": "Translate 'ettu' to English.",
+      "direction": "to_english",
+      "correct": "eight (8)",
+      "acceptedVariants": [],
+      "explanation": "'ettu' means 'eight (8)'."
+    }
+  ]
+}

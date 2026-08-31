@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* ── Fonts ────────────────────────────────────────────────────────
+   Self-host by placing woff2 files in /public/fonts/
+   Cormorant Garamond + Great Vibes are active fallbacks.
+─────────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: 'The Seasons';
+  src: url('/fonts/TheSeasons-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'The Seasons';
+  src: url('/fonts/TheSeasons-Italic.woff2') format('woff2');
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'The Seasons';
+  src: url('/fonts/TheSeasons-Bold.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Beautifully Delicious';
+  src: url('/fonts/BeautifullyDelicious.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
+/* ── Design Tokens ──────────────────────────────────────────────── */
+@theme {
+  /* ── MAROON (60%) — page background, navbar, headings zone ──── */
+  --color-bg:           #3F020A;
+  --color-bg-raised:    #53121C;   /* subtle lift for dark surfaces  */
+
+  /* ── NEUTRAL (30%) — interactive/content card surfaces ───────── */
+  --color-neutral:      #F5EFE6;   /* primary card surface            */
+  --color-neutral-dark: #EDE5D5;   /* inner cards, input fields       */
+
+  /* ── GOLD (10%) — borders, progress, accents, active states ──── */
+  --color-gold:         #DCC297;
+  --color-gold-border:  rgba(220, 194, 151, 0.40);
+  --color-gold-subtle:  rgba(220, 194, 151, 0.15);
+
+  /* ── Text on dark (maroon bg) ─────────────────────────────────  */
+  --color-on-dark:      #DBD0C2;
+  --color-on-dark-muted: rgba(219, 208, 194, 0.50);
+  /* ── Text on neutral (cream surface) ─────────────────────────── */
+  --color-on-light:     #3F020A;
+  --color-on-light-muted: rgba(63, 2, 10, 0.55);
+
+  /* ── Semantic feedback (within neutral cards) ─────────────────  */
+  --color-correct:      rgba(74, 124, 89, 0.70);
+  --color-correct-bg:   rgba(74, 124, 89, 0.08);
+  --color-incorrect-bg: rgba(63, 2, 10, 0.06);
+
+  /* ── Named aliases ────────────────────────────────────────────  */
+  --color-maroon:       #3F020A;
+  --color-sand:         #DBD0C2;
+
+  /* ── Typography ──────────────────────────────────────────────── */
+  --font-serif:  'The Seasons', 'Cormorant Garamond', Georgia, serif;
+  --font-script: 'Beautifully Delicious', 'Great Vibes', cursive;
+  --font-sans:   system-ui, -apple-system, sans-serif;
+}
+
+/* ── Base ───────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  background-color: var(--color-bg);    /* maroon — 60%  */
+  color: var(--color-on-dark);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+/* ── Utilities ──────────────────────────────────────────────────── */
+.gold-rule { height: 1px; background: var(--color-gold); opacity: 0.30; }
+
+.page-enter { animation: fadeUp 0.22s ease both; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

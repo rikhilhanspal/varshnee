@@ -1,0 +1,618 @@
+[
+  {
+    "id": "te-namaskaaramu",
+    "romanized": "namaskaaramu",
+    "english": "hello / greetings",
+    "pronunciation": "nuh-mus-kaa-ruh-mu",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/namaskaaramu.mp3"
+  },
+  {
+    "id": "te-selavu",
+    "romanized": "selavu",
+    "english": "goodbye",
+    "pronunciation": "seh-luh-vu",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/selavu.mp3"
+  },
+  {
+    "id": "te-ela-unnaru",
+    "romanized": "ela unnaru",
+    "english": "how are you",
+    "pronunciation": "eh-lah un-naa-ru",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/ela-unnaru.mp3"
+  },
+  {
+    "id": "te-nenu-baagunnanu",
+    "romanized": "nenu baagunnanu",
+    "english": "I am fine",
+    "pronunciation": "neh-nu baa-gun-naa-nu",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/nenu-baagunnanu.mp3"
+  },
+  {
+    "id": "te-dhanyavaadaalu",
+    "romanized": "dhanyavaadaalu",
+    "english": "thank you",
+    "pronunciation": "dhun-yuh-vaa-daa-lu",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/dhanyavaadaalu.mp3"
+  },
+  {
+    "id": "te-naa-peru",
+    "romanized": "naa peru",
+    "english": "my name",
+    "pronunciation": "naa peh-ru",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/naa-peru.mp3"
+  },
+  {
+    "id": "te-meeru-ekkada-nundi",
+    "romanized": "meeru ekkada nundi",
+    "english": "where are you from",
+    "pronunciation": "mee-ru ek-kuh-dah nun-dee",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/meeru-ekkada-nundi.mp3"
+  },
+  {
+    "id": "te-kalusukoni-aanandam",
+    "romanized": "naaku kalusukoni aanandam",
+    "english": "nice to meet you",
+    "pronunciation": "naa-ku kuh-lu-su-ko-nee aa-nun-dum",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/kalusukoni-aanandam.mp3"
+  },
+  {
+    "id": "te-meeru",
+    "romanized": "meeru",
+    "english": "you (formal)",
+    "pronunciation": "mee-ru",
+    "partOfSpeech": "pronoun",
+    "audio": "telugu/meeru.mp3"
+  },
+  {
+    "id": "te-nuvvu",
+    "romanized": "nuvvu",
+    "english": "you (informal)",
+    "pronunciation": "nuv-vu",
+    "partOfSpeech": "pronoun",
+    "audio": "telugu/nuvvu.mp3"
+  },
+  {
+    "id": "te-nenu",
+    "romanized": "nenu",
+    "english": "I / me",
+    "pronunciation": "neh-nu",
+    "partOfSpeech": "pronoun",
+    "audio": "telugu/nenu.mp3"
+  },
+  {
+    "id": "te-dayachesi",
+    "romanized": "dayachesi",
+    "english": "please",
+    "pronunciation": "duh-yuh-cheh-see",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/dayachesi.mp3"
+  },
+  {
+    "id": "te-kshaminchanddi",
+    "romanized": "kshaminchanddi",
+    "english": "sorry / excuse me",
+    "pronunciation": "kshuh-minch-un-dee",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/kshaminchanddi.mp3"
+  },
+  {
+    "id": "te-avunu",
+    "romanized": "avunu",
+    "english": "yes",
+    "pronunciation": "uh-vu-nu",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/avunu.mp3"
+  },
+  {
+    "id": "te-kaadu",
+    "romanized": "kaadu",
+    "english": "no (it is not)",
+    "pronunciation": "kaa-du",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/kaadu.mp3"
+  },
+  {
+    "id": "te-ledu",
+    "romanized": "ledu",
+    "english": "no (there is not)",
+    "pronunciation": "leh-du",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/ledu.mp3"
+  },
+  {
+    "id": "te-artham-kaaledu",
+    "romanized": "naaku artham kaaledu",
+    "english": "I don't understand",
+    "pronunciation": "naa-ku ar-thum kaa-leh-du",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/artham-kaaledu.mp3"
+  },
+  {
+    "id": "te-okati",
+    "romanized": "okati",
+    "english": "one (1)",
+    "pronunciation": "oh-kuh-tee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/okati.mp3"
+  },
+  {
+    "id": "te-rendu",
+    "romanized": "rendu",
+    "english": "two (2)",
+    "pronunciation": "ren-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/rendu.mp3"
+  },
+  {
+    "id": "te-muudu",
+    "romanized": "muudu",
+    "english": "three (3)",
+    "pronunciation": "moo-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/muudu.mp3"
+  },
+  {
+    "id": "te-naalugu",
+    "romanized": "naalugu",
+    "english": "four (4)",
+    "pronunciation": "naa-lu-gu",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/naalugu.mp3"
+  },
+  {
+    "id": "te-aidu",
+    "romanized": "aidu",
+    "english": "five (5)",
+    "pronunciation": "eye-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/aidu.mp3"
+  },
+  {
+    "id": "te-aaru",
+    "romanized": "aaru",
+    "english": "six (6)",
+    "pronunciation": "aa-ru",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/aaru.mp3"
+  },
+  {
+    "id": "te-eedu",
+    "romanized": "eedu",
+    "english": "seven (7)",
+    "pronunciation": "ay-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/eedu.mp3"
+  },
+  {
+    "id": "te-enimidi",
+    "romanized": "enimidi",
+    "english": "eight (8)",
+    "pronunciation": "eh-nee-mee-dee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/enimidi.mp3"
+  },
+  {
+    "id": "te-tommidi",
+    "romanized": "tommidi",
+    "english": "nine (9)",
+    "pronunciation": "tom-mee-dee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/tommidi.mp3"
+  },
+  {
+    "id": "te-padi",
+    "romanized": "padi",
+    "english": "ten (10)",
+    "pronunciation": "puh-dee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padi.mp3"
+  },
+  {
+    "id": "te-padakondu",
+    "romanized": "padakondu",
+    "english": "eleven (11)",
+    "pronunciation": "puh-duh-kon-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padakondu.mp3"
+  },
+  {
+    "id": "te-pannendu",
+    "romanized": "pannendu",
+    "english": "twelve (12)",
+    "pronunciation": "pun-nen-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/pannendu.mp3"
+  },
+  {
+    "id": "te-padammuudu",
+    "romanized": "padammuudu",
+    "english": "thirteen (13)",
+    "pronunciation": "puh-dum-moo-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padammuudu.mp3"
+  },
+  {
+    "id": "te-padanaalugu",
+    "romanized": "padanaalugu",
+    "english": "fourteen (14)",
+    "pronunciation": "puh-duh-naa-lu-gu",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padanaalugu.mp3"
+  },
+  {
+    "id": "te-padihenu",
+    "romanized": "padihenu",
+    "english": "fifteen (15)",
+    "pronunciation": "puh-dee-heh-nu",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padihenu.mp3"
+  },
+  {
+    "id": "te-padahaaru",
+    "romanized": "padahaaru",
+    "english": "sixteen (16)",
+    "pronunciation": "puh-duh-haa-ru",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padahaaru.mp3"
+  },
+  {
+    "id": "te-padiheedu",
+    "romanized": "padiheedu",
+    "english": "seventeen (17)",
+    "pronunciation": "puh-dee-hay-du",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/padiheedu.mp3"
+  },
+  {
+    "id": "te-paddenimidi",
+    "romanized": "paddenimidi",
+    "english": "eighteen (18)",
+    "pronunciation": "pud-deh-nee-mee-dee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/paddenimidi.mp3"
+  },
+  {
+    "id": "te-pandommidi",
+    "romanized": "pandommidi",
+    "english": "nineteen (19)",
+    "pronunciation": "pun-dom-mee-dee",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/pandommidi.mp3"
+  },
+  {
+    "id": "te-iravai",
+    "romanized": "iravai",
+    "english": "twenty (20)",
+    "pronunciation": "ee-ruh-vai",
+    "partOfSpeech": "numeral",
+    "audio": "telugu/iravai.mp3"
+  },
+  {
+    "id": "te-amma",
+    "romanized": "amma",
+    "english": "mother",
+    "pronunciation": "um-mah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/amma.mp3"
+  },
+  {
+    "id": "te-naanna",
+    "romanized": "naanna",
+    "english": "father",
+    "pronunciation": "naan-nah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/naanna.mp3"
+  },
+  {
+    "id": "te-anna",
+    "romanized": "anna",
+    "english": "elder brother",
+    "pronunciation": "un-nah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/anna.mp3"
+  },
+  {
+    "id": "te-tammudu",
+    "romanized": "tammudu",
+    "english": "younger brother",
+    "pronunciation": "tum-mu-du",
+    "partOfSpeech": "noun",
+    "audio": "telugu/tammudu.mp3"
+  },
+  {
+    "id": "te-akka",
+    "romanized": "akka",
+    "english": "elder sister",
+    "pronunciation": "uk-kah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/akka.mp3"
+  },
+  {
+    "id": "te-chelli",
+    "romanized": "chelli",
+    "english": "younger sister",
+    "pronunciation": "chel-lee",
+    "partOfSpeech": "noun",
+    "audio": "telugu/chelli.mp3"
+  },
+  {
+    "id": "te-ammamma",
+    "romanized": "ammamma",
+    "english": "grandmother",
+    "pronunciation": "um-mum-mah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/ammamma.mp3"
+  },
+  {
+    "id": "te-taatayya",
+    "romanized": "taatayya",
+    "english": "grandfather",
+    "pronunciation": "taa-tie-yah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/taatayya.mp3"
+  },
+  {
+    "id": "te-erruppu",
+    "romanized": "erruppu",
+    "english": "red",
+    "pronunciation": "er-rup-pu",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/erruppu.mp3"
+  },
+  {
+    "id": "te-neelam",
+    "romanized": "neelam",
+    "english": "blue",
+    "pronunciation": "nee-lum",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/neelam.mp3"
+  },
+  {
+    "id": "te-aakulapaccha",
+    "romanized": "aakulapaccha",
+    "english": "green",
+    "pronunciation": "aa-ku-luh-puch-chah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/aakulapaccha.mp3"
+  },
+  {
+    "id": "te-pasupu",
+    "romanized": "pasupu",
+    "english": "yellow",
+    "pronunciation": "puh-su-pu",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/pasupu.mp3"
+  },
+  {
+    "id": "te-tella",
+    "romanized": "tella",
+    "english": "white",
+    "pronunciation": "tel-lah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/tella.mp3"
+  },
+  {
+    "id": "te-nalla",
+    "romanized": "nalla",
+    "english": "black",
+    "pronunciation": "nul-lah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/nalla.mp3"
+  },
+  {
+    "id": "te-pedda",
+    "romanized": "pedda",
+    "english": "big",
+    "pronunciation": "ped-dah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/pedda.mp3"
+  },
+  {
+    "id": "te-chinna",
+    "romanized": "chinna",
+    "english": "small",
+    "pronunciation": "chin-nah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/chinna.mp3"
+  },
+  {
+    "id": "te-manchidi",
+    "romanized": "manchidi",
+    "english": "good",
+    "pronunciation": "mun-chee-dee",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/manchidi.mp3"
+  },
+  {
+    "id": "te-chedda",
+    "romanized": "chedda",
+    "english": "bad",
+    "pronunciation": "ched-dah",
+    "partOfSpeech": "adjective",
+    "audio": "telugu/chedda.mp3"
+  },
+  {
+    "id": "te-bhojanam",
+    "romanized": "bhojanam",
+    "english": "food / meal",
+    "pronunciation": "bho-juh-num",
+    "partOfSpeech": "noun",
+    "audio": "telugu/bhojanam.mp3"
+  },
+  {
+    "id": "te-neellu",
+    "romanized": "neellu",
+    "english": "water",
+    "pronunciation": "neel-lu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/neellu.mp3"
+  },
+  {
+    "id": "te-kaafii",
+    "romanized": "kaafii",
+    "english": "coffee",
+    "pronunciation": "kaa-fee",
+    "partOfSpeech": "noun",
+    "audio": "telugu/kaafii.mp3"
+  },
+  {
+    "id": "te-annam",
+    "romanized": "annam",
+    "english": "rice",
+    "pronunciation": "un-num",
+    "partOfSpeech": "noun",
+    "audio": "telugu/annam.mp3"
+  },
+  {
+    "id": "te-pappu",
+    "romanized": "pappu",
+    "english": "lentils / dal",
+    "pronunciation": "pup-pu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/pappu.mp3"
+  },
+  {
+    "id": "te-koora",
+    "romanized": "koora",
+    "english": "curry / vegetable dish",
+    "pronunciation": "koo-rah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/koora.mp3"
+  },
+  {
+    "id": "te-paalu",
+    "romanized": "paalu",
+    "english": "milk",
+    "pronunciation": "paa-lu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/paalu.mp3"
+  },
+  {
+    "id": "te-pandlu",
+    "romanized": "pandlu",
+    "english": "fruits",
+    "pronunciation": "pund-lu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/pandlu.mp3"
+  },
+  {
+    "id": "te-velluta",
+    "romanized": "velluta",
+    "english": "to go / going",
+    "pronunciation": "vel-lu-tah",
+    "partOfSpeech": "verb",
+    "audio": "telugu/velluta.mp3"
+  },
+  {
+    "id": "te-vastundi",
+    "romanized": "vastundi",
+    "english": "comes / is coming",
+    "pronunciation": "vas-tun-dee",
+    "partOfSpeech": "verb",
+    "audio": "telugu/vastundi.mp3"
+  },
+  {
+    "id": "te-tinuta",
+    "romanized": "tinuta",
+    "english": "to eat / eating",
+    "pronunciation": "tee-nu-tah",
+    "partOfSpeech": "verb",
+    "audio": "telugu/tinuta.mp3"
+  },
+  {
+    "id": "te-taaguta",
+    "romanized": "taaguta",
+    "english": "to drink / drinking",
+    "pronunciation": "taa-gu-tah",
+    "partOfSpeech": "verb",
+    "audio": "telugu/taaguta.mp3"
+  },
+  {
+    "id": "te-maatlaaduta",
+    "romanized": "maatlaaduta",
+    "english": "to speak / speaking",
+    "pronunciation": "maat-laa-du-tah",
+    "partOfSpeech": "verb",
+    "audio": "telugu/maatlaaduta.mp3"
+  },
+  {
+    "id": "te-kaavali",
+    "romanized": "kaavali",
+    "english": "want / need",
+    "pronunciation": "kaa-vuh-lee",
+    "partOfSpeech": "verb",
+    "audio": "telugu/kaavali.mp3"
+  },
+  {
+    "id": "te-ishtam",
+    "romanized": "ishtam",
+    "english": "like / preference",
+    "pronunciation": "ish-tum",
+    "partOfSpeech": "noun",
+    "audio": "telugu/ishtam.mp3"
+  },
+  {
+    "id": "te-ekkada",
+    "romanized": "ekkada",
+    "english": "where",
+    "pronunciation": "ek-kuh-dah",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/ekkada.mp3"
+  },
+  {
+    "id": "te-edama",
+    "romanized": "edama",
+    "english": "left",
+    "pronunciation": "eh-duh-mah",
+    "partOfSpeech": "noun",
+    "audio": "telugu/edama.mp3"
+  },
+  {
+    "id": "te-kudivaipu",
+    "romanized": "kudivaipu",
+    "english": "right",
+    "pronunciation": "ku-dee-vai-pu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/kudivaipu.mp3"
+  },
+  {
+    "id": "te-neediga",
+    "romanized": "neediga",
+    "english": "straight",
+    "pronunciation": "nee-dee-gah",
+    "partOfSpeech": "adverb",
+    "audio": "telugu/neediga.mp3"
+  },
+  {
+    "id": "te-illu",
+    "romanized": "illu",
+    "english": "house / home",
+    "pronunciation": "il-lu",
+    "partOfSpeech": "noun",
+    "audio": "telugu/illu.mp3"
+  },
+  {
+    "id": "te-angadi",
+    "romanized": "angadi",
+    "english": "shop / store",
+    "pronunciation": "un-guh-dee",
+    "partOfSpeech": "noun",
+    "audio": "telugu/angadi.mp3"
+  },
+  {
+    "id": "te-badilooki",
+    "romanized": "badilooki",
+    "english": "to school",
+    "pronunciation": "bah-dee-loo-kee",
+    "partOfSpeech": "phrase",
+    "audio": "telugu/badilooki.mp3"
+  }
+]

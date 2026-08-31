@@ -1,0 +1,273 @@
+{
+  "id": "s1-l3",
+  "sectionId": "s1",
+  "title": "Basic Phrases",
+  "description": "Learn essential everyday phrases including please, sorry, yes, no, and expressing that you do not understand.",
+  "vocabularyIds": [
+    "te-dayachesi",
+    "te-dhanyavaadaalu",
+    "te-kshaminchanddi",
+    "te-avunu",
+    "te-kaadu",
+    "te-ledu",
+    "te-artham-kaaledu"
+  ],
+  "grammarNoteIds": [
+    "te-gr-yes-no",
+    "te-gr-questions"
+  ],
+  "exercises": [
+    {
+      "id": "te-s1-l3-ex01",
+      "type": "multiple_choice",
+      "question": "How do you say 'please' in Telugu?",
+      "options": [
+        "avunu",
+        "dayachesi",
+        "kshaminchanddi",
+        "ledu"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Dayachesi' means 'please' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "avunu",
+          "right": "yes"
+        },
+        {
+          "left": "kaadu",
+          "right": "no (it is not)"
+        },
+        {
+          "left": "ledu",
+          "right": "no (there is not)"
+        },
+        {
+          "left": "kshaminchanddi",
+          "right": "sorry / excuse me"
+        }
+      ],
+      "explanation": "Telugu has two words for 'no': 'kaadu' negates identity, 'ledu' negates existence."
+    },
+    {
+      "id": "te-s1-l3-ex03",
+      "type": "translation",
+      "prompt": "I don't understand",
+      "direction": "from_english",
+      "correct": "naaku artham kaaledu",
+      "acceptedVariants": [
+        "artham kaaledu"
+      ],
+      "explanation": "'Naaku artham kaaledu' means 'I don't understand' - literally 'to me understanding did not happen'.",
+      "hint": "sounds like: naaku artham kaaledu"
+    },
+    {
+      "id": "te-s1-l3-ex04",
+      "type": "listening",
+      "audio": "telugu/kshaminchanddi.mp3",
+      "mode": "type",
+      "correct": "kshaminchanddi",
+      "acceptedVariants": [
+        "kshaminchanddi"
+      ],
+      "explanation": "'Kshaminchanddi' means 'sorry' or 'excuse me' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Naaku artham ___ .",
+      "correct": "kaaledu",
+      "acceptedVariants": [
+        "kaaledu"
+      ],
+      "explanation": "'Naaku artham kaaledu' means 'I don't understand'. 'Kaaledu' means 'did not happen'."
+    },
+    {
+      "id": "te-s1-l3-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I don't understand'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "naaku"
+        },
+        {
+          "id": "t2",
+          "text": "artham"
+        },
+        {
+          "id": "t3",
+          "text": "kaaledu"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Naaku artham kaaledu' - to me + understanding + did not happen."
+    },
+    {
+      "id": "te-s1-l3-ex07",
+      "type": "multiple_choice",
+      "question": "Someone asks 'Is this a book?' and it is not. Which word do you use?",
+      "options": [
+        "ledu",
+        "avunu",
+        "kaadu",
+        "dayachesi"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Kaadu' is used to negate identity - 'it is not (a book)'. 'Ledu' would be used for 'there is no (book)'."
+    },
+    {
+      "id": "te-s1-l3-ex08",
+      "type": "translation",
+      "prompt": "kshaminchanddi",
+      "direction": "to_english",
+      "correct": "sorry",
+      "acceptedVariants": [
+        "excuse me",
+        "I'm sorry",
+        "I am sorry",
+        "pardon"
+      ],
+      "explanation": "'Kshaminchanddi' is used to apologize or get someone's attention, similar to 'sorry' or 'excuse me'."
+    },
+    {
+      "id": "te-s1-l3-g12",
+      "type": "translation",
+      "prompt": "Translate 'avunu' to English.",
+      "direction": "to_english",
+      "correct": "yes",
+      "acceptedVariants": [],
+      "explanation": "'avunu' means 'yes'."
+    },
+    {
+      "id": "te-s1-l3-g03",
+      "type": "translation",
+      "prompt": "Translate 'dayachesi' to English.",
+      "direction": "to_english",
+      "correct": "please",
+      "acceptedVariants": [],
+      "explanation": "'dayachesi' means 'please'."
+    },
+    {
+      "id": "te-s1-l3-g01",
+      "type": "multiple_choice",
+      "question": "What does 'dayachesi' mean?",
+      "options": [
+        "to school",
+        "please",
+        "I don't understand",
+        "four (4)"
+      ],
+      "correctIndex": 1,
+      "explanation": "'dayachesi' means 'please' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-g10",
+      "type": "multiple_choice",
+      "question": "What does 'avunu' mean?",
+      "options": [
+        "fifteen (15)",
+        "younger brother",
+        "yes",
+        "no (there is not)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'avunu' means 'yes' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-g08",
+      "type": "translation",
+      "prompt": "How do you say 'sorry / excuse me' in Telugu?",
+      "direction": "from_english",
+      "correct": "kshaminchanddi",
+      "acceptedVariants": [],
+      "hint": "sounds like: kshaminchanddi",
+      "explanation": "'sorry / excuse me' in Telugu is 'kshaminchanddi'."
+    },
+    {
+      "id": "te-s1-l3-g02",
+      "type": "translation",
+      "prompt": "How do you say 'please' in Telugu?",
+      "direction": "from_english",
+      "correct": "dayachesi",
+      "acceptedVariants": [],
+      "hint": "sounds like: dayachesi",
+      "explanation": "'please' in Telugu is 'dayachesi'."
+    },
+    {
+      "id": "te-s1-l3-g16",
+      "type": "multiple_choice",
+      "question": "What does 'ledu' mean?",
+      "options": [
+        "to speak / speaking",
+        "to eat / eating",
+        "grandmother",
+        "no (there is not)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ledu' means 'no (there is not)' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-g04",
+      "type": "multiple_choice",
+      "question": "What does 'dhanyavaadaalu' mean?",
+      "options": [
+        "shop / store",
+        "thank you",
+        "please",
+        "green"
+      ],
+      "correctIndex": 1,
+      "explanation": "'dhanyavaadaalu' means 'thank you' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-g06",
+      "type": "translation",
+      "prompt": "Translate 'dhanyavaadaalu' to English.",
+      "direction": "to_english",
+      "correct": "thank you",
+      "acceptedVariants": [],
+      "explanation": "'dhanyavaadaalu' means 'thank you'."
+    },
+    {
+      "id": "te-s1-l3-g13",
+      "type": "multiple_choice",
+      "question": "What does 'kaadu' mean?",
+      "options": [
+        "father",
+        "elder brother",
+        "no (it is not)",
+        "no (there is not)"
+      ],
+      "correctIndex": 2,
+      "explanation": "'kaadu' means 'no (it is not)' in Telugu."
+    },
+    {
+      "id": "te-s1-l3-g05",
+      "type": "translation",
+      "prompt": "How do you say 'thank you' in Telugu?",
+      "direction": "from_english",
+      "correct": "dhanyavaadaalu",
+      "acceptedVariants": [],
+      "hint": "sounds like: dhanyavaadaalu",
+      "explanation": "'thank you' in Telugu is 'dhanyavaadaalu'."
+    },
+    {
+      "id": "te-s1-l3-g09",
+      "type": "translation",
+      "prompt": "Translate 'kshaminchanddi' to English.",
+      "direction": "to_english",
+      "correct": "sorry / excuse me",
+      "acceptedVariants": [],
+      "explanation": "'kshaminchanddi' means 'sorry / excuse me'."
+    }
+  ]
+}

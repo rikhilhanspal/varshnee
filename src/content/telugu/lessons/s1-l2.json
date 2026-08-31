@@ -1,0 +1,266 @@
+{
+  "id": "s1-l2",
+  "sectionId": "s1",
+  "title": "Introductions",
+  "description": "Learn how to introduce yourself, ask someone's name, and say where you are from in Telugu.",
+  "vocabularyIds": [
+    "te-naa-peru",
+    "te-meeru-ekkada-nundi",
+    "te-kalusukoni-aanandam",
+    "te-meeru",
+    "te-nuvvu",
+    "te-nenu"
+  ],
+  "grammarNoteIds": [
+    "te-gr-naa-peru",
+    "te-gr-formal"
+  ],
+  "exercises": [
+    {
+      "id": "te-s1-l2-ex01",
+      "type": "fill_in_blank",
+      "sentence": "Naa ___ Ravi.",
+      "correct": "peru",
+      "acceptedVariants": [
+        "peru"
+      ],
+      "explanation": "'Naa peru' means 'my name'. So 'Naa peru Ravi' means 'My name is Ravi'."
+    },
+    {
+      "id": "te-s1-l2-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'meeru ekkada nundi' mean?",
+      "options": [
+        "What is your name?",
+        "How are you?",
+        "Where are you from?",
+        "Nice to meet you"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Meeru ekkada nundi' means 'Where are you from?' - 'meeru' (you, formal), 'ekkada' (where), 'nundi' (from)."
+    },
+    {
+      "id": "te-s1-l2-ex03",
+      "type": "translation",
+      "prompt": "nice to meet you",
+      "direction": "from_english",
+      "correct": "naaku kalusukoni aanandam",
+      "acceptedVariants": [
+        "kalusukoni aanandam"
+      ],
+      "explanation": "'Naaku kalusukoni aanandam' means 'nice to meet you' - literally 'to me meeting happiness'.",
+      "hint": "sounds like: naaku kalusukoni aanandam"
+    },
+    {
+      "id": "te-s1-l2-ex04",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "naa peru",
+          "right": "my name"
+        },
+        {
+          "left": "meeru",
+          "right": "you (formal)"
+        },
+        {
+          "left": "nuvvu",
+          "right": "you (informal)"
+        },
+        {
+          "left": "nenu",
+          "right": "I / me"
+        }
+      ],
+      "explanation": "These are essential pronouns and phrases for introducing yourself in Telugu."
+    },
+    {
+      "id": "te-s1-l2-ex05",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'My name is Priya'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "naa"
+        },
+        {
+          "id": "t2",
+          "text": "peru"
+        },
+        {
+          "id": "t3",
+          "text": "Priya"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Naa peru Priya' follows Telugu word order: my + name + Priya."
+    },
+    {
+      "id": "te-s1-l2-ex06",
+      "type": "listening",
+      "audio": "telugu/kalusukoni-aanandam.mp3",
+      "mode": "select",
+      "options": [
+        "where are you from",
+        "nice to meet you",
+        "my name is",
+        "how are you"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Naaku kalusukoni aanandam' means 'nice to meet you'."
+    },
+    {
+      "id": "te-s1-l2-ex07",
+      "type": "multiple_choice",
+      "question": "Which word would you use for 'you' when speaking to a teacher?",
+      "options": [
+        "nenu",
+        "nuvvu",
+        "meeru",
+        "naa"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Meeru' is the formal/respectful form of 'you', appropriate for teachers, elders, and strangers."
+    },
+    {
+      "id": "te-s1-l2-ex08",
+      "type": "translation",
+      "prompt": "naa peru Sita",
+      "direction": "to_english",
+      "correct": "My name is Sita",
+      "acceptedVariants": [
+        "my name is Sita"
+      ],
+      "explanation": "'Naa peru Sita' translates to 'My name is Sita'."
+    },
+    {
+      "id": "te-s1-l2-g11",
+      "type": "translation",
+      "prompt": "How do you say 'you (formal)' in Telugu?",
+      "direction": "from_english",
+      "correct": "meeru",
+      "acceptedVariants": [],
+      "hint": "sounds like: meeru",
+      "explanation": "'you (formal)' in Telugu is 'meeru'."
+    },
+    {
+      "id": "te-s1-l2-g01",
+      "type": "multiple_choice",
+      "question": "What does 'naa peru' mean?",
+      "options": [
+        "blue",
+        "black",
+        "my name",
+        "comes / is coming"
+      ],
+      "correctIndex": 2,
+      "explanation": "'naa peru' means 'my name' in Telugu."
+    },
+    {
+      "id": "te-s1-l2-g14",
+      "type": "translation",
+      "prompt": "How do you say 'you (informal)' in Telugu?",
+      "direction": "from_english",
+      "correct": "nuvvu",
+      "acceptedVariants": [],
+      "hint": "sounds like: nuvvu",
+      "explanation": "'you (informal)' in Telugu is 'nuvvu'."
+    },
+    {
+      "id": "te-s1-l2-g12",
+      "type": "translation",
+      "prompt": "Translate 'meeru' to English.",
+      "direction": "to_english",
+      "correct": "you (formal)",
+      "acceptedVariants": [],
+      "explanation": "'meeru' means 'you (formal)'."
+    },
+    {
+      "id": "te-s1-l2-g02",
+      "type": "translation",
+      "prompt": "How do you say 'my name' in Telugu?",
+      "direction": "from_english",
+      "correct": "naa peru",
+      "acceptedVariants": [],
+      "hint": "sounds like: naa peru",
+      "explanation": "'my name' in Telugu is 'naa peru'."
+    },
+    {
+      "id": "te-s1-l2-g09",
+      "type": "translation",
+      "prompt": "Translate 'naaku kalusukoni aanandam' to English.",
+      "direction": "to_english",
+      "correct": "nice to meet you",
+      "acceptedVariants": [],
+      "explanation": "'naaku kalusukoni aanandam' means 'nice to meet you'."
+    },
+    {
+      "id": "te-s1-l2-g10",
+      "type": "multiple_choice",
+      "question": "What does 'meeru' mean?",
+      "options": [
+        "grandfather",
+        "hello / greetings",
+        "water",
+        "you (formal)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'meeru' means 'you (formal)' in Telugu."
+    },
+    {
+      "id": "te-s1-l2-g13",
+      "type": "multiple_choice",
+      "question": "What does 'nuvvu' mean?",
+      "options": [
+        "I don't understand",
+        "thank you",
+        "you (informal)",
+        "where are you from"
+      ],
+      "correctIndex": 2,
+      "explanation": "'nuvvu' means 'you (informal)' in Telugu."
+    },
+    {
+      "id": "te-s1-l2-g17",
+      "type": "translation",
+      "prompt": "How do you say 'I / me' in Telugu?",
+      "direction": "from_english",
+      "correct": "nenu",
+      "acceptedVariants": [],
+      "hint": "sounds like: nenu",
+      "explanation": "'I / me' in Telugu is 'nenu'."
+    },
+    {
+      "id": "te-s1-l2-g03",
+      "type": "translation",
+      "prompt": "Translate 'naa peru' to English.",
+      "direction": "to_english",
+      "correct": "my name",
+      "acceptedVariants": [],
+      "explanation": "'naa peru' means 'my name'."
+    },
+    {
+      "id": "te-s1-l2-g15",
+      "type": "translation",
+      "prompt": "Translate 'nuvvu' to English.",
+      "direction": "to_english",
+      "correct": "you (informal)",
+      "acceptedVariants": [],
+      "explanation": "'nuvvu' means 'you (informal)'."
+    },
+    {
+      "id": "te-s1-l2-g05",
+      "type": "translation",
+      "prompt": "How do you say 'where are you from' in Telugu?",
+      "direction": "from_english",
+      "correct": "meeru ekkada nundi",
+      "acceptedVariants": [],
+      "hint": "sounds like: meeru ekkada nundi",
+      "explanation": "'where are you from' in Telugu is 'meeru ekkada nundi'."
+    }
+  ]
+}

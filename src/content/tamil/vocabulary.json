@@ -1,0 +1,618 @@
+[
+  {
+    "id": "ta-vanakkam",
+    "romanized": "vanakkam",
+    "english": "hello / greetings",
+    "pronunciation": "vuh-nuk-kum",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/vanakkam.mp3"
+  },
+  {
+    "id": "ta-poitu-varein",
+    "romanized": "poitu varein",
+    "english": "goodbye (I will go and come back)",
+    "pronunciation": "poy-tu vuh-rain",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/poitu-varein.mp3"
+  },
+  {
+    "id": "ta-eppadi-irukkeenga",
+    "romanized": "eppadi irukkeenga",
+    "english": "how are you (formal)",
+    "pronunciation": "ep-puh-di i-ruk-keen-gah",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/eppadi-irukkeenga.mp3"
+  },
+  {
+    "id": "ta-naan-nallaa-irukkein",
+    "romanized": "naan nallaa irukkein",
+    "english": "I am fine / I am well",
+    "pronunciation": "naan nul-laa i-ruk-kane",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/naan-nallaa-irukkein.mp3"
+  },
+  {
+    "id": "ta-nandri",
+    "romanized": "nandri",
+    "english": "thank you",
+    "pronunciation": "nun-dree",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/nandri.mp3"
+  },
+  {
+    "id": "ta-en-peyar",
+    "romanized": "en peyar",
+    "english": "my name",
+    "pronunciation": "en pay-yar",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/en-peyar.mp3"
+  },
+  {
+    "id": "ta-neenga-enga-irundhu",
+    "romanized": "neenga enga irundhu varreenga",
+    "english": "where are you from (formal)",
+    "pronunciation": "neen-gah eng-gah i-run-dhu var-reen-gah",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/neenga-enga-irundhu.mp3"
+  },
+  {
+    "id": "ta-santhoshama",
+    "romanized": "santhoshama",
+    "english": "happy / pleased (to meet you)",
+    "pronunciation": "sun-tho-shuh-mah",
+    "partOfSpeech": "adjective",
+    "audio": "tamil/santhoshama.mp3"
+  },
+  {
+    "id": "ta-enna-peyar",
+    "romanized": "enna peyar",
+    "english": "what is (your) name",
+    "pronunciation": "en-nah pay-yar",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/enna-peyar.mp3"
+  },
+  {
+    "id": "ta-thayavu-seidhu",
+    "romanized": "thayavu seidhu",
+    "english": "please",
+    "pronunciation": "thah-yah-vu say-dhu",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/thayavu-seidhu.mp3"
+  },
+  {
+    "id": "ta-mannikkavum",
+    "romanized": "mannikkavum",
+    "english": "sorry / excuse me",
+    "pronunciation": "mun-nik-kah-vum",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/mannikkavum.mp3"
+  },
+  {
+    "id": "ta-aamaa",
+    "romanized": "aamaa",
+    "english": "yes",
+    "pronunciation": "aa-maa",
+    "partOfSpeech": "adverb",
+    "audio": "tamil/aamaa.mp3"
+  },
+  {
+    "id": "ta-illai",
+    "romanized": "illai",
+    "english": "no",
+    "pronunciation": "il-lay",
+    "partOfSpeech": "adverb",
+    "audio": "tamil/illai.mp3"
+  },
+  {
+    "id": "ta-enakku-puriyala",
+    "romanized": "enakku puriyala",
+    "english": "I don't understand",
+    "pronunciation": "eh-nuk-ku poo-ri-yuh-lah",
+    "partOfSpeech": "phrase",
+    "audio": "tamil/enakku-puriyala.mp3"
+  },
+  {
+    "id": "ta-ondru",
+    "romanized": "ondru",
+    "english": "one (1)",
+    "pronunciation": "on-dru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/ondru.mp3"
+  },
+  {
+    "id": "ta-irandu",
+    "romanized": "irandu",
+    "english": "two (2)",
+    "pronunciation": "i-run-du",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/irandu.mp3"
+  },
+  {
+    "id": "ta-moondru",
+    "romanized": "moondru",
+    "english": "three (3)",
+    "pronunciation": "moon-dru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/moondru.mp3"
+  },
+  {
+    "id": "ta-naangu",
+    "romanized": "naangu",
+    "english": "four (4)",
+    "pronunciation": "naan-gu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/naangu.mp3"
+  },
+  {
+    "id": "ta-ainthu",
+    "romanized": "ainthu",
+    "english": "five (5)",
+    "pronunciation": "ain-thu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/ainthu.mp3"
+  },
+  {
+    "id": "ta-aaru",
+    "romanized": "aaru",
+    "english": "six (6)",
+    "pronunciation": "aa-ru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/aaru.mp3"
+  },
+  {
+    "id": "ta-eezhu",
+    "romanized": "eezhu",
+    "english": "seven (7)",
+    "pronunciation": "ee-zhu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/eezhu.mp3"
+  },
+  {
+    "id": "ta-ettu",
+    "romanized": "ettu",
+    "english": "eight (8)",
+    "pronunciation": "et-tu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/ettu.mp3"
+  },
+  {
+    "id": "ta-onpadhu",
+    "romanized": "onpadhu",
+    "english": "nine (9)",
+    "pronunciation": "on-puh-dhu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/onpadhu.mp3"
+  },
+  {
+    "id": "ta-patthu",
+    "romanized": "patthu",
+    "english": "ten (10)",
+    "pronunciation": "put-thu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/patthu.mp3"
+  },
+  {
+    "id": "ta-pathinondru",
+    "romanized": "pathinondru",
+    "english": "eleven (11)",
+    "pronunciation": "puh-thin-on-dru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathinondru.mp3"
+  },
+  {
+    "id": "ta-pannirandu",
+    "romanized": "pannirandu",
+    "english": "twelve (12)",
+    "pronunciation": "pun-ni-run-du",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pannirandu.mp3"
+  },
+  {
+    "id": "ta-pathimoondru",
+    "romanized": "pathimoondru",
+    "english": "thirteen (13)",
+    "pronunciation": "puh-thi-moon-dru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathimoondru.mp3"
+  },
+  {
+    "id": "ta-pathinaangu",
+    "romanized": "pathinaangu",
+    "english": "fourteen (14)",
+    "pronunciation": "puh-thi-naan-gu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathinaangu.mp3"
+  },
+  {
+    "id": "ta-pathinainthu",
+    "romanized": "pathinainthu",
+    "english": "fifteen (15)",
+    "pronunciation": "puh-thi-nain-thu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathinainthu.mp3"
+  },
+  {
+    "id": "ta-pathinaaru",
+    "romanized": "pathinaaru",
+    "english": "sixteen (16)",
+    "pronunciation": "puh-thi-naa-ru",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathinaaru.mp3"
+  },
+  {
+    "id": "ta-pathineezhu",
+    "romanized": "pathineezhu",
+    "english": "seventeen (17)",
+    "pronunciation": "puh-thi-nee-zhu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathineezhu.mp3"
+  },
+  {
+    "id": "ta-pathinettu",
+    "romanized": "pathinettu",
+    "english": "eighteen (18)",
+    "pronunciation": "puh-thi-net-tu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/pathinettu.mp3"
+  },
+  {
+    "id": "ta-paththonpadhu",
+    "romanized": "paththonpadhu",
+    "english": "nineteen (19)",
+    "pronunciation": "put-thon-puh-dhu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/paththonpadhu.mp3"
+  },
+  {
+    "id": "ta-irupadhu",
+    "romanized": "irupadhu",
+    "english": "twenty (20)",
+    "pronunciation": "i-ru-puh-dhu",
+    "partOfSpeech": "numeral",
+    "audio": "tamil/irupadhu.mp3"
+  },
+  {
+    "id": "ta-amma",
+    "romanized": "amma",
+    "english": "mother",
+    "pronunciation": "um-mah",
+    "partOfSpeech": "noun",
+    "audio": "tamil/amma.mp3"
+  },
+  {
+    "id": "ta-appa",
+    "romanized": "appa",
+    "english": "father",
+    "pronunciation": "up-pah",
+    "partOfSpeech": "noun",
+    "audio": "tamil/appa.mp3"
+  },
+  {
+    "id": "ta-anna",
+    "romanized": "anna",
+    "english": "elder brother",
+    "pronunciation": "un-nah",
+    "partOfSpeech": "noun",
+    "audio": "tamil/anna.mp3"
+  },
+  {
+    "id": "ta-thambi",
+    "romanized": "thambi",
+    "english": "younger brother",
+    "pronunciation": "thum-bee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/thambi.mp3"
+  },
+  {
+    "id": "ta-akka",
+    "romanized": "akka",
+    "english": "elder sister",
+    "pronunciation": "uk-kah",
+    "partOfSpeech": "noun",
+    "audio": "tamil/akka.mp3"
+  },
+  {
+    "id": "ta-thangai",
+    "romanized": "thangai",
+    "english": "younger sister",
+    "pronunciation": "thung-eye",
+    "partOfSpeech": "noun",
+    "audio": "tamil/thangai.mp3"
+  },
+  {
+    "id": "ta-paatti",
+    "romanized": "paatti",
+    "english": "grandmother",
+    "pronunciation": "paat-tee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/paatti.mp3"
+  },
+  {
+    "id": "ta-thaatha",
+    "romanized": "thaatha",
+    "english": "grandfather",
+    "pronunciation": "thaa-thah",
+    "partOfSpeech": "noun",
+    "audio": "tamil/thaatha.mp3"
+  },
+  {
+    "id": "ta-sivappu",
+    "romanized": "sivappu",
+    "english": "red",
+    "pronunciation": "si-vup-pu",
+    "partOfSpeech": "noun",
+    "audio": "tamil/sivappu.mp3"
+  },
+  {
+    "id": "ta-neelam",
+    "romanized": "neelam",
+    "english": "blue",
+    "pronunciation": "nee-lum",
+    "partOfSpeech": "noun",
+    "audio": "tamil/neelam.mp3"
+  },
+  {
+    "id": "ta-pachchai",
+    "romanized": "pachchai",
+    "english": "green",
+    "pronunciation": "puch-chai",
+    "partOfSpeech": "noun",
+    "audio": "tamil/pachchai.mp3"
+  },
+  {
+    "id": "ta-manjal",
+    "romanized": "manjal",
+    "english": "yellow",
+    "pronunciation": "mun-jul",
+    "partOfSpeech": "noun",
+    "audio": "tamil/manjal.mp3"
+  },
+  {
+    "id": "ta-vellai",
+    "romanized": "vellai",
+    "english": "white",
+    "pronunciation": "vel-lay",
+    "partOfSpeech": "noun",
+    "audio": "tamil/vellai.mp3"
+  },
+  {
+    "id": "ta-karuppu",
+    "romanized": "karuppu",
+    "english": "black",
+    "pronunciation": "kuh-rup-pu",
+    "partOfSpeech": "noun",
+    "audio": "tamil/karuppu.mp3"
+  },
+  {
+    "id": "ta-periya",
+    "romanized": "periya",
+    "english": "big / large",
+    "pronunciation": "peh-ri-yah",
+    "partOfSpeech": "adjective",
+    "audio": "tamil/periya.mp3"
+  },
+  {
+    "id": "ta-siriya",
+    "romanized": "siriya",
+    "english": "small / little",
+    "pronunciation": "si-ri-yah",
+    "partOfSpeech": "adjective",
+    "audio": "tamil/siriya.mp3"
+  },
+  {
+    "id": "ta-nalla",
+    "romanized": "nalla",
+    "english": "good",
+    "pronunciation": "nul-lah",
+    "partOfSpeech": "adjective",
+    "audio": "tamil/nalla.mp3"
+  },
+  {
+    "id": "ta-kettadhu",
+    "romanized": "kettadhu",
+    "english": "bad",
+    "pronunciation": "ket-tuh-dhu",
+    "partOfSpeech": "adjective",
+    "audio": "tamil/kettadhu.mp3"
+  },
+  {
+    "id": "ta-saappaadu",
+    "romanized": "saappaadu",
+    "english": "food / meal",
+    "pronunciation": "saap-paa-du",
+    "partOfSpeech": "noun",
+    "audio": "tamil/saappaadu.mp3"
+  },
+  {
+    "id": "ta-thanni",
+    "romanized": "thanni",
+    "english": "water",
+    "pronunciation": "thun-nee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/thanni.mp3"
+  },
+  {
+    "id": "ta-kaapi",
+    "romanized": "kaapi",
+    "english": "coffee",
+    "pronunciation": "kaa-pee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/kaapi.mp3"
+  },
+  {
+    "id": "ta-dosai",
+    "romanized": "dosai",
+    "english": "dosa (thin crispy crepe)",
+    "pronunciation": "doh-say",
+    "partOfSpeech": "noun",
+    "audio": "tamil/dosai.mp3"
+  },
+  {
+    "id": "ta-idli",
+    "romanized": "idli",
+    "english": "idli (steamed rice cake)",
+    "pronunciation": "id-lee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/idli.mp3"
+  },
+  {
+    "id": "ta-sambaar",
+    "romanized": "sambaar",
+    "english": "sambar (lentil stew)",
+    "pronunciation": "saam-baar",
+    "partOfSpeech": "noun",
+    "audio": "tamil/sambaar.mp3"
+  },
+  {
+    "id": "ta-paal",
+    "romanized": "paal",
+    "english": "milk",
+    "pronunciation": "paal",
+    "partOfSpeech": "noun",
+    "audio": "tamil/paal.mp3"
+  },
+  {
+    "id": "ta-pazhangal",
+    "romanized": "pazhangal",
+    "english": "fruits",
+    "pronunciation": "puh-zhung-gul",
+    "partOfSpeech": "noun",
+    "audio": "tamil/pazhangal.mp3"
+  },
+  {
+    "id": "ta-poga",
+    "romanized": "poga",
+    "english": "to go",
+    "pronunciation": "poh-gah",
+    "partOfSpeech": "verb",
+    "audio": "tamil/poga.mp3"
+  },
+  {
+    "id": "ta-vara",
+    "romanized": "vara",
+    "english": "to come",
+    "pronunciation": "vuh-rah",
+    "partOfSpeech": "verb",
+    "audio": "tamil/vara.mp3"
+  },
+  {
+    "id": "ta-saapida",
+    "romanized": "saapida",
+    "english": "to eat",
+    "pronunciation": "saa-pi-dah",
+    "partOfSpeech": "verb",
+    "audio": "tamil/saapida.mp3"
+  },
+  {
+    "id": "ta-kudikka",
+    "romanized": "kudikka",
+    "english": "to drink",
+    "pronunciation": "ku-dik-kah",
+    "partOfSpeech": "verb",
+    "audio": "tamil/kudikka.mp3"
+  },
+  {
+    "id": "ta-pesa",
+    "romanized": "pesa",
+    "english": "to speak / to talk",
+    "pronunciation": "peh-sah",
+    "partOfSpeech": "verb",
+    "audio": "tamil/pesa.mp3"
+  },
+  {
+    "id": "ta-venum",
+    "romanized": "venum",
+    "english": "want / need",
+    "pronunciation": "vay-num",
+    "partOfSpeech": "verb",
+    "audio": "tamil/venum.mp3"
+  },
+  {
+    "id": "ta-pidikkum",
+    "romanized": "pidikkum",
+    "english": "to like",
+    "pronunciation": "pi-dik-kum",
+    "partOfSpeech": "verb",
+    "audio": "tamil/pidikkum.mp3"
+  },
+  {
+    "id": "ta-enga",
+    "romanized": "enga",
+    "english": "where",
+    "pronunciation": "eng-gah",
+    "partOfSpeech": "adverb",
+    "audio": "tamil/enga.mp3"
+  },
+  {
+    "id": "ta-idadhu",
+    "romanized": "idadhu",
+    "english": "left",
+    "pronunciation": "i-duh-dhu",
+    "partOfSpeech": "noun",
+    "audio": "tamil/idadhu.mp3"
+  },
+  {
+    "id": "ta-valadhu",
+    "romanized": "valadhu",
+    "english": "right",
+    "pronunciation": "vuh-luh-dhu",
+    "partOfSpeech": "noun",
+    "audio": "tamil/valadhu.mp3"
+  },
+  {
+    "id": "ta-neraaga",
+    "romanized": "neraaga",
+    "english": "straight",
+    "pronunciation": "neh-raa-gah",
+    "partOfSpeech": "adverb",
+    "audio": "tamil/neraaga.mp3"
+  },
+  {
+    "id": "ta-veedu",
+    "romanized": "veedu",
+    "english": "house / home",
+    "pronunciation": "vee-du",
+    "partOfSpeech": "noun",
+    "audio": "tamil/veedu.mp3"
+  },
+  {
+    "id": "ta-kadai",
+    "romanized": "kadai",
+    "english": "shop / store",
+    "pronunciation": "kuh-die",
+    "partOfSpeech": "noun",
+    "audio": "tamil/kadai.mp3"
+  },
+  {
+    "id": "ta-palli",
+    "romanized": "palli",
+    "english": "school",
+    "pronunciation": "pul-lee",
+    "partOfSpeech": "noun",
+    "audio": "tamil/palli.mp3"
+  },
+  {
+    "id": "ta-naan",
+    "romanized": "naan",
+    "english": "I / me",
+    "pronunciation": "naan",
+    "partOfSpeech": "pronoun",
+    "audio": "tamil/naan.mp3"
+  },
+  {
+    "id": "ta-nee",
+    "romanized": "nee",
+    "english": "you (informal)",
+    "pronunciation": "nee",
+    "partOfSpeech": "pronoun",
+    "audio": "tamil/nee.mp3"
+  },
+  {
+    "id": "ta-neenga",
+    "romanized": "neenga",
+    "english": "you (formal / plural)",
+    "pronunciation": "neen-gah",
+    "partOfSpeech": "pronoun",
+    "audio": "tamil/neenga.mp3"
+  }
+]

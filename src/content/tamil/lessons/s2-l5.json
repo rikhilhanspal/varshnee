@@ -1,0 +1,271 @@
+{
+  "id": "s2-l5",
+  "sectionId": "s2",
+  "title": "Family Members",
+  "description": "Learn the Tamil words for family members, including the important distinction between elder and younger siblings.",
+  "vocabularyIds": [
+    "ta-amma",
+    "ta-appa",
+    "ta-anna",
+    "ta-thambi",
+    "ta-akka",
+    "ta-thangai",
+    "ta-paatti",
+    "ta-thaatha"
+  ],
+  "grammarNoteIds": [
+    "ta-gr-family"
+  ],
+  "exercises": [
+    {
+      "id": "ta-s2-l5-ex01",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "amma",
+          "right": "mother"
+        },
+        {
+          "left": "appa",
+          "right": "father"
+        },
+        {
+          "left": "paatti",
+          "right": "grandmother"
+        },
+        {
+          "left": "thaatha",
+          "right": "grandfather"
+        }
+      ],
+      "explanation": "These are the core family terms. 'Amma' and 'appa' are among the first words Tamil children learn."
+    },
+    {
+      "id": "ta-s2-l5-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'anna' mean?",
+      "options": [
+        "younger brother",
+        "elder brother",
+        "younger sister",
+        "elder sister"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Anna' means elder brother. Tamil distinguishes between elder (anna) and younger (thambi) brothers."
+    },
+    {
+      "id": "ta-s2-l5-ex03",
+      "type": "translation",
+      "prompt": "younger sister",
+      "direction": "from_english",
+      "correct": "thangai",
+      "acceptedVariants": [
+        "thangai"
+      ],
+      "explanation": "'Thangai' means younger sister. 'Akka' is used for elder sister.",
+      "hint": "sounds like: thangai"
+    },
+    {
+      "id": "ta-s2-l5-ex04",
+      "type": "fill_in_blank",
+      "sentence": "En ___ peyar Lakshmi.",
+      "correct": "amma",
+      "acceptedVariants": [
+        "amma"
+      ],
+      "explanation": "'En amma peyar Lakshmi' means 'My mother's name is Lakshmi'."
+    },
+    {
+      "id": "ta-s2-l5-ex05",
+      "type": "listening",
+      "audio": "tamil/akka.mp3",
+      "mode": "select",
+      "options": [
+        "amma",
+        "akka",
+        "thangai",
+        "anna"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Akka' means elder sister and is pronounced 'uk-kah'. It is also used as a respectful term for any older woman."
+    },
+    {
+      "id": "ta-s2-l5-ex06",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'My father's name is Kumar':",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "Kumar"
+        },
+        {
+          "id": "t2",
+          "text": "en"
+        },
+        {
+          "id": "t3",
+          "text": "peyar"
+        },
+        {
+          "id": "t4",
+          "text": "appa"
+        }
+      ],
+      "correctOrder": [
+        "t2",
+        "t4",
+        "t3",
+        "t1"
+      ],
+      "explanation": "'En appa peyar Kumar' = my father's name is Kumar. Word order: my + father + name + Kumar."
+    },
+    {
+      "id": "ta-s2-l5-ex07",
+      "type": "translation",
+      "prompt": "paatti",
+      "direction": "to_english",
+      "correct": "grandmother",
+      "acceptedVariants": [
+        "grandma",
+        "grandmother"
+      ],
+      "explanation": "'Paatti' means grandmother and is a term of great affection in Tamil culture."
+    },
+    {
+      "id": "ta-s2-l5-ex08",
+      "type": "multiple_choice",
+      "question": "Which word means 'younger brother'?",
+      "options": [
+        "anna",
+        "thambi",
+        "akka",
+        "thangai"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Thambi' means younger brother. It is also used casually to address younger men."
+    },
+    {
+      "id": "ta-s2-l5-g01",
+      "type": "multiple_choice",
+      "question": "What does 'amma' mean?",
+      "options": [
+        "mother",
+        "seven (7)",
+        "what is (your) name",
+        "I don't understand"
+      ],
+      "correctIndex": 0,
+      "explanation": "'amma' means 'mother' in Tamil."
+    },
+    {
+      "id": "ta-s2-l5-g12",
+      "type": "translation",
+      "prompt": "Translate 'thambi' to English.",
+      "direction": "to_english",
+      "correct": "younger brother",
+      "acceptedVariants": [],
+      "explanation": "'thambi' means 'younger brother'."
+    },
+    {
+      "id": "ta-s2-l5-g17",
+      "type": "translation",
+      "prompt": "How do you say 'younger sister' in Tamil?",
+      "direction": "from_english",
+      "correct": "thangai",
+      "acceptedVariants": [],
+      "hint": "sounds like: thangai",
+      "explanation": "'younger sister' in Tamil is 'thangai'."
+    },
+    {
+      "id": "ta-s2-l5-g20",
+      "type": "translation",
+      "prompt": "How do you say 'grandmother' in Tamil?",
+      "direction": "from_english",
+      "correct": "paatti",
+      "acceptedVariants": [],
+      "hint": "sounds like: paatti",
+      "explanation": "'grandmother' in Tamil is 'paatti'."
+    },
+    {
+      "id": "ta-s2-l5-g06",
+      "type": "translation",
+      "prompt": "Translate 'appa' to English.",
+      "direction": "to_english",
+      "correct": "father",
+      "acceptedVariants": [],
+      "explanation": "'appa' means 'father'."
+    },
+    {
+      "id": "ta-s2-l5-g24",
+      "type": "translation",
+      "prompt": "Translate 'thaatha' to English.",
+      "direction": "to_english",
+      "correct": "grandfather",
+      "acceptedVariants": [],
+      "explanation": "'thaatha' means 'grandfather'."
+    },
+    {
+      "id": "ta-s2-l5-g21",
+      "type": "translation",
+      "prompt": "Translate 'paatti' to English.",
+      "direction": "to_english",
+      "correct": "grandmother",
+      "acceptedVariants": [],
+      "explanation": "'paatti' means 'grandmother'."
+    },
+    {
+      "id": "ta-s2-l5-g09",
+      "type": "translation",
+      "prompt": "Translate 'anna' to English.",
+      "direction": "to_english",
+      "correct": "elder brother",
+      "acceptedVariants": [],
+      "explanation": "'anna' means 'elder brother'."
+    },
+    {
+      "id": "ta-s2-l5-g16",
+      "type": "multiple_choice",
+      "question": "What does 'thangai' mean?",
+      "options": [
+        "coffee",
+        "younger sister",
+        "black",
+        "to eat"
+      ],
+      "correctIndex": 1,
+      "explanation": "'thangai' means 'younger sister' in Tamil."
+    },
+    {
+      "id": "ta-s2-l5-g15",
+      "type": "translation",
+      "prompt": "Translate 'akka' to English.",
+      "direction": "to_english",
+      "correct": "elder sister",
+      "acceptedVariants": [],
+      "explanation": "'akka' means 'elder sister'."
+    },
+    {
+      "id": "ta-s2-l5-g08",
+      "type": "translation",
+      "prompt": "How do you say 'elder brother' in Tamil?",
+      "direction": "from_english",
+      "correct": "anna",
+      "acceptedVariants": [],
+      "hint": "sounds like: anna",
+      "explanation": "'elder brother' in Tamil is 'anna'."
+    },
+    {
+      "id": "ta-s2-l5-g07",
+      "type": "multiple_choice",
+      "question": "What does 'anna' mean?",
+      "options": [
+        "goodbye (I will go and come back)",
+        "younger sister",
+        "coffee",
+        "elder brother"
+      ],
+      "correctIndex": 3,
+      "explanation": "'anna' means 'elder brother' in Tamil."
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "s3-l8",
+  "sectionId": "s3",
+  "title": "Common Verbs",
+  "description": "Learn the most common Telugu verbs for everyday actions like going, eating, drinking, and speaking.",
+  "vocabularyIds": [
+    "te-velluta",
+    "te-vastundi",
+    "te-tinuta",
+    "te-taaguta",
+    "te-maatlaaduta",
+    "te-kaavali",
+    "te-ishtam"
+  ],
+  "grammarNoteIds": [
+    "te-gr-verb-basics",
+    "te-gr-word-order"
+  ],
+  "exercises": [
+    {
+      "id": "te-s3-l8-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'velluta' mean?",
+      "options": [
+        "to come",
+        "to go",
+        "to eat",
+        "to speak"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Velluta' means 'to go' or 'going' in Telugu."
+    },
+    {
+      "id": "te-s3-l8-ex02",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "tinuta",
+          "right": "to eat"
+        },
+        {
+          "left": "taaguta",
+          "right": "to drink"
+        },
+        {
+          "left": "velluta",
+          "right": "to go"
+        },
+        {
+          "left": "maatlaaduta",
+          "right": "to speak"
+        }
+      ],
+      "explanation": "These are the most essential Telugu verbs for daily activities."
+    },
+    {
+      "id": "te-s3-l8-ex03",
+      "type": "translation",
+      "prompt": "I like coffee",
+      "direction": "from_english",
+      "correct": "naaku kaafii ishtam",
+      "acceptedVariants": [
+        "kaafii ishtam"
+      ],
+      "explanation": "'Naaku kaafii ishtam' - 'to me coffee liking'. Telugu uses 'ishtam' with 'naaku' to express likes.",
+      "hint": "sounds like: naaku kaafii ishtam"
+    },
+    {
+      "id": "te-s3-l8-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Nenu annam ___ .",
+      "correct": "tintanu",
+      "acceptedVariants": [
+        "tintanu"
+      ],
+      "explanation": "'Nenu annam tintanu' means 'I eat rice'. The verb 'tinuta' conjugates to 'tintanu' for 'I eat'."
+    },
+    {
+      "id": "te-s3-l8-ex05",
+      "type": "word_ordering",
+      "prompt": "Arrange to say 'I drink water'",
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "nenu"
+        },
+        {
+          "id": "t2",
+          "text": "neellu"
+        },
+        {
+          "id": "t3",
+          "text": "taagtanu"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "explanation": "'Nenu neellu taagtanu' follows SOV order: I + water + drink."
+    },
+    {
+      "id": "te-s3-l8-ex06",
+      "type": "listening",
+      "audio": "telugu/maatlaaduta.mp3",
+      "mode": "select",
+      "options": [
+        "to go",
+        "to eat",
+        "to speak",
+        "to drink"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Maatlaaduta' means 'to speak' or 'speaking' in Telugu."
+    },
+    {
+      "id": "te-s3-l8-ex07",
+      "type": "translation",
+      "prompt": "vastundi",
+      "direction": "to_english",
+      "correct": "comes",
+      "acceptedVariants": [
+        "is coming",
+        "he comes",
+        "she comes",
+        "it comes"
+      ],
+      "explanation": "'Vastundi' means 'comes' or 'is coming' (he/she/it)."
+    },
+    {
+      "id": "te-s3-l8-ex08",
+      "type": "multiple_choice",
+      "question": "How do you say 'I want food' in Telugu?",
+      "options": [
+        "nenu bhojanam tintanu",
+        "naaku bhojanam kaavali",
+        "bhojanam manchidi",
+        "naaku bhojanam ishtam"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Naaku bhojanam kaavali' - use 'kaavali' (need/want) with 'naaku' (to me) to express wanting something."
+    },
+    {
+      "id": "te-s3-l8-g05",
+      "type": "translation",
+      "prompt": "How do you say 'comes / is coming' in Telugu?",
+      "direction": "from_english",
+      "correct": "vastundi",
+      "acceptedVariants": [],
+      "hint": "sounds like: vastundi",
+      "explanation": "'comes / is coming' in Telugu is 'vastundi'."
+    },
+    {
+      "id": "te-s3-l8-g08",
+      "type": "translation",
+      "prompt": "How do you say 'to eat / eating' in Telugu?",
+      "direction": "from_english",
+      "correct": "tinuta",
+      "acceptedVariants": [],
+      "hint": "sounds like: tinuta",
+      "explanation": "'to eat / eating' in Telugu is 'tinuta'."
+    },
+    {
+      "id": "te-s3-l8-g18",
+      "type": "translation",
+      "prompt": "Translate 'kaavali' to English.",
+      "direction": "to_english",
+      "correct": "want / need",
+      "acceptedVariants": [],
+      "explanation": "'kaavali' means 'want / need'."
+    },
+    {
+      "id": "te-s3-l8-g17",
+      "type": "translation",
+      "prompt": "How do you say 'want / need' in Telugu?",
+      "direction": "from_english",
+      "correct": "kaavali",
+      "acceptedVariants": [],
+      "hint": "sounds like: kaavali",
+      "explanation": "'want / need' in Telugu is 'kaavali'."
+    },
+    {
+      "id": "te-s3-l8-g01",
+      "type": "multiple_choice",
+      "question": "What does 'velluta' mean?",
+      "options": [
+        "two (2)",
+        "nice to meet you",
+        "I am fine",
+        "to go / going"
+      ],
+      "correctIndex": 3,
+      "explanation": "'velluta' means 'to go / going' in Telugu."
+    },
+    {
+      "id": "te-s3-l8-g16",
+      "type": "multiple_choice",
+      "question": "What does 'kaavali' mean?",
+      "options": [
+        "want / need",
+        "eighteen (18)",
+        "grandmother",
+        "how are you"
+      ],
+      "correctIndex": 0,
+      "explanation": "'kaavali' means 'want / need' in Telugu."
+    },
+    {
+      "id": "te-s3-l8-g02",
+      "type": "translation",
+      "prompt": "How do you say 'to go / going' in Telugu?",
+      "direction": "from_english",
+      "correct": "velluta",
+      "acceptedVariants": [],
+      "hint": "sounds like: velluta",
+      "explanation": "'to go / going' in Telugu is 'velluta'."
+    },
+    {
+      "id": "te-s3-l8-g14",
+      "type": "translation",
+      "prompt": "How do you say 'to speak / speaking' in Telugu?",
+      "direction": "from_english",
+      "correct": "maatlaaduta",
+      "acceptedVariants": [],
+      "hint": "sounds like: maatlaaduta",
+      "explanation": "'to speak / speaking' in Telugu is 'maatlaaduta'."
+    },
+    {
+      "id": "te-s3-l8-g20",
+      "type": "translation",
+      "prompt": "How do you say 'like / preference' in Telugu?",
+      "direction": "from_english",
+      "correct": "ishtam",
+      "acceptedVariants": [],
+      "hint": "sounds like: ishtam",
+      "explanation": "'like / preference' in Telugu is 'ishtam'."
+    },
+    {
+      "id": "te-s3-l8-g07",
+      "type": "multiple_choice",
+      "question": "What does 'tinuta' mean?",
+      "options": [
+        "to eat / eating",
+        "to drink / drinking",
+        "yes",
+        "fifteen (15)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'tinuta' means 'to eat / eating' in Telugu."
+    },
+    {
+      "id": "te-s3-l8-g21",
+      "type": "translation",
+      "prompt": "Translate 'ishtam' to English.",
+      "direction": "to_english",
+      "correct": "like / preference",
+      "acceptedVariants": [],
+      "explanation": "'ishtam' means 'like / preference'."
+    },
+    {
+      "id": "te-s3-l8-g03",
+      "type": "translation",
+      "prompt": "Translate 'velluta' to English.",
+      "direction": "to_english",
+      "correct": "to go / going",
+      "acceptedVariants": [],
+      "explanation": "'velluta' means 'to go / going'."
+    }
+  ]
+}
