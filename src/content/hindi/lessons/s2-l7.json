@@ -1,0 +1,90 @@
+{
+  "id": "s2-l7",
+  "sectionId": "s2",
+  "title": "Family Members",
+  "description": "Learn Hindi words for family members — parents, siblings, and grandparents.",
+  "vocabularyIds": ["hi-maa", "hi-papa", "hi-bhai", "hi-behen", "hi-dada", "hi-dadi", "hi-nana", "hi-nani"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s2-l7-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "maa", "right": "mother" },
+        { "left": "papa", "right": "father" },
+        { "left": "bhai", "right": "brother" },
+        { "left": "behen", "right": "sister" }
+      ],
+      "explanation": "The core immediate family words in Hindi — 'maa' and 'papa' are the most common everyday terms."
+    },
+    {
+      "id": "hi-s2-l7-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'dada' mean in Hindi?",
+      "options": ["maternal grandfather", "paternal grandfather", "uncle", "elder brother"],
+      "correctIndex": 1,
+      "explanation": "'Dada' = paternal grandfather (father's father). Hindi has separate words for paternal and maternal grandparents."
+    },
+    {
+      "id": "hi-s2-l7-ex03",
+      "type": "translation",
+      "prompt": "maternal grandmother",
+      "direction": "from_english",
+      "correct": "nani",
+      "acceptedVariants": ["nani"],
+      "explanation": "'Nani' = maternal grandmother (mother's mother). 'Dadi' = paternal grandmother (father's mother).",
+      "hint": "sounds like: naa-nee"
+    },
+    {
+      "id": "hi-s2-l7-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "dada", "right": "paternal grandfather" },
+        { "left": "dadi", "right": "paternal grandmother" },
+        { "left": "nana", "right": "maternal grandfather" },
+        { "left": "nani", "right": "maternal grandmother" }
+      ],
+      "explanation": "Hindi distinguishes paternal (dada/dadi) from maternal (nana/nani) grandparents — unlike English."
+    },
+    {
+      "id": "hi-s2-l7-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Meri ___ ka naam Radha hai. (My sister's name is Radha.)",
+      "correct": "behen",
+      "acceptedVariants": ["behen", "behan"],
+      "explanation": "'Meri behen ka naam Radha hai' = my sister's name is Radha. Note 'meri' (feminine possessive) for behen."
+    },
+    {
+      "id": "hi-s2-l7-ex06",
+      "type": "translation",
+      "prompt": "bhai",
+      "direction": "to_english",
+      "correct": "brother",
+      "acceptedVariants": ["brother"],
+      "explanation": "'Bhai' means brother. 'Bhai' is also used as a friendly address to any man — like 'bro' or 'mate'."
+    },
+    {
+      "id": "hi-s2-l7-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'my mother's name is Sita'",
+      "tiles": [
+        { "id": "t1", "text": "meri" },
+        { "id": "t2", "text": "maa" },
+        { "id": "t3", "text": "ka" },
+        { "id": "t4", "text": "naam" },
+        { "id": "t5", "text": "Sita" },
+        { "id": "t6", "text": "hai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"],
+      "explanation": "'Meri maa ka naam Sita hai' = my mother's name is Sita. Ka naam = 's name (possession)."
+    },
+    {
+      "id": "hi-s2-l7-ex08",
+      "type": "multiple_choice",
+      "question": "How do you say 'I have one brother' in Hindi?",
+      "options": ["mera ek bhai hai", "mere ek bhai hai", "meri ek bhai hai", "mera ek behen hai"],
+      "correctIndex": 0,
+      "explanation": "'Mera ek bhai hai' = I have one brother (literally: my one brother is). Mera = my (masculine)."
+    }
+  ]
+}

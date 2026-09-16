@@ -8,28 +8,28 @@
     "audio": "hindi/namaste.mp3"
   },
   {
+    "id": "hi-phir-milenge",
+    "romanized": "phir milenge",
+    "english": "goodbye / see you again",
+    "pronunciation": "phir mi-len-geh",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/phir-milenge.mp3"
+  },
+  {
     "id": "hi-alvida",
     "romanized": "alvida",
-    "english": "goodbye",
+    "english": "goodbye (formal)",
     "pronunciation": "uhl-vee-dah",
     "partOfSpeech": "phrase",
     "audio": "hindi/alvida.mp3"
   },
   {
-    "id": "hi-kaise-ho",
-    "romanized": "kaise ho",
-    "english": "how are you (informal, to male)",
-    "pronunciation": "kay-say ho",
+    "id": "hi-tum-kaise-ho",
+    "romanized": "tum kaise ho",
+    "english": "how are you (informal)",
+    "pronunciation": "tum kay-say ho",
     "partOfSpeech": "phrase",
-    "audio": "hindi/kaise-ho.mp3"
-  },
-  {
-    "id": "hi-kaisi-ho",
-    "romanized": "kaisi ho",
-    "english": "how are you (informal, to female)",
-    "pronunciation": "kay-see ho",
-    "partOfSpeech": "phrase",
-    "audio": "hindi/kaisi-ho.mp3"
+    "audio": "hindi/tum-kaise-ho.mp3"
   },
   {
     "id": "hi-aap-kaise-hain",
@@ -56,6 +56,38 @@
     "audio": "hindi/shukriya.mp3"
   },
   {
+    "id": "hi-dhanyavaad",
+    "romanized": "dhanyavaad",
+    "english": "thank you (formal)",
+    "pronunciation": "dhun-yuh-vaahd",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/dhanyavaad.mp3"
+  },
+  {
+    "id": "hi-subh-prabhat",
+    "romanized": "subh prabhat",
+    "english": "good morning (formal)",
+    "pronunciation": "subh pruh-bhaat",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/subh-prabhat.mp3"
+  },
+  {
+    "id": "hi-subh-ratri",
+    "romanized": "subh ratri",
+    "english": "good night",
+    "pronunciation": "subh raat-ree",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/subh-ratri.mp3"
+  },
+  {
+    "id": "hi-tumhara-naam-kya-hai",
+    "romanized": "tumhara naam kya hai",
+    "english": "what is your name (informal)",
+    "pronunciation": "tum-haa-rah nahm kyah hay",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/tumhara-naam-kya-hai.mp3"
+  },
+  {
     "id": "hi-mera-naam-hai",
     "romanized": "mera naam ___ hai",
     "english": "my name is ___",
@@ -64,12 +96,12 @@
     "audio": "hindi/mera-naam-hai.mp3"
   },
   {
-    "id": "hi-aap-kahaan-se-hain",
-    "romanized": "aap kahaan se hain",
-    "english": "where are you from (formal)",
-    "pronunciation": "aahp kuh-hahn say hain",
+    "id": "hi-tum-kahan-se-ho",
+    "romanized": "tum kahan se ho",
+    "english": "where are you from (informal)",
+    "pronunciation": "tum kuh-hahn say ho",
     "partOfSpeech": "phrase",
-    "audio": "hindi/aap-kahaan-se-hain.mp3"
+    "audio": "hindi/tum-kahan-se-ho.mp3"
   },
   {
     "id": "hi-main-se-hoon",
@@ -88,30 +120,6 @@
     "audio": "hindi/milkar-khushi-hui.mp3"
   },
   {
-    "id": "hi-kripaya",
-    "romanized": "kripaya",
-    "english": "please",
-    "pronunciation": "krih-puh-yah",
-    "partOfSpeech": "adverb",
-    "audio": "hindi/kripaya.mp3"
-  },
-  {
-    "id": "hi-dhanyavaad",
-    "romanized": "dhanyavaad",
-    "english": "thank you (formal)",
-    "pronunciation": "dhun-yuh-vaahd",
-    "partOfSpeech": "phrase",
-    "audio": "hindi/dhanyavaad.mp3"
-  },
-  {
-    "id": "hi-maaf-kijiye",
-    "romanized": "maaf kijiye",
-    "english": "excuse me / sorry (formal)",
-    "pronunciation": "maahf kih-jee-yay",
-    "partOfSpeech": "phrase",
-    "audio": "hindi/maaf-kijiye.mp3"
-  },
-  {
     "id": "hi-haan",
     "romanized": "haan",
     "english": "yes",
@@ -128,12 +136,60 @@
     "audio": "hindi/nahin.mp3"
   },
   {
+    "id": "hi-koi-baat-nahin",
+    "romanized": "koi baat nahin",
+    "english": "no problem / you're welcome",
+    "pronunciation": "ko-ee baat nuh-heen",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/koi-baat-nahin.mp3"
+  },
+  {
+    "id": "hi-maaf-karo",
+    "romanized": "maaf karo",
+    "english": "sorry (informal)",
+    "pronunciation": "maahf kuh-ro",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/maaf-karo.mp3"
+  },
+  {
+    "id": "hi-maaf-kijiye",
+    "romanized": "maaf kijiye",
+    "english": "excuse me / sorry (formal)",
+    "pronunciation": "maahf kih-jee-yay",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/maaf-kijiye.mp3"
+  },
+  {
     "id": "hi-samajh-nahin-aaya",
-    "romanized": "mujhe samajh nahin aaya",
-    "english": "I did not understand",
-    "pronunciation": "mooj-hay suh-muj nuh-heen aah-yah",
+    "romanized": "samajh nahin aaya",
+    "english": "I didn't understand",
+    "pronunciation": "suh-muj nuh-heen aah-yah",
     "partOfSpeech": "phrase",
     "audio": "hindi/samajh-nahin-aaya.mp3"
+  },
+  {
+    "id": "hi-dhire-boliye",
+    "romanized": "zara dhire boliye",
+    "english": "please speak more slowly",
+    "pronunciation": "zuh-rah dhee-ray bol-ee-yay",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/dhire-boliye.mp3"
+  },
+  {
+    "id": "hi-kitne-ka-hai",
+    "romanized": "kitne ka hai",
+    "english": "how much does this cost",
+    "pronunciation": "kit-nay kuh hay",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/kitne-ka-hai.mp3"
+  },
+  {
+    "id": "hi-toilet-kahan-hai",
+    "romanized": "toilet kahan hai",
+    "english": "where is the toilet",
+    "pronunciation": "toy-let kuh-hahn hay",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/toilet-kahan-hai.mp3"
   },
   {
     "id": "hi-ek",
@@ -304,25 +360,9 @@
     "audio": "hindi/maa.mp3"
   },
   {
-    "id": "hi-amma",
-    "romanized": "amma",
-    "english": "mom (affectionate)",
-    "pronunciation": "uhm-mah",
-    "partOfSpeech": "noun",
-    "audio": "hindi/amma.mp3"
-  },
-  {
-    "id": "hi-pitaji",
-    "romanized": "pitaji",
-    "english": "father (respectful)",
-    "pronunciation": "pih-tah-jee",
-    "partOfSpeech": "noun",
-    "audio": "hindi/pitaji.mp3"
-  },
-  {
     "id": "hi-papa",
     "romanized": "papa",
-    "english": "dad",
+    "english": "father / dad",
     "pronunciation": "pah-pah",
     "partOfSpeech": "noun",
     "audio": "hindi/papa.mp3"
@@ -344,6 +384,14 @@
     "audio": "hindi/behen.mp3"
   },
   {
+    "id": "hi-dada",
+    "romanized": "dada",
+    "english": "paternal grandfather",
+    "pronunciation": "dah-dah",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dada.mp3"
+  },
+  {
     "id": "hi-dadi",
     "romanized": "dadi",
     "english": "paternal grandmother",
@@ -352,12 +400,20 @@
     "audio": "hindi/dadi.mp3"
   },
   {
-    "id": "hi-dada",
-    "romanized": "dada",
-    "english": "paternal grandfather",
-    "pronunciation": "dah-dah",
+    "id": "hi-nana",
+    "romanized": "nana",
+    "english": "maternal grandfather",
+    "pronunciation": "nah-nah",
     "partOfSpeech": "noun",
-    "audio": "hindi/dada.mp3"
+    "audio": "hindi/nana.mp3"
+  },
+  {
+    "id": "hi-nani",
+    "romanized": "nani",
+    "english": "maternal grandmother",
+    "pronunciation": "nah-nee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/nani.mp3"
   },
   {
     "id": "hi-chacha",
@@ -424,6 +480,22 @@
     "audio": "hindi/kaala.mp3"
   },
   {
+    "id": "hi-narangi",
+    "romanized": "narangi",
+    "english": "orange",
+    "pronunciation": "nuh-run-gee",
+    "partOfSpeech": "adjective",
+    "audio": "hindi/narangi.mp3"
+  },
+  {
+    "id": "hi-gulaabi",
+    "romanized": "gulaabi",
+    "english": "pink",
+    "pronunciation": "goo-laa-bee",
+    "partOfSpeech": "adjective",
+    "audio": "hindi/gulaabi.mp3"
+  },
+  {
     "id": "hi-bada",
     "romanized": "bada",
     "english": "big",
@@ -458,26 +530,10 @@
   {
     "id": "hi-khaana",
     "romanized": "khaana",
-    "english": "food / to eat",
+    "english": "food / meal",
     "pronunciation": "khah-nah",
     "partOfSpeech": "noun",
     "audio": "hindi/khaana.mp3"
-  },
-  {
-    "id": "hi-paani",
-    "romanized": "paani",
-    "english": "water",
-    "pronunciation": "pah-nee",
-    "partOfSpeech": "noun",
-    "audio": "hindi/paani.mp3"
-  },
-  {
-    "id": "hi-chai",
-    "romanized": "chai",
-    "english": "tea",
-    "pronunciation": "ch-eye",
-    "partOfSpeech": "noun",
-    "audio": "hindi/chai.mp3"
   },
   {
     "id": "hi-roti",
@@ -498,10 +554,50 @@
   {
     "id": "hi-daal",
     "romanized": "daal",
-    "english": "lentils",
+    "english": "lentils / dal",
     "pronunciation": "dahl",
     "partOfSpeech": "noun",
     "audio": "hindi/daal.mp3"
+  },
+  {
+    "id": "hi-sabzi",
+    "romanized": "sabzi",
+    "english": "vegetables / vegetable dish",
+    "pronunciation": "sub-zee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/sabzi.mp3"
+  },
+  {
+    "id": "hi-murgi",
+    "romanized": "murgi",
+    "english": "chicken",
+    "pronunciation": "mur-gee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/murgi.mp3"
+  },
+  {
+    "id": "hi-machli",
+    "romanized": "machli",
+    "english": "fish",
+    "pronunciation": "mach-lee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/machli.mp3"
+  },
+  {
+    "id": "hi-paani",
+    "romanized": "paani",
+    "english": "water",
+    "pronunciation": "pah-nee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/paani.mp3"
+  },
+  {
+    "id": "hi-chai",
+    "romanized": "chai",
+    "english": "tea",
+    "pronunciation": "ch-eye",
+    "partOfSpeech": "noun",
+    "audio": "hindi/chai.mp3"
   },
   {
     "id": "hi-dudh",
@@ -512,12 +608,28 @@
     "audio": "hindi/dudh.mp3"
   },
   {
+    "id": "hi-dahi",
+    "romanized": "dahi",
+    "english": "curd / yogurt",
+    "pronunciation": "duh-hee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dahi.mp3"
+  },
+  {
     "id": "hi-phal",
     "romanized": "phal",
     "english": "fruit",
     "pronunciation": "phul",
     "partOfSpeech": "noun",
     "audio": "hindi/phal.mp3"
+  },
+  {
+    "id": "hi-chahiye",
+    "romanized": "chahiye",
+    "english": "want / need (colloquial)",
+    "pronunciation": "chah-hi-yeh",
+    "partOfSpeech": "verb",
+    "audio": "hindi/chahiye.mp3"
   },
   {
     "id": "hi-jaana",
@@ -560,20 +672,36 @@
     "audio": "hindi/bolna.mp3"
   },
   {
-    "id": "hi-chahna",
-    "romanized": "chahna",
-    "english": "to want",
-    "pronunciation": "chah-nah",
+    "id": "hi-dekhna",
+    "romanized": "dekhna",
+    "english": "to see / to look",
+    "pronunciation": "dekh-nah",
     "partOfSpeech": "verb",
-    "audio": "hindi/chahna.mp3"
+    "audio": "hindi/dekhna.mp3"
   },
   {
-    "id": "hi-pasand-karna",
-    "romanized": "pasand karna",
-    "english": "to like",
-    "pronunciation": "puh-sund kar-nah",
+    "id": "hi-samajhna",
+    "romanized": "samajhna",
+    "english": "to understand",
+    "pronunciation": "suh-muj-nah",
     "partOfSpeech": "verb",
-    "audio": "hindi/pasand-karna.mp3"
+    "audio": "hindi/samajhna.mp3"
+  },
+  {
+    "id": "hi-lena",
+    "romanized": "lena",
+    "english": "to take",
+    "pronunciation": "leh-nah",
+    "partOfSpeech": "verb",
+    "audio": "hindi/lena.mp3"
+  },
+  {
+    "id": "hi-dena",
+    "romanized": "dena",
+    "english": "to give",
+    "pronunciation": "deh-nah",
+    "partOfSpeech": "verb",
+    "audio": "hindi/dena.mp3"
   },
   {
     "id": "hi-kahaan",
@@ -602,10 +730,26 @@
   {
     "id": "hi-seedha",
     "romanized": "seedha",
-    "english": "straight",
+    "english": "straight ahead",
     "pronunciation": "see-dhah",
     "partOfSpeech": "adverb",
     "audio": "hindi/seedha.mp3"
+  },
+  {
+    "id": "hi-aage",
+    "romanized": "aage",
+    "english": "ahead / in front",
+    "pronunciation": "aah-geh",
+    "partOfSpeech": "adverb",
+    "audio": "hindi/aage.mp3"
+  },
+  {
+    "id": "hi-peechhe",
+    "romanized": "peechhe",
+    "english": "behind / back",
+    "pronunciation": "peech-hey",
+    "partOfSpeech": "adverb",
+    "audio": "hindi/peechhe.mp3"
   },
   {
     "id": "hi-ghar",
@@ -614,6 +758,14 @@
     "pronunciation": "gur",
     "partOfSpeech": "noun",
     "audio": "hindi/ghar.mp3"
+  },
+  {
+    "id": "hi-dukaan",
+    "romanized": "dukaan",
+    "english": "shop / store",
+    "pronunciation": "du-kaan",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dukaan.mp3"
   },
   {
     "id": "hi-bazaar",
@@ -630,5 +782,173 @@
     "pronunciation": "skool",
     "partOfSpeech": "noun",
     "audio": "hindi/school.mp3"
+  },
+  {
+    "id": "hi-hospital",
+    "romanized": "hospital",
+    "english": "hospital",
+    "pronunciation": "hos-pi-tul",
+    "partOfSpeech": "noun",
+    "audio": "hindi/hospital.mp3"
+  },
+  {
+    "id": "hi-mandir",
+    "romanized": "mandir",
+    "english": "temple",
+    "pronunciation": "mun-deer",
+    "partOfSpeech": "noun",
+    "audio": "hindi/mandir.mp3"
+  },
+  {
+    "id": "hi-bank",
+    "romanized": "bank",
+    "english": "bank",
+    "pronunciation": "bank",
+    "partOfSpeech": "noun",
+    "audio": "hindi/bank.mp3"
+  },
+  {
+    "id": "hi-bus",
+    "romanized": "bus",
+    "english": "bus",
+    "pronunciation": "bus",
+    "partOfSpeech": "noun",
+    "audio": "hindi/bus.mp3"
+  },
+  {
+    "id": "hi-auto",
+    "romanized": "auto",
+    "english": "auto rickshaw",
+    "pronunciation": "aw-to",
+    "partOfSpeech": "noun",
+    "audio": "hindi/auto.mp3"
+  },
+  {
+    "id": "hi-aaj",
+    "romanized": "aaj",
+    "english": "today",
+    "pronunciation": "aaj",
+    "partOfSpeech": "adverb",
+    "audio": "hindi/aaj.mp3"
+  },
+  {
+    "id": "hi-kal",
+    "romanized": "kal",
+    "english": "yesterday / tomorrow (context dependent)",
+    "pronunciation": "kul",
+    "partOfSpeech": "adverb",
+    "audio": "hindi/kal.mp3"
+  },
+  {
+    "id": "hi-subah",
+    "romanized": "subah",
+    "english": "morning",
+    "pronunciation": "soo-buh",
+    "partOfSpeech": "noun",
+    "audio": "hindi/subah.mp3"
+  },
+  {
+    "id": "hi-dopahar",
+    "romanized": "dopahar",
+    "english": "afternoon",
+    "pronunciation": "doh-puh-hur",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dopahar.mp3"
+  },
+  {
+    "id": "hi-shaam",
+    "romanized": "shaam",
+    "english": "evening",
+    "pronunciation": "shaam",
+    "partOfSpeech": "noun",
+    "audio": "hindi/shaam.mp3"
+  },
+  {
+    "id": "hi-raat",
+    "romanized": "raat",
+    "english": "night",
+    "pronunciation": "raat",
+    "partOfSpeech": "noun",
+    "audio": "hindi/raat.mp3"
+  },
+  {
+    "id": "hi-baarish",
+    "romanized": "baarish",
+    "english": "rain",
+    "pronunciation": "baa-rish",
+    "partOfSpeech": "noun",
+    "audio": "hindi/baarish.mp3"
+  },
+  {
+    "id": "hi-dhoop",
+    "romanized": "dhoop",
+    "english": "sunshine",
+    "pronunciation": "dhoop",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dhoop.mp3"
+  },
+  {
+    "id": "hi-thanda",
+    "romanized": "thanda",
+    "english": "cold",
+    "pronunciation": "thun-dah",
+    "partOfSpeech": "adjective",
+    "audio": "hindi/thanda.mp3"
+  },
+  {
+    "id": "hi-garam",
+    "romanized": "garam",
+    "english": "hot",
+    "pronunciation": "guh-rum",
+    "partOfSpeech": "adjective",
+    "audio": "hindi/garam.mp3"
+  },
+  {
+    "id": "hi-khushi",
+    "romanized": "khushi",
+    "english": "happiness",
+    "pronunciation": "khoo-shee",
+    "partOfSpeech": "noun",
+    "audio": "hindi/khushi.mp3"
+  },
+  {
+    "id": "hi-dukh",
+    "romanized": "dukh",
+    "english": "sadness / pain",
+    "pronunciation": "dookh",
+    "partOfSpeech": "noun",
+    "audio": "hindi/dukh.mp3"
+  },
+  {
+    "id": "hi-bimaar",
+    "romanized": "bimaar",
+    "english": "sick / unwell",
+    "pronunciation": "bi-maar",
+    "partOfSpeech": "adjective",
+    "audio": "hindi/bimaar.mp3"
+  },
+  {
+    "id": "hi-madad",
+    "romanized": "madad",
+    "english": "help!",
+    "pronunciation": "muh-dud",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/madad.mp3"
+  },
+  {
+    "id": "hi-ruko",
+    "romanized": "ruko",
+    "english": "stop!",
+    "pronunciation": "roo-ko",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/ruko.mp3"
+  },
+  {
+    "id": "hi-police-bulao",
+    "romanized": "police bulao",
+    "english": "call the police!",
+    "pronunciation": "poh-lees boo-lao",
+    "partOfSpeech": "phrase",
+    "audio": "hindi/police-bulao.mp3"
   }
 ]

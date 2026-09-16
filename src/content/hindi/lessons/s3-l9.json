@@ -1,278 +1,87 @@
 {
   "id": "s3-l9",
   "sectionId": "s3",
-  "title": "Places & Directions",
-  "description": "Learn how to ask for and give directions, and common location words.",
-  "vocabularyIds": [
-    "hi-kahaan",
-    "hi-baayein",
-    "hi-daayein",
-    "hi-seedha",
-    "hi-ghar",
-    "hi-bazaar",
-    "hi-school"
-  ],
-  "grammarNoteIds": [
-    "hi-gr-directions",
-    "hi-gr-postpositions"
-  ],
+  "title": "Common Foods",
+  "description": "Learn Hindi words for everyday staple foods — flatbread, vegetables, lentils, and more.",
+  "vocabularyIds": ["hi-roti", "hi-sabzi", "hi-dal", "hi-chawal", "hi-murgi", "hi-machli", "hi-dahi"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "hi-s3-l9-ex01",
       "type": "matching",
       "pairs": [
-        {
-          "left": "kahaan",
-          "right": "where"
-        },
-        {
-          "left": "baayein",
-          "right": "left"
-        },
-        {
-          "left": "daayein",
-          "right": "right"
-        },
-        {
-          "left": "seedha",
-          "right": "straight"
-        },
-        {
-          "left": "ghar",
-          "right": "home / house"
-        }
+        { "left": "roti", "right": "flatbread" },
+        { "left": "sabzi", "right": "vegetables / vegetable dish" },
+        { "left": "dal", "right": "lentils" },
+        { "left": "chawal", "right": "rice" }
       ],
-      "explanation": "These direction words are essential for navigating. 'Seedha' (straight), 'baayein' (left), and 'daayein' (right) are the three most important direction words."
+      "explanation": "The four staples of North Indian food — roti, sabzi, dal, and chawal form the basis of most meals."
     },
     {
       "id": "hi-s3-l9-ex02",
       "type": "multiple_choice",
-      "question": "How do you ask 'Where is the market?' in Hindi?",
-      "options": [
-        "Bazaar kahaan hai?",
-        "Kahaan bazaar hai?",
-        "Bazaar hai kahaan?",
-        "Kya bazaar hai?"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Bazaar kahaan hai?' — the subject comes first, then the question word 'kahaan' (where), then the verb 'hai' (is). This is the standard pattern for 'Where is ___?' questions."
+      "question": "How do you say 'I want roti' in Hindi?",
+      "options": ["mujhe dal chahiye", "mujhe roti chahiye", "mujhe chawal chahiye", "mujhe sabzi chahiye"],
+      "correctIndex": 1,
+      "explanation": "'Mujhe roti chahiye' = I want roti. 'Chahiye' is the key word — it means 'is needed' or 'I want'."
     },
     {
       "id": "hi-s3-l9-ex03",
       "type": "translation",
-      "prompt": "How do you say 'Go straight' in Hindi?",
-      "direction": "from_english",
-      "correct": "seedha jaaiye",
-      "acceptedVariants": [
-        "seedha jaao",
-        "seedha jaiye"
-      ],
-      "explanation": "'Seedha jaaiye' is the polite way to say 'go straight'. 'Jaaiye' is the formal/polite form of the verb 'jaana' (to go). 'Seedha jaao' is the informal version.",
-      "hint": "sounds like: seedha jaaiye"
+      "prompt": "dahi",
+      "direction": "to_english",
+      "correct": "yogurt / curd",
+      "acceptedVariants": ["yogurt", "curd", "yogurt / curd"],
+      "explanation": "'Dahi' means yogurt or curd — a staple in Indian cooking and a cooling addition to spicy meals."
     },
     {
       "id": "hi-s3-l9-ex04",
       "type": "fill_in_blank",
-      "sentence": "___ kahaan hai?",
-      "correct": "school",
-      "acceptedVariants": [
-        "ghar",
-        "bazaar"
-      ],
-      "explanation": "The pattern '___ kahaan hai?' means 'Where is ___?'. You can insert any place: 'school kahaan hai?' (Where is the school?), 'ghar kahaan hai?' (Where is the house?)."
+      "sentence": "Mujhe ___ chahiye. (I want chicken.)",
+      "correct": "murgi",
+      "acceptedVariants": ["murgi"],
+      "explanation": "'Murgi' = chicken. 'Mujhe murgi chahiye' = I want chicken."
     },
     {
       "id": "hi-s3-l9-ex05",
-      "type": "word_ordering",
-      "prompt": "Say: Turn left",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "muriye"
-        },
-        {
-          "id": "t2",
-          "text": "baayein"
-        }
-      ],
-      "correctOrder": [
-        "t2",
-        "t1"
-      ],
-      "explanation": "'Baayein muriye' means 'Turn left' (polite). 'Baayein' (left) comes first, then 'muriye' (turn, polite form). For right, say 'daayein muriye'."
+      "type": "translation",
+      "prompt": "do you have fish",
+      "direction": "from_english",
+      "correct": "machli hai",
+      "acceptedVariants": ["machli hai", "kya machli hai", "machli milegi"],
+      "explanation": "'Machli hai?' = is there fish? / do you have fish? A simple and natural way to ask.",
+      "hint": "sounds like: much-lee hai"
     },
     {
       "id": "hi-s3-l9-ex06",
-      "type": "listening",
-      "audio": "hindi/bazaar.mp3",
-      "mode": "select",
-      "options": [
-        "bazaar (market)",
-        "ghar (home)",
-        "school (school)",
-        "kahaan (where)"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Bazaar' (buh-zahr) means market. Indian bazaars are bustling marketplaces where you can buy food, clothes, and everyday goods."
+      "type": "multiple_choice",
+      "question": "What is 'dal' in English?",
+      "options": ["flatbread", "rice", "lentils", "vegetables"],
+      "correctIndex": 2,
+      "explanation": "'Dal' = lentils / lentil soup — one of the most important protein sources in Indian cooking."
     },
     {
       "id": "hi-s3-l9-ex07",
-      "type": "multiple_choice",
-      "question": "What does 'daayein' mean?",
-      "options": [
-        "Right",
-        "Left",
-        "Straight",
-        "Behind"
+      "type": "word_ordering",
+      "prompt": "Order 'I want roti and dal'",
+      "tiles": [
+        { "id": "t1", "text": "mujhe" },
+        { "id": "t2", "text": "roti" },
+        { "id": "t3", "text": "aur" },
+        { "id": "t4", "text": "dal" },
+        { "id": "t5", "text": "chahiye" }
       ],
-      "correctIndex": 0,
-      "explanation": "'Daayein' means right (direction). Remember: 'baayein' = left, 'daayein' = right, 'seedha' = straight. 'Daayein muriye' = turn right."
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"],
+      "explanation": "'Mujhe roti aur dal chahiye' = I want roti and dal. 'Aur' = and."
     },
     {
       "id": "hi-s3-l9-ex08",
       "type": "translation",
-      "prompt": "How do you say 'Where is the house?' in Hindi?",
-      "direction": "from_english",
-      "correct": "ghar kahaan hai",
-      "acceptedVariants": [
-        "ghar kahaan hai?"
-      ],
-      "explanation": "'Ghar kahaan hai?' — 'ghar' (house), 'kahaan' (where), 'hai' (is). In Hindi, question words do not usually change the word order; the tone rises to indicate a question.",
-      "hint": "sounds like: ghar kahaan hai"
-    },
-    {
-      "id": "hi-s3-l9-g18",
-      "type": "translation",
-      "prompt": "Translate 'bazaar' to English.",
+      "prompt": "sabzi",
       "direction": "to_english",
-      "correct": "market",
-      "acceptedVariants": [],
-      "explanation": "'bazaar' means 'market'."
-    },
-    {
-      "id": "hi-s3-l9-g21",
-      "type": "translation",
-      "prompt": "Translate 'school' to English.",
-      "direction": "to_english",
-      "correct": "school",
-      "acceptedVariants": [],
-      "explanation": "'school' means 'school'."
-    },
-    {
-      "id": "hi-s3-l9-g01",
-      "type": "multiple_choice",
-      "question": "What does 'kahaan' mean?",
-      "options": [
-        "how are you (informal, to female)",
-        "goodbye",
-        "lentils",
-        "where"
-      ],
-      "correctIndex": 3,
-      "explanation": "'kahaan' means 'where' in Hindi."
-    },
-    {
-      "id": "hi-s3-l9-g04",
-      "type": "multiple_choice",
-      "question": "What does 'baayein' mean?",
-      "options": [
-        "left",
-        "school",
-        "no",
-        "goodbye"
-      ],
-      "correctIndex": 0,
-      "explanation": "'baayein' means 'left' in Hindi."
-    },
-    {
-      "id": "hi-s3-l9-g17",
-      "type": "translation",
-      "prompt": "How do you say 'market' in Hindi?",
-      "direction": "from_english",
-      "correct": "bazaar",
-      "acceptedVariants": [],
-      "hint": "sounds like: bazaar",
-      "explanation": "'market' in Hindi is 'bazaar'."
-    },
-    {
-      "id": "hi-s3-l9-g13",
-      "type": "multiple_choice",
-      "question": "What does 'ghar' mean?",
-      "options": [
-        "home / house",
-        "hello / greetings",
-        "yellow",
-        "flatbread"
-      ],
-      "correctIndex": 0,
-      "explanation": "'ghar' means 'home / house' in Hindi."
-    },
-    {
-      "id": "hi-s3-l9-g20",
-      "type": "translation",
-      "prompt": "How do you say 'school' in Hindi?",
-      "direction": "from_english",
-      "correct": "school",
-      "acceptedVariants": [],
-      "hint": "sounds like: school",
-      "explanation": "'school' in Hindi is 'school'."
-    },
-    {
-      "id": "hi-s3-l9-g06",
-      "type": "translation",
-      "prompt": "Translate 'baayein' to English.",
-      "direction": "to_english",
-      "correct": "left",
-      "acceptedVariants": [],
-      "explanation": "'baayein' means 'left'."
-    },
-    {
-      "id": "hi-s3-l9-g12",
-      "type": "translation",
-      "prompt": "Translate 'seedha' to English.",
-      "direction": "to_english",
-      "correct": "straight",
-      "acceptedVariants": [],
-      "explanation": "'seedha' means 'straight'."
-    },
-    {
-      "id": "hi-s3-l9-g07",
-      "type": "multiple_choice",
-      "question": "What does 'daayein' mean?",
-      "options": [
-        "excuse me / sorry (formal)",
-        "four (4)",
-        "mother",
-        "right"
-      ],
-      "correctIndex": 3,
-      "explanation": "'daayein' means 'right' in Hindi."
-    },
-    {
-      "id": "hi-s3-l9-g10",
-      "type": "multiple_choice",
-      "question": "What does 'seedha' mean?",
-      "options": [
-        "tea",
-        "nice to meet you",
-        "straight",
-        "twelve (12)"
-      ],
-      "correctIndex": 2,
-      "explanation": "'seedha' means 'straight' in Hindi."
-    },
-    {
-      "id": "hi-s3-l9-g16",
-      "type": "multiple_choice",
-      "question": "What does 'bazaar' mean?",
-      "options": [
-        "to eat",
-        "yellow",
-        "market",
-        "food / to eat"
-      ],
-      "correctIndex": 2,
-      "explanation": "'bazaar' means 'market' in Hindi."
+      "correct": "vegetables",
+      "acceptedVariants": ["vegetables", "vegetable dish", "veggies"],
+      "explanation": "'Sabzi' means vegetables or a vegetable dish — 'kya sabzi hai?' = what vegetables do you have?"
     }
   ]
 }

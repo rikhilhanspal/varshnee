@@ -1,0 +1,85 @@
+{
+  "id": "s5-l17",
+  "sectionId": "s5",
+  "title": "Common Verbs",
+  "description": "Learn the most useful Telugu verbs for everyday conversations.",
+  "vocabularyIds": ["te-velluta", "te-raavadamu", "te-tinuta", "te-taaguta", "te-maatlaaduta", "te-chooduta"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s5-l17-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'tinuta' mean?",
+      "options": ["to drink", "to eat", "to speak", "to go"],
+      "correctIndex": 1,
+      "explanation": "'Tinuta' means to eat in Telugu."
+    },
+    {
+      "id": "te-s5-l17-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "velluta", "right": "to go" },
+        { "left": "raavadamu", "right": "to come" },
+        { "left": "tinuta", "right": "to eat" },
+        { "left": "taaguta", "right": "to drink" }
+      ],
+      "explanation": "These are the four most essential verbs for daily life in Telugu."
+    },
+    {
+      "id": "te-s5-l17-ex03",
+      "type": "translation",
+      "prompt": "to speak",
+      "direction": "from_english",
+      "correct": "maatlaaduta",
+      "acceptedVariants": ["maatlaaduta"],
+      "explanation": "'Maatlaaduta' means to speak in Telugu.",
+      "hint": "sounds like: maat-laa-du-tah"
+    },
+    {
+      "id": "te-s5-l17-ex04",
+      "type": "translation",
+      "prompt": "chooduta",
+      "direction": "to_english",
+      "correct": "to see / to look",
+      "acceptedVariants": ["to see", "to look", "to watch"],
+      "explanation": "'Chooduta' means to see or to look in Telugu."
+    },
+    {
+      "id": "te-s5-l17-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Naenu annam ___ (I am eating rice).",
+      "correct": "tintunnanu",
+      "acceptedVariants": ["tintunnanu", "tinuta"],
+      "explanation": "'Naenu annam tintunnanu' = I am eating rice."
+    },
+    {
+      "id": "te-s5-l17-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'to come' in Telugu?",
+      "options": ["velluta", "raavadamu", "tinuta", "taaguta"],
+      "correctIndex": 1,
+      "explanation": "'Raavadamu' means to come in Telugu."
+    },
+    {
+      "id": "te-s5-l17-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I want to eat'",
+      "tiles": [
+        { "id": "t1", "text": "tinuta" },
+        { "id": "t2", "text": "kaavali" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Tinuta kaavali' = I want to eat. Verb + kaavali = I want to [verb]."
+    },
+    {
+      "id": "te-s5-l17-ex08",
+      "type": "translation",
+      "prompt": "to go",
+      "direction": "from_english",
+      "correct": "velluta",
+      "acceptedVariants": ["velluta"],
+      "explanation": "'Velluta' means to go in Telugu.",
+      "hint": "sounds like: vel-lu-tah"
+    }
+  ]
+}

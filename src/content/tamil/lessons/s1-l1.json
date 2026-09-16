@@ -2,267 +2,84 @@
   "id": "s1-l1",
   "sectionId": "s1",
   "title": "Greetings",
-  "description": "Learn essential Tamil greetings: how to say hello, goodbye, ask how someone is, and respond politely.",
-  "vocabularyIds": [
-    "ta-vanakkam",
-    "ta-poitu-varein",
-    "ta-eppadi-irukkeenga",
-    "ta-naan-nallaa-irukkein",
-    "ta-nandri"
-  ],
-  "grammarNoteIds": [
-    "ta-gr-vanakkam",
-    "ta-gr-formal"
-  ],
+  "description": "Learn essential colloquial Tamil greetings — how to say hello, goodbye, and exchange pleasantries.",
+  "vocabularyIds": ["ta-vanakkam", "ta-poittu-vare", "ta-eppadi-irukeenga", "ta-nallaa-irukken", "ta-nandri", "ta-kaala-vanakkam", "ta-raavu-vanakkam"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "ta-s1-l1-ex01",
       "type": "multiple_choice",
       "question": "What does 'vanakkam' mean?",
-      "options": [
-        "goodbye",
-        "hello / greetings",
-        "thank you",
-        "sorry"
-      ],
+      "options": ["goodbye", "hello / greetings", "thank you", "good night"],
       "correctIndex": 1,
-      "explanation": "'Vanakkam' is the universal Tamil greeting, used for hello, good morning, and more."
+      "explanation": "'Vanakkam' is the standard Tamil greeting used for hello."
     },
     {
       "id": "ta-s1-l1-ex02",
       "type": "translation",
-      "prompt": "How are you?",
+      "prompt": "goodbye",
       "direction": "from_english",
-      "correct": "eppadi irukkeenga",
-      "acceptedVariants": [
-        "eppadi irukeenga",
-        "eppadi irukkinga"
-      ],
-      "explanation": "'Eppadi irukkeenga' is the formal way to ask 'how are you' in Tamil.",
-      "hint": "sounds like: eppadi irukkeenga"
+      "correct": "poittu vare",
+      "acceptedVariants": ["poittu vare", "poitu vare"],
+      "explanation": "'Poittu vare' literally means 'I'll go and come' — the natural way to say goodbye in Tamil.",
+      "hint": "sounds like: poy-tu vuh-reh"
     },
     {
       "id": "ta-s1-l1-ex03",
       "type": "matching",
       "pairs": [
-        {
-          "left": "vanakkam",
-          "right": "hello"
-        },
-        {
-          "left": "nandri",
-          "right": "thank you"
-        },
-        {
-          "left": "poitu varein",
-          "right": "goodbye"
-        },
-        {
-          "left": "naan nallaa irukkein",
-          "right": "I am fine"
-        }
+        { "left": "vanakkam", "right": "hello" },
+        { "left": "poittu vare", "right": "goodbye" },
+        { "left": "nandri", "right": "thank you" },
+        { "left": "eppadi irukeenga", "right": "how are you" }
       ],
-      "explanation": "These are the most essential Tamil greetings and responses you will use every day."
+      "explanation": "These are the most essential Tamil greetings and polite phrases."
     },
     {
       "id": "ta-s1-l1-ex04",
-      "type": "listening",
-      "audio": "tamil/vanakkam.mp3",
-      "mode": "select",
-      "options": [
-        "vanakkam",
-        "nandri",
-        "mannikkavum",
-        "aamaa"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Vanakkam' is pronounced 'vuh-nuk-kum' and means hello or greetings."
+      "type": "translation",
+      "prompt": "nallaa irukken",
+      "direction": "to_english",
+      "correct": "I'm fine",
+      "acceptedVariants": ["I'm fine", "I am fine", "I'm well", "I am well", "I'm good"],
+      "explanation": "'Nallaa irukken' is the colloquial Tamil way to say 'I'm fine'."
     },
     {
       "id": "ta-s1-l1-ex05",
       "type": "fill_in_blank",
-      "sentence": "Naan ___ irukkein.",
-      "correct": "nallaa",
-      "acceptedVariants": [
-        "nalla",
-        "nallaa"
-      ],
-      "explanation": "'Naan nallaa irukkein' means 'I am fine/well'. 'Nallaa' means 'well' or 'good'."
+      "sentence": "___ vanakkam (good morning).",
+      "correct": "kaala",
+      "acceptedVariants": ["kaala"],
+      "explanation": "'Kaala vanakkam' means good morning — kaala = morning."
     },
     {
       "id": "ta-s1-l1-ex06",
-      "type": "word_ordering",
-      "prompt": "Arrange the words to say 'How are you?' in Tamil:",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "irukkeenga"
-        },
-        {
-          "id": "t2",
-          "text": "eppadi"
-        }
-      ],
-      "correctOrder": [
-        "t2",
-        "t1"
-      ],
-      "explanation": "'Eppadi irukkeenga' follows the Tamil question pattern: question-word + verb."
+      "type": "multiple_choice",
+      "question": "Which phrase means 'good night' in Tamil?",
+      "options": ["kaala vanakkam", "madhiya vanakkam", "raavu vanakkam", "maala vanakkam"],
+      "correctIndex": 2,
+      "explanation": "'Raavu vanakkam' means good night — raavu = night."
     },
     {
       "id": "ta-s1-l1-ex07",
-      "type": "translation",
-      "prompt": "nandri",
-      "direction": "to_english",
-      "correct": "thank you",
-      "acceptedVariants": [
-        "thanks"
+      "type": "word_ordering",
+      "prompt": "Say 'how are you'",
+      "tiles": [
+        { "id": "t1", "text": "eppadi" },
+        { "id": "t2", "text": "irukeenga" }
       ],
-      "explanation": "'Nandri' is the Tamil word for 'thank you'. It is used in both formal and informal contexts."
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Eppadi irukeenga' = how are you — eppadi = how, irukeenga = are you (polite)."
     },
     {
       "id": "ta-s1-l1-ex08",
-      "type": "multiple_choice",
-      "question": "Which phrase means 'goodbye' in Tamil?",
-      "options": [
-        "vanakkam",
-        "nandri",
-        "poitu varein",
-        "eppadi irukkeenga"
-      ],
-      "correctIndex": 2,
-      "explanation": "'Poitu varein' literally means 'I will go and come back', and is the common Tamil way to say goodbye."
-    },
-    {
-      "id": "ta-s1-l1-g02",
       "type": "translation",
-      "prompt": "How do you say 'hello / greetings' in Tamil?",
-      "direction": "from_english",
-      "correct": "vanakkam",
-      "acceptedVariants": [],
-      "hint": "sounds like: vanakkam",
-      "explanation": "'hello / greetings' in Tamil is 'vanakkam'."
-    },
-    {
-      "id": "ta-s1-l1-g03",
-      "type": "translation",
-      "prompt": "Translate 'vanakkam' to English.",
-      "direction": "to_english",
-      "correct": "hello / greetings",
-      "acceptedVariants": [],
-      "explanation": "'vanakkam' means 'hello / greetings'."
-    },
-    {
-      "id": "ta-s1-l1-g12",
-      "type": "translation",
-      "prompt": "Translate 'naan nallaa irukkein' to English.",
-      "direction": "to_english",
-      "correct": "I am fine / I am well",
-      "acceptedVariants": [],
-      "explanation": "'naan nallaa irukkein' means 'I am fine / I am well'."
-    },
-    {
-      "id": "ta-s1-l1-g13",
-      "type": "multiple_choice",
-      "question": "What does 'nandri' mean?",
-      "options": [
-        "five (5)",
-        "three (3)",
-        "thank you",
-        "twenty (20)"
-      ],
-      "correctIndex": 2,
-      "explanation": "'nandri' means 'thank you' in Tamil."
-    },
-    {
-      "id": "ta-s1-l1-g15",
-      "type": "translation",
-      "prompt": "Translate 'nandri' to English.",
-      "direction": "to_english",
-      "correct": "thank you",
-      "acceptedVariants": [],
-      "explanation": "'nandri' means 'thank you'."
-    },
-    {
-      "id": "ta-s1-l1-g11",
-      "type": "translation",
-      "prompt": "How do you say 'I am fine / I am well' in Tamil?",
-      "direction": "from_english",
-      "correct": "naan nallaa irukkein",
-      "acceptedVariants": [],
-      "hint": "sounds like: naan nallaa irukkein",
-      "explanation": "'I am fine / I am well' in Tamil is 'naan nallaa irukkein'."
-    },
-    {
-      "id": "ta-s1-l1-g09",
-      "type": "translation",
-      "prompt": "Translate 'eppadi irukkeenga' to English.",
-      "direction": "to_english",
-      "correct": "how are you (formal)",
-      "acceptedVariants": [],
-      "explanation": "'eppadi irukkeenga' means 'how are you (formal)'."
-    },
-    {
-      "id": "ta-s1-l1-g14",
-      "type": "translation",
-      "prompt": "How do you say 'thank you' in Tamil?",
+      "prompt": "thank you",
       "direction": "from_english",
       "correct": "nandri",
-      "acceptedVariants": [],
-      "hint": "sounds like: nandri",
-      "explanation": "'thank you' in Tamil is 'nandri'."
-    },
-    {
-      "id": "ta-s1-l1-g01",
-      "type": "multiple_choice",
-      "question": "What does 'vanakkam' mean?",
-      "options": [
-        "where are you from (formal)",
-        "hello / greetings",
-        "father",
-        "nine (9)"
-      ],
-      "correctIndex": 1,
-      "explanation": "'vanakkam' means 'hello / greetings' in Tamil."
-    },
-    {
-      "id": "ta-s1-l1-g10",
-      "type": "multiple_choice",
-      "question": "What does 'naan nallaa irukkein' mean?",
-      "options": [
-        "I am fine / I am well",
-        "sixteen (16)",
-        "elder brother",
-        "eleven (11)"
-      ],
-      "correctIndex": 0,
-      "explanation": "'naan nallaa irukkein' means 'I am fine / I am well' in Tamil."
-    },
-    {
-      "id": "ta-s1-l1-g04",
-      "type": "multiple_choice",
-      "question": "What does 'poitu varein' mean?",
-      "options": [
-        "goodbye (I will go and come back)",
-        "younger brother",
-        "hello / greetings",
-        "right"
-      ],
-      "correctIndex": 0,
-      "explanation": "'poitu varein' means 'goodbye (I will go and come back)' in Tamil."
-    },
-    {
-      "id": "ta-s1-l1-g07",
-      "type": "multiple_choice",
-      "question": "What does 'eppadi irukkeenga' mean?",
-      "options": [
-        "younger brother",
-        "how are you (formal)",
-        "coffee",
-        "grandmother"
-      ],
-      "correctIndex": 1,
-      "explanation": "'eppadi irukkeenga' means 'how are you (formal)' in Tamil."
+      "acceptedVariants": ["nandri"],
+      "explanation": "'Nandri' is the Tamil word for thank you.",
+      "hint": "sounds like: nun-dree"
     }
   ]
 }

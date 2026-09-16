@@ -1,0 +1,86 @@
+{
+  "id": "s4-l13",
+  "sectionId": "s4",
+  "title": "Places",
+  "description": "Learn Hindi words for common places — temple, market, hospital, and how to ask 'where is ___?'",
+  "vocabularyIds": ["hi-mandir", "hi-dukaan", "hi-hospital", "hi-school", "hi-ghar", "hi-bazaar"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s4-l13-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "mandir", "right": "temple" },
+        { "left": "dukaan", "right": "shop" },
+        { "left": "hospital", "right": "hospital" },
+        { "left": "ghar", "right": "home / house" }
+      ],
+      "explanation": "Common places — 'ghar kahan hai?' (where is home?) is the first question to ask when you're lost."
+    },
+    {
+      "id": "hi-s4-l13-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask 'where is the temple?' in Hindi?",
+      "options": ["mandir kahan hai", "mandir kya hai", "mandir kab hai", "mandir kitna hai"],
+      "correctIndex": 0,
+      "explanation": "'Mandir kahan hai?' = where is the temple? Pattern: place + kahan + hai = where is ___?"
+    },
+    {
+      "id": "hi-s4-l13-ex03",
+      "type": "translation",
+      "prompt": "where is the hospital",
+      "direction": "from_english",
+      "correct": "hospital kahan hai",
+      "acceptedVariants": ["hospital kahan hai"],
+      "explanation": "'Hospital kahan hai?' = where is the hospital? Use this in emergencies.",
+      "hint": "sounds like: hos-pi-tal kuh-haan hai"
+    },
+    {
+      "id": "hi-s4-l13-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ kahan hai? (Where is the market?)",
+      "correct": "bazaar",
+      "acceptedVariants": ["bazaar", "dukaan"],
+      "explanation": "'Bazaar kahan hai?' = where is the market? The pattern 'place + kahan + hai' asks 'where is ___?'"
+    },
+    {
+      "id": "hi-s4-l13-ex05",
+      "type": "translation",
+      "prompt": "school",
+      "direction": "to_english",
+      "correct": "school",
+      "acceptedVariants": ["school"],
+      "explanation": "'School' is the same in Hindi — 'school kahan hai?' = where is the school?"
+    },
+    {
+      "id": "hi-s4-l13-ex06",
+      "type": "multiple_choice",
+      "question": "What is the Hindi word for temple?",
+      "options": ["dukaan", "mandir", "bazaar", "ghar"],
+      "correctIndex": 1,
+      "explanation": "'Mandir' = temple. Visiting a mandir is a central part of daily life across North India."
+    },
+    {
+      "id": "hi-s4-l13-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'where is the house?'",
+      "tiles": [
+        { "id": "t1", "text": "ghar" },
+        { "id": "t2", "text": "kahan" },
+        { "id": "t3", "text": "hai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Ghar kahan hai?' = where is the house/home? Subject + kahan + hai."
+    },
+    {
+      "id": "hi-s4-l13-ex08",
+      "type": "translation",
+      "prompt": "I'm going to the market",
+      "direction": "from_english",
+      "correct": "main bazaar ja raha hoon",
+      "acceptedVariants": ["main bazaar ja raha hoon", "bazaar ja raha hoon", "main bazaar jaa raha hoon"],
+      "explanation": "'Main bazaar ja raha hoon' = I'm going to the market. 'Ja raha hoon' = am going (progressive).",
+      "hint": "sounds like: main buh-zaar jaa ruh-haa hoon"
+    }
+  ]
+}

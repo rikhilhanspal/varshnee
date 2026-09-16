@@ -1,0 +1,88 @@
+{
+  "id": "s2-l7",
+  "sectionId": "s2",
+  "title": "Family Members",
+  "description": "Learn Tamil words for family members, including the elder/younger sibling distinction unique to Tamil.",
+  "vocabularyIds": ["ta-amma", "ta-appa", "ta-anna", "ta-akka", "ta-thambi", "ta-thangai", "ta-paatti", "ta-thaatha"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s2-l7-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "amma", "right": "mother" },
+        { "left": "appa", "right": "father" },
+        { "left": "paatti", "right": "grandmother" },
+        { "left": "thaatha", "right": "grandfather" }
+      ],
+      "explanation": "'Amma' and 'appa' are among the most affectionate words in Tamil — universally understood."
+    },
+    {
+      "id": "ta-s2-l7-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'anna' mean?",
+      "options": ["younger brother", "elder brother", "younger sister", "elder sister"],
+      "correctIndex": 1,
+      "explanation": "'Anna' means elder brother. Tamil distinguishes elder (anna) from younger (thambi) brothers."
+    },
+    {
+      "id": "ta-s2-l7-ex03",
+      "type": "translation",
+      "prompt": "younger sister",
+      "direction": "from_english",
+      "correct": "thangai",
+      "acceptedVariants": ["thangai"],
+      "explanation": "'Thangai' = younger sister. 'Akka' = elder sister. Tamil always specifies elder/younger for siblings.",
+      "hint": "sounds like: thun-gai"
+    },
+    {
+      "id": "ta-s2-l7-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "anna", "right": "elder brother" },
+        { "left": "thambi", "right": "younger brother" },
+        { "left": "akka", "right": "elder sister" },
+        { "left": "thangai", "right": "younger sister" }
+      ],
+      "explanation": "Tamil has four separate words for siblings based on gender and age — older or younger relative to you."
+    },
+    {
+      "id": "ta-s2-l7-ex05",
+      "type": "fill_in_blank",
+      "sentence": "En ___ peyar Ravi. (My father's name is Ravi.)",
+      "correct": "appa",
+      "acceptedVariants": ["appa"],
+      "explanation": "'En appa peyar Ravi' = my father's name is Ravi. En = my, appa = father, peyar = name."
+    },
+    {
+      "id": "ta-s2-l7-ex06",
+      "type": "translation",
+      "prompt": "paatti",
+      "direction": "to_english",
+      "correct": "grandmother",
+      "acceptedVariants": ["grandmother", "grandma"],
+      "explanation": "'Paatti' means grandmother — a word filled with warmth and affection in Tamil culture."
+    },
+    {
+      "id": "ta-s2-l7-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'my mother's name is Priya'",
+      "tiles": [
+        { "id": "t1", "text": "en" },
+        { "id": "t2", "text": "amma" },
+        { "id": "t3", "text": "peyar" },
+        { "id": "t4", "text": "Priya" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'En amma peyar Priya' = my mother's name is Priya. Word order: my + mother + name + Priya."
+    },
+    {
+      "id": "ta-s2-l7-ex08",
+      "type": "multiple_choice",
+      "question": "Which word means 'younger brother'?",
+      "options": ["anna", "thambi", "akka", "thangai"],
+      "correctIndex": 1,
+      "explanation": "'Thambi' = younger brother. Also used casually to address any younger boy or young man."
+    }
+  ]
+}

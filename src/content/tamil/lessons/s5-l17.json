@@ -1,0 +1,85 @@
+{
+  "id": "s5-l17",
+  "sectionId": "s5",
+  "title": "Common Verbs",
+  "description": "Learn the most frequently used Tamil verbs — eat, drink, go, come, see, and do.",
+  "vocabularyIds": ["ta-saapidu", "ta-kudiku", "ta-poo", "ta-vaa", "ta-paaru", "ta-sollu", "ta-pannu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s5-l17-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "saapidu", "right": "to eat" },
+        { "left": "kudiku", "right": "to drink" },
+        { "left": "poo", "right": "to go" },
+        { "left": "vaa", "right": "to come" }
+      ],
+      "explanation": "Four essential action verbs — these are the infinitive/command forms used in everyday Tamil speech."
+    },
+    {
+      "id": "ta-s5-l17-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'paaru' mean?",
+      "options": ["to eat", "to go", "to see / look", "to do"],
+      "correctIndex": 2,
+      "explanation": "'Paaru' means to see or look. 'Paathen' = I saw. 'Paakkiren' = I am looking."
+    },
+    {
+      "id": "ta-s5-l17-ex03",
+      "type": "translation",
+      "prompt": "I'm going",
+      "direction": "from_english",
+      "correct": "pouren",
+      "acceptedVariants": ["pouren", "poguren", "naan pouren"],
+      "explanation": "'Pouren' = I'm going (present tense, first person). The root is 'poo' (to go).",
+      "hint": "sounds like: po-ren"
+    },
+    {
+      "id": "ta-s5-l17-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Naan ___ saapiduren. (I am eating rice.)",
+      "correct": "saadam",
+      "acceptedVariants": ["saadam"],
+      "explanation": "'Naan saadam saapiduren' = I am eating rice. Saapiduren = I am eating (present tense)."
+    },
+    {
+      "id": "ta-s5-l17-ex05",
+      "type": "translation",
+      "prompt": "come here",
+      "direction": "from_english",
+      "correct": "inge vaa",
+      "acceptedVariants": ["inge vaa", "inge vaanga"],
+      "explanation": "'Inge vaa' = come here (informal). 'Inge vaanga' = come here (polite).",
+      "hint": "sounds like: in-geh vaa"
+    },
+    {
+      "id": "ta-s5-l17-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'pannu' mean?",
+      "options": ["to eat", "to drink", "to do", "to see"],
+      "correctIndex": 2,
+      "explanation": "'Pannu' means to do — 'enna pannra?' = what are you doing? 'Enna pannuva?' = what will you do?"
+    },
+    {
+      "id": "ta-s5-l17-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'let's go eat'",
+      "tiles": [
+        { "id": "t1", "text": "saapida" },
+        { "id": "t2", "text": "poomlaam" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Saapida poomlaam' = let's go eat. Saapida = to eat, poomlaam = let's go."
+    },
+    {
+      "id": "ta-s5-l17-ex08",
+      "type": "translation",
+      "prompt": "sollu",
+      "direction": "to_english",
+      "correct": "to tell / to say",
+      "acceptedVariants": ["to tell", "to say", "tell me"],
+      "explanation": "'Sollu' = tell / say. 'Sollu da' = tell me (casual). 'Sollunga' = please tell me (polite)."
+    }
+  ]
+}

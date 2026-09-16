@@ -1,269 +1,87 @@
 {
   "id": "s2-l6",
   "sectionId": "s2",
-  "title": "Colors & Descriptions",
-  "description": "Learn the names of colors and basic descriptive adjectives in Tamil.",
-  "vocabularyIds": [
-    "ta-sivappu",
-    "ta-neelam",
-    "ta-pachchai",
-    "ta-manjal",
-    "ta-vellai",
-    "ta-karuppu",
-    "ta-periya",
-    "ta-siriya",
-    "ta-nalla",
-    "ta-kettadhu"
-  ],
-  "grammarNoteIds": [
-    "ta-gr-adjectives"
-  ],
+  "title": "Numbers 11–20",
+  "description": "Learn to count from eleven to twenty in colloquial Tamil.",
+  "vocabularyIds": ["ta-pathinonnu", "ta-pannrendu", "ta-pathinmoonu", "ta-pathinnaalu", "ta-pathinanju", "ta-pathinaaru", "ta-pathineyelu", "ta-pathinettu", "ta-pathombadu", "ta-irupathu"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "ta-s2-l6-ex01",
       "type": "matching",
       "pairs": [
-        {
-          "left": "sivappu",
-          "right": "red"
-        },
-        {
-          "left": "neelam",
-          "right": "blue"
-        },
-        {
-          "left": "pachchai",
-          "right": "green"
-        },
-        {
-          "left": "manjal",
-          "right": "yellow"
-        }
+        { "left": "pathinonnu", "right": "11" },
+        { "left": "pannrendu", "right": "12" },
+        { "left": "pathinmoonu", "right": "13" },
+        { "left": "pathinnaalu", "right": "14" }
       ],
-      "explanation": "These four colors are among the most commonly used in Tamil."
+      "explanation": "Numbers 11–14. Notice that 11, 13, and 14 are formed with 'pathin' (ten) + the unit number."
     },
     {
       "id": "ta-s2-l6-ex02",
-      "type": "multiple_choice",
-      "question": "What does 'karuppu' mean?",
-      "options": [
-        "white",
-        "red",
-        "green",
-        "black"
+      "type": "matching",
+      "pairs": [
+        { "left": "pathinanju", "right": "15" },
+        { "left": "pathinaaru", "right": "16" },
+        { "left": "pathineyelu", "right": "17" },
+        { "left": "pathinettu", "right": "18" }
       ],
-      "correctIndex": 3,
-      "explanation": "'Karuppu' means black. Its opposite is 'vellai' (white)."
+      "explanation": "Numbers 15–18 follow the pattern pathin + unit (anju, aaru, yelu, ettu)."
     },
     {
       "id": "ta-s2-l6-ex03",
-      "type": "translation",
-      "prompt": "big house",
-      "direction": "from_english",
-      "correct": "periya veedu",
-      "acceptedVariants": [
-        "periya veedu"
-      ],
-      "explanation": "'Periya veedu' = big house. In Tamil, the adjective 'periya' comes before the noun 'veedu'.",
-      "hint": "sounds like: periya veedu"
+      "type": "multiple_choice",
+      "question": "What is 'irupathu' in English?",
+      "options": ["18", "19", "20", "15"],
+      "correctIndex": 2,
+      "explanation": "'Irupathu' means 20 in Tamil — iru (two) + pathu (ten) = twenty."
     },
     {
       "id": "ta-s2-l6-ex04",
-      "type": "fill_in_blank",
-      "sentence": "Idhu ___ poo.",
-      "correct": "sivappu",
-      "acceptedVariants": [
-        "sivappu"
-      ],
-      "explanation": "'Idhu sivappu poo' means 'This is a red flower'. 'Sivappu' (red) comes before 'poo' (flower)."
+      "type": "translation",
+      "prompt": "19",
+      "direction": "from_english",
+      "correct": "pathombadu",
+      "acceptedVariants": ["pathombadu"],
+      "explanation": "'Pathombadu' = 19 — pathu (ten) + ombadu (nine).",
+      "hint": "sounds like: pa-thom-ba-du"
     },
     {
       "id": "ta-s2-l6-ex05",
-      "type": "listening",
-      "audio": "tamil/pachchai.mp3",
-      "mode": "type",
-      "correct": "pachchai",
-      "acceptedVariants": [
-        "pachai",
-        "pachchai"
-      ],
-      "explanation": "'Pachchai' means green and is pronounced 'puch-chai'."
+      "type": "fill_in_blank",
+      "sentence": "Pathinanju, pathinaaru, pathineyelu, ___, pathombadu. (15, 16, 17, ___, 19)",
+      "correct": "pathinettu",
+      "acceptedVariants": ["pathinettu"],
+      "explanation": "'Pathinettu' = 18, coming between 17 and 19."
     },
     {
       "id": "ta-s2-l6-ex06",
-      "type": "word_ordering",
-      "prompt": "Arrange the words to say 'good small house':",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "veedu"
-        },
-        {
-          "id": "t2",
-          "text": "nalla"
-        },
-        {
-          "id": "t3",
-          "text": "siriya"
-        }
-      ],
-      "correctOrder": [
-        "t2",
-        "t3",
-        "t1"
-      ],
-      "explanation": "'Nalla siriya veedu' = good small house. Multiple adjectives stack before the noun."
+      "type": "translation",
+      "prompt": "pannrendu",
+      "direction": "to_english",
+      "correct": "12",
+      "acceptedVariants": ["12", "twelve"],
+      "explanation": "'Pannrendu' is 12 — an irregular form (not pathin + rendu)."
     },
     {
       "id": "ta-s2-l6-ex07",
-      "type": "translation",
-      "prompt": "kettadhu",
-      "direction": "to_english",
-      "correct": "bad",
-      "acceptedVariants": [
-        "bad",
-        "bad thing"
-      ],
-      "explanation": "'Kettadhu' means bad. Its opposite is 'nalla' (good)."
+      "type": "multiple_choice",
+      "question": "How do you ask 'how old are you?' in Tamil?",
+      "options": ["onga evvalavu vayasu", "onga vayasu evvalavu", "eppo vayasu", "enna vayasu"],
+      "correctIndex": 1,
+      "explanation": "'Onga vayasu evvalavu?' = how old are you? — vayasu = age, evvalavu = how much/many."
     },
     {
       "id": "ta-s2-l6-ex08",
-      "type": "multiple_choice",
-      "question": "Which word means 'small'?",
-      "options": [
-        "periya",
-        "nalla",
-        "siriya",
-        "kettadhu"
+      "type": "word_ordering",
+      "prompt": "Put 18, 19, 20 in order",
+      "tiles": [
+        { "id": "t1", "text": "irupathu" },
+        { "id": "t2", "text": "pathombadu" },
+        { "id": "t3", "text": "pathinettu" }
       ],
-      "correctIndex": 2,
-      "explanation": "'Siriya' means small or little. Its opposite is 'periya' (big)."
-    },
-    {
-      "id": "ta-s2-l6-g07",
-      "type": "multiple_choice",
-      "question": "What does 'pachchai' mean?",
-      "options": [
-        "I am fine / I am well",
-        "six (6)",
-        "food / meal",
-        "green"
-      ],
-      "correctIndex": 3,
-      "explanation": "'pachchai' means 'green' in Tamil."
-    },
-    {
-      "id": "ta-s2-l6-g08",
-      "type": "translation",
-      "prompt": "How do you say 'green' in Tamil?",
-      "direction": "from_english",
-      "correct": "pachchai",
-      "acceptedVariants": [],
-      "hint": "sounds like: pachchai",
-      "explanation": "'green' in Tamil is 'pachchai'."
-    },
-    {
-      "id": "ta-s2-l6-g29",
-      "type": "translation",
-      "prompt": "How do you say 'bad' in Tamil?",
-      "direction": "from_english",
-      "correct": "kettadhu",
-      "acceptedVariants": [],
-      "hint": "sounds like: kettadhu",
-      "explanation": "'bad' in Tamil is 'kettadhu'."
-    },
-    {
-      "id": "ta-s2-l6-g23",
-      "type": "translation",
-      "prompt": "How do you say 'small / little' in Tamil?",
-      "direction": "from_english",
-      "correct": "siriya",
-      "acceptedVariants": [],
-      "hint": "sounds like: siriya",
-      "explanation": "'small / little' in Tamil is 'siriya'."
-    },
-    {
-      "id": "ta-s2-l6-g19",
-      "type": "multiple_choice",
-      "question": "What does 'periya' mean?",
-      "options": [
-        "I don't understand",
-        "younger sister",
-        "big / large",
-        "sixteen (16)"
-      ],
-      "correctIndex": 2,
-      "explanation": "'periya' means 'big / large' in Tamil."
-    },
-    {
-      "id": "ta-s2-l6-g11",
-      "type": "translation",
-      "prompt": "How do you say 'yellow' in Tamil?",
-      "direction": "from_english",
-      "correct": "manjal",
-      "acceptedVariants": [],
-      "hint": "sounds like: manjal",
-      "explanation": "'yellow' in Tamil is 'manjal'."
-    },
-    {
-      "id": "ta-s2-l6-g17",
-      "type": "translation",
-      "prompt": "How do you say 'black' in Tamil?",
-      "direction": "from_english",
-      "correct": "karuppu",
-      "acceptedVariants": [],
-      "hint": "sounds like: karuppu",
-      "explanation": "'black' in Tamil is 'karuppu'."
-    },
-    {
-      "id": "ta-s2-l6-g12",
-      "type": "translation",
-      "prompt": "Translate 'manjal' to English.",
-      "direction": "to_english",
-      "correct": "yellow",
-      "acceptedVariants": [],
-      "explanation": "'manjal' means 'yellow'."
-    },
-    {
-      "id": "ta-s2-l6-g20",
-      "type": "translation",
-      "prompt": "How do you say 'big / large' in Tamil?",
-      "direction": "from_english",
-      "correct": "periya",
-      "acceptedVariants": [],
-      "hint": "sounds like: periya",
-      "explanation": "'big / large' in Tamil is 'periya'."
-    },
-    {
-      "id": "ta-s2-l6-g04",
-      "type": "multiple_choice",
-      "question": "What does 'neelam' mean?",
-      "options": [
-        "to come",
-        "where are you from (formal)",
-        "blue",
-        "twelve (12)"
-      ],
-      "correctIndex": 2,
-      "explanation": "'neelam' means 'blue' in Tamil."
-    },
-    {
-      "id": "ta-s2-l6-g03",
-      "type": "translation",
-      "prompt": "Translate 'sivappu' to English.",
-      "direction": "to_english",
-      "correct": "red",
-      "acceptedVariants": [],
-      "explanation": "'sivappu' means 'red'."
-    },
-    {
-      "id": "ta-s2-l6-g27",
-      "type": "translation",
-      "prompt": "Translate 'nalla' to English.",
-      "direction": "to_english",
-      "correct": "good",
-      "acceptedVariants": [],
-      "explanation": "'nalla' means 'good'."
+      "correctOrder": ["t3", "t2", "t1"],
+      "explanation": "pathinettu (18) → pathombadu (19) → irupathu (20)"
     }
   ]
 }

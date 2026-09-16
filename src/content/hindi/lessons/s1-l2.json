@@ -2,290 +2,90 @@
   "id": "s1-l2",
   "sectionId": "s1",
   "title": "Introductions",
-  "description": "Learn to introduce yourself, say your name, and ask where someone is from.",
-  "vocabularyIds": [
-    "hi-mera-naam-hai",
-    "hi-aap-kahaan-se-hain",
-    "hi-main-se-hoon",
-    "hi-milkar-khushi-hui",
-    "hi-namaste"
-  ],
-  "grammarNoteIds": [
-    "hi-gr-mera-tera",
-    "hi-gr-word-order"
-  ],
+  "description": "Learn how to introduce yourself, ask someone's name, and say where you are from in Hindi.",
+  "vocabularyIds": ["hi-tumhara-naam-kya-hai", "hi-mera-naam-hai", "hi-tum-kahan-se-ho", "hi-main-se-hoon", "hi-milkar-khushi-hui"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "hi-s1-l2-ex01",
-      "type": "word_ordering",
-      "prompt": "Say: My name is Priya",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "naam"
-        },
-        {
-          "id": "t2",
-          "text": "hai"
-        },
-        {
-          "id": "t3",
-          "text": "mera"
-        },
-        {
-          "id": "t4",
-          "text": "Priya"
-        }
-      ],
-      "correctOrder": [
-        "t3",
-        "t1",
-        "t4",
-        "t2"
-      ],
-      "explanation": "'Mera naam Priya hai' follows Hindi SOV word order. Literally: 'My name Priya is'. The verb 'hai' always goes at the end."
+      "type": "multiple_choice",
+      "question": "How do you ask 'what is your name?' informally in Hindi?",
+      "options": ["main theek hoon", "tumhara naam kya hai", "namaste", "phir milenge"],
+      "correctIndex": 1,
+      "explanation": "'Tumhara naam kya hai' = what is your name — tumhara = your, naam = name, kya = what, hai = is."
     },
     {
       "id": "hi-s1-l2-ex02",
-      "type": "multiple_choice",
-      "question": "What does 'aap kahaan se hain' mean?",
-      "options": [
-        "Where are you from?",
-        "What is your name?",
-        "How are you?",
-        "Where are you going?"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Aap kahaan se hain' means 'Where are you from?' — 'aap' (you, formal), 'kahaan' (where), 'se' (from), 'hain' (are)."
+      "type": "translation",
+      "prompt": "my name is ___",
+      "direction": "from_english",
+      "correct": "mera naam ___ hai",
+      "acceptedVariants": ["mera naam ___ hai", "mera naam hai"],
+      "explanation": "'Mera naam ___ hai' = my name is ___ — mera = my, naam = name, hai = is.",
+      "hint": "sounds like: meh-rah nahm ___ hay"
     },
     {
       "id": "hi-s1-l2-ex03",
-      "type": "fill_in_blank",
-      "sentence": "Mera ___ Raj hai.",
-      "correct": "naam",
-      "acceptedVariants": [],
-      "explanation": "'Mera naam Raj hai' means 'My name is Raj'. 'Naam' means 'name'. The structure is: my + name + [name] + is."
+      "type": "matching",
+      "pairs": [
+        { "left": "tumhara naam kya hai", "right": "what is your name" },
+        { "left": "mera naam ___ hai", "right": "my name is ___" },
+        { "left": "tum kahan se ho", "right": "where are you from" },
+        { "left": "aap se milkar khushi hui", "right": "nice to meet you" }
+      ],
+      "explanation": "These introductory phrases are used when meeting someone new in Hindi."
     },
     {
       "id": "hi-s1-l2-ex04",
       "type": "translation",
-      "prompt": "How do you say 'I am from Delhi' in Hindi?",
-      "direction": "from_english",
-      "correct": "main Delhi se hoon",
-      "acceptedVariants": [
-        "main dilli se hoon"
-      ],
-      "explanation": "'Main Delhi se hoon' — 'main' (I), 'Delhi' (Delhi), 'se' (from), 'hoon' (am). Notice the SOV word order: the verb 'hoon' comes last.",
-      "hint": "sounds like: main Delhi se hoon"
+      "prompt": "tum kahan se ho",
+      "direction": "to_english",
+      "correct": "where are you from",
+      "acceptedVariants": ["where are you from", "where do you come from"],
+      "explanation": "'Tum kahan se ho' = where are you from — tum = you (informal), kahan = where, se = from, ho = are."
     },
     {
       "id": "hi-s1-l2-ex05",
-      "type": "listening",
-      "audio": "hindi/milkar-khushi-hui.mp3",
-      "mode": "select",
-      "options": [
-        "aap se milkar khushi hui",
-        "mera naam hai",
-        "aap kahaan se hain",
-        "main theek hoon"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Aap se milkar khushi hui' means 'Nice to meet you', literally 'Meeting you, happiness happened'. It is a warm and polite phrase."
+      "type": "fill_in_blank",
+      "sentence": "Mera naam ___ hai.",
+      "correct": "[your name]",
+      "acceptedVariants": ["[your name]", "Priya", "Rahul", "Ananya"],
+      "explanation": "Fill in your name: 'Mera naam ___ hai' = my name is ___."
     },
     {
       "id": "hi-s1-l2-ex06",
-      "type": "matching",
-      "pairs": [
-        {
-          "left": "mera naam ___ hai",
-          "right": "my name is ___"
-        },
-        {
-          "left": "aap kahaan se hain",
-          "right": "where are you from"
-        },
-        {
-          "left": "main ___ se hoon",
-          "right": "I am from ___"
-        },
-        {
-          "left": "aap se milkar khushi hui",
-          "right": "nice to meet you"
-        }
+      "type": "word_ordering",
+      "prompt": "Say 'my name is'",
+      "tiles": [
+        { "id": "t1", "text": "mera" },
+        { "id": "t2", "text": "naam" },
+        { "id": "t3", "text": "hai" }
       ],
-      "explanation": "These introduction phrases will help you start a conversation with anyone in Hindi."
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Mera naam hai' = my name is. Insert your name between naam and hai."
     },
     {
       "id": "hi-s1-l2-ex07",
-      "type": "multiple_choice",
-      "question": "Which word means 'name' in Hindi?",
-      "options": [
-        "naam",
-        "kaam",
-        "ghar",
-        "daam"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Naam' means 'name'. Be careful not to confuse it with 'kaam' (work), 'ghar' (house), or 'daam' (price)."
+      "type": "translation",
+      "prompt": "nice to meet you",
+      "direction": "from_english",
+      "correct": "aap se milkar khushi hui",
+      "acceptedVariants": ["aap se milkar khushi hui", "milkar khushi hui"],
+      "explanation": "'Aap se milkar khushi hui' = happy to have met you — aap = you, milkar = meeting, khushi = happiness.",
+      "hint": "sounds like: aahp say mil-kar khoo-shee hoo-ee"
     },
     {
       "id": "hi-s1-l2-ex08",
-      "type": "word_ordering",
-      "prompt": "Say: Where are you from? (formal)",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "hain"
-        },
-        {
-          "id": "t2",
-          "text": "kahaan"
-        },
-        {
-          "id": "t3",
-          "text": "se"
-        },
-        {
-          "id": "t4",
-          "text": "aap"
-        }
-      ],
-      "correctOrder": [
-        "t4",
-        "t2",
-        "t3",
-        "t1"
-      ],
-      "explanation": "'Aap kahaan se hain' — the postposition 'se' (from) comes after 'kahaan' (where), and the verb 'hain' comes at the end."
-    },
-    {
-      "id": "hi-s1-l2-g05",
-      "type": "translation",
-      "prompt": "How do you say 'where are you from (formal)' in Hindi?",
-      "direction": "from_english",
-      "correct": "aap kahaan se hain",
-      "acceptedVariants": [],
-      "hint": "sounds like: aap kahaan se hain",
-      "explanation": "'where are you from (formal)' in Hindi is 'aap kahaan se hain'."
-    },
-    {
-      "id": "hi-s1-l2-g08",
-      "type": "translation",
-      "prompt": "How do you say 'I am from ___' in Hindi?",
-      "direction": "from_english",
-      "correct": "main ___ se hoon",
-      "acceptedVariants": [],
-      "hint": "sounds like: main ___ se hoon",
-      "explanation": "'I am from ___' in Hindi is 'main ___ se hoon'."
-    },
-    {
-      "id": "hi-s1-l2-g07",
       "type": "multiple_choice",
-      "question": "What does 'main ___ se hoon' mean?",
+      "question": "How do you say 'I am from Mumbai'?",
       "options": [
-        "red",
-        "small",
-        "how are you (informal, to male)",
-        "I am from ___"
-      ],
-      "correctIndex": 3,
-      "explanation": "'main ___ se hoon' means 'I am from ___' in Hindi."
-    },
-    {
-      "id": "hi-s1-l2-g12",
-      "type": "translation",
-      "prompt": "Translate 'aap se milkar khushi hui' to English.",
-      "direction": "to_english",
-      "correct": "nice to meet you",
-      "acceptedVariants": [],
-      "explanation": "'aap se milkar khushi hui' means 'nice to meet you'."
-    },
-    {
-      "id": "hi-s1-l2-g14",
-      "type": "translation",
-      "prompt": "How do you say 'hello / greetings' in Hindi?",
-      "direction": "from_english",
-      "correct": "namaste",
-      "acceptedVariants": [],
-      "hint": "sounds like: namaste",
-      "explanation": "'hello / greetings' in Hindi is 'namaste'."
-    },
-    {
-      "id": "hi-s1-l2-g03",
-      "type": "translation",
-      "prompt": "Translate 'mera naam ___ hai' to English.",
-      "direction": "to_english",
-      "correct": "my name is ___",
-      "acceptedVariants": [],
-      "explanation": "'mera naam ___ hai' means 'my name is ___'."
-    },
-    {
-      "id": "hi-s1-l2-g09",
-      "type": "translation",
-      "prompt": "Translate 'main ___ se hoon' to English.",
-      "direction": "to_english",
-      "correct": "I am from ___",
-      "acceptedVariants": [],
-      "explanation": "'main ___ se hoon' means 'I am from ___'."
-    },
-    {
-      "id": "hi-s1-l2-g13",
-      "type": "multiple_choice",
-      "question": "What does 'namaste' mean?",
-      "options": [
-        "no",
-        "hello / greetings",
-        "thirteen (13)",
-        "seven (7)"
+        "main Mumbai mera naam hai",
+        "main Mumbai se hoon",
+        "Mumbai kahan hai",
+        "namaste Mumbai"
       ],
       "correctIndex": 1,
-      "explanation": "'namaste' means 'hello / greetings' in Hindi."
-    },
-    {
-      "id": "hi-s1-l2-g01",
-      "type": "multiple_choice",
-      "question": "What does 'mera naam ___ hai' mean?",
-      "options": [
-        "seven (7)",
-        "how are you (informal, to female)",
-        "my name is ___",
-        "thank you (formal)"
-      ],
-      "correctIndex": 2,
-      "explanation": "'mera naam ___ hai' means 'my name is ___' in Hindi."
-    },
-    {
-      "id": "hi-s1-l2-g04",
-      "type": "multiple_choice",
-      "question": "What does 'aap kahaan se hain' mean?",
-      "options": [
-        "four (4)",
-        "where are you from (formal)",
-        "to like",
-        "rice"
-      ],
-      "correctIndex": 1,
-      "explanation": "'aap kahaan se hain' means 'where are you from (formal)' in Hindi."
-    },
-    {
-      "id": "hi-s1-l2-g02",
-      "type": "translation",
-      "prompt": "How do you say 'my name is ___' in Hindi?",
-      "direction": "from_english",
-      "correct": "mera naam ___ hai",
-      "acceptedVariants": [],
-      "hint": "sounds like: mera naam ___ hai",
-      "explanation": "'my name is ___' in Hindi is 'mera naam ___ hai'."
-    },
-    {
-      "id": "hi-s1-l2-g11",
-      "type": "translation",
-      "prompt": "How do you say 'nice to meet you' in Hindi?",
-      "direction": "from_english",
-      "correct": "aap se milkar khushi hui",
-      "acceptedVariants": [],
-      "hint": "sounds like: aap se milkar khushi hui",
-      "explanation": "'nice to meet you' in Hindi is 'aap se milkar khushi hui'."
+      "explanation": "'Main Mumbai se hoon' = I am from Mumbai — main = I, se = from, hoon = am."
     }
   ]
 }

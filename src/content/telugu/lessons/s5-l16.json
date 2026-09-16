@@ -1,0 +1,86 @@
+{
+  "id": "s5-l16",
+  "sectionId": "s5",
+  "title": "Time & Days",
+  "description": "Learn how to talk about today, yesterday, tomorrow, and times of day in Telugu.",
+  "vocabularyIds": ["te-naadu", "te-ninna", "te-repu", "te-taella", "te-saayanam", "te-raatri"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s5-l16-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'naadu' mean?",
+      "options": ["yesterday", "today", "tomorrow", "morning"],
+      "correctIndex": 1,
+      "explanation": "'Naadu' means today in Telugu."
+    },
+    {
+      "id": "te-s5-l16-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "naadu", "right": "today" },
+        { "left": "ninna", "right": "yesterday" },
+        { "left": "repu", "right": "tomorrow" },
+        { "left": "taella", "right": "morning" }
+      ],
+      "explanation": "These time words are essential for daily conversation in Telugu."
+    },
+    {
+      "id": "te-s5-l16-ex03",
+      "type": "translation",
+      "prompt": "tomorrow",
+      "direction": "from_english",
+      "correct": "repu",
+      "acceptedVariants": ["repu"],
+      "explanation": "'Repu' means tomorrow in Telugu.",
+      "hint": "sounds like: reh-pu"
+    },
+    {
+      "id": "te-s5-l16-ex04",
+      "type": "translation",
+      "prompt": "saayanam",
+      "direction": "to_english",
+      "correct": "evening",
+      "acceptedVariants": ["evening", "in the evening"],
+      "explanation": "'Saayanam' means evening in Telugu."
+    },
+    {
+      "id": "te-s5-l16-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Ninna = yesterday, naadu = today, ___ = tomorrow.",
+      "correct": "repu",
+      "acceptedVariants": ["repu"],
+      "explanation": "The sequence is: ninna (yesterday), naadu (today), repu (tomorrow)."
+    },
+    {
+      "id": "te-s5-l16-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'good morning' in Telugu?",
+      "options": ["shubha raathri", "shubhodayam", "saayanam", "naadu"],
+      "correctIndex": 1,
+      "explanation": "'Shubhodayam' means good morning in Telugu."
+    },
+    {
+      "id": "te-s5-l16-ex07",
+      "type": "word_ordering",
+      "prompt": "Put time of day in order: morning, evening, night",
+      "tiles": [
+        { "id": "t1", "text": "taella" },
+        { "id": "t2", "text": "saayanam" },
+        { "id": "t3", "text": "raatri" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "taella (morning) → saayanam (evening) → raatri (night)."
+    },
+    {
+      "id": "te-s5-l16-ex08",
+      "type": "translation",
+      "prompt": "yesterday",
+      "direction": "from_english",
+      "correct": "ninna",
+      "acceptedVariants": ["ninna"],
+      "explanation": "'Ninna' means yesterday in Telugu.",
+      "hint": "sounds like: nin-nah"
+    }
+  ]
+}

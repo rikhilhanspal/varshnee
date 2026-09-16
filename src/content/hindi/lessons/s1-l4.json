@@ -1,0 +1,87 @@
+{
+  "id": "s1-l4",
+  "sectionId": "s1",
+  "title": "Basic Questions",
+  "description": "Learn the essential Hindi question words: what, where, when, how much, and why.",
+  "vocabularyIds": ["hi-kya", "hi-kahan", "hi-kab", "hi-kitna", "hi-kyun"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s1-l4-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "kya", "right": "what" },
+        { "left": "kahan", "right": "where" },
+        { "left": "kab", "right": "when" },
+        { "left": "kitna", "right": "how much" }
+      ],
+      "explanation": "These question words unlock thousands of possible questions in Hindi."
+    },
+    {
+      "id": "hi-s1-l4-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask 'how much does this cost?' in Hindi?",
+      "options": ["yeh kahan hai", "yeh kitne ka hai", "yeh kya hai", "yeh kab hai"],
+      "correctIndex": 1,
+      "explanation": "'Yeh kitne ka hai?' = how much does this cost? — kitne = how much, ka = of, hai = is."
+    },
+    {
+      "id": "hi-s1-l4-ex03",
+      "type": "translation",
+      "prompt": "where is it",
+      "direction": "from_english",
+      "correct": "yeh kahan hai",
+      "acceptedVariants": ["yeh kahan hai", "kahan hai"],
+      "explanation": "'Yeh kahan hai?' = where is this/it? — yeh = this, kahan = where, hai = is.",
+      "hint": "sounds like: yeh kuh-haan hai"
+    },
+    {
+      "id": "hi-s1-l4-ex04",
+      "type": "translation",
+      "prompt": "kyun",
+      "direction": "to_english",
+      "correct": "why",
+      "acceptedVariants": ["why"],
+      "explanation": "'Kyun' means why — 'kyun nahin?' = why not? is a very common phrase."
+    },
+    {
+      "id": "hi-s1-l4-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Tum ___ aaye? (When did you come?)",
+      "correct": "kab",
+      "acceptedVariants": ["kab"],
+      "explanation": "'Tum kab aaye?' = when did you come? — kab = when, aaye = came."
+    },
+    {
+      "id": "hi-s1-l4-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'kya' mean?",
+      "options": ["where", "when", "why", "what"],
+      "correctIndex": 3,
+      "explanation": "'Kya' means what. It is also used at the start of yes/no questions: 'kya tum theek ho?' = are you okay?"
+    },
+    {
+      "id": "hi-s1-l4-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'how much is this?'",
+      "tiles": [
+        { "id": "t1", "text": "yeh" },
+        { "id": "t2", "text": "kitne" },
+        { "id": "t3", "text": "ka" },
+        { "id": "t4", "text": "hai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'Yeh kitne ka hai?' = how much is this? — yeh (this) + kitne (how much) + ka (of) + hai (is)."
+    },
+    {
+      "id": "hi-s1-l4-ex08",
+      "type": "translation",
+      "prompt": "what is your name",
+      "direction": "from_english",
+      "correct": "tumhara naam kya hai",
+      "acceptedVariants": ["tumhara naam kya hai", "aapka naam kya hai"],
+      "explanation": "'Tumhara naam kya hai?' = what is your name? — combining 'kya' (what) from this lesson with introductions vocab.",
+      "hint": "sounds like: tum-haa-raa naam kyaa hai"
+    }
+  ]
+}

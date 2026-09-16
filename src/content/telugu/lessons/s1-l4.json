@@ -1,0 +1,91 @@
+{
+  "id": "s1-l4",
+  "sectionId": "s1",
+  "title": "Basic Questions",
+  "description": "Ask about prices, locations, and language in Telugu.",
+  "vocabularyIds": ["te-dheeni-dhara-entha", "te-ekkada", "te-thelugu-matlaadataara", "te-nemmadhigaa-matlaadandi", "te-dhoddi-ekkada"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s1-l4-ex01",
+      "type": "multiple_choice",
+      "question": "How do you ask 'how much does this cost?' in Telugu?",
+      "options": ["elaa unnaru", "dheeni dhara entha", "ekkada", "avunu"],
+      "correctIndex": 1,
+      "explanation": "'Dheeni dhara entha' means 'how much does this cost' — dheeni = this, dhara = price, entha = how much."
+    },
+    {
+      "id": "te-s1-l4-ex02",
+      "type": "translation",
+      "prompt": "where",
+      "direction": "from_english",
+      "correct": "ekkada",
+      "acceptedVariants": ["ekkada", "ekkad"],
+      "explanation": "'Ekkada' means where in Telugu.",
+      "hint": "sounds like: ek-kuh-dah"
+    },
+    {
+      "id": "te-s1-l4-ex03",
+      "type": "translation",
+      "prompt": "dheeni dhara entha",
+      "direction": "to_english",
+      "correct": "how much does this cost",
+      "acceptedVariants": ["how much is this", "how much does this cost", "what is the price"],
+      "explanation": "'Dheeni dhara entha' is how you ask for the price of something."
+    },
+    {
+      "id": "te-s1-l4-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "dheeni dhara entha", "right": "how much does this cost" },
+        { "left": "ekkada", "right": "where" },
+        { "left": "meeru thelugu matlaadataara", "right": "do you speak Telugu" },
+        { "left": "dayachesi nemmadhigaa matlaadandi", "right": "please speak more slowly" }
+      ],
+      "explanation": "These are useful questions to know as a Telugu learner."
+    },
+    {
+      "id": "te-s1-l4-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Meeru thelugu ___ ? (Do you speak Telugu?)",
+      "correct": "matlaadataara",
+      "acceptedVariants": ["matlaadataara"],
+      "explanation": "'Meeru thelugu matlaadataara' means 'Do you speak Telugu?'"
+    },
+    {
+      "id": "te-s1-l4-ex06",
+      "type": "translation",
+      "prompt": "please speak more slowly",
+      "direction": "from_english",
+      "correct": "dayachesi nemmadhigaa matlaadandi",
+      "acceptedVariants": ["dayachesi nemmadhigaa matlaadandi", "nemmadhigaa matlaadandi"],
+      "explanation": "'Dayachesi nemmadhigaa matlaadandi' — dayachesi = please, nemmadhigaa = slowly, matlaadandi = speak.",
+      "hint": "sounds like: duh-yuh-cheh-see nem-muh-dee-gaa maat-laa-dun-dee"
+    },
+    {
+      "id": "te-s1-l4-ex07",
+      "type": "multiple_choice",
+      "question": "How do you ask 'where is the toilet?' in Telugu?",
+      "options": [
+        "ekkada angadi undhi",
+        "dhoddi gadhi ekkada undhi",
+        "naaku artham kaaledu",
+        "dheeni dhara entha"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Dhoddi gadhi ekkada undhi' means 'where is the toilet' in Telugu."
+    },
+    {
+      "id": "te-s1-l4-ex08",
+      "type": "word_ordering",
+      "prompt": "Arrange to ask 'how much does this cost'",
+      "tiles": [
+        { "id": "t1", "text": "dheeni" },
+        { "id": "t2", "text": "dhara" },
+        { "id": "t3", "text": "entha" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Dheeni dhara entha' = how much does this cost."
+    }
+  ]
+}

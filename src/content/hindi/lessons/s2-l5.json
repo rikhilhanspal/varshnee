@@ -1,292 +1,87 @@
 {
   "id": "s2-l5",
   "sectionId": "s2",
-  "title": "Family Members",
-  "description": "Learn words for parents, siblings, grandparents, and extended family in Hindi.",
-  "vocabularyIds": [
-    "hi-maa",
-    "hi-amma",
-    "hi-pitaji",
-    "hi-papa",
-    "hi-bhai",
-    "hi-behen",
-    "hi-dadi",
-    "hi-dada",
-    "hi-chacha",
-    "hi-chachi"
-  ],
-  "grammarNoteIds": [
-    "hi-gr-family-respect",
-    "hi-gr-gender-basics"
-  ],
+  "title": "Numbers 1–10",
+  "description": "Learn to count from one to ten in Hindi.",
+  "vocabularyIds": ["hi-ek", "hi-do", "hi-teen", "hi-chaar", "hi-paanch", "hi-chhe", "hi-saat", "hi-aath", "hi-nau", "hi-das"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "hi-s2-l5-ex01",
       "type": "matching",
       "pairs": [
-        {
-          "left": "maa",
-          "right": "mother"
-        },
-        {
-          "left": "pitaji",
-          "right": "father (respectful)"
-        },
-        {
-          "left": "bhai",
-          "right": "brother"
-        },
-        {
-          "left": "behen",
-          "right": "sister"
-        },
-        {
-          "left": "dadi",
-          "right": "paternal grandmother"
-        }
+        { "left": "ek", "right": "1" },
+        { "left": "do", "right": "2" },
+        { "left": "teen", "right": "3" },
+        { "left": "chaar", "right": "4" }
       ],
-      "explanation": "Hindi family words are very specific. 'Pitaji' adds 'ji' to 'pita' (father) to show respect — a common practice in Hindi."
+      "explanation": "The first four Hindi numbers — you'll use these constantly for quantities, prices, and time."
     },
     {
       "id": "hi-s2-l5-ex02",
-      "type": "multiple_choice",
-      "question": "What does 'chacha' mean?",
-      "options": [
-        "Paternal uncle",
-        "Maternal uncle",
-        "Cousin",
-        "Nephew"
+      "type": "matching",
+      "pairs": [
+        { "left": "paanch", "right": "5" },
+        { "left": "chhe", "right": "6" },
+        { "left": "saat", "right": "7" },
+        { "left": "aath", "right": "8" }
       ],
-      "correctIndex": 0,
-      "explanation": "'Chacha' specifically means your father's brother. Hindi distinguishes between paternal and maternal relatives — your mother's brother is 'mama'."
+      "explanation": "Numbers 5 through 8 — practice counting aloud: paanch, chhe, saat, aath."
     },
     {
       "id": "hi-s2-l5-ex03",
-      "type": "translation",
-      "prompt": "How do you say 'sister' in Hindi?",
-      "direction": "from_english",
-      "correct": "behen",
-      "acceptedVariants": [
-        "behan",
-        "didi"
-      ],
-      "explanation": "'Behen' means sister. An older sister is often called 'didi' as a term of respect and affection.",
-      "hint": "sounds like: behen"
+      "type": "multiple_choice",
+      "question": "What is 'das' in English?",
+      "options": ["8", "9", "10", "7"],
+      "correctIndex": 2,
+      "explanation": "'Das' means 10. 'Nau' is 9. Together: ek, do, teen, chaar, paanch, chhe, saat, aath, nau, das."
     },
     {
       "id": "hi-s2-l5-ex04",
-      "type": "fill_in_blank",
-      "sentence": "Mere ___ ka naam Rahul hai.",
-      "correct": "bhai",
-      "acceptedVariants": [],
-      "explanation": "'Mere bhai ka naam Rahul hai' means 'My brother's name is Rahul'. Notice 'mera' becomes 'mere' before 'bhai' in this construction."
+      "type": "translation",
+      "prompt": "5",
+      "direction": "from_english",
+      "correct": "paanch",
+      "acceptedVariants": ["paanch"],
+      "explanation": "'Paanch' is 5 in Hindi.",
+      "hint": "sounds like: paanch"
     },
     {
       "id": "hi-s2-l5-ex05",
-      "type": "listening",
-      "audio": "hindi/pitaji.mp3",
-      "mode": "select",
-      "options": [
-        "pitaji",
-        "papa",
-        "chacha",
-        "dada"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Pitaji' (pih-tah-jee) is the respectful way to say 'father'. The suffix 'ji' is added to show honor and respect."
+      "type": "fill_in_blank",
+      "sentence": "Ek, do, teen, ___, paanch. (1, 2, 3, ___, 5)",
+      "correct": "chaar",
+      "acceptedVariants": ["chaar"],
+      "explanation": "'Chaar' = 4, coming between teen (3) and paanch (5)."
     },
     {
       "id": "hi-s2-l5-ex06",
-      "type": "multiple_choice",
-      "question": "What is the difference between 'maa' and 'amma'?",
-      "options": [
-        "'Amma' is a more affectionate/regional way to say mother",
-        "'Amma' means grandmother",
-        "'Maa' is informal and 'amma' is formal",
-        "They mean completely different things"
+      "type": "word_ordering",
+      "prompt": "Put 6, 7, 8 in order",
+      "tiles": [
+        { "id": "t1", "text": "aath" },
+        { "id": "t2", "text": "chhe" },
+        { "id": "t3", "text": "saat" }
       ],
-      "correctIndex": 0,
-      "explanation": "Both 'maa' and 'amma' mean mother. 'Maa' is the standard Hindi word, while 'amma' is more affectionate and commonly used in certain regions of India."
+      "correctOrder": ["t2", "t3", "t1"],
+      "explanation": "chhe (6) → saat (7) → aath (8)"
     },
     {
       "id": "hi-s2-l5-ex07",
-      "type": "word_ordering",
-      "prompt": "Say: My mother's name is Sita",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "naam"
-        },
-        {
-          "id": "t2",
-          "text": "hai"
-        },
-        {
-          "id": "t3",
-          "text": "meri"
-        },
-        {
-          "id": "t4",
-          "text": "maa"
-        },
-        {
-          "id": "t5",
-          "text": "ka"
-        },
-        {
-          "id": "t6",
-          "text": "Sita"
-        }
-      ],
-      "correctOrder": [
-        "t3",
-        "t4",
-        "t5",
-        "t1",
-        "t6",
-        "t2"
-      ],
-      "explanation": "'Meri maa ka naam Sita hai' — notice 'mera' changes to 'meri' because 'maa' (mother) is feminine. 'Ka' shows possession (of)."
+      "type": "translation",
+      "prompt": "nau",
+      "direction": "to_english",
+      "correct": "9",
+      "acceptedVariants": ["9", "nine"],
+      "explanation": "'Nau' is 9 in Hindi."
     },
     {
       "id": "hi-s2-l5-ex08",
-      "type": "translation",
-      "prompt": "How do you say 'paternal grandfather' in Hindi?",
-      "direction": "from_english",
-      "correct": "dada",
-      "acceptedVariants": [
-        "dadaji"
-      ],
-      "explanation": "'Dada' means paternal grandfather (father's father). Adding 'ji' to make 'dadaji' is more respectful. The maternal grandfather is 'nana'.",
-      "hint": "sounds like: dada"
-    },
-    {
-      "id": "hi-s2-l5-g15",
-      "type": "translation",
-      "prompt": "Translate 'bhai' to English.",
-      "direction": "to_english",
-      "correct": "brother",
-      "acceptedVariants": [],
-      "explanation": "'bhai' means 'brother'."
-    },
-    {
-      "id": "hi-s2-l5-g29",
-      "type": "translation",
-      "prompt": "How do you say 'paternal aunt (uncle's wife)' in Hindi?",
-      "direction": "from_english",
-      "correct": "chachi",
-      "acceptedVariants": [],
-      "hint": "sounds like: chachi",
-      "explanation": "'paternal aunt (uncle's wife)' in Hindi is 'chachi'."
-    },
-    {
-      "id": "hi-s2-l5-g14",
-      "type": "translation",
-      "prompt": "How do you say 'brother' in Hindi?",
-      "direction": "from_english",
-      "correct": "bhai",
-      "acceptedVariants": [],
-      "hint": "sounds like: bhai",
-      "explanation": "'brother' in Hindi is 'bhai'."
-    },
-    {
-      "id": "hi-s2-l5-g01",
       "type": "multiple_choice",
-      "question": "What does 'maa' mean?",
-      "options": [
-        "mother",
-        "yes",
-        "dad",
-        "how are you (informal, to female)"
-      ],
-      "correctIndex": 0,
-      "explanation": "'maa' means 'mother' in Hindi."
-    },
-    {
-      "id": "hi-s2-l5-g28",
-      "type": "multiple_choice",
-      "question": "What does 'chachi' mean?",
-      "options": [
-        "green",
-        "thirteen (13)",
-        "paternal aunt (uncle's wife)",
-        "sister"
-      ],
-      "correctIndex": 2,
-      "explanation": "'chachi' means 'paternal aunt (uncle's wife)' in Hindi."
-    },
-    {
-      "id": "hi-s2-l5-g05",
-      "type": "translation",
-      "prompt": "How do you say 'mom (affectionate)' in Hindi?",
-      "direction": "from_english",
-      "correct": "amma",
-      "acceptedVariants": [],
-      "hint": "sounds like: amma",
-      "explanation": "'mom (affectionate)' in Hindi is 'amma'."
-    },
-    {
-      "id": "hi-s2-l5-g30",
-      "type": "translation",
-      "prompt": "Translate 'chachi' to English.",
-      "direction": "to_english",
-      "correct": "paternal aunt (uncle's wife)",
-      "acceptedVariants": [],
-      "explanation": "'chachi' means 'paternal aunt (uncle's wife)'."
-    },
-    {
-      "id": "hi-s2-l5-g02",
-      "type": "translation",
-      "prompt": "How do you say 'mother' in Hindi?",
-      "direction": "from_english",
-      "correct": "maa",
-      "acceptedVariants": [],
-      "hint": "sounds like: maa",
-      "explanation": "'mother' in Hindi is 'maa'."
-    },
-    {
-      "id": "hi-s2-l5-g18",
-      "type": "translation",
-      "prompt": "Translate 'behen' to English.",
-      "direction": "to_english",
-      "correct": "sister",
-      "acceptedVariants": [],
-      "explanation": "'behen' means 'sister'."
-    },
-    {
-      "id": "hi-s2-l5-g07",
-      "type": "multiple_choice",
-      "question": "What does 'pitaji' mean?",
-      "options": [
-        "I am fine",
-        "to like",
-        "paternal uncle",
-        "father (respectful)"
-      ],
-      "correctIndex": 3,
-      "explanation": "'pitaji' means 'father (respectful)' in Hindi."
-    },
-    {
-      "id": "hi-s2-l5-g25",
-      "type": "multiple_choice",
-      "question": "What does 'chacha' mean?",
-      "options": [
-        "yellow",
-        "my name is ___",
-        "paternal uncle",
-        "hello / greetings"
-      ],
-      "correctIndex": 2,
-      "explanation": "'chacha' means 'paternal uncle' in Hindi."
-    },
-    {
-      "id": "hi-s2-l5-g09",
-      "type": "translation",
-      "prompt": "Translate 'pitaji' to English.",
-      "direction": "to_english",
-      "correct": "father (respectful)",
-      "acceptedVariants": [],
-      "explanation": "'pitaji' means 'father (respectful)'."
+      "question": "How do you say 'give me 3 rotis' in Hindi?",
+      "options": ["mujhe do roti dena", "mujhe teen roti dena", "mujhe chaar roti dena", "mujhe ek roti dena"],
+      "correctIndex": 1,
+      "explanation": "'Mujhe teen roti dena' = give me 3 rotis. Mujhe = to me, teen = three, dena = give."
     }
   ]
 }

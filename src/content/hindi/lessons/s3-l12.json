@@ -1,0 +1,88 @@
+{
+  "id": "s3-l12",
+  "sectionId": "s3",
+  "title": "Shopping",
+  "description": "Learn how to ask prices, buy things, and navigate markets in Hindi.",
+  "vocabularyIds": ["hi-kitne-ka-hai", "hi-dukaan", "hi-lena", "hi-dena"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s3-l12-ex01",
+      "type": "multiple_choice",
+      "question": "How do you ask 'how much does this cost?' in Hindi?",
+      "options": ["yeh kahan hai", "yeh kitne ka hai", "yeh kya hai", "yeh kab milega"],
+      "correctIndex": 1,
+      "explanation": "'Yeh kitne ka hai?' = how much does this cost? — yeh = this, kitne = how much, ka = of, hai = is."
+    },
+    {
+      "id": "hi-s3-l12-ex02",
+      "type": "translation",
+      "prompt": "how much is this",
+      "direction": "from_english",
+      "correct": "yeh kitne ka hai",
+      "acceptedVariants": ["yeh kitne ka hai", "kitne ka hai"],
+      "explanation": "'Yeh kitne ka hai?' — the most essential shopping phrase in Hindi.",
+      "hint": "sounds like: yeh kit-neh kaa hai"
+    },
+    {
+      "id": "hi-s3-l12-ex03",
+      "type": "matching",
+      "pairs": [
+        { "left": "dukaan", "right": "shop / store" },
+        { "left": "lena", "right": "to take / to buy" },
+        { "left": "dena", "right": "to give" },
+        { "left": "kitne ka", "right": "how much" }
+      ],
+      "explanation": "Shopping vocabulary — 'dena' (give) and 'lena' (take) are the two most useful verbs in any transaction."
+    },
+    {
+      "id": "hi-s3-l12-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Yeh bahut ___ hai. (This is very expensive.)",
+      "correct": "mahnga",
+      "acceptedVariants": ["mahnga", "mehenga"],
+      "explanation": "'Bahut mahnga hai' = it's very expensive. The opposite is 'sasta' (cheap)."
+    },
+    {
+      "id": "hi-s3-l12-ex05",
+      "type": "translation",
+      "prompt": "I'll take this",
+      "direction": "from_english",
+      "correct": "yeh le lunga",
+      "acceptedVariants": ["yeh le lunga", "yeh lunga", "yeh le lena"],
+      "explanation": "'Yeh le lunga' = I'll take this (said by a man). A woman would say 'yeh le lungi'.",
+      "hint": "sounds like: yeh leh lung-aa"
+    },
+    {
+      "id": "hi-s3-l12-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'it's too expensive' in Hindi?",
+      "options": ["bahut sasta hai", "bahut achhaa hai", "bahut mahnga hai", "bahut chhota hai"],
+      "correctIndex": 2,
+      "explanation": "'Bahut mahnga hai' = it's too expensive. You can follow with 'thoda kam karo' = reduce the price a little."
+    },
+    {
+      "id": "hi-s3-l12-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask the price: 'how much is this?'",
+      "tiles": [
+        { "id": "t1", "text": "yeh" },
+        { "id": "t2", "text": "kitne" },
+        { "id": "t3", "text": "ka" },
+        { "id": "t4", "text": "hai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'Yeh kitne ka hai?' — yeh (this) + kitne (how much) + ka (of) + hai (is)."
+    },
+    {
+      "id": "hi-s3-l12-ex08",
+      "type": "translation",
+      "prompt": "do you have this in a smaller size",
+      "direction": "from_english",
+      "correct": "kya iska chhota size hai",
+      "acceptedVariants": ["kya iska chhota size hai", "chhota size milega"],
+      "explanation": "'Kya iska chhota size hai?' = do you have a smaller size of this? Iska = of this.",
+      "hint": "sounds like: kyaa is-kaa chho-taa size hai"
+    }
+  ]
+}

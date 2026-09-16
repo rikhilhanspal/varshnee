@@ -1,0 +1,88 @@
+{
+  "id": "s4-l14",
+  "sectionId": "s4",
+  "title": "Directions",
+  "description": "Learn how to give and follow directions in Hindi — left, right, straight, and nearby.",
+  "vocabularyIds": ["hi-baayein", "hi-daayein", "hi-seedha", "hi-paas", "hi-aage", "hi-peechhe"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s4-l14-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "baayein", "right": "left" },
+        { "left": "daayein", "right": "right" },
+        { "left": "seedha", "right": "straight" },
+        { "left": "paas", "right": "nearby / close" }
+      ],
+      "explanation": "The four essential direction words — 'baayein' (left), 'daayein' (right), 'seedha' (straight), 'paas' (near)."
+    },
+    {
+      "id": "hi-s4-l14-ex02",
+      "type": "multiple_choice",
+      "question": "How do you say 'turn left' in Hindi?",
+      "options": ["daayein muriye", "seedha jaaiye", "baayein muriye", "paas jaaiye"],
+      "correctIndex": 2,
+      "explanation": "'Baayein muriye' = turn left (polite). 'Muriye' = please turn. For right: 'daayein muriye'."
+    },
+    {
+      "id": "hi-s4-l14-ex03",
+      "type": "translation",
+      "prompt": "go straight",
+      "direction": "from_english",
+      "correct": "seedha jaaiye",
+      "acceptedVariants": ["seedha jaaiye", "seedha jaao"],
+      "explanation": "'Seedha jaaiye' = go straight (polite). Casual: 'seedha jaao'.",
+      "hint": "sounds like: seed-haa jaa-i-yeh"
+    },
+    {
+      "id": "hi-s4-l14-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Mandir ___ hai. (The temple is nearby.)",
+      "correct": "paas",
+      "acceptedVariants": ["paas"],
+      "explanation": "'Mandir paas hai' = the temple is nearby. 'Paas' = near, close."
+    },
+    {
+      "id": "hi-s4-l14-ex05",
+      "type": "translation",
+      "prompt": "aage",
+      "direction": "to_english",
+      "correct": "ahead / forward",
+      "acceptedVariants": ["ahead", "forward", "in front"],
+      "explanation": "'Aage' = ahead or in front. 'Aage jaaiye' = go forward/ahead. Opposite: 'peechhe' (behind)."
+    },
+    {
+      "id": "hi-s4-l14-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'peechhe' mean?",
+      "options": ["left", "straight", "behind / back", "nearby"],
+      "correctIndex": 2,
+      "explanation": "'Peechhe' = behind or back. 'Peechhe muriye' = turn back. Opposite of 'aage' (ahead)."
+    },
+    {
+      "id": "hi-s4-l14-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'go straight then turn right'",
+      "tiles": [
+        { "id": "t1", "text": "seedha" },
+        { "id": "t2", "text": "jaaiye" },
+        { "id": "t3", "text": "phir" },
+        { "id": "t4", "text": "daayein" },
+        { "id": "t5", "text": "muriye" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"],
+      "explanation": "'Seedha jaaiye, phir daayein muriye' = go straight, then turn right. 'Phir' = then."
+    },
+    {
+      "id": "hi-s4-l14-ex08",
+      "type": "translation",
+      "prompt": "is it far",
+      "direction": "from_english",
+      "correct": "kya door hai",
+      "acceptedVariants": ["kya door hai", "door hai"],
+      "explanation": "'Kya door hai?' = is it far? 'Door' = far. The response will be 'haan, door hai' (yes, it's far) or 'nahin, paas hai' (no, it's nearby).",
+      "hint": "sounds like: kyaa door hai"
+    }
+  ]
+}

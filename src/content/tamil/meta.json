@@ -1,7 +1,7 @@
 {
   "code": "tamil",
   "name": "Tamil",
-  "totalLessons": 10,
-  "totalSections": 4,
+  "totalLessons": 20,
+  "totalSections": 6,
   "romanizationNotes": "All Tamil content uses romanized text only (no Tamil script). Long vowels are doubled: aa, ii, uu, ee, oo. The retroflex 'zh' represents the unique Tamil sound (as in 'tamizh'). 'ng' represents the velar nasal. A simplified lowercase approach is used throughout — no capitals for retroflex consonants. Pronunciation guides use English-friendly approximations."
 }

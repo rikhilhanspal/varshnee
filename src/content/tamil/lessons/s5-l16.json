@@ -1,0 +1,89 @@
+{
+  "id": "s5-l16",
+  "sectionId": "s5",
+  "title": "Time & Days",
+  "description": "Learn how to talk about time — today, tomorrow, morning, evening, and days of the week in Tamil.",
+  "vocabularyIds": ["ta-inniki", "ta-nettru", "ta-naalaiku", "ta-kaalala", "ta-maalam", "ta-raatriyila"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s5-l16-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "inniki", "right": "today" },
+        { "left": "nettru", "right": "yesterday" },
+        { "left": "naalaiku", "right": "tomorrow" },
+        { "left": "kaalala", "right": "in the morning" }
+      ],
+      "explanation": "Time words for daily conversation — 'inniki' (today), 'nettru' (yesterday), 'naalaiku' (tomorrow)."
+    },
+    {
+      "id": "ta-s5-l16-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "kaalala", "right": "morning" },
+        { "left": "maalam", "right": "evening" },
+        { "left": "raatriyila", "right": "at night" },
+        { "left": "inniki", "right": "today" }
+      ],
+      "explanation": "Parts of the day — these combine with verbs to say 'I will go tomorrow morning' etc."
+    },
+    {
+      "id": "ta-s5-l16-ex03",
+      "type": "translation",
+      "prompt": "tomorrow morning",
+      "direction": "from_english",
+      "correct": "naalaiku kaalala",
+      "acceptedVariants": ["naalaiku kaalala"],
+      "explanation": "'Naalaiku kaalala' = tomorrow morning — just combine the two time words.",
+      "hint": "sounds like: naa-lai-ku kaa-luh-luh"
+    },
+    {
+      "id": "ta-s5-l16-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ enna pannra? (What are you doing today?)",
+      "correct": "inniki",
+      "acceptedVariants": ["inniki"],
+      "explanation": "'Inniki enna pannra?' = what are you doing today? A very common casual question."
+    },
+    {
+      "id": "ta-s5-l16-ex05",
+      "type": "translation",
+      "prompt": "nettru",
+      "direction": "to_english",
+      "correct": "yesterday",
+      "acceptedVariants": ["yesterday"],
+      "explanation": "'Nettru' means yesterday in Tamil."
+    },
+    {
+      "id": "ta-s5-l16-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'see you tomorrow' in Tamil?",
+      "options": ["nettru paakkalaam", "naalaiku paakkalaam", "inniki paakkalaam", "maalam paakkalaam"],
+      "correctIndex": 1,
+      "explanation": "'Naalaiku paakkalaam' = we'll see (each other) tomorrow. Paakkalaam = let's see / we can see."
+    },
+    {
+      "id": "ta-s5-l16-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I'm coming in the evening'",
+      "tiles": [
+        { "id": "t1", "text": "naan" },
+        { "id": "t2", "text": "maalam" },
+        { "id": "t3", "text": "varen" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Naan maalam varen' = I'm coming in the evening. Time words come before the verb in Tamil."
+    },
+    {
+      "id": "ta-s5-l16-ex08",
+      "type": "translation",
+      "prompt": "what time is it",
+      "direction": "from_english",
+      "correct": "eppo neram",
+      "acceptedVariants": ["eppo neram", "evvalavu neram"],
+      "explanation": "'Eppo neram?' = what time is it? (literally: what o'clock?) — a natural way to ask the time in Tamil.",
+      "hint": "sounds like: ep-po neh-rum"
+    }
+  ]
+}

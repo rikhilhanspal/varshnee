@@ -1,0 +1,91 @@
+{
+  "id": "s4-l15",
+  "sectionId": "s4",
+  "title": "Transport",
+  "description": "Learn how to get around using buses and autos in Telugu.",
+  "vocabularyIds": ["te-bus", "te-auto", "te-ekkada", "te-dheeni-dhara-entha"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s4-l15-ex01",
+      "type": "multiple_choice",
+      "question": "What is an 'auto' in the context of Telugu transport?",
+      "options": ["a car", "an auto rickshaw", "a bus", "a train"],
+      "correctIndex": 1,
+      "explanation": "'Auto' refers to an auto rickshaw — the three-wheeled taxis common throughout South India."
+    },
+    {
+      "id": "te-s4-l15-ex02",
+      "type": "translation",
+      "prompt": "where does this bus go",
+      "direction": "from_english",
+      "correct": "ee bus ekkada velthundi",
+      "acceptedVariants": ["ee bus ekkada velthundi", "bus ekkada velthundi"],
+      "explanation": "'Ee bus ekkada velthundi' = where does this bus go — ee = this, bus = bus, ekkada = where, velthundi = goes.",
+      "hint": "sounds like: ee bus ek-kuh-duh vel-thun-dee"
+    },
+    {
+      "id": "te-s4-l15-ex03",
+      "type": "translation",
+      "prompt": "ee bus ekkada velthundi",
+      "direction": "to_english",
+      "correct": "where does this bus go",
+      "acceptedVariants": ["where does this bus go", "where is this bus going"],
+      "explanation": "'Ee bus ekkada velthundi' asks the bus's destination."
+    },
+    {
+      "id": "te-s4-l15-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "bus", "right": "bus" },
+        { "left": "auto", "right": "auto rickshaw" },
+        { "left": "ekkada", "right": "where" },
+        { "left": "dheeni dhara entha", "right": "how much does this cost" }
+      ],
+      "explanation": "These words help you navigate transport in Telugu-speaking cities."
+    },
+    {
+      "id": "te-s4-l15-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Auto ___ entha? (How much is the auto fare?)",
+      "correct": "dhara",
+      "acceptedVariants": ["dhara"],
+      "explanation": "'Auto dhara entha' = how much is the auto fare?"
+    },
+    {
+      "id": "te-s4-l15-ex06",
+      "type": "multiple_choice",
+      "question": "You want to take an auto to the hospital. What do you say?",
+      "options": [
+        "hospital bus kaavali",
+        "hospital auto kaavali",
+        "hospital ekkada undhi",
+        "hospital manchidi"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Hospital auto kaavali' = I need an auto to the hospital — auto = auto, kaavali = need."
+    },
+    {
+      "id": "te-s4-l15-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask the auto fare to the bank",
+      "tiles": [
+        { "id": "t1", "text": "bank" },
+        { "id": "t2", "text": "dhara" },
+        { "id": "t3", "text": "entha" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Bank dhara entha' = how much to go to the bank?"
+    },
+    {
+      "id": "te-s4-l15-ex08",
+      "type": "translation",
+      "prompt": "where does this bus go",
+      "direction": "from_english",
+      "correct": "ee bus ekkada velthundi",
+      "acceptedVariants": ["ee bus ekkada velthundi"],
+      "explanation": "Use this phrase to check a bus's destination.",
+      "hint": "sounds like: ee bus ek-kuh-duh vel-thun-dee"
+    }
+  ]
+}

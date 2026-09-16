@@ -1,0 +1,86 @@
+{
+  "id": "s3-l12",
+  "sectionId": "s3",
+  "title": "Shopping",
+  "description": "Learn how to shop, ask prices, and interact at markets in Telugu.",
+  "vocabularyIds": ["te-angadi", "te-dheeni-dhara-entha", "te-pedda", "te-chinna", "te-avunu", "te-kaadu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s3-l12-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'angadi' mean?",
+      "options": ["market", "shop / store", "bank", "school"],
+      "correctIndex": 1,
+      "explanation": "'Angadi' means shop or store in Telugu."
+    },
+    {
+      "id": "te-s3-l12-ex02",
+      "type": "translation",
+      "prompt": "how much does this cost",
+      "direction": "from_english",
+      "correct": "dheeni dhara entha",
+      "acceptedVariants": ["dheeni dhara entha"],
+      "explanation": "The essential shopping question — ask for any item's price.",
+      "hint": "sounds like: dhee-nee dhuh-ruh en-thuh"
+    },
+    {
+      "id": "te-s3-l12-ex03",
+      "type": "translation",
+      "prompt": "dheeni dhara entha",
+      "direction": "to_english",
+      "correct": "how much does this cost",
+      "acceptedVariants": ["how much does this cost", "how much is this", "what is the price"],
+      "explanation": "'Dheeni dhara entha' = dheeni (this) + dhara (price) + entha (how much)."
+    },
+    {
+      "id": "te-s3-l12-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "angadi", "right": "shop" },
+        { "left": "dheeni dhara entha", "right": "how much is this" },
+        { "left": "pedda", "right": "big" },
+        { "left": "chinna", "right": "small" }
+      ],
+      "explanation": "These words are useful when shopping at a Telugu market."
+    },
+    {
+      "id": "te-s3-l12-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Pedda means big, ___ means small.",
+      "correct": "chinna",
+      "acceptedVariants": ["chinna"],
+      "explanation": "'Chinna' means small in Telugu — the opposite of pedda (big)."
+    },
+    {
+      "id": "te-s3-l12-ex06",
+      "type": "multiple_choice",
+      "question": "You want the smaller size. What do you say?",
+      "options": ["pedda kaavali", "chinna kaavali", "manchidi kaavali", "neellu kaavali"],
+      "correctIndex": 1,
+      "explanation": "'Chinna kaavali' means 'I want the small one' — chinna = small, kaavali = want."
+    },
+    {
+      "id": "te-s3-l12-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask how much the small one costs",
+      "tiles": [
+        { "id": "t1", "text": "chinna" },
+        { "id": "t2", "text": "dhara" },
+        { "id": "t3", "text": "entha" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Chinna dhara entha' = how much is the small one?"
+    },
+    {
+      "id": "te-s3-l12-ex08",
+      "type": "translation",
+      "prompt": "shop / store",
+      "direction": "from_english",
+      "correct": "angadi",
+      "acceptedVariants": ["angadi"],
+      "explanation": "'Angadi' is the Telugu word for a shop or store.",
+      "hint": "sounds like: un-guh-dee"
+    }
+  ]
+}

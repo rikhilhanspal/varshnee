@@ -1,0 +1,86 @@
+{
+  "id": "s6-l20",
+  "sectionId": "s6",
+  "title": "Asking for Help",
+  "description": "Learn essential Hindi phrases for emergencies — asking for help, calling police, and getting assistance.",
+  "vocabularyIds": ["hi-madad", "hi-ruko", "hi-police-bulao"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s6-l20-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "madad karo", "right": "help me" },
+        { "left": "ruko", "right": "stop" },
+        { "left": "police bulao", "right": "call the police" },
+        { "left": "hospital kahan hai", "right": "where is the hospital" }
+      ],
+      "explanation": "Emergency phrases — 'madad karo' (help me) and 'police bulao' (call the police) are the most critical."
+    },
+    {
+      "id": "hi-s6-l20-ex02",
+      "type": "multiple_choice",
+      "question": "How do you shout 'help!' in Hindi?",
+      "options": ["shukriya", "madad karo", "haan", "phir milenge"],
+      "correctIndex": 1,
+      "explanation": "'Madad karo!' = help me! This is the word to shout in an emergency. 'Bachao!' is also used."
+    },
+    {
+      "id": "hi-s6-l20-ex03",
+      "type": "translation",
+      "prompt": "call the police",
+      "direction": "from_english",
+      "correct": "police bulao",
+      "acceptedVariants": ["police bulao", "police ko bulao"],
+      "explanation": "'Police bulao' = call the police. 'Bulao' = call/summon (imperative). In India, the emergency number is 100.",
+      "hint": "sounds like: po-lees bu-laa-o"
+    },
+    {
+      "id": "hi-s6-l20-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Yahaan ___! (Stop here!)",
+      "correct": "ruko",
+      "acceptedVariants": ["ruko", "rukiye"],
+      "explanation": "'Yahaan ruko!' = stop here! 'Ruko' = stop (casual). 'Rukiye' = please stop (polite)."
+    },
+    {
+      "id": "hi-s6-l20-ex05",
+      "type": "translation",
+      "prompt": "I need help",
+      "direction": "from_english",
+      "correct": "mujhe madad chahiye",
+      "acceptedVariants": ["mujhe madad chahiye", "madad chahiye"],
+      "explanation": "'Mujhe madad chahiye' = I need help. 'Madad' = help, 'chahiye' = is needed.",
+      "hint": "sounds like: muj-heh muh-dud chaa-hi-yeh"
+    },
+    {
+      "id": "hi-s6-l20-ex06",
+      "type": "multiple_choice",
+      "question": "You're in a wrong taxi. How do you say 'stop the car here'?",
+      "options": ["gaadi seedha lo", "yahaan gaadi roko", "gaadi kahan hai", "gaadi kitne ka"],
+      "correctIndex": 1,
+      "explanation": "'Yahaan gaadi roko' = stop the car here. Gaadi = car/vehicle, roko = stop, yahaan = here."
+    },
+    {
+      "id": "hi-s6-l20-ex07",
+      "type": "word_ordering",
+      "prompt": "Shout 'help me!'",
+      "tiles": [
+        { "id": "t1", "text": "madad" },
+        { "id": "t2", "text": "karo" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Madad karo!' = help me! Madad = help, karo = do (imperative). Two words, possibly the most important in this course."
+    },
+    {
+      "id": "hi-s6-l20-ex08",
+      "type": "translation",
+      "prompt": "I'm lost",
+      "direction": "from_english",
+      "correct": "main kho gaya hoon",
+      "acceptedVariants": ["main kho gaya hoon", "main kho gayi hoon", "mujhe raasta nahin pata"],
+      "explanation": "'Main kho gaya hoon' = I'm lost (masculine). Woman says 'main kho gayi hoon'. 'Kho gaya' = got lost.",
+      "hint": "sounds like: main kho guh-yaa hoon"
+    }
+  ]
+}

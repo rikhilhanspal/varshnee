@@ -1,0 +1,86 @@
+{
+  "id": "s6-l20",
+  "sectionId": "s6",
+  "title": "Asking for Help",
+  "description": "Learn emergency phrases and how to ask for help in Telugu.",
+  "vocabularyIds": ["te-sahaayam", "te-aapandi", "te-police-pilavandi", "te-hospital", "te-ekkada"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s6-l20-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'sahaayam' mean?",
+      "options": ["stop", "police", "help", "hospital"],
+      "correctIndex": 2,
+      "explanation": "'Sahaayam' means help in Telugu — shout this in an emergency."
+    },
+    {
+      "id": "te-s6-l20-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "sahaayam", "right": "help!" },
+        { "left": "aapandi", "right": "stop!" },
+        { "left": "police pilavaṅdi", "right": "call the police!" },
+        { "left": "hospital ekkada undhi", "right": "where is the hospital" }
+      ],
+      "explanation": "These emergency phrases could be life-saving — learn them well."
+    },
+    {
+      "id": "te-s6-l20-ex03",
+      "type": "translation",
+      "prompt": "stop!",
+      "direction": "from_english",
+      "correct": "aapandi",
+      "acceptedVariants": ["aapandi"],
+      "explanation": "'Aapandi' means stop! — used urgently to stop someone or something.",
+      "hint": "sounds like: aa-pun-dee"
+    },
+    {
+      "id": "te-s6-l20-ex04",
+      "type": "translation",
+      "prompt": "police pilavaṅdi",
+      "direction": "to_english",
+      "correct": "call the police",
+      "acceptedVariants": ["call the police", "call police"],
+      "explanation": "'Police pilavaṅdi' = call the police — police (police) + pilavaṅdi (call/summon)."
+    },
+    {
+      "id": "te-s6-l20-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Hospital ___ undhi? (Where is the hospital?)",
+      "correct": "ekkada",
+      "acceptedVariants": ["ekkada"],
+      "explanation": "'Hospital ekkada undhi' = where is the hospital — ekkada = where."
+    },
+    {
+      "id": "te-s6-l20-ex06",
+      "type": "multiple_choice",
+      "question": "You witness a theft. What do you shout?",
+      "options": ["sahaayam, police pilavaṅdi", "vellostaanu", "dhanyavaadhamulu", "manchidi"],
+      "correctIndex": 0,
+      "explanation": "'Sahaayam, police pilavaṅdi' = help, call the police!"
+    },
+    {
+      "id": "te-s6-l20-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask where the hospital is",
+      "tiles": [
+        { "id": "t1", "text": "hospital" },
+        { "id": "t2", "text": "ekkada" },
+        { "id": "t3", "text": "undhi" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Hospital ekkada undhi' = where is the hospital?"
+    },
+    {
+      "id": "te-s6-l20-ex08",
+      "type": "translation",
+      "prompt": "help!",
+      "direction": "from_english",
+      "correct": "sahaayam",
+      "acceptedVariants": ["sahaayam"],
+      "explanation": "'Sahaayam' is the Telugu word to shout when you need help.",
+      "hint": "sounds like: suh-haa-yum"
+    }
+  ]
+}

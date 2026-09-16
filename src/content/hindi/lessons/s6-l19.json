@@ -1,0 +1,88 @@
+{
+  "id": "s6-l19",
+  "sectionId": "s6",
+  "title": "Meeting a Friend",
+  "description": "Put it all together — a natural conversation catching up with a friend in Hindi.",
+  "vocabularyIds": ["hi-kya-haal-hai", "hi-bahut-din-baad", "hi-milte-hain"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s6-l19-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "namaste", "right": "hello" },
+        { "left": "kya haal hai", "right": "how are you / how's it going" },
+        { "left": "bahut din baad", "right": "long time no see" },
+        { "left": "phir milenge", "right": "see you again / goodbye" }
+      ],
+      "explanation": "A full casual encounter — these four phrases form the skeleton of meeting a friend in Hindi."
+    },
+    {
+      "id": "hi-s6-l19-ex02",
+      "type": "translation",
+      "prompt": "how's it going",
+      "direction": "from_english",
+      "correct": "kya haal hai",
+      "acceptedVariants": ["kya haal hai", "kaisa chal raha hai"],
+      "explanation": "'Kya haal hai?' = how's it going? / how are you? A casual alternative to 'tum kaise ho'.",
+      "hint": "sounds like: kyaa haal hai"
+    },
+    {
+      "id": "hi-s6-l19-ex03",
+      "type": "multiple_choice",
+      "question": "You run into a friend you haven't seen in months. What do you say?",
+      "options": ["phir milenge", "bahut din baad mila!", "shukriya", "kya hua"],
+      "correctIndex": 1,
+      "explanation": "'Bahut din baad mila!' = long time no see! (literally: met after many days). A very natural expression."
+    },
+    {
+      "id": "hi-s6-l19-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Aaj kal kya ___? (What are you up to these days?)",
+      "correct": "kar rahe ho",
+      "acceptedVariants": ["kar rahe ho", "kar raha hai", "chal raha hai"],
+      "explanation": "'Aaj kal kya kar rahe ho?' = what are you up to these days? A natural way to catch up."
+    },
+    {
+      "id": "hi-s6-l19-ex05",
+      "type": "translation",
+      "prompt": "where have you been",
+      "direction": "from_english",
+      "correct": "kahan the",
+      "acceptedVariants": ["kahan the", "kahan gaye the"],
+      "explanation": "'Kahan the?' = where were you? / where have you been? Very casual. 'Kahan gaye the?' = where did you go?",
+      "hint": "sounds like: kuh-haan theh"
+    },
+    {
+      "id": "hi-s6-l19-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'let's meet again' in Hindi?",
+      "options": ["phir milenge", "kya haal hai", "bahut din baad", "shukriya"],
+      "correctIndex": 0,
+      "explanation": "'Phir milenge' = we'll meet again — the most natural colloquial goodbye in Hindi."
+    },
+    {
+      "id": "hi-s6-l19-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'long time no see!'",
+      "tiles": [
+        { "id": "t1", "text": "bahut" },
+        { "id": "t2", "text": "din" },
+        { "id": "t3", "text": "baad" },
+        { "id": "t4", "text": "mila" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'Bahut din baad mila!' = long time no see! Bahut = very/many, din = days, baad = after, mila = met."
+    },
+    {
+      "id": "hi-s6-l19-ex08",
+      "type": "translation",
+      "prompt": "take care",
+      "direction": "from_english",
+      "correct": "apna khayal rakhna",
+      "acceptedVariants": ["apna khayal rakhna", "khayal rakhna"],
+      "explanation": "'Apna khayal rakhna' = take care of yourself. A warm way to part from a friend.",
+      "hint": "sounds like: up-naa khaa-yaal rukh-naa"
+    }
+  ]
+}

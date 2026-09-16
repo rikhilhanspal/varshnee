@@ -1,0 +1,85 @@
+{
+  "id": "s3-l10",
+  "sectionId": "s3",
+  "title": "Drinks",
+  "description": "Learn Tamil words for common drinks — from water and tea to coffee and juice.",
+  "vocabularyIds": ["ta-tanni", "ta-chai", "ta-kaapi", "ta-pazhaneer"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s3-l10-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "tanni", "right": "water" },
+        { "left": "chai", "right": "tea" },
+        { "left": "kaapi", "right": "coffee" },
+        { "left": "pazhaneer", "right": "juice" }
+      ],
+      "explanation": "Tamil drink vocabulary — 'kaapi' (filter coffee) is especially beloved in Tamil Nadu."
+    },
+    {
+      "id": "ta-s3-l10-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask for water in Tamil?",
+      "options": ["enakku kaapi vendum", "enakku tanni vendum", "enakku chai vendum", "enakku pazhaneer vendum"],
+      "correctIndex": 1,
+      "explanation": "'Enakku tanni vendum' = I want water. Or simply say 'tanni kodunga' (please give water)."
+    },
+    {
+      "id": "ta-s3-l10-ex03",
+      "type": "translation",
+      "prompt": "give me coffee please",
+      "direction": "from_english",
+      "correct": "kaapi kodunga",
+      "acceptedVariants": ["kaapi kodunga", "enakku kaapi kodunga"],
+      "explanation": "'Kaapi kodunga' = please give (me) coffee. 'Kodunga' is a polite way to ask for something.",
+      "hint": "sounds like: kaa-pi ko-dung-guh"
+    },
+    {
+      "id": "ta-s3-l10-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Oru ___ kodunga. (Give me one tea.)",
+      "correct": "chai",
+      "acceptedVariants": ["chai"],
+      "explanation": "'Oru chai kodunga' = give me one tea. Oru = one, chai = tea, kodunga = please give."
+    },
+    {
+      "id": "ta-s3-l10-ex05",
+      "type": "translation",
+      "prompt": "tanni",
+      "direction": "to_english",
+      "correct": "water",
+      "acceptedVariants": ["water"],
+      "explanation": "'Tanni' means water in colloquial Tamil."
+    },
+    {
+      "id": "ta-s3-l10-ex06",
+      "type": "multiple_choice",
+      "question": "What is the Tamil word for coffee?",
+      "options": ["tanni", "chai", "kaapi", "pazhaneer"],
+      "correctIndex": 2,
+      "explanation": "'Kaapi' is the Tamil word for coffee — specifically South Indian filter coffee, a cultural staple."
+    },
+    {
+      "id": "ta-s3-l10-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'do you have juice?'",
+      "tiles": [
+        { "id": "t1", "text": "pazhaneer" },
+        { "id": "t2", "text": "irukka" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Pazhaneer irukka?' = do you have juice? / is there juice? — a simple and useful pattern."
+    },
+    {
+      "id": "ta-s3-l10-ex08",
+      "type": "translation",
+      "prompt": "I don't want tea",
+      "direction": "from_english",
+      "correct": "enakku chai venda",
+      "acceptedVariants": ["enakku chai venda", "chai venda"],
+      "explanation": "'Enakku chai venda' = I don't want tea. 'Venda' is the negative of 'vendum' (want).",
+      "hint": "sounds like: en-nuk-ku chai ven-daa"
+    }
+  ]
+}

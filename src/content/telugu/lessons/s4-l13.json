@@ -1,0 +1,91 @@
+{
+  "id": "s4-l13",
+  "sectionId": "s4",
+  "title": "Places",
+  "description": "Learn the Telugu names for common places in a city.",
+  "vocabularyIds": ["te-illu", "te-angadi", "te-badi", "te-hospital", "te-bank"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s4-l13-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'illu' mean?",
+      "options": ["school", "hospital", "house / home", "bank"],
+      "correctIndex": 2,
+      "explanation": "'Illu' means house or home in Telugu."
+    },
+    {
+      "id": "te-s4-l13-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "illu", "right": "house / home" },
+        { "left": "badi", "right": "school" },
+        { "left": "hospital", "right": "hospital" },
+        { "left": "bank", "right": "bank" }
+      ],
+      "explanation": "These are the most common places you will need to find in a Telugu-speaking city."
+    },
+    {
+      "id": "te-s4-l13-ex03",
+      "type": "translation",
+      "prompt": "school",
+      "direction": "from_english",
+      "correct": "badi",
+      "acceptedVariants": ["badi"],
+      "explanation": "'Badi' means school in Telugu.",
+      "hint": "sounds like: buh-dee"
+    },
+    {
+      "id": "te-s4-l13-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Hospital ekkada ___? (Where is the hospital?)",
+      "correct": "undhi",
+      "acceptedVariants": ["undhi", "undi"],
+      "explanation": "'Ekkada undhi' = where is it? — ekkada = where, undhi = is."
+    },
+    {
+      "id": "te-s4-l13-ex05",
+      "type": "translation",
+      "prompt": "illu ekkada undhi",
+      "direction": "to_english",
+      "correct": "where is the house",
+      "acceptedVariants": ["where is the house", "where is home"],
+      "explanation": "'Illu ekkada undhi' = where is the house — illu = house, ekkada = where, undhi = is."
+    },
+    {
+      "id": "te-s4-l13-ex06",
+      "type": "multiple_choice",
+      "question": "How do you ask 'where is the bank?'",
+      "options": [
+        "bank manchidi",
+        "bank ekkada undhi",
+        "bank kaavali",
+        "bank dhara entha"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Bank ekkada undhi' = where is the bank? Add ekkada undhi after any place name."
+    },
+    {
+      "id": "te-s4-l13-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask where the shop is",
+      "tiles": [
+        { "id": "t1", "text": "angadi" },
+        { "id": "t2", "text": "ekkada" },
+        { "id": "t3", "text": "undhi" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Angadi ekkada undhi' = where is the shop?"
+    },
+    {
+      "id": "te-s4-l13-ex08",
+      "type": "translation",
+      "prompt": "house / home",
+      "direction": "from_english",
+      "correct": "illu",
+      "acceptedVariants": ["illu"],
+      "explanation": "'Illu' is the Telugu word for house or home.",
+      "hint": "sounds like: il-lu"
+    }
+  ]
+}

@@ -2,260 +2,84 @@
   "id": "s1-l1",
   "sectionId": "s1",
   "title": "Greetings",
-  "description": "Learn how to greet people, say goodbye, and ask how someone is doing in Telugu.",
-  "vocabularyIds": [
-    "te-namaskaaramu",
-    "te-selavu",
-    "te-ela-unnaru",
-    "te-nenu-baagunnanu",
-    "te-dhanyavaadaalu"
-  ],
-  "grammarNoteIds": [
-    "te-gr-formal"
-  ],
+  "description": "Learn how to greet people, say goodbye, and exchange pleasantries in Telugu.",
+  "vocabularyIds": ["te-namaskaaram", "te-vellostaanu", "te-elaa-unnaru", "te-naenu-baagunnaanu", "te-dhanyavaadhamulu", "te-shubhodayam", "te-shubha-raathri"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "te-s1-l1-ex01",
       "type": "multiple_choice",
-      "question": "What does 'namaskaaramu' mean?",
-      "options": [
-        "goodbye",
-        "hello / greetings",
-        "thank you",
-        "please"
-      ],
+      "question": "What does 'namaskaaram' mean?",
+      "options": ["goodbye", "hello / greetings", "thank you", "good night"],
       "correctIndex": 1,
-      "explanation": "'Namaskaaramu' is the traditional Telugu greeting meaning 'hello' or 'greetings'."
+      "explanation": "'Namaskaaram' is the standard Telugu greeting, used for hello and greetings."
     },
     {
       "id": "te-s1-l1-ex02",
       "type": "translation",
       "prompt": "goodbye",
       "direction": "from_english",
-      "correct": "selavu",
-      "acceptedVariants": [
-        "selavu"
-      ],
-      "explanation": "'Selavu' is how you say goodbye in Telugu.",
-      "hint": "sounds like: selavu"
+      "correct": "vellostaanu",
+      "acceptedVariants": ["vellostaanu", "velostanu"],
+      "explanation": "'Vellostaanu' literally means 'I will come' and is the natural way to say goodbye in Telugu.",
+      "hint": "sounds like: vel-los-taa-nu"
     },
     {
       "id": "te-s1-l1-ex03",
       "type": "matching",
       "pairs": [
-        {
-          "left": "namaskaaramu",
-          "right": "hello"
-        },
-        {
-          "left": "selavu",
-          "right": "goodbye"
-        },
-        {
-          "left": "dhanyavaadaalu",
-          "right": "thank you"
-        },
-        {
-          "left": "ela unnaru",
-          "right": "how are you"
-        }
+        { "left": "namaskaaram", "right": "hello" },
+        { "left": "vellostaanu", "right": "goodbye" },
+        { "left": "dhanyavaadhamulu", "right": "thank you" },
+        { "left": "elaa unnaru", "right": "how are you" }
       ],
-      "explanation": "These are the most common Telugu greetings and polite phrases."
+      "explanation": "These are the most essential Telugu greetings and polite phrases."
     },
     {
       "id": "te-s1-l1-ex04",
-      "type": "listening",
-      "audio": "telugu/ela-unnaru.mp3",
-      "mode": "select",
-      "options": [
-        "goodbye",
-        "how are you",
-        "I am fine",
-        "thank you"
-      ],
-      "correctIndex": 1,
-      "explanation": "'Ela unnaru' means 'How are you?' in Telugu."
+      "type": "translation",
+      "prompt": "naenu baagunnaanu",
+      "direction": "to_english",
+      "correct": "I am fine",
+      "acceptedVariants": ["I'm fine", "I am good", "I'm good", "I am well"],
+      "explanation": "'Naenu baagunnaanu' means 'I am fine' — naenu = I, baagunnanu = am fine."
     },
     {
       "id": "te-s1-l1-ex05",
-      "type": "translation",
-      "prompt": "nenu baagunnanu",
-      "direction": "to_english",
-      "correct": "I am fine",
-      "acceptedVariants": [
-        "I'm fine",
-        "I am good",
-        "I'm good",
-        "I am well"
-      ],
-      "explanation": "'Nenu baagunnanu' literally means 'I am fine' or 'I am well'."
+      "type": "fill_in_blank",
+      "sentence": "___ (good morning) is used when greeting someone in the morning.",
+      "correct": "shubhodayam",
+      "acceptedVariants": ["shubhodayam"],
+      "explanation": "'Shubhodayam' means good morning in Telugu."
     },
     {
       "id": "te-s1-l1-ex06",
-      "type": "word_ordering",
-      "prompt": "Arrange the words to say 'How are you?'",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "ela"
-        },
-        {
-          "id": "t2",
-          "text": "unnaru"
-        }
-      ],
-      "correctOrder": [
-        "t1",
-        "t2"
-      ],
-      "explanation": "'Ela unnaru' means 'How are you?' - 'ela' means 'how' and 'unnaru' means 'are you'."
+      "type": "multiple_choice",
+      "question": "Which phrase would you use to thank someone?",
+      "options": ["namaskaaram", "vellostaanu", "dhanyavaadhamulu", "elaa unnaru"],
+      "correctIndex": 2,
+      "explanation": "'Dhanyavaadhamulu' is the correct Telugu phrase for thank you."
     },
     {
       "id": "te-s1-l1-ex07",
-      "type": "fill_in_blank",
-      "sentence": "Nenu ___ .",
-      "correct": "baagunnanu",
-      "acceptedVariants": [
-        "baagunnanu"
+      "type": "word_ordering",
+      "prompt": "Arrange the words to say 'how are you'",
+      "tiles": [
+        { "id": "t1", "text": "elaa" },
+        { "id": "t2", "text": "unnaru" }
       ],
-      "explanation": "'Nenu baagunnanu' means 'I am fine'. 'Baagunnanu' completes the response."
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Elaa unnaru' means 'How are you?' — elaa = how, unnaru = are you."
     },
     {
       "id": "te-s1-l1-ex08",
-      "type": "multiple_choice",
-      "question": "Which phrase would you use to thank someone in Telugu?",
-      "options": [
-        "namaskaaramu",
-        "selavu",
-        "dhanyavaadaalu",
-        "ela unnaru"
-      ],
-      "correctIndex": 2,
-      "explanation": "'Dhanyavaadaalu' means 'thank you' in Telugu."
-    },
-    {
-      "id": "te-s1-l1-g03",
       "type": "translation",
-      "prompt": "Translate 'namaskaaramu' to English.",
-      "direction": "to_english",
-      "correct": "hello / greetings",
-      "acceptedVariants": [],
-      "explanation": "'namaskaaramu' means 'hello / greetings'."
-    },
-    {
-      "id": "te-s1-l1-g09",
-      "type": "translation",
-      "prompt": "Translate 'ela unnaru' to English.",
-      "direction": "to_english",
-      "correct": "how are you",
-      "acceptedVariants": [],
-      "explanation": "'ela unnaru' means 'how are you'."
-    },
-    {
-      "id": "te-s1-l1-g12",
-      "type": "translation",
-      "prompt": "Translate 'nenu baagunnanu' to English.",
-      "direction": "to_english",
-      "correct": "I am fine",
-      "acceptedVariants": [],
-      "explanation": "'nenu baagunnanu' means 'I am fine'."
-    },
-    {
-      "id": "te-s1-l1-g06",
-      "type": "translation",
-      "prompt": "Translate 'selavu' to English.",
-      "direction": "to_english",
-      "correct": "goodbye",
-      "acceptedVariants": [],
-      "explanation": "'selavu' means 'goodbye'."
-    },
-    {
-      "id": "te-s1-l1-g14",
-      "type": "translation",
-      "prompt": "How do you say 'thank you' in Telugu?",
+      "prompt": "good night",
       "direction": "from_english",
-      "correct": "dhanyavaadaalu",
-      "acceptedVariants": [],
-      "hint": "sounds like: dhanyavaadaalu",
-      "explanation": "'thank you' in Telugu is 'dhanyavaadaalu'."
-    },
-    {
-      "id": "te-s1-l1-g10",
-      "type": "multiple_choice",
-      "question": "What does 'nenu baagunnanu' mean?",
-      "options": [
-        "nine (9)",
-        "to drink / drinking",
-        "I am fine",
-        "lentils / dal"
-      ],
-      "correctIndex": 2,
-      "explanation": "'nenu baagunnanu' means 'I am fine' in Telugu."
-    },
-    {
-      "id": "te-s1-l1-g02",
-      "type": "translation",
-      "prompt": "How do you say 'hello / greetings' in Telugu?",
-      "direction": "from_english",
-      "correct": "namaskaaramu",
-      "acceptedVariants": [],
-      "hint": "sounds like: namaskaaramu",
-      "explanation": "'hello / greetings' in Telugu is 'namaskaaramu'."
-    },
-    {
-      "id": "te-s1-l1-g05",
-      "type": "translation",
-      "prompt": "How do you say 'goodbye' in Telugu?",
-      "direction": "from_english",
-      "correct": "selavu",
-      "acceptedVariants": [],
-      "hint": "sounds like: selavu",
-      "explanation": "'goodbye' in Telugu is 'selavu'."
-    },
-    {
-      "id": "te-s1-l1-g04",
-      "type": "multiple_choice",
-      "question": "What does 'selavu' mean?",
-      "options": [
-        "big",
-        "goodbye",
-        "I don't understand",
-        "good"
-      ],
-      "correctIndex": 1,
-      "explanation": "'selavu' means 'goodbye' in Telugu."
-    },
-    {
-      "id": "te-s1-l1-g15",
-      "type": "translation",
-      "prompt": "Translate 'dhanyavaadaalu' to English.",
-      "direction": "to_english",
-      "correct": "thank you",
-      "acceptedVariants": [],
-      "explanation": "'dhanyavaadaalu' means 'thank you'."
-    },
-    {
-      "id": "te-s1-l1-g08",
-      "type": "translation",
-      "prompt": "How do you say 'how are you' in Telugu?",
-      "direction": "from_english",
-      "correct": "ela unnaru",
-      "acceptedVariants": [],
-      "hint": "sounds like: ela unnaru",
-      "explanation": "'how are you' in Telugu is 'ela unnaru'."
-    },
-    {
-      "id": "te-s1-l1-g13",
-      "type": "multiple_choice",
-      "question": "What does 'dhanyavaadaalu' mean?",
-      "options": [
-        "where",
-        "to eat / eating",
-        "good",
-        "thank you"
-      ],
-      "correctIndex": 3,
-      "explanation": "'dhanyavaadaalu' means 'thank you' in Telugu."
+      "correct": "shubha raathri",
+      "acceptedVariants": ["shubha raathri", "shubharaathri"],
+      "explanation": "'Shubha raathri' means good night in Telugu.",
+      "hint": "sounds like: shub-huh raat-ree"
     }
   ]
 }

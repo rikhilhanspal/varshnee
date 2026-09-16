@@ -1,0 +1,85 @@
+{
+  "id": "s4-l14",
+  "sectionId": "s4",
+  "title": "Directions",
+  "description": "Learn how to ask for and give directions in Tamil — left, right, straight, and near.",
+  "vocabularyIds": ["ta-idadhu", "ta-valadhu", "ta-neraaga", "ta-pakkathu", "ta-enga"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s4-l14-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "idadhu", "right": "left" },
+        { "left": "valadhu", "right": "right" },
+        { "left": "neraaga", "right": "straight" },
+        { "left": "pakkathu", "right": "nearby / next to" }
+      ],
+      "explanation": "Four essential direction words — master these and you can navigate any Tamil-speaking city."
+    },
+    {
+      "id": "ta-s4-l14-ex02",
+      "type": "multiple_choice",
+      "question": "How do you say 'turn left' in Tamil?",
+      "options": ["valadhu thirumbunga", "neraaga ponga", "idadhu thirumbunga", "pakkathu ponga"],
+      "correctIndex": 2,
+      "explanation": "'Idadhu thirumbunga' = turn left (polite). Thirumbunga = please turn. For right: 'valadhu thirumbunga'."
+    },
+    {
+      "id": "ta-s4-l14-ex03",
+      "type": "translation",
+      "prompt": "go straight",
+      "direction": "from_english",
+      "correct": "neraaga ponga",
+      "acceptedVariants": ["neraaga ponga", "neraaga po"],
+      "explanation": "'Neraaga ponga' = go straight (polite). 'Neraaga' = straight, 'ponga' = please go.",
+      "hint": "sounds like: neh-raa-gaa pon-guh"
+    },
+    {
+      "id": "ta-s4-l14-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Kovil ___ irukku. (The temple is nearby.)",
+      "correct": "pakkathu",
+      "acceptedVariants": ["pakkathu"],
+      "explanation": "'Kovil pakkathu irukku' = the temple is nearby. 'Pakkathu' means near or next to."
+    },
+    {
+      "id": "ta-s4-l14-ex05",
+      "type": "translation",
+      "prompt": "valadhu",
+      "direction": "to_english",
+      "correct": "right",
+      "acceptedVariants": ["right", "to the right"],
+      "explanation": "'Valadhu' = right direction. 'Valadhu thirumbunga' = turn right."
+    },
+    {
+      "id": "ta-s4-l14-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'neraaga' mean?",
+      "options": ["left", "right", "straight", "near"],
+      "correctIndex": 2,
+      "explanation": "'Neraaga' means straight ahead — 'neraaga ponga' = go straight."
+    },
+    {
+      "id": "ta-s4-l14-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'turn right'",
+      "tiles": [
+        { "id": "t1", "text": "valadhu" },
+        { "id": "t2", "text": "thirumbunga" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Valadhu thirumbunga' = turn right. Direction word comes before the verb."
+    },
+    {
+      "id": "ta-s4-l14-ex08",
+      "type": "translation",
+      "prompt": "where is the bus stop",
+      "direction": "from_english",
+      "correct": "bus stop enga irukku",
+      "acceptedVariants": ["bus stop enga irukku", "bus nilayam enga irukku"],
+      "explanation": "'Bus stop enga irukku?' = where is the bus stop? You can also say 'bus nilayam' for bus stand.",
+      "hint": "sounds like: bus stop en-guh i-ruk-ku"
+    }
+  ]
+}

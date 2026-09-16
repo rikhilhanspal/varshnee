@@ -1,7 +1,7 @@
 {
   "code": "hindi",
   "name": "Hindi",
-  "totalLessons": 10,
-  "totalSections": 4,
+  "totalLessons": 20,
+  "totalSections": 6,
   "romanizationNotes": "All Hindi text is shown in romanized form (Latin script). Long vowels are doubled: aa, ii, uu. Aspirated consonants use 'h' after the base letter: kh, gh, ch, jh, th, dh, ph, bh. Retroflex sounds are written the same as dental (t/d) for simplicity. 'sh' represents the श sound while 's' represents स. Nasalized vowels are not specially marked unless critical for meaning."
 }

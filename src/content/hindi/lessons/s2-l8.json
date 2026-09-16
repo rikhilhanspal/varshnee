@@ -1,0 +1,89 @@
+{
+  "id": "s2-l8",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn Hindi color words and basic adjectives to describe people and things.",
+  "vocabularyIds": ["hi-laal", "hi-neela", "hi-hara", "hi-peela", "hi-safed", "hi-kaala", "hi-bada", "hi-chhota"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s2-l8-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "laal", "right": "red" },
+        { "left": "neela", "right": "blue" },
+        { "left": "hara", "right": "green" },
+        { "left": "peela", "right": "yellow" }
+      ],
+      "explanation": "Four core Hindi colors — notice they end in 'a' (masculine form) and change to 'i' for feminine."
+    },
+    {
+      "id": "hi-s2-l8-ex02",
+      "type": "multiple_choice",
+      "question": "What color is 'kaala'?",
+      "options": ["white", "red", "black", "blue"],
+      "correctIndex": 2,
+      "explanation": "'Kaala' = black. Its opposite is 'safed' (white). 'Kaali raat' = dark night (kaali = feminine form)."
+    },
+    {
+      "id": "hi-s2-l8-ex03",
+      "type": "translation",
+      "prompt": "big",
+      "direction": "from_english",
+      "correct": "bada",
+      "acceptedVariants": ["bada", "badi"],
+      "explanation": "'Bada' = big (masculine). Changes to 'badi' for feminine nouns: 'bada ghar' (big house) vs 'badi kitaab' (big book).",
+      "hint": "sounds like: buh-daa"
+    },
+    {
+      "id": "hi-s2-l8-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Yeh ___ phool hai. (This is a red flower.)",
+      "correct": "laal",
+      "acceptedVariants": ["laal"],
+      "explanation": "'Yeh laal phool hai' = this is a red flower. Adjective 'laal' comes before noun 'phool' (flower)."
+    },
+    {
+      "id": "hi-s2-l8-ex05",
+      "type": "translation",
+      "prompt": "small",
+      "direction": "from_english",
+      "correct": "chhota",
+      "acceptedVariants": ["chhota", "chhoti"],
+      "explanation": "'Chhota' = small (masculine). Changes to 'chhoti' for feminine: 'chhoti ladki' (small girl).",
+      "hint": "sounds like: chho-taa"
+    },
+    {
+      "id": "hi-s2-l8-ex06",
+      "type": "matching",
+      "pairs": [
+        { "left": "safed", "right": "white" },
+        { "left": "kaala", "right": "black" },
+        { "left": "bada", "right": "big" },
+        { "left": "chhota", "right": "small" }
+      ],
+      "explanation": "Color and size words — 'bada/chhota' (big/small) are among the most versatile adjectives in Hindi."
+    },
+    {
+      "id": "hi-s2-l8-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'the blue house is big'",
+      "tiles": [
+        { "id": "t1", "text": "neela" },
+        { "id": "t2", "text": "ghar" },
+        { "id": "t3", "text": "bada" },
+        { "id": "t4", "text": "hai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'Neela ghar bada hai' = the blue house is big. Adjective + noun + adjective + verb in Hindi."
+    },
+    {
+      "id": "hi-s2-l8-ex08",
+      "type": "multiple_choice",
+      "question": "How does adjective 'bada' (big) change for a feminine noun?",
+      "options": ["bado", "bade", "badi", "it doesn't change"],
+      "correctIndex": 2,
+      "explanation": "'Bada' → 'badi' for feminine singular nouns. This is a key Hindi grammar rule: -a adjectives agree with noun gender."
+    }
+  ]
+}

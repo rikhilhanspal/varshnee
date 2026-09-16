@@ -1,0 +1,86 @@
+{
+  "id": "s5-l18",
+  "sectionId": "s5",
+  "title": "Feelings & Health",
+  "description": "Learn how to express how you feel and talk about health in Hindi.",
+  "vocabularyIds": ["hi-khushi", "hi-dukh", "hi-bimaar", "hi-doctor", "hi-madad"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s5-l18-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "khushi", "right": "happy / happiness" },
+        { "left": "dukh", "right": "sad / sadness" },
+        { "left": "bimaar", "right": "sick / unwell" },
+        { "left": "madad", "right": "help" }
+      ],
+      "explanation": "Essential feelings and health vocabulary — knowing 'bimaar' (sick) and 'madad' (help) can be vital."
+    },
+    {
+      "id": "hi-s5-l18-ex02",
+      "type": "multiple_choice",
+      "question": "How do you say 'I'm not well' in Hindi?",
+      "options": ["main bahut khush hoon", "main bimaar hoon", "mujhe madad chahiye", "main theek hoon"],
+      "correctIndex": 1,
+      "explanation": "'Main bimaar hoon' = I'm sick/unwell. 'Bimaar' is the key word for sickness."
+    },
+    {
+      "id": "hi-s5-l18-ex03",
+      "type": "translation",
+      "prompt": "I need a doctor",
+      "direction": "from_english",
+      "correct": "mujhe doctor chahiye",
+      "acceptedVariants": ["mujhe doctor chahiye", "doctor chahiye"],
+      "explanation": "'Mujhe doctor chahiye' = I need a doctor. One of the most important emergency phrases.",
+      "hint": "sounds like: muj-heh dok-tor chaa-hi-yeh"
+    },
+    {
+      "id": "hi-s5-l18-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Aaj main bahut ___ hoon. (Today I'm very happy.)",
+      "correct": "khush",
+      "acceptedVariants": ["khush"],
+      "explanation": "'Aaj main bahut khush hoon' = today I'm very happy. 'Khush' = happy (adjective form of 'khushi')."
+    },
+    {
+      "id": "hi-s5-l18-ex05",
+      "type": "translation",
+      "prompt": "dukh",
+      "direction": "to_english",
+      "correct": "sadness / sorrow",
+      "acceptedVariants": ["sadness", "sorrow", "sad"],
+      "explanation": "'Dukh' = sadness or sorrow. 'Mujhe dukh hai' = I'm sad. 'Bahut dukh hua' = I'm very sorry to hear that."
+    },
+    {
+      "id": "hi-s5-l18-ex06",
+      "type": "multiple_choice",
+      "question": "How do you respond to 'tum kaise ho?' if you're well?",
+      "options": ["main bimaar hoon", "main theek hoon, shukriya", "mujhe madad chahiye", "main dukhi hoon"],
+      "correctIndex": 1,
+      "explanation": "'Main theek hoon, shukriya' = I'm fine, thank you — the natural response to 'how are you'."
+    },
+    {
+      "id": "hi-s5-l18-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I need help'",
+      "tiles": [
+        { "id": "t1", "text": "mujhe" },
+        { "id": "t2", "text": "madad" },
+        { "id": "t3", "text": "chahiye" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Mujhe madad chahiye' = I need help. Mujhe = to me, madad = help, chahiye = is needed."
+    },
+    {
+      "id": "hi-s5-l18-ex08",
+      "type": "translation",
+      "prompt": "where is the hospital",
+      "direction": "from_english",
+      "correct": "hospital kahan hai",
+      "acceptedVariants": ["hospital kahan hai"],
+      "explanation": "'Hospital kahan hai?' = where is the hospital? — the most important emergency phrase.",
+      "hint": "sounds like: hos-pi-tal kuh-haan hai"
+    }
+  ]
+}

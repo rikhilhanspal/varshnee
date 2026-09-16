@@ -1,0 +1,86 @@
+{
+  "id": "s5-l18",
+  "sectionId": "s5",
+  "title": "Feelings & Health",
+  "description": "Learn how to express how you feel and talk about health in Tamil.",
+  "vocabularyIds": ["ta-sandhosham", "ta-kashtam", "ta-noi", "ta-doctor", "ta-nallaa-irukken"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s5-l18-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "sandhosham", "right": "happy / happiness" },
+        { "left": "kashtam", "right": "difficult / hardship" },
+        { "left": "noi", "right": "illness / pain" },
+        { "left": "nallaa irukken", "right": "I'm fine / I'm well" }
+      ],
+      "explanation": "Feelings and health words — essential for both casual chat and emergencies."
+    },
+    {
+      "id": "ta-s5-l18-ex02",
+      "type": "multiple_choice",
+      "question": "How do you say 'I'm not well' in Tamil?",
+      "options": ["naan nallaa irukken", "enakku noi irukku", "naan sandhosham", "enakku kashtam"],
+      "correctIndex": 1,
+      "explanation": "'Enakku noi irukku' = I'm sick / I'm not well. Literally 'to me illness is'. For minor discomfort say 'oru maari irukku'."
+    },
+    {
+      "id": "ta-s5-l18-ex03",
+      "type": "translation",
+      "prompt": "I need a doctor",
+      "direction": "from_english",
+      "correct": "enakku doctor vendum",
+      "acceptedVariants": ["enakku doctor vendum", "doctor vaangunga"],
+      "explanation": "'Enakku doctor vendum' = I need a doctor. Or 'doctor vaangunga' = please get/call a doctor.",
+      "hint": "sounds like: en-nuk-ku dok-tor ven-dum"
+    },
+    {
+      "id": "ta-s5-l18-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Inniki enakku romba ___. (Today I'm very happy.)",
+      "correct": "sandhosham",
+      "acceptedVariants": ["sandhosham"],
+      "explanation": "'Inniki enakku romba sandhosham' = today I'm very happy. Romba = very, sandhosham = happy/happiness."
+    },
+    {
+      "id": "ta-s5-l18-ex05",
+      "type": "translation",
+      "prompt": "kashtam",
+      "direction": "to_english",
+      "correct": "difficult / hardship",
+      "acceptedVariants": ["difficult", "hardship", "hard", "trouble"],
+      "explanation": "'Kashtam' means difficult, hard, or trouble. 'Romba kashtam' = very difficult / what a shame."
+    },
+    {
+      "id": "ta-s5-l18-ex06",
+      "type": "multiple_choice",
+      "question": "How do you respond to 'eppadi irukeenga?' (how are you?) if you're well?",
+      "options": ["enakku noi irukku", "romba kashtam", "nallaa irukken, nandri", "purila"],
+      "correctIndex": 2,
+      "explanation": "'Nallaa irukken, nandri' = I'm well, thank you — the natural response to 'how are you' in Tamil."
+    },
+    {
+      "id": "ta-s5-l18-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I am very happy'",
+      "tiles": [
+        { "id": "t1", "text": "enakku" },
+        { "id": "t2", "text": "romba" },
+        { "id": "t3", "text": "sandhosham" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Enakku romba sandhosham' = I am very happy. Enakku = to me, romba = very, sandhosham = happiness."
+    },
+    {
+      "id": "ta-s5-l18-ex08",
+      "type": "translation",
+      "prompt": "where is the hospital",
+      "direction": "from_english",
+      "correct": "hospital enga irukku",
+      "acceptedVariants": ["hospital enga irukku"],
+      "explanation": "'Hospital enga irukku?' = where is the hospital? — one of the most important emergency phrases.",
+      "hint": "sounds like: hos-pi-tal en-guh i-ruk-ku"
+    }
+  ]
+}

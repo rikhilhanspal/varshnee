@@ -1,0 +1,86 @@
+{
+  "id": "s4-l14",
+  "sectionId": "s4",
+  "title": "Directions",
+  "description": "Learn how to give and understand directions in Telugu.",
+  "vocabularyIds": ["te-edama", "te-kudivaipu", "te-neediga", "te-munda", "te-venakala"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s4-l14-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'edama' mean?",
+      "options": ["right", "straight", "left", "behind"],
+      "correctIndex": 2,
+      "explanation": "'Edama' means left in Telugu."
+    },
+    {
+      "id": "te-s4-l14-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "edama", "right": "left" },
+        { "left": "kudivaipu", "right": "right" },
+        { "left": "neediga", "right": "straight ahead" },
+        { "left": "munda", "right": "in front / ahead" }
+      ],
+      "explanation": "These direction words are essential for navigating in Telugu."
+    },
+    {
+      "id": "te-s4-l14-ex03",
+      "type": "translation",
+      "prompt": "straight ahead",
+      "direction": "from_english",
+      "correct": "neediga",
+      "acceptedVariants": ["neediga"],
+      "explanation": "'Neediga' means straight ahead in Telugu.",
+      "hint": "sounds like: nee-dee-gah"
+    },
+    {
+      "id": "te-s4-l14-ex04",
+      "type": "translation",
+      "prompt": "venakala",
+      "direction": "to_english",
+      "correct": "behind / back",
+      "acceptedVariants": ["behind", "back", "at the back"],
+      "explanation": "'Venakala' means behind or at the back in Telugu."
+    },
+    {
+      "id": "te-s4-l14-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Edama = left, ___ = right.",
+      "correct": "kudivaipu",
+      "acceptedVariants": ["kudivaipu"],
+      "explanation": "'Kudivaipu' means right direction in Telugu."
+    },
+    {
+      "id": "te-s4-l14-ex06",
+      "type": "multiple_choice",
+      "question": "Someone says 'edama tirugandi'. What should you do?",
+      "options": ["go straight", "turn right", "turn left", "go back"],
+      "correctIndex": 2,
+      "explanation": "'Edama tirugandi' means 'turn left' — edama = left, tirugandi = turn."
+    },
+    {
+      "id": "te-s4-l14-ex07",
+      "type": "word_ordering",
+      "prompt": "Give directions: first left, then straight",
+      "tiles": [
+        { "id": "t1", "text": "edama" },
+        { "id": "t2", "text": "tarvata" },
+        { "id": "t3", "text": "neediga" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Edama, tarvata neediga' = left, then straight ahead."
+    },
+    {
+      "id": "te-s4-l14-ex08",
+      "type": "translation",
+      "prompt": "right",
+      "direction": "from_english",
+      "correct": "kudivaipu",
+      "acceptedVariants": ["kudivaipu"],
+      "explanation": "'Kudivaipu' means right direction in Telugu.",
+      "hint": "sounds like: ku-dee-vai-pu"
+    }
+  ]
+}

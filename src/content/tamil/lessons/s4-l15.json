@@ -1,0 +1,86 @@
+{
+  "id": "s4-l15",
+  "sectionId": "s4",
+  "title": "Transport",
+  "description": "Learn how to use buses, autos, and trains — and ask where you need to go in Tamil.",
+  "vocabularyIds": ["ta-auto", "ta-bus", "ta-station", "ta-ticket"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s4-l15-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "auto", "right": "auto-rickshaw" },
+        { "left": "bus", "right": "bus" },
+        { "left": "station", "right": "station" },
+        { "left": "ticket", "right": "ticket" }
+      ],
+      "explanation": "Auto-rickshaws (autos) are everywhere in Tamil Nadu — knowing how to negotiate and give directions is essential."
+    },
+    {
+      "id": "ta-s4-l15-ex02",
+      "type": "multiple_choice",
+      "question": "How do you tell an auto driver 'go to the station'?",
+      "options": ["station enga irukku", "station vaanga", "station ponga", "station kodunga"],
+      "correctIndex": 2,
+      "explanation": "'Station ponga' = go to the station (polite). Or say 'station-kku ponga' for clarity."
+    },
+    {
+      "id": "ta-s4-l15-ex03",
+      "type": "translation",
+      "prompt": "how much to the station",
+      "direction": "from_english",
+      "correct": "station-kku evvalavu",
+      "acceptedVariants": ["station-kku evvalavu", "station evvalavu"],
+      "explanation": "'Station-kku evvalavu?' = how much (to go) to the station? '-kku' marks the destination.",
+      "hint": "sounds like: sta-tion-kku ev-vuh-luh-vu"
+    },
+    {
+      "id": "ta-s4-l15-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Bus ___ enga irukku? (Where is the bus stop?)",
+      "correct": "stop",
+      "acceptedVariants": ["stop", "nilayam"],
+      "explanation": "'Bus stop enga irukku?' = where is the bus stop? You can also say 'bus nilayam'."
+    },
+    {
+      "id": "ta-s4-l15-ex05",
+      "type": "translation",
+      "prompt": "one ticket to Chennai please",
+      "direction": "from_english",
+      "correct": "Chennai-kku oru ticket kodunga",
+      "acceptedVariants": ["Chennai-kku oru ticket kodunga", "Chennai ticket kodunga"],
+      "explanation": "'Chennai-kku oru ticket kodunga' = please give one ticket to Chennai.",
+      "hint": "sounds like: Chen-nai-kku or-u tik-ket ko-dung-guh"
+    },
+    {
+      "id": "ta-s4-l15-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'stop here' to an auto driver in Tamil?",
+      "options": ["inge ponga", "inge nillunga", "inge kodunga", "inge irukku"],
+      "correctIndex": 1,
+      "explanation": "'Inge nillunga' = stop here (polite). 'Nillunga' = please stop, 'inge' = here."
+    },
+    {
+      "id": "ta-s4-l15-ex07",
+      "type": "word_ordering",
+      "prompt": "Tell the auto driver: 'go to the hospital'",
+      "tiles": [
+        { "id": "t1", "text": "hospital-kku" },
+        { "id": "t2", "text": "ponga" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Hospital-kku ponga' = go to the hospital. '-kku' = to (destination marker)."
+    },
+    {
+      "id": "ta-s4-l15-ex08",
+      "type": "translation",
+      "prompt": "is there a bus to Chennai",
+      "direction": "from_english",
+      "correct": "Chennai-kku bus irukka",
+      "acceptedVariants": ["Chennai bus irukka", "Chennai-kku bus irukka"],
+      "explanation": "'Chennai-kku bus irukka?' = is there a bus to Chennai? A very practical question at any bus stand.",
+      "hint": "sounds like: Chen-nai-kku bus i-ruk-kaa"
+    }
+  ]
+}

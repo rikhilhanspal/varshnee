@@ -1,0 +1,90 @@
+{
+  "id": "s5-l16",
+  "sectionId": "s5",
+  "title": "Time & Days",
+  "description": "Learn how to talk about time — today, tomorrow, morning, evening, and days of the week in Hindi.",
+  "vocabularyIds": ["hi-aaj", "hi-kal", "hi-parso", "hi-subah", "hi-dopahar", "hi-shaam", "hi-raat"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s5-l16-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "aaj", "right": "today" },
+        { "left": "kal", "right": "yesterday / tomorrow" },
+        { "left": "subah", "right": "morning" },
+        { "left": "shaam", "right": "evening" }
+      ],
+      "explanation": "Hindi 'kal' means both yesterday and tomorrow — context makes it clear. 'Aaj' = today."
+    },
+    {
+      "id": "hi-s5-l16-ex02",
+      "type": "multiple_choice",
+      "question": "In Hindi, 'kal' can mean which two things?",
+      "options": ["today and morning", "yesterday and tomorrow", "evening and night", "today and evening"],
+      "correctIndex": 1,
+      "explanation": "'Kal' means both yesterday and tomorrow in Hindi! Context makes it clear. 'Kal kya hua?' = what happened yesterday? 'Kal aana' = come tomorrow."
+    },
+    {
+      "id": "hi-s5-l16-ex03",
+      "type": "translation",
+      "prompt": "tomorrow morning",
+      "direction": "from_english",
+      "correct": "kal subah",
+      "acceptedVariants": ["kal subah"],
+      "explanation": "'Kal subah' = tomorrow morning. Combining 'kal' (tomorrow) + 'subah' (morning).",
+      "hint": "sounds like: kal su-buh"
+    },
+    {
+      "id": "hi-s5-l16-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ kya kar rahe ho? (What are you doing today?)",
+      "correct": "aaj",
+      "acceptedVariants": ["aaj"],
+      "explanation": "'Aaj kya kar rahe ho?' = what are you doing today? A very common casual question."
+    },
+    {
+      "id": "hi-s5-l16-ex05",
+      "type": "translation",
+      "prompt": "shaam",
+      "direction": "to_english",
+      "correct": "evening",
+      "acceptedVariants": ["evening"],
+      "explanation": "'Shaam' means evening in Hindi. 'Shaam ko aana' = come in the evening."
+    },
+    {
+      "id": "hi-s5-l16-ex06",
+      "type": "matching",
+      "pairs": [
+        { "left": "subah", "right": "morning" },
+        { "left": "dopahar", "right": "afternoon" },
+        { "left": "shaam", "right": "evening" },
+        { "left": "raat", "right": "night" }
+      ],
+      "explanation": "The four parts of the day — combine with 'ko' to mean 'in the morning/afternoon/evening/night'."
+    },
+    {
+      "id": "hi-s5-l16-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I'm coming in the evening'",
+      "tiles": [
+        { "id": "t1", "text": "main" },
+        { "id": "t2", "text": "shaam" },
+        { "id": "t3", "text": "ko" },
+        { "id": "t4", "text": "aaunga" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "'Main shaam ko aaunga' = I'll come in the evening (said by a man). 'Ko' = at/in (time marker)."
+    },
+    {
+      "id": "hi-s5-l16-ex08",
+      "type": "translation",
+      "prompt": "what time is it",
+      "direction": "from_english",
+      "correct": "kitne baje hain",
+      "acceptedVariants": ["kitne baje hain", "kitna baja hai"],
+      "explanation": "'Kitne baje hain?' = what time is it? 'Baje' = struck/o'clock. Answer: 'teen baje hain' = it's 3 o'clock.",
+      "hint": "sounds like: kit-neh buh-jeh hain"
+    }
+  ]
+}

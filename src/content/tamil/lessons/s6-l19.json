@@ -1,0 +1,87 @@
+{
+  "id": "s6-l19",
+  "sectionId": "s6",
+  "title": "Meeting a Friend",
+  "description": "Put it all together — a natural conversation with a friend in colloquial Tamil.",
+  "vocabularyIds": ["ta-enna-panra", "ta-nallaa-irukken", "ta-ongala-paaththadhu-sandhosham"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s6-l19-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "vanakkam", "right": "hello" },
+        { "left": "eppadi irukeenga", "right": "how are you" },
+        { "left": "nallaa irukken, nandri", "right": "I'm well, thank you" },
+        { "left": "enna pannreenga", "right": "what are you doing" }
+      ],
+      "explanation": "A full greeting exchange — these phrases chain together naturally in real conversation."
+    },
+    {
+      "id": "ta-s6-l19-ex02",
+      "type": "translation",
+      "prompt": "what are you doing",
+      "direction": "from_english",
+      "correct": "enna pannreenga",
+      "acceptedVariants": ["enna pannreenga", "enna pannra"],
+      "explanation": "'Enna pannreenga?' = what are you doing? (polite). Casual: 'enna pannra?'",
+      "hint": "sounds like: en-nuh pun-reen-guh"
+    },
+    {
+      "id": "ta-s6-l19-ex03",
+      "type": "multiple_choice",
+      "question": "You haven't seen a friend in a long time. What might you say?",
+      "options": ["inniki enna pannreenga", "romba naala paakkalai", "poittu vare", "nandri"],
+      "correctIndex": 1,
+      "explanation": "'Romba naala paakkalai' = I haven't seen you in a long time. A natural thing to say when reuniting."
+    },
+    {
+      "id": "ta-s6-l19-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Ongala paaththadhu romba ___. (Very happy to see you.)",
+      "correct": "sandhosham",
+      "acceptedVariants": ["sandhosham"],
+      "explanation": "'Ongala paaththadhu romba sandhosham' = very happy to see you — the Tamil equivalent of 'pleased to meet you'."
+    },
+    {
+      "id": "ta-s6-l19-ex05",
+      "type": "translation",
+      "prompt": "where are you going",
+      "direction": "from_english",
+      "correct": "enga poreenga",
+      "acceptedVariants": ["enga poreenga", "enga pogreenga"],
+      "explanation": "'Enga poreenga?' = where are you going? (polite). Casual: 'enga pore?'",
+      "hint": "sounds like: en-guh po-reen-guh"
+    },
+    {
+      "id": "ta-s6-l19-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'let's meet tomorrow' in Tamil?",
+      "options": ["inniki paakkalaam", "naalaiku paakkalaam", "nettru paakkalaam", "maalam paakkalaam"],
+      "correctIndex": 1,
+      "explanation": "'Naalaiku paakkalaam' = let's meet tomorrow. Paakkalaam = let's see / let's meet."
+    },
+    {
+      "id": "ta-s6-l19-ex07",
+      "type": "word_ordering",
+      "prompt": "Say goodbye: 'okay, I'll go now, see you'",
+      "tiles": [
+        { "id": "t1", "text": "sari" },
+        { "id": "t2", "text": "poittu" },
+        { "id": "t3", "text": "varen" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Sari, poittu varen' = okay, I'll go and come back (goodbye). Sari = okay, poittu varen = I'll take leave."
+    },
+    {
+      "id": "ta-s6-l19-ex08",
+      "type": "translation",
+      "prompt": "take care",
+      "direction": "from_english",
+      "correct": "paathukkonga",
+      "acceptedVariants": ["paathukkonga", "paathukko"],
+      "explanation": "'Paathukkonga' = take care of yourself (polite). Casual: 'paathukko'. A warm way to say goodbye.",
+      "hint": "sounds like: paa-thuk-kong-guh"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "s2-l8",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn Tamil color words and basic adjectives to describe people and things.",
+  "vocabularyIds": ["ta-sivappu", "ta-pacha", "ta-neelam", "ta-vellai", "ta-karuppu", "ta-periya", "ta-siriya"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s2-l8-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "sivappu", "right": "red" },
+        { "left": "pacha", "right": "green" },
+        { "left": "neelam", "right": "blue" },
+        { "left": "vellai", "right": "white" }
+      ],
+      "explanation": "Four core Tamil colors — used constantly in everyday speech."
+    },
+    {
+      "id": "ta-s2-l8-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'karuppu' mean?",
+      "options": ["white", "green", "red", "black"],
+      "correctIndex": 3,
+      "explanation": "'Karuppu' means black. Its opposite is 'vellai' (white)."
+    },
+    {
+      "id": "ta-s2-l8-ex03",
+      "type": "translation",
+      "prompt": "big",
+      "direction": "from_english",
+      "correct": "periya",
+      "acceptedVariants": ["periya"],
+      "explanation": "'Periya' means big or large. In Tamil, adjectives come before the noun: 'periya veedu' = big house.",
+      "hint": "sounds like: peh-ri-yuh"
+    },
+    {
+      "id": "ta-s2-l8-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Idhu ___ poo. (This is a red flower.)",
+      "correct": "sivappu",
+      "acceptedVariants": ["sivappu"],
+      "explanation": "'Idhu sivappu poo' = this is a red flower. Adjective comes before the noun in Tamil."
+    },
+    {
+      "id": "ta-s2-l8-ex05",
+      "type": "translation",
+      "prompt": "small",
+      "direction": "from_english",
+      "correct": "siriya",
+      "acceptedVariants": ["siriya"],
+      "explanation": "'Siriya' means small or little. Opposite of 'periya' (big).",
+      "hint": "sounds like: si-ri-yuh"
+    },
+    {
+      "id": "ta-s2-l8-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'green shirt' in Tamil?",
+      "options": ["sattai pacha", "pacha sattai", "sattai siriya", "periya pacha"],
+      "correctIndex": 1,
+      "explanation": "'Pacha sattai' = green shirt. Adjective (pacha = green) comes before the noun (sattai = shirt) in Tamil."
+    },
+    {
+      "id": "ta-s2-l8-ex07",
+      "type": "matching",
+      "pairs": [
+        { "left": "periya", "right": "big" },
+        { "left": "siriya", "right": "small" },
+        { "left": "karuppu", "right": "black" },
+        { "left": "neelam", "right": "blue" }
+      ],
+      "explanation": "Review of descriptive words — practice combining them with nouns you know."
+    },
+    {
+      "id": "ta-s2-l8-ex08",
+      "type": "word_ordering",
+      "prompt": "Say 'big red house'",
+      "tiles": [
+        { "id": "t1", "text": "periya" },
+        { "id": "t2", "text": "sivappu" },
+        { "id": "t3", "text": "veedu" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Periya sivappu veedu' = big red house. Multiple adjectives stack before the noun in Tamil."
+    }
+  ]
+}

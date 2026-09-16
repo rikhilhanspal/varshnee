@@ -2,273 +2,90 @@
   "id": "s1-l2",
   "sectionId": "s1",
   "title": "Introductions",
-  "description": "Learn how to introduce yourself, ask someone's name, and say where you are from.",
-  "vocabularyIds": [
-    "ta-en-peyar",
-    "ta-neenga-enga-irundhu",
-    "ta-santhoshama",
-    "ta-enna-peyar",
-    "ta-naan",
-    "ta-neenga"
-  ],
-  "grammarNoteIds": [
-    "ta-gr-peyar",
-    "ta-gr-question-words"
-  ],
+  "description": "Learn how to introduce yourself and ask someone's name in colloquial Tamil.",
+  "vocabularyIds": ["ta-onga-per-enna", "ta-en-per", "ta-onga-sondha-oor-ethu", "ta-ongala-paaththadhu-sandhosham"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "ta-s1-l2-ex01",
-      "type": "fill_in_blank",
-      "sentence": "En ___ Ravi.",
-      "correct": "peyar",
-      "acceptedVariants": [
-        "peyar"
-      ],
-      "explanation": "'En peyar Ravi' means 'My name is Ravi'. 'Peyar' means 'name'."
+      "type": "multiple_choice",
+      "question": "How do you ask 'what is your name?' informally in Tamil?",
+      "options": ["vanakkam", "onga per enna", "eppadi irukeenga", "nandri"],
+      "correctIndex": 1,
+      "explanation": "'Onga per enna' = what is your name — onga = your, per = name, enna = what."
     },
     {
       "id": "ta-s1-l2-ex02",
-      "type": "multiple_choice",
-      "question": "How do you ask 'What is your name?' formally in Tamil?",
-      "options": [
-        "en peyar enna",
-        "unga peyar enna",
-        "neenga yaar",
-        "enna peyar nee"
-      ],
-      "correctIndex": 1,
-      "explanation": "'Unga peyar enna?' uses 'unga' (your, formal) + 'peyar' (name) + 'enna' (what)."
+      "type": "translation",
+      "prompt": "my name is",
+      "direction": "from_english",
+      "correct": "en per",
+      "acceptedVariants": ["en per", "em per"],
+      "explanation": "'En per' means 'my name is' in colloquial Tamil.",
+      "hint": "sounds like: en pehr"
     },
     {
       "id": "ta-s1-l2-ex03",
-      "type": "translation",
-      "prompt": "My name is Priya.",
-      "direction": "from_english",
-      "correct": "en peyar Priya",
-      "acceptedVariants": [
-        "en peyar priya"
+      "type": "matching",
+      "pairs": [
+        { "left": "onga per enna", "right": "what is your name" },
+        { "left": "en per", "right": "my name is" },
+        { "left": "onga sondha oor ethu", "right": "where are you from" },
+        { "left": "ongala paaththadhu romba sandhosham", "right": "pleased to meet you" }
       ],
-      "explanation": "Use the pattern 'en peyar ___' to state your name in Tamil.",
-      "hint": "sounds like: en peyar Priya"
+      "explanation": "These phrases are used when meeting someone new in Tamil."
     },
     {
       "id": "ta-s1-l2-ex04",
-      "type": "word_ordering",
-      "prompt": "Arrange the words to ask 'Where are you from?' in Tamil:",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "neenga"
-        },
-        {
-          "id": "t2",
-          "text": "irundhu"
-        },
-        {
-          "id": "t3",
-          "text": "enga"
-        },
-        {
-          "id": "t4",
-          "text": "varreenga"
-        }
-      ],
-      "correctOrder": [
-        "t1",
-        "t3",
-        "t2",
-        "t4"
-      ],
-      "explanation": "'Neenga enga irundhu varreenga' literally means 'you where from are-coming'."
+      "type": "translation",
+      "prompt": "onga sondha oor ethu",
+      "direction": "to_english",
+      "correct": "where are you from",
+      "acceptedVariants": ["where are you from", "what is your hometown"],
+      "explanation": "'Onga sondha oor ethu' = where are you from — onga = your, sondha = own, oor = town/place."
     },
     {
       "id": "ta-s1-l2-ex05",
-      "type": "listening",
-      "audio": "tamil/en-peyar.mp3",
-      "mode": "type",
-      "correct": "en peyar",
-      "acceptedVariants": [
-        "en peyar",
-        "enpeyar"
-      ],
-      "explanation": "'En peyar' means 'my name' and is pronounced 'en pay-yar'."
+      "type": "fill_in_blank",
+      "sentence": "En per ___. (My name is ___)",
+      "correct": "[your name]",
+      "acceptedVariants": ["[your name]", "Priya", "Ravi", "Anand"],
+      "explanation": "Say 'en per' then add your name to introduce yourself in colloquial Tamil."
     },
     {
       "id": "ta-s1-l2-ex06",
-      "type": "matching",
-      "pairs": [
-        {
-          "left": "en peyar",
-          "right": "my name"
-        },
-        {
-          "left": "enna peyar",
-          "right": "what name"
-        },
-        {
-          "left": "santhoshama",
-          "right": "happy / pleased"
-        },
-        {
-          "left": "neenga",
-          "right": "you (formal)"
-        }
+      "type": "word_ordering",
+      "prompt": "Ask 'what is your name'",
+      "tiles": [
+        { "id": "t1", "text": "onga" },
+        { "id": "t2", "text": "per" },
+        { "id": "t3", "text": "enna" }
       ],
-      "explanation": "These words and phrases are essential for introducing yourself in Tamil."
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Onga per enna' = what is your name."
     },
     {
       "id": "ta-s1-l2-ex07",
       "type": "translation",
-      "prompt": "santhoshama",
-      "direction": "to_english",
-      "correct": "happy",
-      "acceptedVariants": [
-        "pleased",
-        "happy / pleased",
-        "glad"
-      ],
-      "explanation": "'Santhoshama' means happy or pleased, often used when meeting someone: 'santhoshama irukku' (I am happy)."
+      "prompt": "pleased to meet you",
+      "direction": "from_english",
+      "correct": "ongala paaththadhu romba sandhosham",
+      "acceptedVariants": ["ongala paaththadhu romba sandhosham", "paaththadhu romba sandhosham"],
+      "explanation": "'Ongala paaththadhu romba sandhosham' = very happy to see you (informal pleased to meet you).",
+      "hint": "sounds like: ong-guh-luh paat-thuh-dhu rom-buh sun-dho-shum"
     },
     {
       "id": "ta-s1-l2-ex08",
       "type": "multiple_choice",
-      "question": "What does 'naan' mean?",
+      "question": "How do you say 'I am from Chennai' in Tamil?",
       "options": [
-        "you",
-        "he",
-        "I / me",
-        "we"
+        "en per Chennai",
+        "naan Chennai-la irukken",
+        "Chennai onga per",
+        "nandri Chennai"
       ],
-      "correctIndex": 2,
-      "explanation": "'Naan' is the Tamil first-person pronoun meaning 'I' or 'me'."
-    },
-    {
-      "id": "ta-s1-l2-g04",
-      "type": "multiple_choice",
-      "question": "What does 'neenga enga irundhu varreenga' mean?",
-      "options": [
-        "where are you from (formal)",
-        "yellow",
-        "my name",
-        "left"
-      ],
-      "correctIndex": 0,
-      "explanation": "'neenga enga irundhu varreenga' means 'where are you from (formal)' in Tamil."
-    },
-    {
-      "id": "ta-s1-l2-g06",
-      "type": "translation",
-      "prompt": "Translate 'neenga enga irundhu varreenga' to English.",
-      "direction": "to_english",
-      "correct": "where are you from (formal)",
-      "acceptedVariants": [],
-      "explanation": "'neenga enga irundhu varreenga' means 'where are you from (formal)'."
-    },
-    {
-      "id": "ta-s1-l2-g16",
-      "type": "multiple_choice",
-      "question": "What does 'neenga' mean?",
-      "options": [
-        "seventeen (17)",
-        "green",
-        "you (formal / plural)",
-        "grandmother"
-      ],
-      "correctIndex": 2,
-      "explanation": "'neenga' means 'you (formal / plural)' in Tamil."
-    },
-    {
-      "id": "ta-s1-l2-g01",
-      "type": "multiple_choice",
-      "question": "What does 'en peyar' mean?",
-      "options": [
-        "my name",
-        "blue",
-        "to speak / to talk",
-        "black"
-      ],
-      "correctIndex": 0,
-      "explanation": "'en peyar' means 'my name' in Tamil."
-    },
-    {
-      "id": "ta-s1-l2-g07",
-      "type": "multiple_choice",
-      "question": "What does 'santhoshama' mean?",
-      "options": [
-        "younger brother",
-        "seven (7)",
-        "nine (9)",
-        "happy / pleased (to meet you)"
-      ],
-      "correctIndex": 3,
-      "explanation": "'santhoshama' means 'happy / pleased (to meet you)' in Tamil."
-    },
-    {
-      "id": "ta-s1-l2-g03",
-      "type": "translation",
-      "prompt": "Translate 'en peyar' to English.",
-      "direction": "to_english",
-      "correct": "my name",
-      "acceptedVariants": [],
-      "explanation": "'en peyar' means 'my name'."
-    },
-    {
-      "id": "ta-s1-l2-g17",
-      "type": "translation",
-      "prompt": "How do you say 'you (formal / plural)' in Tamil?",
-      "direction": "from_english",
-      "correct": "neenga",
-      "acceptedVariants": [],
-      "hint": "sounds like: neenga",
-      "explanation": "'you (formal / plural)' in Tamil is 'neenga'."
-    },
-    {
-      "id": "ta-s1-l2-g12",
-      "type": "translation",
-      "prompt": "Translate 'enna peyar' to English.",
-      "direction": "to_english",
-      "correct": "what is (your) name",
-      "acceptedVariants": [],
-      "explanation": "'enna peyar' means 'what is (your) name'."
-    },
-    {
-      "id": "ta-s1-l2-g11",
-      "type": "translation",
-      "prompt": "How do you say 'what is (your) name' in Tamil?",
-      "direction": "from_english",
-      "correct": "enna peyar",
-      "acceptedVariants": [],
-      "hint": "sounds like: enna peyar",
-      "explanation": "'what is (your) name' in Tamil is 'enna peyar'."
-    },
-    {
-      "id": "ta-s1-l2-g02",
-      "type": "translation",
-      "prompt": "How do you say 'my name' in Tamil?",
-      "direction": "from_english",
-      "correct": "en peyar",
-      "acceptedVariants": [],
-      "hint": "sounds like: en peyar",
-      "explanation": "'my name' in Tamil is 'en peyar'."
-    },
-    {
-      "id": "ta-s1-l2-g15",
-      "type": "translation",
-      "prompt": "Translate 'naan' to English.",
-      "direction": "to_english",
-      "correct": "I / me",
-      "acceptedVariants": [],
-      "explanation": "'naan' means 'I / me'."
-    },
-    {
-      "id": "ta-s1-l2-g05",
-      "type": "translation",
-      "prompt": "How do you say 'where are you from (formal)' in Tamil?",
-      "direction": "from_english",
-      "correct": "neenga enga irundhu varreenga",
-      "acceptedVariants": [],
-      "hint": "sounds like: neenga enga irundhu varreenga",
-      "explanation": "'where are you from (formal)' in Tamil is 'neenga enga irundhu varreenga'."
+      "correctIndex": 1,
+      "explanation": "'Naan Chennai-la irukken' = I am in/from Chennai — naan = I, Chennai-la = in Chennai, irukken = I am."
     }
   ]
 }

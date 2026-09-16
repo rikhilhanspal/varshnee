@@ -1,0 +1,91 @@
+{
+  "id": "s5-l18",
+  "sectionId": "s5",
+  "title": "Feelings & Health",
+  "description": "Talk about how you feel, the weather, and health in Telugu.",
+  "vocabularyIds": ["te-saanthosham", "te-baadha", "te-jaabhulugaa", "te-challi", "te-veyyi"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s5-l18-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'saanthosham' mean?",
+      "options": ["sadness", "sickness", "happiness / joy", "cold"],
+      "correctIndex": 2,
+      "explanation": "'Saanthosham' means happiness or joy in Telugu."
+    },
+    {
+      "id": "te-s5-l18-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "saanthosham", "right": "happiness" },
+        { "left": "baadha", "right": "sadness / pain" },
+        { "left": "challi", "right": "cold" },
+        { "left": "veyyi", "right": "hot" }
+      ],
+      "explanation": "These words describe feelings and sensations in Telugu."
+    },
+    {
+      "id": "te-s5-l18-ex03",
+      "type": "translation",
+      "prompt": "hot",
+      "direction": "from_english",
+      "correct": "veyyi",
+      "acceptedVariants": ["veyyi"],
+      "explanation": "'Veyyi' means hot in Telugu.",
+      "hint": "sounds like: vay-yee"
+    },
+    {
+      "id": "te-s5-l18-ex04",
+      "type": "translation",
+      "prompt": "jaabhulugaa unnanu",
+      "direction": "to_english",
+      "correct": "I am feeling unwell",
+      "acceptedVariants": ["I am feeling unwell", "I am sick", "I feel sick", "I don't feel well"],
+      "explanation": "'Jaabhulugaa unnanu' = I am feeling unwell/sick in Telugu."
+    },
+    {
+      "id": "te-s5-l18-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Naaku ___ gaa undhi. (I feel cold.)",
+      "correct": "challi",
+      "acceptedVariants": ["challi"],
+      "explanation": "'Challi' means cold in Telugu."
+    },
+    {
+      "id": "te-s5-l18-ex06",
+      "type": "multiple_choice",
+      "question": "You are sick and need medical help. What do you say?",
+      "options": [
+        "hospital manchidi",
+        "jaabhulugaa unnanu, hospital kaavali",
+        "hospital dhara entha",
+        "hospital ekkada angadi"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Jaabhulugaa unnanu, hospital kaavali' = I am sick, I need a hospital."
+    },
+    {
+      "id": "te-s5-l18-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I am happy'",
+      "tiles": [
+        { "id": "t1", "text": "naaku" },
+        { "id": "t2", "text": "saanthosham" },
+        { "id": "t3", "text": "gaa undhi" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Naaku saanthosham gaa undhi' = I am happy / I feel joyful."
+    },
+    {
+      "id": "te-s5-l18-ex08",
+      "type": "translation",
+      "prompt": "cold",
+      "direction": "from_english",
+      "correct": "challi",
+      "acceptedVariants": ["challi"],
+      "explanation": "'Challi' means cold — used for cold weather or feeling cold.",
+      "hint": "sounds like: chul-lee"
+    }
+  ]
+}

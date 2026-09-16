@@ -1,0 +1,91 @@
+{
+  "id": "s6-l19",
+  "sectionId": "s6",
+  "title": "Meeting a Friend",
+  "description": "Practice a full Telugu conversation when bumping into a friend.",
+  "vocabularyIds": ["te-namaskaaram", "te-vellostaanu", "te-elaa-unnaru", "te-naenu-baagunnaanu", "te-mee-peru-emandi", "te-dhanyavaadhamulu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s6-l19-ex01",
+      "type": "multiple_choice",
+      "question": "You see a friend on the street. What do you say first?",
+      "options": ["vellostaanu", "namaskaaram", "shubha raathri", "kshaminchanddi"],
+      "correctIndex": 1,
+      "explanation": "'Namaskaaram' is the natural first greeting when you see someone."
+    },
+    {
+      "id": "te-s6-l19-ex02",
+      "type": "translation",
+      "prompt": "namaskaaram, elaa unnaru",
+      "direction": "to_english",
+      "correct": "hello, how are you",
+      "acceptedVariants": ["hello how are you", "hi how are you", "hello, how are you"],
+      "explanation": "The classic Telugu greeting opener: namaskaaram (hello) + elaa unnaru (how are you)."
+    },
+    {
+      "id": "te-s6-l19-ex03",
+      "type": "word_ordering",
+      "prompt": "Respond: 'I am fine, thank you'",
+      "tiles": [
+        { "id": "t1", "text": "naenu" },
+        { "id": "t2", "text": "baagunnaanu" },
+        { "id": "t3", "text": "dhanyavaadhamulu" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Naenu baagunnaanu, dhanyavaadhamulu' = I am fine, thank you."
+    },
+    {
+      "id": "te-s6-l19-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "namaskaaram", "right": "hello" },
+        { "left": "elaa unnaru", "right": "how are you" },
+        { "left": "naenu baagunnaanu", "right": "I am fine" },
+        { "left": "vellostaanu", "right": "goodbye" }
+      ],
+      "explanation": "A complete greeting conversation in Telugu uses all these phrases."
+    },
+    {
+      "id": "te-s6-l19-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Namaskaaram! ___ unnaru? (Hello! How are you?)",
+      "correct": "elaa",
+      "acceptedVariants": ["elaa", "ela"],
+      "explanation": "'Elaa unnaru' = how are you. Elaa = how."
+    },
+    {
+      "id": "te-s6-l19-ex06",
+      "type": "translation",
+      "prompt": "goodbye, see you later",
+      "direction": "from_english",
+      "correct": "vellostaanu",
+      "acceptedVariants": ["vellostaanu", "velostanu"],
+      "explanation": "'Vellostaanu' = I'll come back — the natural way to say goodbye in Telugu.",
+      "hint": "sounds like: vel-los-taa-nu"
+    },
+    {
+      "id": "te-s6-l19-ex07",
+      "type": "multiple_choice",
+      "question": "Your friend asks 'mee peru emandi?' What is the correct response?",
+      "options": [
+        "naenu baagunnaanu",
+        "naa peru [your name]",
+        "vellostaanu",
+        "namaskaaram"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Mee peru emandi' = what is your name? Respond with 'naa peru [name]' = my name is [name]."
+    },
+    {
+      "id": "te-s6-l19-ex08",
+      "type": "translation",
+      "prompt": "hello, how are you",
+      "direction": "from_english",
+      "correct": "namaskaaram, elaa unnaru",
+      "acceptedVariants": ["namaskaaram elaa unnaru", "namaskaaram, elaa unnaru"],
+      "explanation": "The complete Telugu greeting: namaskaaram (hello) + elaa unnaru (how are you).",
+      "hint": "sounds like: nuh-mus-kaa-rum eh-laa un-naa-ru"
+    }
+  ]
+}

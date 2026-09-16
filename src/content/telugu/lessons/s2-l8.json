@@ -1,0 +1,85 @@
+{
+  "id": "s2-l8",
+  "sectionId": "s2",
+  "title": "Colors & Descriptions",
+  "description": "Learn colors and basic adjectives to describe things in Telugu.",
+  "vocabularyIds": ["te-erruppu", "te-neelam", "te-pachchha", "te-pasupu", "te-tella", "te-nalla", "te-pedda", "te-chinna", "te-manchidi", "te-chedda"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s2-l8-ex01",
+      "type": "multiple_choice",
+      "question": "What color is 'pasupu'?",
+      "options": ["red", "blue", "green", "yellow"],
+      "correctIndex": 3,
+      "explanation": "'Pasupu' means yellow in Telugu — it is also the word for turmeric, which is yellow."
+    },
+    {
+      "id": "te-s2-l8-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "erruppu", "right": "red" },
+        { "left": "neelam", "right": "blue" },
+        { "left": "tella", "right": "white" },
+        { "left": "nalla", "right": "black" }
+      ],
+      "explanation": "Match each Telugu color word to its English translation."
+    },
+    {
+      "id": "te-s2-l8-ex03",
+      "type": "translation",
+      "prompt": "green",
+      "direction": "from_english",
+      "correct": "pachchha",
+      "acceptedVariants": ["pachchha", "pacha"],
+      "explanation": "'Pachchha' means green in Telugu.",
+      "hint": "sounds like: puch-chuh"
+    },
+    {
+      "id": "te-s2-l8-ex04",
+      "type": "translation",
+      "prompt": "manchidi",
+      "direction": "to_english",
+      "correct": "good",
+      "acceptedVariants": ["good", "nice"],
+      "explanation": "'Manchidi' means good in Telugu."
+    },
+    {
+      "id": "te-s2-l8-ex05",
+      "type": "multiple_choice",
+      "question": "What does 'pedda' mean?",
+      "options": ["small", "bad", "big", "good"],
+      "correctIndex": 2,
+      "explanation": "'Pedda' means big or large in Telugu."
+    },
+    {
+      "id": "te-s2-l8-ex06",
+      "type": "fill_in_blank",
+      "sentence": "Chinna means small, pedda means ___.",
+      "correct": "big",
+      "acceptedVariants": ["big", "large"],
+      "explanation": "'Pedda' means big, the opposite of chinna (small)."
+    },
+    {
+      "id": "te-s2-l8-ex07",
+      "type": "word_ordering",
+      "prompt": "Which pair is correct: big/small or good/bad?",
+      "tiles": [
+        { "id": "t1", "text": "pedda" },
+        { "id": "t2", "text": "chinna" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "Pedda (big) comes before chinna (small) alphabetically and by common convention."
+    },
+    {
+      "id": "te-s2-l8-ex08",
+      "type": "translation",
+      "prompt": "bad",
+      "direction": "from_english",
+      "correct": "chedda",
+      "acceptedVariants": ["chedda"],
+      "explanation": "'Chedda' means bad in Telugu.",
+      "hint": "sounds like: ched-dah"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "s3-l10",
+  "sectionId": "s3",
+  "title": "Drinks",
+  "description": "Learn Hindi words for common drinks — water, tea, coffee, juice, and more.",
+  "vocabularyIds": ["hi-paani", "hi-chai", "hi-coffee", "hi-lassi", "hi-juice"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s3-l10-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "paani", "right": "water" },
+        { "left": "chai", "right": "tea" },
+        { "left": "lassi", "right": "yogurt drink" },
+        { "left": "juice", "right": "juice" }
+      ],
+      "explanation": "Hindi drink vocabulary — chai (tea) is a cultural institution in India, served at every home and roadside stall."
+    },
+    {
+      "id": "hi-s3-l10-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask for water in Hindi?",
+      "options": ["mujhe chai chahiye", "mujhe paani chahiye", "mujhe lassi chahiye", "mujhe coffee chahiye"],
+      "correctIndex": 1,
+      "explanation": "'Mujhe paani chahiye' = I want water. Or more simply 'paani dena' = give (me) water."
+    },
+    {
+      "id": "hi-s3-l10-ex03",
+      "type": "translation",
+      "prompt": "give me one tea please",
+      "direction": "from_english",
+      "correct": "ek chai dena",
+      "acceptedVariants": ["ek chai dena", "ek chai dijiye", "mujhe chai chahiye"],
+      "explanation": "'Ek chai dena' = give me one tea (informal). 'Ek chai dijiye' is more polite.",
+      "hint": "sounds like: ek chai deh-naa"
+    },
+    {
+      "id": "hi-s3-l10-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Mujhe ___ chahiye. (I want lassi.)",
+      "correct": "lassi",
+      "acceptedVariants": ["lassi"],
+      "explanation": "'Lassi' is a popular cold yogurt drink — 'mujhe lassi chahiye' = I want lassi."
+    },
+    {
+      "id": "hi-s3-l10-ex05",
+      "type": "translation",
+      "prompt": "paani",
+      "direction": "to_english",
+      "correct": "water",
+      "acceptedVariants": ["water"],
+      "explanation": "'Paani' means water in Hindi — one of the first and most essential words to know."
+    },
+    {
+      "id": "hi-s3-l10-ex06",
+      "type": "multiple_choice",
+      "question": "What is 'lassi'?",
+      "options": ["a type of bread", "a yogurt-based drink", "a vegetable curry", "a sweet rice dessert"],
+      "correctIndex": 1,
+      "explanation": "'Lassi' is a popular cold drink made from yogurt — available sweet (meethi lassi) or salty (namkeen lassi)."
+    },
+    {
+      "id": "hi-s3-l10-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask for tea and water",
+      "tiles": [
+        { "id": "t1", "text": "mujhe" },
+        { "id": "t2", "text": "chai" },
+        { "id": "t3", "text": "aur" },
+        { "id": "t4", "text": "paani" },
+        { "id": "t5", "text": "chahiye" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"],
+      "explanation": "'Mujhe chai aur paani chahiye' = I want tea and water."
+    },
+    {
+      "id": "hi-s3-l10-ex08",
+      "type": "translation",
+      "prompt": "I don't want coffee",
+      "direction": "from_english",
+      "correct": "mujhe coffee nahin chahiye",
+      "acceptedVariants": ["mujhe coffee nahin chahiye", "coffee nahin chahiye"],
+      "explanation": "'Mujhe coffee nahin chahiye' = I don't want coffee. Insert 'nahin' to negate 'chahiye'.",
+      "hint": "sounds like: muj-heh coffee nuh-heen chaa-hi-yeh"
+    }
+  ]
+}

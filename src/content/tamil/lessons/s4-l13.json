@@ -1,0 +1,86 @@
+{
+  "id": "s4-l13",
+  "sectionId": "s4",
+  "title": "Places",
+  "description": "Learn Tamil words for common places you'll visit — temple, shop, hospital, and more.",
+  "vocabularyIds": ["ta-kovil", "ta-kadai", "ta-hospital", "ta-palli", "ta-veedu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s4-l13-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "kovil", "right": "temple" },
+        { "left": "kadai", "right": "shop / store" },
+        { "left": "hospital", "right": "hospital" },
+        { "left": "veedu", "right": "house / home" }
+      ],
+      "explanation": "Places you'll need to find — kovil (temple) is central to Tamil life and culture."
+    },
+    {
+      "id": "ta-s4-l13-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask 'where is the temple?' in Tamil?",
+      "options": ["kovil evvalavu irukku", "kovil enga irukku", "kovil enna irukku", "kovil eppo irukku"],
+      "correctIndex": 1,
+      "explanation": "'Kovil enga irukku?' = where is the temple? — enga = where, irukku = is (located)."
+    },
+    {
+      "id": "ta-s4-l13-ex03",
+      "type": "translation",
+      "prompt": "where is the hospital",
+      "direction": "from_english",
+      "correct": "hospital enga irukku",
+      "acceptedVariants": ["hospital enga irukku", "hospital enga"],
+      "explanation": "'Hospital enga irukku?' = where is the hospital? Use this pattern: place + enga + irukku.",
+      "hint": "sounds like: hos-pi-tal en-guh i-ruk-ku"
+    },
+    {
+      "id": "ta-s4-l13-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ enga irukku? (Where is the shop?)",
+      "correct": "kadai",
+      "acceptedVariants": ["kadai"],
+      "explanation": "'Kadai enga irukku?' = where is the shop? The pattern 'place + enga + irukku' asks 'where is ___?'"
+    },
+    {
+      "id": "ta-s4-l13-ex05",
+      "type": "translation",
+      "prompt": "palli",
+      "direction": "to_english",
+      "correct": "school",
+      "acceptedVariants": ["school"],
+      "explanation": "'Palli' means school in Tamil — 'palli enga irukku?' = where is the school?"
+    },
+    {
+      "id": "ta-s4-l13-ex06",
+      "type": "multiple_choice",
+      "question": "What is the Tamil word for temple?",
+      "options": ["kadai", "veedu", "kovil", "palli"],
+      "correctIndex": 2,
+      "explanation": "'Kovil' means temple — visiting a kovil is an important part of daily life in Tamil Nadu."
+    },
+    {
+      "id": "ta-s4-l13-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'where is the house?'",
+      "tiles": [
+        { "id": "t1", "text": "veedu" },
+        { "id": "t2", "text": "enga" },
+        { "id": "t3", "text": "irukku" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Veedu enga irukku?' = where is the house? Pattern: place + enga (where) + irukku (is)."
+    },
+    {
+      "id": "ta-s4-l13-ex08",
+      "type": "translation",
+      "prompt": "I'm going to the shop",
+      "direction": "from_english",
+      "correct": "naan kadaikku pouren",
+      "acceptedVariants": ["kadaikku pouren", "kadaikku poguren"],
+      "explanation": "'Naan kadaikku pouren' = I'm going to the shop. '-kku' is the direction marker (to the).",
+      "hint": "sounds like: naan ka-dai-kku po-ren"
+    }
+  ]
+}

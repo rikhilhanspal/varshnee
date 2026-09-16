@@ -1,0 +1,86 @@
+{
+  "id": "s3-l11",
+  "sectionId": "s3",
+  "title": "At a Restaurant",
+  "description": "Learn how to order food, ask for the bill, and navigate a Tamil restaurant conversation.",
+  "vocabularyIds": ["ta-saapidu", "ta-kudiku", "ta-bill", "ta-ruchi", "ta-kodunga"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s3-l11-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "saapidu", "right": "to eat" },
+        { "left": "kudiku", "right": "to drink" },
+        { "left": "kodunga", "right": "please give" },
+        { "left": "bill", "right": "the bill" }
+      ],
+      "explanation": "Restaurant essentials — these four words will get you through most dining situations in Tamil Nadu."
+    },
+    {
+      "id": "ta-s3-l11-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask for the bill in Tamil?",
+      "options": ["saadam kodunga", "bill kodunga", "tanni kodunga", "vanakkam kodunga"],
+      "correctIndex": 1,
+      "explanation": "'Bill kodunga' = please bring the bill. 'Kodunga' is the polite form of 'give'."
+    },
+    {
+      "id": "ta-s3-l11-ex03",
+      "type": "translation",
+      "prompt": "I want to eat rice",
+      "direction": "from_english",
+      "correct": "enakku saadam saapida vendum",
+      "acceptedVariants": ["enakku saadam vendum", "saadam kodunga"],
+      "explanation": "'Enakku saadam saapida vendum' = I want to eat rice. Or simply 'saadam kodunga' (give me rice).",
+      "hint": "sounds like: en-nuk-ku saa-dum saa-pi-da ven-dum"
+    },
+    {
+      "id": "ta-s3-l11-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Romba ___! (Very delicious!)",
+      "correct": "ruchi",
+      "acceptedVariants": ["ruchi"],
+      "explanation": "'Romba ruchi!' = very delicious! — ruchi = delicious/tasty, romba = very. A great compliment to a cook."
+    },
+    {
+      "id": "ta-s3-l11-ex05",
+      "type": "translation",
+      "prompt": "ruchi",
+      "direction": "to_english",
+      "correct": "delicious / tasty",
+      "acceptedVariants": ["delicious", "tasty", "delicious / tasty"],
+      "explanation": "'Ruchi' means delicious or tasty — saying 'romba ruchi' (very tasty) will make any cook happy."
+    },
+    {
+      "id": "ta-s3-l11-ex06",
+      "type": "multiple_choice",
+      "question": "How do you ask for one more dosai?",
+      "options": ["rendu dosai venda", "innum onnu dosai kodunga", "dosai irukka", "dosai bill kodunga"],
+      "correctIndex": 1,
+      "explanation": "'Innum onnu dosai kodunga' = please give one more dosai. Innum = more/another, onnu = one."
+    },
+    {
+      "id": "ta-s3-l11-ex07",
+      "type": "word_ordering",
+      "prompt": "Order 'one coffee please'",
+      "tiles": [
+        { "id": "t1", "text": "oru" },
+        { "id": "t2", "text": "kaapi" },
+        { "id": "t3", "text": "kodunga" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Oru kaapi kodunga' = please give one coffee. Oru = one, kodunga = please give."
+    },
+    {
+      "id": "ta-s3-l11-ex08",
+      "type": "translation",
+      "prompt": "do you have vegetarian food",
+      "direction": "from_english",
+      "correct": "veg saapadu irukka",
+      "acceptedVariants": ["veg saapadu irukka", "veg irukka"],
+      "explanation": "'Veg saapadu irukka?' = do you have vegetarian food? A very common question in Tamil Nadu.",
+      "hint": "sounds like: vej saa-paa-du i-ruk-kaa"
+    }
+  ]
+}

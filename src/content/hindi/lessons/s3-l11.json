@@ -1,0 +1,90 @@
+{
+  "id": "s3-l11",
+  "sectionId": "s3",
+  "title": "At a Restaurant",
+  "description": "Learn how to order food, ask for the menu, and pay the bill in Hindi.",
+  "vocabularyIds": ["hi-khaana", "hi-menu", "hi-bill", "hi-chahiye", "hi-achhaa"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s3-l11-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "khaana", "right": "food / to eat" },
+        { "left": "chahiye", "right": "want / need" },
+        { "left": "menu", "right": "menu" },
+        { "left": "bill", "right": "bill / check" }
+      ],
+      "explanation": "Restaurant essentials — 'chahiye' (I want/need) and 'bill lao' (bring the bill) are your two most important phrases."
+    },
+    {
+      "id": "hi-s3-l11-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask for the bill in Hindi?",
+      "options": ["mujhe menu chahiye", "bill lao", "khaana lao", "paani chahiye"],
+      "correctIndex": 1,
+      "explanation": "'Bill lao' = bring the bill. 'Lao' is a casual imperative meaning 'bring'. More polite: 'bill laiye'."
+    },
+    {
+      "id": "hi-s3-l11-ex03",
+      "type": "translation",
+      "prompt": "I want to eat",
+      "direction": "from_english",
+      "correct": "mujhe khaana chahiye",
+      "acceptedVariants": ["mujhe khaana chahiye", "khaana chahiye"],
+      "explanation": "'Mujhe khaana chahiye' = I want to eat / I want food. 'Khaana' = food or the act of eating.",
+      "hint": "sounds like: muj-heh khaa-naa chaa-hi-yeh"
+    },
+    {
+      "id": "hi-s3-l11-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Mujhe menu ___. (I want the menu.)",
+      "correct": "chahiye",
+      "acceptedVariants": ["chahiye"],
+      "explanation": "'Mujhe menu chahiye' = I want the menu. 'Chahiye' expresses wanting or needing something."
+    },
+    {
+      "id": "hi-s3-l11-ex05",
+      "type": "translation",
+      "prompt": "very tasty",
+      "direction": "from_english",
+      "correct": "bahut achhaa",
+      "acceptedVariants": ["bahut achhaa", "bahut swaadisht"],
+      "explanation": "'Bahut achhaa' = very good/tasty. More specific: 'bahut swaadisht' = very delicious.",
+      "hint": "sounds like: buh-hut uch-haa"
+    },
+    {
+      "id": "hi-s3-l11-ex06",
+      "type": "multiple_choice",
+      "question": "How do you ask 'what vegetables do you have?'",
+      "options": ["kya roti hai", "kya sabzi hai", "kya paani hai", "kya dal hai"],
+      "correctIndex": 1,
+      "explanation": "'Kya sabzi hai?' = what vegetables do you have? / is there a vegetable dish?"
+    },
+    {
+      "id": "hi-s3-l11-ex07",
+      "type": "word_ordering",
+      "prompt": "Order 'one roti and one dal'",
+      "tiles": [
+        { "id": "t1", "text": "ek" },
+        { "id": "t2", "text": "roti" },
+        { "id": "t3", "text": "aur" },
+        { "id": "t4", "text": "ek" },
+        { "id": "t5", "text": "dal" },
+        { "id": "t6", "text": "chahiye" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"],
+      "explanation": "'Ek roti aur ek dal chahiye' = I want one roti and one dal."
+    },
+    {
+      "id": "hi-s3-l11-ex08",
+      "type": "translation",
+      "prompt": "do you have vegetarian food",
+      "direction": "from_english",
+      "correct": "kya veg khaana hai",
+      "acceptedVariants": ["kya veg khaana hai", "kya veg hai", "veg khaana hai"],
+      "explanation": "'Kya veg khaana hai?' = do you have vegetarian food? 'Veg' is universally understood across India.",
+      "hint": "sounds like: kyaa vej khaa-naa hai"
+    }
+  ]
+}

@@ -2,265 +2,85 @@
   "id": "s1-l1",
   "sectionId": "s1",
   "title": "Greetings",
-  "description": "Learn how to say hello, goodbye, and ask how someone is doing in Hindi.",
-  "vocabularyIds": [
-    "hi-namaste",
-    "hi-alvida",
-    "hi-kaise-ho",
-    "hi-kaisi-ho",
-    "hi-aap-kaise-hain",
-    "hi-main-theek-hoon",
-    "hi-shukriya"
-  ],
-  "grammarNoteIds": [
-    "hi-gr-aap-vs-tum"
-  ],
+  "description": "Learn how to greet people, say goodbye, and ask how someone is doing in conversational Hindi.",
+  "vocabularyIds": ["hi-namaste", "hi-phir-milenge", "hi-tum-kaise-ho", "hi-main-theek-hoon", "hi-shukriya", "hi-subh-ratri"],
+  "grammarNoteIds": [],
   "exercises": [
     {
       "id": "hi-s1-l1-ex01",
       "type": "multiple_choice",
       "question": "What does 'namaste' mean?",
-      "options": [
-        "Hello / Greetings",
-        "Goodbye",
-        "Thank you",
-        "Sorry"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Namaste' is the most common Hindi greeting, used for both hello and as a respectful salutation. It can be used at any time of day."
+      "options": ["goodbye", "hello / greetings", "thank you", "good night"],
+      "correctIndex": 1,
+      "explanation": "'Namaste' is the universal Hindi greeting — used for hello and as a respectful acknowledgment."
     },
     {
       "id": "hi-s1-l1-ex02",
       "type": "translation",
-      "prompt": "How do you say 'goodbye' in Hindi?",
+      "prompt": "goodbye / see you again",
       "direction": "from_english",
-      "correct": "alvida",
-      "acceptedVariants": [
-        "phir milenge"
-      ],
-      "explanation": "'Alvida' means goodbye. Another common way to say goodbye is 'phir milenge' which means 'we will meet again'.",
-      "hint": "sounds like: alvida"
+      "correct": "phir milenge",
+      "acceptedVariants": ["phir milenge"],
+      "explanation": "'Phir milenge' means 'we will meet again' — the most natural colloquial goodbye in Hindi.",
+      "hint": "sounds like: phir mi-len-geh"
     },
     {
       "id": "hi-s1-l1-ex03",
       "type": "matching",
       "pairs": [
-        {
-          "left": "namaste",
-          "right": "hello"
-        },
-        {
-          "left": "alvida",
-          "right": "goodbye"
-        },
-        {
-          "left": "shukriya",
-          "right": "thank you"
-        },
-        {
-          "left": "main theek hoon",
-          "right": "I am fine"
-        }
+        { "left": "namaste", "right": "hello" },
+        { "left": "phir milenge", "right": "goodbye / see you" },
+        { "left": "shukriya", "right": "thank you" },
+        { "left": "tum kaise ho", "right": "how are you" }
       ],
-      "explanation": "These are the most essential Hindi greetings and responses you will use every day."
+      "explanation": "These are the essential Hindi greetings and polite phrases."
     },
     {
       "id": "hi-s1-l1-ex04",
-      "type": "fill_in_blank",
-      "sentence": "Aap ___ hain?",
-      "correct": "kaise",
-      "acceptedVariants": [
-        "kaisi"
-      ],
-      "explanation": "'Aap kaise hain?' means 'How are you?' in the formal form. Use 'kaise' when speaking to a male and 'kaisi' when speaking to a female."
+      "type": "translation",
+      "prompt": "main theek hoon",
+      "direction": "to_english",
+      "correct": "I am fine",
+      "acceptedVariants": ["I am fine", "I'm fine", "I'm okay", "I am okay"],
+      "explanation": "'Main theek hoon' = I am fine — main = I, theek = fine/okay, hoon = am."
     },
     {
       "id": "hi-s1-l1-ex05",
-      "type": "word_ordering",
-      "prompt": "Say: I am fine",
-      "tiles": [
-        {
-          "id": "t1",
-          "text": "theek"
-        },
-        {
-          "id": "t2",
-          "text": "hoon"
-        },
-        {
-          "id": "t3",
-          "text": "main"
-        }
-      ],
-      "correctOrder": [
-        "t3",
-        "t1",
-        "t2"
-      ],
-      "explanation": "'Main theek hoon' follows Hindi word order: subject ('main' = I) + adjective ('theek' = fine) + verb ('hoon' = am)."
+      "type": "fill_in_blank",
+      "sentence": "___ ratri (good night).",
+      "correct": "subh",
+      "acceptedVariants": ["subh"],
+      "explanation": "'Subh ratri' means good night in Hindi — subh = auspicious/good, ratri = night."
     },
     {
       "id": "hi-s1-l1-ex06",
-      "type": "listening",
-      "audio": "hindi/namaste.mp3",
-      "mode": "select",
-      "options": [
-        "namaste",
-        "alvida",
-        "shukriya",
-        "maaf kijiye"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Namaste' is pronounced 'nuh-muh-stay'. It comes from Sanskrit and literally means 'I bow to you'."
+      "type": "multiple_choice",
+      "question": "Which phrase is the most common colloquial goodbye in Hindi?",
+      "options": ["alvida", "namaste", "phir milenge", "dhanyavaad"],
+      "correctIndex": 2,
+      "explanation": "'Phir milenge' (see you again) is what people actually say when parting — alvida is more formal."
     },
     {
       "id": "hi-s1-l1-ex07",
-      "type": "multiple_choice",
-      "question": "Which phrase would you use to formally ask 'How are you?'",
-      "options": [
-        "Aap kaise hain",
-        "Kaise ho",
-        "Kaisi ho",
-        "Kya haal hai"
+      "type": "word_ordering",
+      "prompt": "Say 'I am fine'",
+      "tiles": [
+        { "id": "t1", "text": "main" },
+        { "id": "t2", "text": "theek" },
+        { "id": "t3", "text": "hoon" }
       ],
-      "correctIndex": 0,
-      "explanation": "'Aap kaise hain' is the formal way to ask 'How are you?' Using 'aap' shows respect. 'Kaise ho' and 'kaisi ho' are informal versions."
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Main theek hoon' = I am fine."
     },
     {
       "id": "hi-s1-l1-ex08",
       "type": "translation",
-      "prompt": "How do you say 'thank you' in Hindi?",
+      "prompt": "thank you",
       "direction": "from_english",
       "correct": "shukriya",
-      "acceptedVariants": [
-        "dhanyavaad"
-      ],
-      "explanation": "'Shukriya' is the common way to say thank you. 'Dhanyavaad' is more formal and comes from Sanskrit.",
-      "hint": "sounds like: shukriya"
-    },
-    {
-      "id": "hi-s1-l1-g05",
-      "type": "translation",
-      "prompt": "How do you say 'goodbye' in Hindi?",
-      "direction": "from_english",
-      "correct": "alvida",
-      "acceptedVariants": [],
-      "hint": "sounds like: alvida",
-      "explanation": "'goodbye' in Hindi is 'alvida'."
-    },
-    {
-      "id": "hi-s1-l1-g18",
-      "type": "translation",
-      "prompt": "Translate 'main theek hoon' to English.",
-      "direction": "to_english",
-      "correct": "I am fine",
-      "acceptedVariants": [],
-      "explanation": "'main theek hoon' means 'I am fine'."
-    },
-    {
-      "id": "hi-s1-l1-g17",
-      "type": "translation",
-      "prompt": "How do you say 'I am fine' in Hindi?",
-      "direction": "from_english",
-      "correct": "main theek hoon",
-      "acceptedVariants": [],
-      "hint": "sounds like: main theek hoon",
-      "explanation": "'I am fine' in Hindi is 'main theek hoon'."
-    },
-    {
-      "id": "hi-s1-l1-g01",
-      "type": "multiple_choice",
-      "question": "What does 'namaste' mean?",
-      "options": [
-        "paternal grandfather",
-        "paternal uncle",
-        "small",
-        "hello / greetings"
-      ],
-      "correctIndex": 3,
-      "explanation": "'namaste' means 'hello / greetings' in Hindi."
-    },
-    {
-      "id": "hi-s1-l1-g10",
-      "type": "multiple_choice",
-      "question": "What does 'kaisi ho' mean?",
-      "options": [
-        "fruit",
-        "how are you (informal, to female)",
-        "yes",
-        "where are you from (formal)"
-      ],
-      "correctIndex": 1,
-      "explanation": "'kaisi ho' means 'how are you (informal, to female)' in Hindi."
-    },
-    {
-      "id": "hi-s1-l1-g02",
-      "type": "translation",
-      "prompt": "How do you say 'hello / greetings' in Hindi?",
-      "direction": "from_english",
-      "correct": "namaste",
-      "acceptedVariants": [],
-      "hint": "sounds like: namaste",
-      "explanation": "'hello / greetings' in Hindi is 'namaste'."
-    },
-    {
-      "id": "hi-s1-l1-g11",
-      "type": "translation",
-      "prompt": "How do you say 'how are you (informal, to female)' in Hindi?",
-      "direction": "from_english",
-      "correct": "kaisi ho",
-      "acceptedVariants": [],
-      "hint": "sounds like: kaisi ho",
-      "explanation": "'how are you (informal, to female)' in Hindi is 'kaisi ho'."
-    },
-    {
-      "id": "hi-s1-l1-g09",
-      "type": "translation",
-      "prompt": "Translate 'kaise ho' to English.",
-      "direction": "to_english",
-      "correct": "how are you (informal, to male)",
-      "acceptedVariants": [],
-      "explanation": "'kaise ho' means 'how are you (informal, to male)'."
-    },
-    {
-      "id": "hi-s1-l1-g03",
-      "type": "translation",
-      "prompt": "Translate 'namaste' to English.",
-      "direction": "to_english",
-      "correct": "hello / greetings",
-      "acceptedVariants": [],
-      "explanation": "'namaste' means 'hello / greetings'."
-    },
-    {
-      "id": "hi-s1-l1-g19",
-      "type": "multiple_choice",
-      "question": "What does 'shukriya' mean?",
-      "options": [
-        "thank you",
-        "seventeen (17)",
-        "left",
-        "how are you (informal, to female)"
-      ],
-      "correctIndex": 0,
-      "explanation": "'shukriya' means 'thank you' in Hindi."
-    },
-    {
-      "id": "hi-s1-l1-g06",
-      "type": "translation",
-      "prompt": "Translate 'alvida' to English.",
-      "direction": "to_english",
-      "correct": "goodbye",
-      "acceptedVariants": [],
-      "explanation": "'alvida' means 'goodbye'."
-    },
-    {
-      "id": "hi-s1-l1-g15",
-      "type": "translation",
-      "prompt": "Translate 'aap kaise hain' to English.",
-      "direction": "to_english",
-      "correct": "how are you (formal)",
-      "acceptedVariants": [],
-      "explanation": "'aap kaise hain' means 'how are you (formal)'."
+      "acceptedVariants": ["shukriya", "dhanyavaad"],
+      "explanation": "'Shukriya' is the common everyday thank you. 'Dhanyavaad' is more formal.",
+      "hint": "sounds like: shook-ree-yah"
     }
   ]
 }

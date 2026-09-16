@@ -1,0 +1,86 @@
+{
+  "id": "s4-l15",
+  "sectionId": "s4",
+  "title": "Transport",
+  "description": "Learn how to use autos, buses, and trains — and navigate getting around in Hindi.",
+  "vocabularyIds": ["hi-auto", "hi-bus", "hi-train", "hi-ticket", "hi-station"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s4-l15-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "auto", "right": "auto-rickshaw" },
+        { "left": "bus", "right": "bus" },
+        { "left": "train", "right": "train" },
+        { "left": "station", "right": "station" }
+      ],
+      "explanation": "Transport vocabulary — auto-rickshaws are ubiquitous in Indian cities and the most common way to get around."
+    },
+    {
+      "id": "hi-s4-l15-ex02",
+      "type": "multiple_choice",
+      "question": "How do you tell an auto driver 'go to the station'?",
+      "options": ["station kahan hai", "station chaliye", "station chahiye", "station milega"],
+      "correctIndex": 1,
+      "explanation": "'Station chaliye' = let's go to the station / please take me to the station. 'Chaliye' = let's go (polite imperative)."
+    },
+    {
+      "id": "hi-s4-l15-ex03",
+      "type": "translation",
+      "prompt": "how much to the station",
+      "direction": "from_english",
+      "correct": "station kitne ka",
+      "acceptedVariants": ["station kitne ka", "station ka kitna"],
+      "explanation": "'Station kitne ka?' = how much to the station? The standard way to negotiate auto fares.",
+      "hint": "sounds like: sta-tion kit-neh kaa"
+    },
+    {
+      "id": "hi-s4-l15-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ rukiye! (Stop here!)",
+      "correct": "yahaan",
+      "acceptedVariants": ["yahaan", "yahan"],
+      "explanation": "'Yahaan rukiye' = stop here (polite). 'Rukiye' = please stop, 'yahaan' = here."
+    },
+    {
+      "id": "hi-s4-l15-ex05",
+      "type": "translation",
+      "prompt": "one ticket to Delhi please",
+      "direction": "from_english",
+      "correct": "Delhi ka ek ticket chahiye",
+      "acceptedVariants": ["Delhi ka ek ticket chahiye", "ek ticket Delhi", "Delhi ek ticket dena"],
+      "explanation": "'Delhi ka ek ticket chahiye' = I want one ticket to Delhi.",
+      "hint": "sounds like: Del-li kaa ek tik-ket chaa-hi-yeh"
+    },
+    {
+      "id": "hi-s4-l15-ex06",
+      "type": "multiple_choice",
+      "question": "How do you ask 'is there a bus to Mumbai?' in Hindi?",
+      "options": ["Mumbai ki bus kahan hai", "kya Mumbai ki bus hai", "Mumbai bus kitne ka", "bus mumbai jaaiye"],
+      "correctIndex": 1,
+      "explanation": "'Kya Mumbai ki bus hai?' = is there a bus to Mumbai? 'Ki' shows the bus belongs to/goes to Mumbai."
+    },
+    {
+      "id": "hi-s4-l15-ex07",
+      "type": "word_ordering",
+      "prompt": "Tell the auto: 'go to the hospital'",
+      "tiles": [
+        { "id": "t1", "text": "hospital" },
+        { "id": "t2", "text": "chaliye" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Hospital chaliye' = take me to the hospital. Simple and effective."
+    },
+    {
+      "id": "hi-s4-l15-ex08",
+      "type": "translation",
+      "prompt": "where is the bus stop",
+      "direction": "from_english",
+      "correct": "bus stop kahan hai",
+      "acceptedVariants": ["bus stop kahan hai", "bus stand kahan hai"],
+      "explanation": "'Bus stop kahan hai?' = where is the bus stop? 'Bus stand' is also commonly used.",
+      "hint": "sounds like: bus stop kuh-haan hai"
+    }
+  ]
+}

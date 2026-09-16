@@ -1,0 +1,87 @@
+{
+  "id": "s5-l17",
+  "sectionId": "s5",
+  "title": "Common Verbs",
+  "description": "Learn the most frequently used Hindi verbs — eat, drink, go, come, see, and understand.",
+  "vocabularyIds": ["hi-khaana", "hi-peena", "hi-jaana", "hi-aana", "hi-dekhna", "hi-samajhna", "hi-bolna"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "hi-s5-l17-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "khaana", "right": "to eat" },
+        { "left": "peena", "right": "to drink" },
+        { "left": "jaana", "right": "to go" },
+        { "left": "aana", "right": "to come" }
+      ],
+      "explanation": "The four most essential Hindi verbs — infinitive forms ending in '-na'."
+    },
+    {
+      "id": "hi-s5-l17-ex02",
+      "type": "multiple_choice",
+      "question": "What does 'dekhna' mean?",
+      "options": ["to eat", "to go", "to see / to look", "to understand"],
+      "correctIndex": 2,
+      "explanation": "'Dekhna' = to see or to look. 'Dekho!' = look! 'Main dekh raha hoon' = I'm looking."
+    },
+    {
+      "id": "hi-s5-l17-ex03",
+      "type": "translation",
+      "prompt": "I'm going",
+      "direction": "from_english",
+      "correct": "main ja raha hoon",
+      "acceptedVariants": ["main ja raha hoon", "ja raha hoon"],
+      "explanation": "'Main ja raha hoon' = I'm going (present progressive, masculine). Woman says 'ja rahi hoon'.",
+      "hint": "sounds like: main jaa ruh-haa hoon"
+    },
+    {
+      "id": "hi-s5-l17-ex04",
+      "type": "fill_in_blank",
+      "sentence": "Main ___ chahta hoon. (I want to eat.)",
+      "correct": "khaana",
+      "acceptedVariants": ["khaana"],
+      "explanation": "'Main khaana chahta hoon' = I want to eat. Khaana + chahna = want to eat."
+    },
+    {
+      "id": "hi-s5-l17-ex05",
+      "type": "translation",
+      "prompt": "come here",
+      "direction": "from_english",
+      "correct": "yahaan aao",
+      "acceptedVariants": ["yahaan aao", "idhar aao", "aao"],
+      "explanation": "'Yahaan aao' = come here (informal). Polite: 'yahaan aaiye'. 'Idhar aao' is also common.",
+      "hint": "sounds like: yuh-haan aa-o"
+    },
+    {
+      "id": "hi-s5-l17-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'samajhna' mean?",
+      "options": ["to eat", "to drink", "to understand", "to see"],
+      "correctIndex": 2,
+      "explanation": "'Samajhna' = to understand. 'Samajh gaya?' = did you understand? 'Samajh gaya' = I understood."
+    },
+    {
+      "id": "hi-s5-l17-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'let's go eat'",
+      "tiles": [
+        { "id": "t1", "text": "khaana" },
+        { "id": "t2", "text": "khaane" },
+        { "id": "t3", "text": "chalte" },
+        { "id": "t4", "text": "hain" }
+      ],
+      "correctOrder": ["t2", "t3", "t4"],
+      "explanation": "'Khaane chalte hain' = let's go eat. Khaane = to eat (oblique), chalte hain = let's go."
+    },
+    {
+      "id": "hi-s5-l17-ex08",
+      "type": "translation",
+      "prompt": "bolna",
+      "direction": "to_english",
+      "correct": "to speak / to say",
+      "acceptedVariants": ["to speak", "to say", "to talk"],
+      "explanation": "'Bolna' = to speak or to say. 'Dhire boliye' = please speak slowly. 'Kya bola?' = what did (he/she) say?"
+    }
+  ]
+}

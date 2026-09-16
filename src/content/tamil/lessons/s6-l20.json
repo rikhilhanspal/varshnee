@@ -1,0 +1,87 @@
+{
+  "id": "s6-l20",
+  "sectionId": "s6",
+  "title": "Asking for Help",
+  "description": "Learn essential Tamil phrases for emergencies — asking for help, calling for police, and getting medical assistance.",
+  "vocabularyIds": ["ta-kaappathunga", "ta-nillu", "ta-police"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s6-l20-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "kaappathunga", "right": "help me / save me" },
+        { "left": "nillunga", "right": "stop" },
+        { "left": "police kuppunga", "right": "call the police" },
+        { "left": "hospital enga irukku", "right": "where is the hospital" }
+      ],
+      "explanation": "Emergency phrases — memorize 'kaappathunga' (help me) and 'hospital enga irukku' (where is the hospital)."
+    },
+    {
+      "id": "ta-s6-l20-ex02",
+      "type": "multiple_choice",
+      "question": "How do you shout 'help!' in Tamil?",
+      "options": ["nandri", "kaappathunga", "aamaa", "poittu vare"],
+      "correctIndex": 1,
+      "explanation": "'Kaappathunga!' = help me / save me! This is the word to shout in an emergency."
+    },
+    {
+      "id": "ta-s6-l20-ex03",
+      "type": "translation",
+      "prompt": "call the police",
+      "direction": "from_english",
+      "correct": "police kuppunga",
+      "acceptedVariants": ["police kuppunga", "police-a kuppunga"],
+      "explanation": "'Police kuppunga' = call the police (polite imperative). Kuppunga = please call.",
+      "hint": "sounds like: po-lees kup-pung-guh"
+    },
+    {
+      "id": "ta-s6-l20-ex04",
+      "type": "fill_in_blank",
+      "sentence": "___ kuppunga! (Call the police!)",
+      "correct": "police",
+      "acceptedVariants": ["police"],
+      "explanation": "'Police kuppunga!' = call the police! In an emergency, even just saying 'police!' loudly gets attention."
+    },
+    {
+      "id": "ta-s6-l20-ex05",
+      "type": "translation",
+      "prompt": "I need help",
+      "direction": "from_english",
+      "correct": "enakku help vendum",
+      "acceptedVariants": ["enakku help vendum", "enakku udavi vendum"],
+      "explanation": "'Enakku udavi vendum' = I need help. 'Udavi' = help/assistance. Or simply 'help vendum'.",
+      "hint": "sounds like: en-nuk-ku help ven-dum"
+    },
+    {
+      "id": "ta-s6-l20-ex06",
+      "type": "multiple_choice",
+      "question": "You get into the wrong auto. How do you say 'stop here'?",
+      "options": ["inge ponga", "inge nillunga", "inge kodunga", "inge irukku"],
+      "correctIndex": 1,
+      "explanation": "'Inge nillunga' = stop here. Nillunga = please stop, inge = here."
+    },
+    {
+      "id": "ta-s6-l20-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'where is the hospital?'",
+      "tiles": [
+        { "id": "t1", "text": "hospital" },
+        { "id": "t2", "text": "enga" },
+        { "id": "t3", "text": "irukku" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Hospital enga irukku?' — the most important emergency phrase. Pattern: place + enga + irukku."
+    },
+    {
+      "id": "ta-s6-l20-ex08",
+      "type": "translation",
+      "prompt": "I'm lost",
+      "direction": "from_english",
+      "correct": "enakku vazhitheriyala",
+      "acceptedVariants": ["enakku vazhitheriyala", "naan tholachuten"],
+      "explanation": "'Enakku vazhitheriyala' = I don't know the way (I'm lost). Or 'naan tholachuten' = I got lost.",
+      "hint": "sounds like: en-nuk-ku vaa-zhi-theh-ri-yuh-luh"
+    }
+  ]
+}

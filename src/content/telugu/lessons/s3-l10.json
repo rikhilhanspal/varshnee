@@ -1,0 +1,85 @@
+{
+  "id": "s3-l10",
+  "sectionId": "s3",
+  "title": "Drinks",
+  "description": "Learn the Telugu words for common drinks.",
+  "vocabularyIds": ["te-neellu", "te-kaafii", "te-paalu", "te-chaaya", "te-pandlu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s3-l10-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'neellu' mean?",
+      "options": ["milk", "coffee", "water", "tea"],
+      "correctIndex": 2,
+      "explanation": "'Neellu' means water in Telugu."
+    },
+    {
+      "id": "te-s3-l10-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "neellu", "right": "water" },
+        { "left": "kaafii", "right": "coffee" },
+        { "left": "paalu", "right": "milk" },
+        { "left": "chaaya", "right": "tea" }
+      ],
+      "explanation": "These are the most common drinks in Telugu-speaking households."
+    },
+    {
+      "id": "te-s3-l10-ex03",
+      "type": "translation",
+      "prompt": "coffee",
+      "direction": "from_english",
+      "correct": "kaafii",
+      "acceptedVariants": ["kaafii", "kafi"],
+      "explanation": "'Kaafii' means coffee in Telugu.",
+      "hint": "sounds like: kaa-fee"
+    },
+    {
+      "id": "te-s3-l10-ex04",
+      "type": "translation",
+      "prompt": "paalu",
+      "direction": "to_english",
+      "correct": "milk",
+      "acceptedVariants": ["milk"],
+      "explanation": "'Paalu' means milk in Telugu."
+    },
+    {
+      "id": "te-s3-l10-ex05",
+      "type": "fill_in_blank",
+      "sentence": "Neellu kaavali means I want ___.",
+      "correct": "water",
+      "acceptedVariants": ["water"],
+      "explanation": "'Neellu kaavali' = I want water — neellu = water, kaavali = want."
+    },
+    {
+      "id": "te-s3-l10-ex06",
+      "type": "multiple_choice",
+      "question": "How do you say 'tea' in Telugu?",
+      "options": ["neellu", "paalu", "chaaya", "kaafii"],
+      "correctIndex": 2,
+      "explanation": "'Chaaya' means tea in Telugu."
+    },
+    {
+      "id": "te-s3-l10-ex07",
+      "type": "translation",
+      "prompt": "I want water",
+      "direction": "from_english",
+      "correct": "neellu kaavali",
+      "acceptedVariants": ["neellu kaavali"],
+      "explanation": "'Neellu kaavali' means I want water — kaavali = want/need.",
+      "hint": "sounds like: neel-lu kaa-vuh-lee"
+    },
+    {
+      "id": "te-s3-l10-ex08",
+      "type": "word_ordering",
+      "prompt": "Say 'I want tea'",
+      "tiles": [
+        { "id": "t1", "text": "chaaya" },
+        { "id": "t2", "text": "kaavali" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Chaaya kaavali' = I want tea. In Telugu, the thing wanted comes first, then kaavali."
+    }
+  ]
+}

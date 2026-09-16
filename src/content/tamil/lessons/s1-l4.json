@@ -1,0 +1,85 @@
+{
+  "id": "s1-l4",
+  "sectionId": "s1",
+  "title": "Basic Questions",
+  "description": "Learn the essential Tamil question words: what, where, when, how much, and why.",
+  "vocabularyIds": ["ta-enna", "ta-enga", "ta-eppo", "ta-evvalavu", "ta-yen"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "ta-s1-l4-ex01",
+      "type": "matching",
+      "pairs": [
+        { "left": "enna", "right": "what" },
+        { "left": "enga", "right": "where" },
+        { "left": "eppo", "right": "when" },
+        { "left": "evvalavu", "right": "how much" }
+      ],
+      "explanation": "These question words are the building blocks of asking anything in Tamil."
+    },
+    {
+      "id": "ta-s1-l4-ex02",
+      "type": "multiple_choice",
+      "question": "How do you ask 'how much does this cost?' in Tamil?",
+      "options": ["idhu enna", "idhu evvalavu", "idhu enga", "idhu eppo"],
+      "correctIndex": 1,
+      "explanation": "'Idhu evvalavu?' = how much is this? — idhu = this, evvalavu = how much."
+    },
+    {
+      "id": "ta-s1-l4-ex03",
+      "type": "translation",
+      "prompt": "where is it",
+      "direction": "from_english",
+      "correct": "idhu enga irukku",
+      "acceptedVariants": ["enga irukku", "idhu enga"],
+      "explanation": "'Idhu enga irukku?' = where is it? — enga = where, irukku = is (located).",
+      "hint": "sounds like: idhu en-guh i-ruk-ku"
+    },
+    {
+      "id": "ta-s1-l4-ex04",
+      "type": "translation",
+      "prompt": "enna",
+      "direction": "to_english",
+      "correct": "what",
+      "acceptedVariants": ["what", "what is"],
+      "explanation": "'Enna' means 'what' — as in 'enna aachu?' (what happened?) or 'enna pannra?' (what are you doing?)."
+    },
+    {
+      "id": "ta-s1-l4-ex05",
+      "type": "fill_in_blank",
+      "sentence": "___ vandha? (When did you come?)",
+      "correct": "eppo",
+      "acceptedVariants": ["eppo"],
+      "explanation": "'Eppo vandha?' = when did you come? — eppo = when, vandha = came."
+    },
+    {
+      "id": "ta-s1-l4-ex06",
+      "type": "multiple_choice",
+      "question": "What does 'yen' mean?",
+      "options": ["where", "when", "why", "what"],
+      "correctIndex": 2,
+      "explanation": "'Yen' means why in Tamil — 'yen pannra?' = why are you doing that?"
+    },
+    {
+      "id": "ta-s1-l4-ex07",
+      "type": "word_ordering",
+      "prompt": "Ask 'how much is this?'",
+      "tiles": [
+        { "id": "t1", "text": "idhu" },
+        { "id": "t2", "text": "evvalavu" }
+      ],
+      "correctOrder": ["t1", "t2"],
+      "explanation": "'Idhu evvalavu?' = how much is this? The question word comes at the end in Tamil."
+    },
+    {
+      "id": "ta-s1-l4-ex08",
+      "type": "translation",
+      "prompt": "what is your name",
+      "direction": "from_english",
+      "correct": "onga per enna",
+      "acceptedVariants": ["onga per enna", "un per enna"],
+      "explanation": "'Onga per enna?' = what is your name? — a review combining 'enna' (what) with 'onga per' (your name).",
+      "hint": "sounds like: ong-guh pehr en-nuh"
+    }
+  ]
+}

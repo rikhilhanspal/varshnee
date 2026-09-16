@@ -1,78 +1,65 @@
 {
-  "language": "hindi",
   "sections": [
     {
       "id": "s1",
       "title": "Foundations",
+      "description": "Learn essential greetings, introductions, and basic phrases in conversational Hindi.",
       "lessons": [
-        {
-          "id": "s1-l1",
-          "title": "Greetings",
-          "description": "Hello, goodbye, how are you"
-        },
-        {
-          "id": "s1-l2",
-          "title": "Introductions",
-          "description": "Introduce yourself, ask where someone is from"
-        },
-        {
-          "id": "s1-l3",
-          "title": "Basic Phrases",
-          "description": "Please, thank you, sorry, yes, no, and asking for help"
-        }
+        { "id": "s1-l1", "title": "Greetings", "file": "lessons/s1-l1.json" },
+        { "id": "s1-l2", "title": "Introductions", "file": "lessons/s1-l2.json" },
+        { "id": "s1-l3", "title": "Politeness", "file": "lessons/s1-l3.json" },
+        { "id": "s1-l4", "title": "Basic Questions", "file": "lessons/s1-l4.json" }
       ]
     },
     {
       "id": "s2",
-      "title": "People & Everyday",
+      "title": "People & Numbers",
+      "description": "Count, describe, and talk about people in Hindi.",
       "lessons": [
-        {
-          "id": "s2-l4",
-          "title": "Numbers 1-20",
-          "description": "Count from one to twenty in Hindi"
-        },
-        {
-          "id": "s2-l5",
-          "title": "Family Members",
-          "description": "Words for parents, siblings, and grandparents"
-        },
-        {
-          "id": "s2-l6",
-          "title": "Colors & Descriptions",
-          "description": "Common colors and basic adjectives"
-        }
+        { "id": "s2-l5", "title": "Numbers 1–10", "file": "lessons/s2-l5.json" },
+        { "id": "s2-l6", "title": "Numbers 11–20", "file": "lessons/s2-l6.json" },
+        { "id": "s2-l7", "title": "Family Members", "file": "lessons/s2-l7.json" },
+        { "id": "s2-l8", "title": "Colors & Descriptions", "file": "lessons/s2-l8.json" }
       ]
     },
     {
       "id": "s3",
-      "title": "Daily Life",
+      "title": "Food & Drink",
+      "description": "Talk about food, order at restaurants, and shop in Hindi.",
       "lessons": [
-        {
-          "id": "s3-l7",
-          "title": "Food & Drink",
-          "description": "Everyday food items and beverages"
-        },
-        {
-          "id": "s3-l8",
-          "title": "Common Verbs",
-          "description": "Essential action words for daily life"
-        },
-        {
-          "id": "s3-l9",
-          "title": "Places & Directions",
-          "description": "Ask for and give directions, common locations"
-        }
+        { "id": "s3-l9", "title": "Common Foods", "file": "lessons/s3-l9.json" },
+        { "id": "s3-l10", "title": "Drinks", "file": "lessons/s3-l10.json" },
+        { "id": "s3-l11", "title": "At a Restaurant", "file": "lessons/s3-l11.json" },
+        { "id": "s3-l12", "title": "Shopping", "file": "lessons/s3-l12.json" }
       ]
     },
     {
       "id": "s4",
-      "title": "Putting It Together",
+      "title": "Getting Around",
+      "description": "Navigate cities, ask for directions, and use transport in Hindi.",
       "lessons": [
-        {
-          "id": "s4-l10",
-          "title": "Conversations & Review",
-          "description": "Practice dialogues combining all previous vocabulary and grammar"
-        }
+        { "id": "s4-l13", "title": "Places", "file": "lessons/s4-l13.json" },
+        { "id": "s4-l14", "title": "Directions", "file": "lessons/s4-l14.json" },
+        { "id": "s4-l15", "title": "Transport", "file": "lessons/s4-l15.json" }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Daily Life",
+      "description": "Talk about time, daily activities, and how you feel in Hindi.",
+      "lessons": [
+        { "id": "s5-l16", "title": "Time & Days", "file": "lessons/s5-l16.json" },
+        { "id": "s5-l17", "title": "Common Verbs", "file": "lessons/s5-l17.json" },
+        { "id": "s5-l18", "title": "Feelings & Health", "file": "lessons/s5-l18.json" }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Real Conversations",
+      "description": "Put it all together with real Hindi conversations.",
+      "lessons": [
+        { "id": "s6-l19", "title": "Meeting a Friend", "file": "lessons/s6-l19.json" },
+        { "id": "s6-l20", "title": "Asking for Help", "file": "lessons/s6-l20.json" }
       ]
     }
   ]

@@ -1,0 +1,85 @@
+{
+  "id": "s2-l7",
+  "sectionId": "s2",
+  "title": "Family Members",
+  "description": "Learn the Telugu words for family members including parents, siblings, and grandparents.",
+  "vocabularyIds": ["te-amma", "te-naanna", "te-anna", "te-tammudu", "te-akka", "te-chelli", "te-ammamma", "te-taatayya"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s2-l7-ex01",
+      "type": "multiple_choice",
+      "question": "What does 'naanna' mean?",
+      "options": ["mother", "father", "grandfather", "elder brother"],
+      "correctIndex": 1,
+      "explanation": "'Naanna' means father in Telugu."
+    },
+    {
+      "id": "te-s2-l7-ex02",
+      "type": "matching",
+      "pairs": [
+        { "left": "amma", "right": "mother" },
+        { "left": "naanna", "right": "father" },
+        { "left": "ammamma", "right": "grandmother" },
+        { "left": "taatayya", "right": "grandfather" }
+      ],
+      "explanation": "These are the immediate family words in Telugu."
+    },
+    {
+      "id": "te-s2-l7-ex03",
+      "type": "translation",
+      "prompt": "elder brother",
+      "direction": "from_english",
+      "correct": "anna",
+      "acceptedVariants": ["anna"],
+      "explanation": "'Anna' means elder brother in Telugu. Note that Telugu distinguishes elder from younger siblings.",
+      "hint": "sounds like: un-nah"
+    },
+    {
+      "id": "te-s2-l7-ex04",
+      "type": "translation",
+      "prompt": "chelli",
+      "direction": "to_english",
+      "correct": "younger sister",
+      "acceptedVariants": ["younger sister", "little sister"],
+      "explanation": "'Chelli' means younger sister in Telugu."
+    },
+    {
+      "id": "te-s2-l7-ex05",
+      "type": "multiple_choice",
+      "question": "Which word means 'younger brother' in Telugu?",
+      "options": ["anna", "akka", "tammudu", "chelli"],
+      "correctIndex": 2,
+      "explanation": "'Tammudu' means younger brother. Telugu has separate words for elder and younger siblings."
+    },
+    {
+      "id": "te-s2-l7-ex06",
+      "type": "fill_in_blank",
+      "sentence": "___ (elder sister) is called akka in Telugu.",
+      "correct": "akka",
+      "acceptedVariants": ["akka"],
+      "explanation": "'Akka' means elder sister in Telugu."
+    },
+    {
+      "id": "te-s2-l7-ex07",
+      "type": "matching",
+      "pairs": [
+        { "left": "anna", "right": "elder brother" },
+        { "left": "tammudu", "right": "younger brother" },
+        { "left": "akka", "right": "elder sister" },
+        { "left": "chelli", "right": "younger sister" }
+      ],
+      "explanation": "Telugu has four distinct words for siblings based on gender and age."
+    },
+    {
+      "id": "te-s2-l7-ex08",
+      "type": "translation",
+      "prompt": "grandmother",
+      "direction": "from_english",
+      "correct": "ammamma",
+      "acceptedVariants": ["ammamma"],
+      "explanation": "'Ammamma' means grandmother in Telugu — literally 'mother's mother'.",
+      "hint": "sounds like: um-mum-mah"
+    }
+  ]
+}

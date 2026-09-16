@@ -1,0 +1,86 @@
+{
+  "id": "s3-l11",
+  "sectionId": "s3",
+  "title": "At a Restaurant",
+  "description": "Learn how to order food and interact at a restaurant in Telugu.",
+  "vocabularyIds": ["te-kaavali", "te-dheeni-dhara-entha", "te-manchidi", "te-avunu", "te-kaadu"],
+  "grammarNoteIds": [],
+  "exercises": [
+    {
+      "id": "te-s3-l11-ex01",
+      "type": "multiple_choice",
+      "question": "How do you say 'I want' in Telugu?",
+      "options": ["manchidi", "kaavali", "avunu", "dheeni dhara entha"],
+      "correctIndex": 1,
+      "explanation": "'Kaavali' means want or need in Telugu — used to order food."
+    },
+    {
+      "id": "te-s3-l11-ex02",
+      "type": "translation",
+      "prompt": "annam kaavali",
+      "direction": "to_english",
+      "correct": "I want rice",
+      "acceptedVariants": ["I want rice", "rice please", "rice needed"],
+      "explanation": "'Annam kaavali' = I want rice — annam = rice, kaavali = want."
+    },
+    {
+      "id": "te-s3-l11-ex03",
+      "type": "fill_in_blank",
+      "sentence": "Kaafii ___. (I want coffee)",
+      "correct": "kaavali",
+      "acceptedVariants": ["kaavali"],
+      "explanation": "Add 'kaavali' after any food or drink to say you want it."
+    },
+    {
+      "id": "te-s3-l11-ex04",
+      "type": "matching",
+      "pairs": [
+        { "left": "annam kaavali", "right": "I want rice" },
+        { "left": "neellu kaavali", "right": "I want water" },
+        { "left": "dheeni dhara entha", "right": "how much does this cost" },
+        { "left": "manchidi", "right": "good / it is good" }
+      ],
+      "explanation": "These restaurant phrases will help you order and pay in Telugu."
+    },
+    {
+      "id": "te-s3-l11-ex05",
+      "type": "translation",
+      "prompt": "how much does this cost",
+      "direction": "from_english",
+      "correct": "dheeni dhara entha",
+      "acceptedVariants": ["dheeni dhara entha"],
+      "explanation": "Ask for the price with 'dheeni dhara entha'.",
+      "hint": "sounds like: dhee-nee dhuh-ruh en-thuh"
+    },
+    {
+      "id": "te-s3-l11-ex06",
+      "type": "multiple_choice",
+      "question": "A waiter asks if you want more. You say yes. What do you say?",
+      "options": ["kaadu", "ledu", "avunu", "kshaminchanddi"],
+      "correctIndex": 2,
+      "explanation": "'Avunu' means yes in Telugu — perfect for agreeing to more food."
+    },
+    {
+      "id": "te-s3-l11-ex07",
+      "type": "word_ordering",
+      "prompt": "Say 'I want chicken curry'",
+      "tiles": [
+        { "id": "t1", "text": "koodi" },
+        { "id": "t2", "text": "koora" },
+        { "id": "t3", "text": "kaavali" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "'Koodi koora kaavali' = I want chicken curry. Object first, then kaavali."
+    },
+    {
+      "id": "te-s3-l11-ex08",
+      "type": "translation",
+      "prompt": "good / it is good",
+      "direction": "from_english",
+      "correct": "manchidi",
+      "acceptedVariants": ["manchidi"],
+      "explanation": "Say 'manchidi' to compliment food or agree that something is good.",
+      "hint": "sounds like: mun-chee-dee"
+    }
+  ]
+}
