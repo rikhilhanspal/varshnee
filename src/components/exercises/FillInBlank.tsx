@@ -38,7 +38,7 @@ export default function FillInBlank({ exercise, onAnswer }: Props) {
           onKeyDown={(e) => e.key === 'Enter' && !submitted && handleSubmit()}
           disabled={submitted}
           placeholder="..."
-          className="bg-transparent border-b focus:outline-none transition-colors"
+          className="bg-transparent border-b focus:outline-none"
           style={{
             fontFamily: 'var(--font-serif)',
             fontSize: 'inherit',
@@ -47,6 +47,7 @@ export default function FillInBlank({ exercise, onAnswer }: Props) {
             borderColor: submitted ? (isCorrect ? 'var(--color-correct)' : 'rgba(63,2,10,0.2)') : 'var(--color-gold-border)',
             width: Math.max(80, input.length * 14 + 40) + 'px',
             minWidth: '80px',
+            transition: 'border-color var(--duration-normal) var(--ease-out)',
           }}
           onFocus={(e) => { if (!submitted) e.currentTarget.style.borderColor = 'var(--color-gold)'; }}
           onBlur={(e) => { if (!submitted) e.currentTarget.style.borderColor = 'var(--color-gold-border)'; }}
@@ -58,8 +59,8 @@ export default function FillInBlank({ exercise, onAnswer }: Props) {
         <div className="mb-4 -mt-4">
           <button
             onClick={() => setShowHint(!showHint)}
-            className="text-xs transition-opacity opacity-40 hover:opacity-80"
-            style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-gold)', letterSpacing: '0.08em' }}
+            className="text-xs opacity-40 hover:opacity-80"
+            style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-gold)', letterSpacing: '0.08em', transition: 'opacity var(--duration-fast) var(--ease-out)' }}
           >
             {showHint ? 'hide hint' : 'hint'}
           </button>
@@ -84,12 +85,9 @@ export default function FillInBlank({ exercise, onAnswer }: Props) {
       )}
 
       {!submitted && (
-        <button
-          onClick={handleSubmit}
-          disabled={!input.trim()}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all disabled:opacity-50"
-          style={{ background: input.trim() ? 'var(--color-gold)' : 'transparent', color: input.trim() ? 'var(--color-maroon)' : 'var(--color-on-light)', border: input.trim() ? 'none' : '1px solid var(--color-gold-border)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
-        >
+        <button onClick={handleSubmit} disabled={!input.trim()}
+          className={input.trim() ? 'btn-primary' : 'btn-ghost'}
+          style={!input.trim() ? { color: 'var(--color-on-light)' } : undefined}>
           Check
         </button>
       )}

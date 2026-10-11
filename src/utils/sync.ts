@@ -10,9 +10,7 @@ const BIN = import.meta.env.VITE_JSONBIN_BIN as string;
 const ENDPOINT = `https://api.jsonbin.io/v3/b/${BIN}`;
 
 export function isSyncConfigured(): boolean {
-  const ok = Boolean(KEY && BIN);
-  if (!ok) console.warn('[sync] Not configured — KEY:', KEY ? '✓' : '✗', 'BIN:', BIN ? '✓' : '✗');
-  return ok;
+  return Boolean(KEY && BIN);
 }
 
 type CloudStore = Record<string, UserProgress>;

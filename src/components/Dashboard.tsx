@@ -58,15 +58,7 @@ export default function Dashboard() {
             <button
               key={code}
               onClick={() => navigate(`/${code}`)}
-              className="group w-full text-left transition-all"
-              style={{
-                background: 'var(--color-neutral)',
-                border: '1px solid transparent',
-                borderRadius: '2px',
-                padding: '1.5rem',
-              }}
-              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--color-gold-border)')}
-              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.borderColor = 'transparent')}
+              className="lang-card group"
             >
               <div className="flex items-end justify-between mb-4">
                 <div>

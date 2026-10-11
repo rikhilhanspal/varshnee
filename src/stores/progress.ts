@@ -35,9 +35,22 @@ let cachedSnapshot: UserProgress | null = null;
 
 function subscribe(listener: () => void) {
   listeners = [...listeners, listener];
+  // Listen for cross-tab localStorage changes
+  if (listeners.length === 1) {
+    window.addEventListener('storage', onStorageChange);
+  }
   return () => {
     listeners = listeners.filter((l) => l !== listener);
+    if (listeners.length === 0) {
+      window.removeEventListener('storage', onStorageChange);
+    }
   };
+}
+
+function onStorageChange(e: StorageEvent) {
+  if (e.key !== STORAGE_KEY) return;
+  cachedSnapshot = loadProgress();
+  listeners.forEach((l) => l());
 }
 
 function getSnapshot(): UserProgress {

@@ -6,6 +6,17 @@ import { useProgress } from '../../stores/progress';
 
 interface Props { exercise: ListeningExercise; onAnswer: (correct: boolean) => void; }
 
+function optionClass(i: number, selected: number | null, correctIndex: number | undefined, submitted: boolean): string {
+  const base = 'option-tile';
+  if (submitted) {
+    if (i === correctIndex) return `${base} correct`;
+    if (i === selected) return `${base} incorrect`;
+    return `${base} dimmed`;
+  }
+  if (i === selected) return `${base} selected`;
+  return base;
+}
+
 export default function Listening({ exercise, onAnswer }: Props) {
   const [selected, setSelected] = useState<number | null>(null);
   const [input, setInput] = useState('');
@@ -49,16 +60,6 @@ export default function Listening({ exercise, onAnswer }: Props) {
 
   const canSubmit = exercise.mode === 'select' ? selected !== null : !!input.trim();
 
-  const optionStyle = (i: number): React.CSSProperties => {
-    if (submitted) {
-      if (i === exercise.correctIndex) return { background: 'var(--color-correct-bg)', border: '1px solid var(--color-correct)', borderRadius: '2px' };
-      if (i === selected) return { background: 'var(--color-incorrect-bg)', border: '1px solid rgba(63,2,10,0.15)', borderRadius: '2px', opacity: 0.6 };
-      return { background: 'var(--color-neutral-dark)', border: '1px solid transparent', borderRadius: '2px', opacity: 0.35 };
-    }
-    if (i === selected) return { background: 'var(--color-gold-subtle)', border: '1px solid var(--color-gold)', borderRadius: '2px' };
-    return { background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.08)', borderRadius: '2px' };
-  };
-
   return (
     <div>
       <p className="text-xs tracking-widest uppercase mb-3" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', letterSpacing: '0.12em' }}>
@@ -67,8 +68,13 @@ export default function Listening({ exercise, onAnswer }: Props) {
 
       <button onClick={handlePlay} disabled={playing} className="flex items-center gap-3 mb-8 group">
         <div
-          className="w-12 h-12 rounded-full flex items-center justify-center transition-all shrink-0"
-          style={{ background: playing ? 'var(--color-gold)' : 'var(--color-neutral-dark)', border: '1px solid var(--color-gold-border)' }}
+          className="w-12 h-12 rounded-full flex items-center justify-center shrink-0"
+          style={{
+            background: playing ? 'var(--color-gold)' : 'var(--color-neutral-dark)',
+            border: '1px solid var(--color-gold-border)',
+            transition: 'background var(--duration-normal) var(--ease-out), transform var(--duration-fast) var(--ease-out)',
+            transform: playing ? 'scale(1.05)' : 'scale(1)',
+          }}
         >
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path
@@ -77,7 +83,7 @@ export default function Listening({ exercise, onAnswer }: Props) {
             />
           </svg>
         </div>
-        <span className="text-sm transition-opacity group-hover:opacity-100 opacity-60" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)' }}>
+        <span className="text-sm group-hover:opacity-100 opacity-60" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', transition: 'opacity var(--duration-fast) var(--ease-out)' }}>
           {playing ? 'Playing...' : 'Play audio'}
         </span>
       </button>
@@ -89,8 +95,7 @@ export default function Listening({ exercise, onAnswer }: Props) {
               key={i}
               onClick={() => !submitted && setSelected(i)}
               disabled={submitted}
-              className="w-full text-left px-5 py-3.5 text-sm transition-all"
-              style={{ ...optionStyle(i), fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)' }}
+              className={optionClass(i, selected, exercise.correctIndex, submitted)}
             >
               {option}
             </button>
@@ -107,8 +112,12 @@ export default function Listening({ exercise, onAnswer }: Props) {
             onKeyDown={(e) => e.key === 'Enter' && !submitted && handleSubmit()}
             disabled={submitted}
             placeholder="Type what you hear"
-            className="w-full bg-transparent border-b pb-2 text-base focus:outline-none transition-colors"
-            style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', caretColor: 'var(--color-gold)', borderColor: submitted ? (isCorrect ? 'var(--color-correct)' : 'rgba(63,2,10,0.2)') : 'var(--color-gold-border)' }}
+            className="w-full bg-transparent border-b pb-3 text-base focus:outline-none"
+            style={{
+              fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', caretColor: 'var(--color-gold)',
+              borderColor: submitted ? (isCorrect ? 'var(--color-correct)' : 'rgba(63,2,10,0.2)') : 'var(--color-gold-border)',
+              transition: 'border-color var(--duration-normal) var(--ease-out)',
+            }}
             onFocus={(e) => { if (!submitted) e.currentTarget.style.borderColor = 'var(--color-gold)'; }}
             onBlur={(e) => { if (!submitted) e.currentTarget.style.borderColor = 'var(--color-gold-border)'; }}
           />
@@ -127,12 +136,9 @@ export default function Listening({ exercise, onAnswer }: Props) {
       )}
 
       {!submitted && (
-        <button
-          onClick={handleSubmit}
-          disabled={!canSubmit}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all disabled:opacity-50"
-          style={{ background: canSubmit ? 'var(--color-gold)' : 'transparent', color: canSubmit ? 'var(--color-maroon)' : 'var(--color-on-light)', border: canSubmit ? 'none' : '1px solid var(--color-gold-border)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
-        >
+        <button onClick={handleSubmit} disabled={!canSubmit}
+          className={canSubmit ? 'btn-primary' : 'btn-ghost'}
+          style={!canSubmit ? { color: 'var(--color-on-light)' } : undefined}>
           Check
         </button>
       )}

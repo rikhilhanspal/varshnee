@@ -36,7 +36,7 @@ export default function Onboarding() {
       <div className="gold-rule w-16 mb-10" />
 
       {/* Neutral card — 30% zone */}
-      <div className="w-full max-w-sm" style={{ background: 'var(--color-neutral)', borderRadius: '2px', padding: '2rem' }}>
+      <div className="w-full max-w-sm surface" style={{ padding: '2rem' }}>
         <label
           htmlFor="name"
           className="block text-xs tracking-widest uppercase mb-3"
@@ -52,12 +52,13 @@ export default function Onboarding() {
           onKeyDown={(e) => e.key === 'Enter' && handleBegin()}
           placeholder="Enter your name"
           autoFocus
-          className="w-full bg-transparent border-b pb-2 text-base focus:outline-none transition-colors mb-8"
+          className="w-full bg-transparent border-b pb-3 text-base focus:outline-none transition-colors mb-8"
           style={{
             fontFamily: 'var(--font-sans)',
             color: 'var(--color-on-light)',
             borderColor: 'var(--color-gold-border)',
             caretColor: 'var(--color-gold)',
+            transition: 'border-color var(--duration-normal) var(--ease-out)',
           }}
           onFocus={(e) => (e.currentTarget.style.borderColor = 'var(--color-gold)')}
           onBlur={(e) => (e.currentTarget.style.borderColor = 'var(--color-gold-border)')}
@@ -65,15 +66,7 @@ export default function Onboarding() {
         <button
           onClick={handleBegin}
           disabled={!nameInput.trim()}
-          className="w-full py-3 text-xs tracking-widest uppercase font-medium transition-all disabled:opacity-50"
-          style={{
-            background: 'var(--color-gold)',
-            color: 'var(--color-maroon)',
-            border: 'none',
-            borderRadius: '2px',
-            fontFamily: 'var(--font-sans)',
-            letterSpacing: '0.12em',
-          }}
+          className="btn-primary"
         >
           Begin
         </button>

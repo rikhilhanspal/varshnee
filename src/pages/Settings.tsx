@@ -48,13 +48,10 @@ export default function Settings() {
       <SettingRow label="Audio" description="Play pronunciation in exercises.">
         <button
           onClick={() => setAudioEnabled(!progress.settings.audioEnabled)}
-          className="relative shrink-0 w-11 h-6 rounded-full transition-all"
-          style={{ background: progress.settings.audioEnabled ? 'var(--color-gold)' : 'rgba(220, 194, 151, 0.15)' }}
+          className="toggle-track"
+          data-on={progress.settings.audioEnabled}
         >
-          <span
-            className="absolute top-0.5 w-5 h-5 rounded-full shadow transition-all"
-            style={{ left: progress.settings.audioEnabled ? '22px' : '2px', background: 'var(--color-bg)' }}
-          />
+          <span className="toggle-thumb" />
         </button>
       </SettingRow>
 
@@ -78,8 +75,8 @@ export default function Settings() {
             </button>
             <button
               onClick={handleReset}
-              className="text-xs tracking-widest uppercase font-medium px-3 py-1.5"
-              style={{ fontFamily: 'var(--font-sans)', background: 'var(--color-gold)', color: 'var(--color-maroon)', borderRadius: '2px', letterSpacing: '0.12em' }}
+              className="text-xs tracking-widest uppercase font-medium px-4 py-2"
+              style={{ fontFamily: 'var(--font-sans)', background: 'var(--color-gold)', color: 'var(--color-maroon)', borderRadius: 'var(--radius-btn)', letterSpacing: '0.12em' }}
             >
               Confirm
             </button>

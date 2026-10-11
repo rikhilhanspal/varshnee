@@ -47,6 +47,8 @@ export default function PathwaySection({ section, lang, index }: PathwaySectionP
               lang={lang}
               sectionId={section.id}
               completed={lp?.completed ?? false}
+              inProgress={!!(lp && !lp.completed && lp.lastExercise > 0)}
+              bestScore={lp?.completed ? lp.score : undefined}
             />
           );
         })}

@@ -151,7 +151,7 @@ export default function LessonPage() {
         <div className="gold-rule mb-8" />
 
         {vocab.length > 0 && (
-          <div className="mb-6" style={{ background: 'var(--color-neutral)', borderRadius: '2px', padding: '1.25rem 1.5rem' }}>
+          <div className="mb-6 surface" style={{ padding: '1.25rem 1.5rem' }}>
             <p className="text-xs tracking-widest uppercase mb-4" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', letterSpacing: '0.12em' }}>
               Vocabulary
             </p>
@@ -177,7 +177,7 @@ export default function LessonPage() {
               Grammar notes
             </p>
             {grammar.map((g) => (
-              <div key={g.id} className="p-4 mb-3" style={{ background: 'var(--color-neutral)', borderLeft: '2px solid var(--color-gold-border)', borderRadius: '0 2px 2px 0' }}>
+              <div key={g.id} className="p-4 mb-3" style={{ background: 'var(--color-neutral)', borderLeft: '2px solid var(--color-gold-border)', borderRadius: '0 var(--radius-input) var(--radius-input) 0' }}>
                 <p className="text-sm font-medium mb-1" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)' }}>{g.title}</p>
                 <p className="text-sm leading-relaxed" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light-muted)' }}>{g.body}</p>
               </div>
@@ -187,8 +187,7 @@ export default function LessonPage() {
 
         <button
           onClick={() => setShowIntro(false)}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium"
-          style={{ background: 'var(--color-gold)', color: 'var(--color-maroon)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
+          className="btn-primary"
         >
           Start — {selectedExercises.length} Questions
         </button>
@@ -219,7 +218,7 @@ export default function LessonPage() {
         </span>
       </div>
 
-      <div style={{ background: 'var(--color-neutral)', borderRadius: '2px', padding: '2rem' }}>
+      <div className="surface" style={{ padding: '2rem' }}>
         {isReview && (
           <p className="text-xs tracking-widest uppercase mb-4 pb-3"
             style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-gold)', letterSpacing: '0.12em', borderBottom: '1px solid rgba(220,194,151,0.2)' }}>
@@ -232,8 +231,7 @@ export default function LessonPage() {
       {answered && (
         <button
           onClick={handleContinue}
-          className="w-full py-3.5 mt-4 text-xs tracking-widest uppercase font-medium transition-all"
-          style={{ background: 'var(--color-gold)', color: 'var(--color-maroon)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
+          className="btn-primary mt-4"
         >
           {currentIndex + 1 >= totalExercises ? 'Finish' : 'Continue'}
         </button>

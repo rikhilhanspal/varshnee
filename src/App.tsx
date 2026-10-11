@@ -34,7 +34,7 @@ function Navbar() {
   const activeLang = langMatch?.[1] as LanguageCode | undefined;
 
   return (
-    <header className="sticky top-0 z-20" style={{ background: 'var(--color-maroon)' }}>
+    <header className="sticky top-0 z-20 navbar-glass">
       <div className="max-w-2xl mx-auto px-6 h-14 flex items-center justify-between gap-6">
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
           <img src="/logo.png" alt="varshnee" className="h-8 w-8 object-contain brightness-0 invert opacity-90" />
@@ -61,8 +61,7 @@ function Navbar() {
             <>
               <div className="fixed inset-0 z-10" onClick={() => setMenuOpen(false)} />
               <div
-                className="absolute right-0 top-full mt-2 z-20 min-w-40"
-                style={{ background: 'var(--color-neutral)', border: '1px solid var(--color-gold-border)', borderRadius: '2px' }}
+                className="absolute right-0 top-full mt-2 z-20 min-w-40 menu-panel"
               >
                 {activeLang && (
                   <div className="px-4 pt-3 pb-2" style={{ borderBottom: '1px solid rgba(220,194,151,0.15)' }}>

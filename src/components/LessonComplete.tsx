@@ -32,8 +32,8 @@ export default function LessonComplete({ lang, lessonTitle, score, totalExercise
 
       {/* Score card — neutral surface */}
       <div
-        className="mb-12 px-10 py-8"
-        style={{ background: 'var(--color-neutral)', borderRadius: '2px', border: '1px solid var(--color-gold-border)' }}
+        className="mb-12 px-10 py-8 surface"
+        style={{ border: '1px solid var(--color-gold-border)' }}
       >
         <p className="text-xs tracking-widest uppercase mb-3" style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light-muted)', letterSpacing: '0.12em' }}>
           Score
@@ -50,16 +50,14 @@ export default function LessonComplete({ lang, lessonTitle, score, totalExercise
         {nextLessonPath && (
           <button
             onClick={() => navigate(nextLessonPath)}
-            className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all"
-            style={{ background: 'var(--color-gold)', color: 'var(--color-maroon)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
+            className="btn-primary"
           >
             Next Lesson
           </button>
         )}
         <button
           onClick={() => navigate(practiceAgainPath)}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all"
-          style={{ background: 'transparent', color: 'var(--color-on-dark-muted)', border: '1px solid var(--color-gold-border)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
+          className="btn-ghost"
         >
           Practice Again
         </button>

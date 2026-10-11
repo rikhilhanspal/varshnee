@@ -1,0 +1,13 @@
+{
+  "name": "varshnee",
+  "short_name": "varshnee",
+  "description": "Learn Hindi, Tamil & Telugu with romanized text",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3F020A",
+  "theme_color": "#3F020A",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

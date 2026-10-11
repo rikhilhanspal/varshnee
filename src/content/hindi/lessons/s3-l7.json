@@ -10,7 +10,7 @@
     "hi-roti",
     "hi-chaval",
     "hi-daal",
-    "hi-dudh",
+    "hi-doodh",
     "hi-phal"
   ],
   "grammarNoteIds": [
@@ -48,7 +48,7 @@
     {
       "id": "hi-s3-l7-ex02",
       "type": "multiple_choice",
-      "question": "What does 'dudh' mean?",
+      "question": "What does 'doodh' mean?",
       "options": [
         "Milk",
         "Water",
@@ -56,7 +56,7 @@
         "Juice"
       ],
       "correctIndex": 0,
-      "explanation": "'Dudh' means milk. Milk is widely consumed in India — 'dudh ki chai' (milk tea) is the standard way chai is prepared."
+      "explanation": "'Dudh' means milk. Milk is widely consumed in India — 'doodh ki chai' (milk tea) is the standard way chai is prepared."
     },
     {
       "id": "hi-s3-l7-ex03",
@@ -79,7 +79,7 @@
         "paani",
         "khaana",
         "roti",
-        "dudh"
+        "doodh"
       ],
       "explanation": "The pattern 'mujhe ___ chahiye' means 'I need ___'. You can fill in any noun: chai (tea), paani (water), khaana (food), etc."
     },
@@ -116,7 +116,7 @@
       "options": [
         "chai (tea)",
         "paani (water)",
-        "dudh (milk)",
+        "doodh (milk)",
         "daal (lentils)"
       ],
       "correctIndex": 0,

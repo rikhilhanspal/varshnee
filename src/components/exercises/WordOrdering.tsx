@@ -4,8 +4,6 @@ import { checkWordOrder } from '../../utils/validation';
 
 interface Props { exercise: WordOrderingExercise; onAnswer: (correct: boolean) => void; }
 
-const tileBase: React.CSSProperties = { borderRadius: '2px', fontFamily: 'var(--font-sans)', fontSize: '0.875rem', color: 'var(--color-on-light)' };
-
 export default function WordOrdering({ exercise, onAnswer }: Props) {
   const [placed, setPlaced] = useState<string[]>([]);
   const [submitted, setSubmitted] = useState(false);
@@ -13,6 +11,7 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
 
   const available = exercise.tiles.filter((t) => !placed.includes(t.id));
   const getTileText = (id: string) => exercise.tiles.find((t) => t.id === id)?.text ?? '';
+  const allPlaced = placed.length === exercise.tiles.length;
 
   const handleTap = (id: string) => {
     if (submitted) return;
@@ -20,11 +19,19 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
   };
 
   const handleSubmit = () => {
-    if (placed.length !== exercise.tiles.length) return;
+    if (!allPlaced) return;
     const correct = checkWordOrder(placed, exercise.correctOrder);
     setIsCorrect(correct);
     setSubmitted(true);
     onAnswer(correct);
+  };
+
+  const tileStyle: React.CSSProperties = {
+    borderRadius: 'var(--radius-input)',
+    fontFamily: 'var(--font-sans)',
+    fontSize: '0.875rem',
+    color: 'var(--color-on-light)',
+    transition: 'transform var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out)',
   };
 
   return (
@@ -48,7 +55,8 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
           border: submitted
             ? isCorrect ? '1px solid var(--color-correct)' : '1px solid rgba(63,2,10,0.2)'
             : '1px solid var(--color-gold-border)',
-          borderRadius: '2px',
+          borderRadius: 'var(--radius-btn)',
+          transition: 'border-color var(--duration-normal) var(--ease-out)',
         }}
       >
         {placed.length === 0 && (
@@ -57,8 +65,8 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
           </span>
         )}
         {placed.map((id) => (
-          <button key={id} onClick={() => handleTap(id)} disabled={submitted} className="px-3 py-1.5 transition-all"
-            style={{ ...tileBase, background: 'var(--color-gold-subtle)', border: '1px solid var(--color-gold-border)' }}>
+          <button key={id} onClick={() => handleTap(id)} disabled={submitted} className="px-3 py-1.5 active:scale-95"
+            style={{ ...tileStyle, background: 'var(--color-gold-subtle)', border: '1px solid var(--color-gold-border)' }}>
             {getTileText(id)}
           </button>
         ))}
@@ -67,11 +75,8 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
       {/* Available tiles */}
       <div className="flex flex-wrap gap-2 mb-6">
         {available.map((tile) => (
-          <button key={tile.id} onClick={() => handleTap(tile.id)} disabled={submitted} className="px-3 py-1.5 transition-all"
-            style={{ ...tileBase, background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.12)' }}
-            onMouseEnter={(e) => { if (!submitted) (e.currentTarget as HTMLElement).style.borderColor = 'var(--color-gold-border)'; }}
-            onMouseLeave={(e) => { if (!submitted) (e.currentTarget as HTMLElement).style.borderColor = 'rgba(63,2,10,0.12)'; }}
-          >
+          <button key={tile.id} onClick={() => handleTap(tile.id)} disabled={submitted} className="px-3 py-1.5 active:scale-95"
+            style={{ ...tileStyle, background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.12)' }}>
             {tile.text}
           </button>
         ))}
@@ -89,12 +94,9 @@ export default function WordOrdering({ exercise, onAnswer }: Props) {
       )}
 
       {!submitted && (
-        <button
-          onClick={handleSubmit}
-          disabled={placed.length !== exercise.tiles.length}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all disabled:opacity-50"
-          style={{ background: placed.length === exercise.tiles.length ? 'var(--color-gold)' : 'transparent', color: placed.length === exercise.tiles.length ? 'var(--color-maroon)' : 'var(--color-on-light)', border: placed.length === exercise.tiles.length ? 'none' : '1px solid var(--color-gold-border)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}
-        >
+        <button onClick={handleSubmit} disabled={!allPlaced}
+          className={allPlaced ? 'btn-primary' : 'btn-ghost'}
+          style={!allPlaced ? { color: 'var(--color-on-light)' } : undefined}>
           Check
         </button>
       )}

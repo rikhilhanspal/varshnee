@@ -14,6 +14,7 @@ export default function Matching({ exercise, onAnswer }: Props) {
   );
 
   const matchedRights = new Set(Object.values(matched));
+  const allMatched = Object.keys(matched).length === exercise.pairs.length;
 
   const handleLeftClick = (left: string) => {
     if (submitted || matched[left]) return;
@@ -28,7 +29,7 @@ export default function Matching({ exercise, onAnswer }: Props) {
   };
 
   const handleSubmit = () => {
-    if (Object.keys(matched).length !== exercise.pairs.length) return;
+    if (!allMatched) return;
     const correct = exercise.pairs.every((p) => matched[p.left] === p.right);
     setSubmitted(true);
     onAnswer(correct);
@@ -40,31 +41,35 @@ export default function Matching({ exercise, onAnswer }: Props) {
     return leftKey ? getPairNum(leftKey) : 0;
   };
 
+  const tileTransition = 'transform var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out)';
+
   const leftStyle = (left: string): React.CSSProperties => {
     const isMatched = !!matched[left];
+    const base: React.CSSProperties = { borderRadius: 'var(--radius-btn)', transition: tileTransition };
     if (submitted) {
       const ok = matched[left] === exercise.pairs.find((p) => p.left === left)?.right;
       return ok
-        ? { background: 'var(--color-correct-bg)', border: '1px solid var(--color-correct)', borderRadius: '2px' }
-        : { background: 'var(--color-incorrect-bg)', border: '1px solid rgba(63,2,10,0.15)', borderRadius: '2px' };
+        ? { ...base, background: 'var(--color-correct-bg)', border: '1px solid var(--color-correct)' }
+        : { ...base, background: 'var(--color-incorrect-bg)', border: '1px solid rgba(63,2,10,0.15)' };
     }
-    if (selectedLeft === left) return { background: 'var(--color-gold-subtle)', border: '1px solid var(--color-gold)', borderRadius: '2px' };
-    if (isMatched) return { background: 'rgba(220,194,151,0.18)', border: '1px solid var(--color-gold)', borderRadius: '2px' };
-    return { background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.08)', borderRadius: '2px' };
+    if (selectedLeft === left) return { ...base, background: 'var(--color-gold-subtle)', border: '1px solid var(--color-gold)' };
+    if (isMatched) return { ...base, background: 'rgba(220,194,151,0.18)', border: '1px solid var(--color-gold)' };
+    return { ...base, background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.08)' };
   };
 
   const rightStyle = (right: string): React.CSSProperties => {
     const isMatched = matchedRights.has(right);
+    const base: React.CSSProperties = { borderRadius: 'var(--radius-btn)', transition: tileTransition };
     if (submitted) {
       const correctLeft = exercise.pairs.find((p) => p.right === right)?.left;
       const ok = correctLeft ? matched[correctLeft] === right : false;
       return ok
-        ? { background: 'var(--color-correct-bg)', border: '1px solid var(--color-correct)', borderRadius: '2px' }
-        : { background: 'var(--color-incorrect-bg)', border: '1px solid rgba(63,2,10,0.15)', borderRadius: '2px' };
+        ? { ...base, background: 'var(--color-correct-bg)', border: '1px solid var(--color-correct)' }
+        : { ...base, background: 'var(--color-incorrect-bg)', border: '1px solid rgba(63,2,10,0.15)' };
     }
-    if (isMatched) return { background: 'rgba(220,194,151,0.18)', border: '1px solid var(--color-gold)', borderRadius: '2px' };
-    if (selectedLeft && !isMatched) return { background: 'var(--color-neutral-dark)', border: '1px solid var(--color-gold-border)', borderRadius: '2px', cursor: 'pointer' };
-    return { background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.08)', borderRadius: '2px' };
+    if (isMatched) return { ...base, background: 'rgba(220,194,151,0.18)', border: '1px solid var(--color-gold)' };
+    if (selectedLeft && !isMatched) return { ...base, background: 'var(--color-neutral-dark)', border: '1px solid var(--color-gold-border)', cursor: 'pointer' };
+    return { ...base, background: 'var(--color-neutral-dark)', border: '1px solid rgba(63,2,10,0.08)' };
   };
 
   const PairBadge = ({ num }: { num: number }) => (
@@ -97,7 +102,7 @@ export default function Matching({ exercise, onAnswer }: Props) {
             return (
               <button key={pair.left} onClick={() => handleLeftClick(pair.left)}
                 disabled={submitted || !!matched[pair.left]}
-                className="relative px-4 py-3 text-sm text-left transition-all"
+                className="relative px-4 py-3 text-sm text-left active:scale-98"
                 style={{ ...leftStyle(pair.left), fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', paddingRight: isMatched && !submitted ? '2rem' : undefined }}>
                 {pair.left}
                 {isMatched && !submitted && <PairBadge num={num} />}
@@ -112,7 +117,7 @@ export default function Matching({ exercise, onAnswer }: Props) {
             return (
               <button key={right} onClick={() => handleRightClick(right)}
                 disabled={submitted || matchedRights.has(right) || !selectedLeft}
-                className="relative px-4 py-3 text-sm text-left transition-all"
+                className="relative px-4 py-3 text-sm text-left active:scale-98"
                 style={{ ...rightStyle(right), fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', paddingRight: isMatched && !submitted ? '2rem' : undefined }}>
                 {right}
                 {isMatched && !submitted && <PairBadge num={num} />}
@@ -124,8 +129,8 @@ export default function Matching({ exercise, onAnswer }: Props) {
 
       {!submitted && Object.keys(matched).length > 0 && (
         <button onClick={() => { setMatched({}); setPairOrder([]); setSelectedLeft(null); }}
-          className="w-full py-2 mb-3 text-xs opacity-40 hover:opacity-100 transition-opacity"
-          style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)' }}>
+          className="w-full py-2 mb-3 text-xs opacity-40 hover:opacity-100"
+          style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-on-light)', transition: 'opacity var(--duration-fast) var(--ease-out)' }}>
           Reset
         </button>
       )}
@@ -137,9 +142,9 @@ export default function Matching({ exercise, onAnswer }: Props) {
       )}
 
       {!submitted && (
-        <button onClick={handleSubmit} disabled={Object.keys(matched).length !== exercise.pairs.length}
-          className="w-full py-3.5 text-xs tracking-widest uppercase font-medium transition-all disabled:opacity-50"
-          style={{ background: Object.keys(matched).length === exercise.pairs.length ? 'var(--color-gold)' : 'transparent', color: Object.keys(matched).length === exercise.pairs.length ? 'var(--color-maroon)' : 'var(--color-on-light)', border: Object.keys(matched).length === exercise.pairs.length ? 'none' : '1px solid var(--color-gold-border)', borderRadius: '2px', fontFamily: 'var(--font-sans)', letterSpacing: '0.12em' }}>
+        <button onClick={handleSubmit} disabled={!allMatched}
+          className={allMatched ? 'btn-primary' : 'btn-ghost'}
+          style={!allMatched ? { color: 'var(--color-on-light)' } : undefined}>
           Check
         </button>
       )}
